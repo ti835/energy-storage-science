@@ -38,7 +38,7 @@ const {
               <a href={`${BASE}/`} class="hover:text-primary-600 transition-colors">首页</a>
               <span>/</span>
               <a
-                href={`/${category === 'technology' ? 'technologies' : category === 'project' ? 'projects' : category === 'report' ? 'reports' : 'papers'}`}
+                href={`${BASE}/${category === 'technology' ? 'technologies' : category === 'project' ? 'projects' : category === 'report' ? 'reports' : 'papers'}`}
                 class="hover:text-primary-600 transition-colors"
               >
                 {category === 'technology' ? '前沿技术' : category === 'project' ? '储能工程' : category === 'report' ? '日报' : '论文'}

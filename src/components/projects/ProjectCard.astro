@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import Badge from '@components/shared/Badge.astro';
-import { PROJECT_STAGES, PROJECT_SCENARIOS } from '@lib/constants';
+import { PROJECT_STAGES, PROJECT_SCENARIOS, BASE } from '@lib/constants';
 
 interface Props {
   entry: CollectionEntry<'projects'>;
@@ -14,7 +14,7 @@ const scenarioInfo = PROJECT_SCENARIOS[scenario] ?? { label: scenario };
 ---
 
 <a
-  href={`/projects/${entry.slug}`}
+  href={`${BASE}/projects/${entry.slug}/`}
   class="block group bg-white rounded-xl border border-primary-100 hover:border-accent-300 hover:shadow-lg transition-all p-6"
 >
   <div class="flex items-start justify-between mb-3">

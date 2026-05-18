@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import Badge from '@components/shared/Badge.astro';
-import { TECH_CATEGORIES } from '@lib/constants';
+import { TECH_CATEGORIES, BASE } from '@lib/constants';
 
 interface Props {
   entry: CollectionEntry<'technologies'>;
@@ -13,7 +13,7 @@ const catInfo = TECH_CATEGORIES[category] ?? { label: category, color: 'bg-gray-
 ---
 
 <a
-  href={`/technologies/${entry.slug}`}
+  href={`${BASE}/technologies/${entry.slug}/`}
   class="block group bg-white rounded-xl border border-primary-100 hover:border-accent-300 hover:shadow-lg transition-all p-6"
 >
   <div class="flex items-start justify-between mb-3">

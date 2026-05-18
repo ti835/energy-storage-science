@@ -16,7 +16,7 @@ const sorted = reports.sort((a, b) => b.data.date.getTime() - a.data.date.getTim
     sorted.length > 0 ? (
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {sorted.map((entry) => (
-          <a href={`${BASE}/reports/${entry.id}`} class="block bg-white rounded-xl border border-primary-100 p-6 hover:shadow-md hover:border-accent-300 transition-all group">
+          <a href={`${BASE}/reports/${entry.id}/`} class="block bg-white rounded-xl border border-primary-100 p-6 hover:shadow-md hover:border-accent-300 transition-all group">
             <div class="flex items-center justify-between mb-3">
               <span class="text-xs font-medium text-primary-400">{
                 entry.data.date.toLocaleDateString ?
