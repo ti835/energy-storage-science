@@ -1,0 +1,64 @@
+---
+import ChartWrapper from '@components/shared/ChartWrapper.astro';
+import installData from '@data/install-growth.json';
+
+const option = {
+  tooltip: {
+    trigger: 'axis',
+    backgroundColor: 'rgba(255,255,255,0.95)',
+    borderColor: '#d9e2ec',
+    borderWidth: 1,
+    textStyle: { color: '#334e68', fontSize: 13 },
+    boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
+  },
+  legend: {
+    data: [installData.china.label, installData.global.label],
+    bottom: 0,
+    textStyle: { color: '#627d98', fontSize: 12 },
+  },
+  grid: { top: 8, right: 16, bottom: 36, left: 16, containLabel: true },
+  xAxis: {
+    type: 'category',
+    data: installData.labels,
+    axisLine: { lineStyle: { color: '#d9e2ec' } },
+    axisTick: { show: false },
+    axisLabel: { color: '#627d98', fontSize: 11 },
+  },
+  yAxis: {
+    type: 'value',
+    name: 'GWh',
+    splitLine: { lineStyle: { color: '#f0f4f8', type: 'dashed' } },
+    axisLabel: { color: '#627d98', fontSize: 11 },
+  },
+  series: [
+    {
+      name: installData.china.label,
+      type: 'bar',
+      data: installData.china.data,
+      itemStyle: {
+        color: '#14919b',
+        borderRadius: [4, 4, 0, 0],
+      },
+      barWidth: '40%',
+      barGap: '20%',
+    },
+    {
+      name: installData.global.label,
+      type: 'bar',
+      data: installData.global.data,
+      itemStyle: {
+        color: '#bcccdc',
+        borderRadius: [4, 4, 0, 0],
+      },
+      barWidth: '40%',
+    },
+  ],
+};
+---
+
+<ChartWrapper
+  id="install-chart"
+  option={option}
+  height="380px"
+  className="bg-white rounded-xl border border-primary-100 p-5"
+/>

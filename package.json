@@ -1,0 +1,24 @@
+{
+  "name": "energy-storage-science",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && npx pagefind --site dist",
+    "preview": "astro preview",
+    "search:index": "npx pagefind --site dist",
+    "automation": "python scripts/generate_daily_report.py"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.2",
+    "astro": "^5.0.0",
+    "echarts": "^5.5.0"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^5.0.0",
+    "@tailwindcss/typography": "^0.5.15",
+    "pagefind": "^1.2.0",
+    "tailwindcss": "^3.4.0"
+  }
+}

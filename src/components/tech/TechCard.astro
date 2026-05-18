@@ -1,0 +1,56 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Badge from '@components/shared/Badge.astro';
+import { TECH_CATEGORIES } from '@lib/constants';
+
+interface Props {
+  entry: CollectionEntry<'technologies'>;
+}
+
+const { entry } = Astro.props;
+const { title, summary, category, keyMetrics, tags, publishDate } = entry.data;
+const catInfo = TECH_CATEGORIES[category] ?? { label: category, color: 'bg-gray-100 text-gray-700' };
+---
+
+<a
+  href={`/technologies/${entry.slug}`}
+  class="block group bg-white rounded-xl border border-primary-100 hover:border-accent-300 hover:shadow-lg transition-all p-6"
+>
+  <div class="flex items-start justify-between mb-3">
+    <Badge text={catInfo.label} color={catInfo.color} />
+    <span class="text-xs text-primary-400">
+      {publishDate.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' })}
+    </span>
+  </div>
+
+  <h3 class="text-lg font-bold text-primary-900 group-hover:text-accent-600 transition-colors mb-2">
+    {title}
+  </h3>
+  <p class="text-sm text-primary-500 line-clamp-2 mb-4">{summary}</p>
+
+  <div class="grid grid-cols-3 gap-2 bg-primary-50 rounded-lg p-3 mb-3">
+    <div class="text-center">
+      <div class="text-xs text-primary-400 mb-0.5">能量密度</div>
+      <div class="text-sm font-semibold text-primary-800">{keyMetrics.energyDensity}</div>
+    </div>
+    <div class="text-center border-l border-r border-primary-100">
+      <div class="text-xs text-primary-400 mb-0.5">循环寿命</div>
+      <div class="text-sm font-semibold text-primary-800">{keyMetrics.cycleLife}</div>
+    </div>
+    <div class="text-center">
+      <div class="text-xs text-primary-400 mb-0.5">度电成本</div>
+      <div class="text-sm font-semibold text-primary-800">{keyMetrics.lcoe}</div>
+    </div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <span class="text-xs px-2 py-0.5 bg-accent-50 text-accent-700 rounded-full font-medium">
+      TRL {keyMetrics.trlLevel}
+    </span>
+    {
+      tags.slice(0, 3).map((tag: string) => (
+        <span class="text-xs text-primary-400">{tag}</span>
+      ))
+    }
+  </div>
+</a>

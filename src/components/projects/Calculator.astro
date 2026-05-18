@@ -1,0 +1,270 @@
+---
+// Peak-valley arbitrage ROI Calculator - fully client-side island
+---
+<div id="roi-calculator" class="bg-white rounded-xl border border-primary-100 p-6">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <!-- Input panel -->
+    <div>
+      <h3 class="font-bold text-primary-800 mb-5">输入参数</h3>
+      <div class="space-y-4" id="calc-inputs">
+        <div>
+          <label class="flex justify-between text-sm mb-1.5">
+            <span class="text-primary-600">储能容量 (kWh)</span>
+            <span class="font-medium text-primary-800"><span id="val-capacity">2000</span> kWh</span>
+          </label>
+          <input type="range" id="capacity" min="100" max="10000" value="2000" step="100" class="w-full h-2 bg-primary-100 rounded-lg appearance-none cursor-pointer accent-accent-600" />
+        </div>
+        <div>
+          <label class="flex justify-between text-sm mb-1.5">
+            <span class="text-primary-600">充放电功率 (kW)</span>
+            <span class="font-medium text-primary-800"><span id="val-power">500</span> kW</span>
+          </label>
+          <input type="range" id="power" min="50" max="5000" value="500" step="50" class="w-full h-2 bg-primary-100 rounded-lg appearance-none cursor-pointer accent-accent-600" />
+        </div>
+        <div>
+          <label class="flex justify-between text-sm mb-1.5">
+            <span class="text-primary-600">峰时电价 (元/kWh)</span>
+            <span class="font-medium text-primary-800"><span id="val-peak">1.00</span> 元/kWh</span>
+          </label>
+          <input type="range" id="peak-price" min="0.5" max="2.0" value="1.0" step="0.01" class="w-full h-2 bg-primary-100 rounded-lg appearance-none cursor-pointer accent-accent-600" />
+        </div>
+        <div>
+          <label class="flex justify-between text-sm mb-1.5">
+            <span class="text-primary-600">谷时电价 (元/kWh)</span>
+            <span class="font-medium text-primary-800"><span id="val-valley">0.30</span> 元/kWh</span>
+          </label>
+          <input type="range" id="valley-price" min="0.1" max="1.0" value="0.3" step="0.01" class="w-full h-2 bg-primary-100 rounded-lg appearance-none cursor-pointer accent-accent-600" />
+        </div>
+        <div>
+          <label class="flex justify-between text-sm mb-1.5">
+            <span class="text-primary-600">每日充放循环次数</span>
+            <span class="font-medium text-primary-800"><span id="val-cycles">2</span> 次</span>
+          </label>
+          <input type="range" id="cycles" min="1" max="4" value="2" step="1" class="w-full h-2 bg-primary-100 rounded-lg appearance-none cursor-pointer accent-accent-600" />
+        </div>
+        <div>
+          <label class="flex justify-between text-sm mb-1.5">
+            <span class="text-primary-600">往返效率</span>
+            <span class="font-medium text-primary-800"><span id="val-efficiency">85</span>%</span>
+          </label>
+          <input type="range" id="efficiency" min="70" max="95" value="85" step="1" class="w-full h-2 bg-primary-100 rounded-lg appearance-none cursor-pointer accent-accent-600" />
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="flex justify-between text-sm mb-1.5">
+              <span class="text-primary-600">单位投资 (元/kWh)</span>
+            </label>
+            <input type="number" id="unit-cost" value="1200" min="500" max="3000" step="50" class="w-full px-3 py-2 border border-primary-200 rounded-lg text-sm text-primary-800 focus:outline-none focus:border-accent-400" />
+          </div>
+          <div>
+            <label class="flex justify-between text-sm mb-1.5">
+              <span class="text-primary-600">项目寿命 (年)</span>
+            </label>
+            <input type="number" id="project-life" value="15" min="5" max="30" step="1" class="w-full px-3 py-2 border border-primary-200 rounded-lg text-sm text-primary-800 focus:outline-none focus:border-accent-400" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results panel -->
+    <div>
+      <h3 class="font-bold text-primary-800 mb-5">投资回报分析</h3>
+      <div class="space-y-4" id="calc-results">
+        <div class="bg-primary-50 rounded-lg p-4">
+          <div class="text-xs text-primary-400 mb-0.5">总投资额</div>
+          <div class="text-2xl font-bold text-primary-900" id="result-investment">¥240 万</div>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-xs text-blue-500 mb-0.5">日收益</div>
+            <div class="text-lg font-bold text-blue-700" id="result-daily">¥1,190</div>
+          </div>
+          <div class="bg-green-50 rounded-lg p-3">
+            <div class="text-xs text-green-500 mb-0.5">年收益</div>
+            <div class="text-lg font-bold text-green-700" id="result-annual">¥39.3 万</div>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div class="bg-amber-50 rounded-lg p-3">
+            <div class="text-xs text-amber-500 mb-0.5">回收周期</div>
+            <div class="text-lg font-bold text-amber-700" id="result-payback">6.1 年</div>
+          </div>
+          <div class="bg-accent-50 rounded-lg p-3">
+            <div class="text-xs text-accent-500 mb-0.5">全投资 IRR</div>
+            <div class="text-lg font-bold text-accent-700" id="result-irr">14.2%</div>
+          </div>
+        </div>
+        <div class="bg-primary-50 rounded-lg p-4">
+          <div class="text-xs text-primary-400 mb-0.5">15 年总收益（扣除投资）</div>
+          <div class="text-xl font-bold text-primary-900" id="result-total">¥349 万</div>
+        </div>
+        <div class="mt-3">
+          <div id="cashflow-chart" style="width: 100%; height: 200px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function initCalculator() {
+    const ids = ['capacity', 'power', 'peak-price', 'valley-price', 'cycles', 'efficiency', 'unit-cost', 'project-life'];
+    const inputs: Record<string, HTMLInputElement> = {};
+
+    ids.forEach(id => {
+      const el = document.getElementById(id) as HTMLInputElement;
+      if (el) inputs[id] = el;
+    });
+
+    function getVal(id: string): number {
+      return parseFloat(inputs[id]?.value || '0');
+    }
+
+    function updateDisplay(id: string, value: string) {
+      const span = document.getElementById(`val-${id}`);
+      if (span) span.textContent = value;
+    }
+
+    function formatMoney(n: number): string {
+      if (Math.abs(n) >= 10000) return '¥' + (n / 10000).toFixed(1) + ' 亿';
+      if (Math.abs(n) >= 10000) return '¥' + (n / 10000).toFixed(1) + ' 万';
+      return '¥' + n.toFixed(0);
+    }
+
+    function calculate() {
+      const capacity = getVal('capacity');
+      const power = getVal('power');
+      const peakPrice = getVal('peak-price');
+      const valleyPrice = getVal('valley-price');
+      const cycles = getVal('cycles');
+      const efficiency = getVal('efficiency') / 100;
+      const unitCost = getVal('unit-cost');
+      const projectLife = getVal('project-life');
+
+      // Daily revenue
+      const dailyEnergy = capacity * cycles * efficiency;
+      const priceSpread = peakPrice - valleyPrice;
+      const dailyRevenue = dailyEnergy * priceSpread;
+
+      // Annual
+      const operatingDays = 330;
+      const annualRevenue = dailyRevenue * operatingDays;
+
+      // Investment
+      const totalInvestment = capacity * unitCost;
+
+      // Simple payback
+      const paybackYears = annualRevenue > 0 ? totalInvestment / annualRevenue : Infinity;
+
+      // Total return
+      const totalRevenue = annualRevenue * projectLife;
+      const netProfit = totalRevenue - totalInvestment;
+
+      // Approximate IRR (simplified)
+      const annualCashFlow = annualRevenue;
+      const irrApprox = annualCashFlow > 0 ? (annualCashFlow / totalInvestment) * 100 * (1 - Math.pow(0.5, paybackYears / projectLife)) : 0;
+
+      // Update displays
+      updateDisplay('capacity', capacity.toString());
+      updateDisplay('power', power.toString());
+      updateDisplay('peak', peakPrice.toFixed(2));
+      updateDisplay('valley', valleyPrice.toFixed(2));
+      updateDisplay('cycles', cycles.toString());
+      updateDisplay('efficiency', (efficiency * 100).toFixed(0));
+
+      const resultInvest = document.getElementById('result-investment');
+      const resultDaily = document.getElementById('result-daily');
+      const resultAnnual = document.getElementById('result-annual');
+      const resultPayback = document.getElementById('result-payback');
+      const resultIrr = document.getElementById('result-irr');
+      const resultTotal = document.getElementById('result-total');
+
+      if (resultInvest) resultInvest.textContent = formatMoney(totalInvestment);
+      if (resultDaily) resultDaily.textContent = '¥' + dailyRevenue.toFixed(0);
+      if (resultAnnual) resultAnnual.textContent = '¥' + (annualRevenue / 10000).toFixed(1) + ' 万';
+      if (resultPayback) resultPayback.textContent = paybackYears === Infinity ? '无法回收' : paybackYears.toFixed(1) + ' 年';
+      if (resultIrr) resultIrr.textContent = irrApprox.toFixed(1) + '%';
+      if (resultTotal) resultTotal.textContent = netProfit > 0 ? '¥' + (netProfit / 10000).toFixed(0) + ' 万' : '¥' + (netProfit / 10000).toFixed(0) + ' 万';
+
+      // Update cashflow chart
+      updateChart(totalInvestment, annualRevenue, projectLife);
+    }
+
+    function updateChart(investment: number, annualRevenue: number, projectLife: number) {
+      const chartDom = document.getElementById('cashflow-chart');
+      if (!chartDom) return;
+
+      if (typeof (window as any).echarts === 'undefined') return;
+
+      const cumulative: number[] = [];
+      let cum = -investment + annualRevenue;
+      for (let y = 1; y <= projectLife; y++) {
+        cum = -investment + annualRevenue * y;
+        cumulative.push(Math.round(cum / 10000));
+      }
+
+      const paybackYear = investment > 0 ? Math.ceil(investment / annualRevenue) : 0;
+
+      const chart = (window as any).echarts.getInstanceByDom(chartDom) || (window as any).echarts.init(chartDom);
+      chart.setOption({
+        tooltip: {
+          trigger: 'axis',
+          formatter: (params: any) => {
+            const v = params[0].value;
+            return `第 ${params[0].axisValue} 年<br/>累计净现金流: ¥${v} 万`;
+          },
+        },
+        grid: { top: 10, right: 16, bottom: 24, left: 16 },
+        xAxis: {
+          type: 'category',
+          data: Array.from({ length: projectLife }, (_, i) => `Y${i + 1}`),
+          axisLabel: { fontSize: 9, color: '#9fb3c8' },
+          axisTick: { show: false },
+          axisLine: { lineStyle: { color: '#d9e2ec' } },
+        },
+        yAxis: {
+          type: 'value',
+          name: '万元',
+          axisLabel: { fontSize: 10, color: '#9fb3c8' },
+          splitLine: { lineStyle: { color: '#f0f4f8' } },
+        },
+        series: [{
+          type: 'bar',
+          data: cumulative.map((v: number, i: number) => ({
+            value: v,
+            itemStyle: {
+              color: v >= 0 ? '#10b981' : '#ef4444',
+            },
+          })),
+          barWidth: '60%',
+          markLine: {
+            silent: true,
+            data: [{
+              yAxis: 0,
+              lineStyle: { color: '#334e68', type: 'dashed' },
+            }],
+            symbol: 'none',
+          },
+        }],
+      });
+    }
+
+    // Bind events
+    ids.forEach(id => {
+      inputs[id]?.addEventListener('input', calculate);
+    });
+
+    // Initial calculation
+    calculate();
+  }
+
+  // Initialize when ECharts is available
+  function waitForEcharts() {
+    if (typeof (window as any).echarts !== 'undefined') {
+      initCalculator();
+    } else {
+      setTimeout(waitForEcharts, 100);
+    }
+  }
+  waitForEcharts();
+</script>

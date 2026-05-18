@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import SectionLayout from '@layouts/SectionLayout.astro';
+import TechCard from '@components/tech/TechCard.astro';
+
+const technologies = await getCollection('technologies');
+const sorted = technologies.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+---
+
+<SectionLayout
+  title="前沿储能技术"
+  description="追踪固态电池、液流电池、钠离子电池等新型储能技术的最新突破与核心参数对比"
+  currentPath="/technologies"
+>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {sorted.map((entry) => (
+      <TechCard entry={entry} />
+    ))}
+  </div>
+  {
+    sorted.length === 0 && (
+      <p class="text-primary-400 text-center py-20">技术内容正在编辑中，敬请期待</p>
+    )
+  }
+  <div class="mt-8 text-center">
+    <a href="/technologies/compare" class="inline-flex px-6 py-3 bg-accent-600 text-white rounded-lg font-medium hover:bg-accent-700 transition-colors">
+      技术路线对比 →
+    </a>
+  </div>
+</SectionLayout>

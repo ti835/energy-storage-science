@@ -1,0 +1,43 @@
+---
+export interface Props {
+  id: string;
+  option: Record<string, any>;
+  theme?: 'light' | 'dark';
+  className?: string;
+  height?: string;
+}
+
+const { id, option, theme = 'light', className = '', height = '400px' } = Astro.props;
+---
+
+<div class={`chart-container ${className}`}>
+  <div id={id} style={`width: 100%; height: ${height};`}></div>
+</div>
+
+<script define:vars={{ id, theme, option }}>
+  (function() {
+    const container = document.getElementById(id);
+    if (!container) return;
+
+    function initChart() {
+      if (typeof echarts === 'undefined') {
+        setTimeout(initChart, 100);
+        return;
+      }
+
+      const chart = echarts.init(container, theme);
+      chart.setOption(option);
+
+      const resizeObserver = new ResizeObserver(() => {
+        chart.resize();
+      });
+      resizeObserver.observe(container);
+
+      window.addEventListener('beforeunload', () => {
+        chart.dispose();
+      });
+    }
+
+    initChart();
+  })();
+</script>

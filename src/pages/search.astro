@@ -1,0 +1,26 @@
+---
+import DashboardLayout from '@layouts/DashboardLayout.astro';
+---
+
+<DashboardLayout title="搜索" description="全文检索储能技术与工程内容">
+  <div class="max-w-2xl mx-auto py-20">
+    <h1 class="text-2xl font-bold text-primary-900 mb-4">全文搜索</h1>
+    <div id="pagefind-search" class="pagefind-ui"></div>
+    <p class="text-primary-400 text-sm mt-4">
+      Pagefind 本地索引搜索。构建后（<code class="bg-primary-100 px-1 rounded">npm run build</code>）可用。
+    </p>
+  </div>
+</DashboardLayout>
+
+<script>
+  // Initialize Pagefind UI when available
+  document.addEventListener('DOMContentLoaded', () => {
+    if (typeof (window as any).PagefindUI !== 'undefined') {
+      new (window as any).PagefindUI({
+        element: '#pagefind-search',
+        showSubResults: true,
+        showImages: false,
+      });
+    }
+  });
+</script>

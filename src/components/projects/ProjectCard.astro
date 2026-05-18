@@ -1,0 +1,57 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Badge from '@components/shared/Badge.astro';
+import { PROJECT_STAGES, PROJECT_SCENARIOS } from '@lib/constants';
+
+interface Props {
+  entry: CollectionEntry<'projects'>;
+}
+
+const { entry } = Astro.props;
+const { title, summary, location, capacity, lifecycleStage, scenario, technologyType, startDate, tags } = entry.data;
+const stageInfo = PROJECT_STAGES[lifecycleStage] ?? { label: lifecycleStage, color: 'bg-gray-100 text-gray-700' };
+const scenarioInfo = PROJECT_SCENARIOS[scenario] ?? { label: scenario };
+---
+
+<a
+  href={`/projects/${entry.slug}`}
+  class="block group bg-white rounded-xl border border-primary-100 hover:border-accent-300 hover:shadow-lg transition-all p-6"
+>
+  <div class="flex items-start justify-between mb-3">
+    <div class="flex items-center gap-2">
+      <Badge text={stageInfo.label} color={stageInfo.color} />
+      <span class="text-xs text-primary-400">{scenarioInfo.label}</span>
+    </div>
+    <span class="text-xs text-primary-400">
+      {startDate.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit' })}
+    </span>
+  </div>
+
+  <h3 class="text-lg font-bold text-primary-900 group-hover:text-accent-600 transition-colors mb-2">
+    {title}
+  </h3>
+  <p class="text-sm text-primary-500 line-clamp-2 mb-4">{summary}</p>
+
+  <div class="grid grid-cols-3 gap-2 bg-primary-50 rounded-lg p-3 mb-3">
+    <div class="text-center">
+      <div class="text-xs text-primary-400 mb-0.5">地点</div>
+      <div class="text-sm font-semibold text-primary-800 truncate" title={location}>{location}</div>
+    </div>
+    <div class="text-center border-l border-r border-primary-100">
+      <div class="text-xs text-primary-400 mb-0.5">规模</div>
+      <div class="text-sm font-semibold text-primary-800">{capacity}</div>
+    </div>
+    <div class="text-center">
+      <div class="text-xs text-primary-400 mb-0.5">技术路线</div>
+      <div class="text-sm font-semibold text-primary-800 truncate" title={technologyType}>{technologyType}</div>
+    </div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    {
+      tags.slice(0, 3).map((tag: string) => (
+        <span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">{tag}</span>
+      ))
+    }
+  </div>
+</a>

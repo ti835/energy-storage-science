@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply bg-gray-50 text-primary-800;
+  }
+}
+
+@layer components {
+  .chart-container {
+    @apply w-full;
+    min-height: 360px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Pagefind UI overrides */
+.pagefind-ui {
+  --pagefind-ui-primary: #334e68;
+  --pagefind-ui-text: #243b53;
+  --pagefind-ui-background: #ffffff;
+  --pagefind-ui-border: #d9e2ec;
+  --pagefind-ui-tag: #e0fcff;
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 8px;
+}
+
+/* Typography */
+.prose h2 {
+  @apply text-primary-800 font-bold border-b border-primary-200 pb-2 mt-8 mb-4;
+}
+
+.prose h3 {
+  @apply text-primary-700 font-semibold mt-6 mb-3;
+}
+
+.prose a {
+  @apply text-accent-600 hover:text-accent-800 no-underline;
+}
+
+.prose table {
+  @apply w-full text-sm;
+}
+
+.prose thead {
+  @apply bg-primary-100;
+}
+
+.prose th {
+  @apply px-4 py-2 text-left font-semibold text-primary-700;
+}
+
+.prose td {
+  @apply px-4 py-2 border-t border-primary-100;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary-400;
+}

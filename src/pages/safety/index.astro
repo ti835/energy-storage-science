@@ -1,0 +1,136 @@
+---
+import SectionLayout from '@layouts/SectionLayout.astro';
+---
+
+<SectionLayout
+  title="安全与合规"
+  description="汇集各地并网标准、消防验收规范及安全事故复盘报告"
+  currentPath="/safety"
+>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <!-- Grid connection standards -->
+    <div>
+      <h2 class="text-xl font-bold text-primary-800 mb-4">并网标准与规范</h2>
+      <div class="space-y-4">
+        <div class="bg-white rounded-xl border border-primary-100 p-5 hover:shadow-md transition-shadow">
+          <h3 class="font-semibold text-primary-800 mb-2">GB/T 36547-2024 电化学储能电站并网技术规定</h3>
+          <p class="text-sm text-primary-500 mb-2">规定了电化学储能电站接入电力系统的技术要求，包括一次调频、动态无功支撑、低电压穿越等关键指标。</p>
+          <div class="flex gap-2">
+            <span class="text-xs px-2 py-0.5 bg-red-50 text-red-600 rounded-full">强制性国标</span>
+            <span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">2024版</span>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl border border-primary-100 p-5 hover:shadow-md transition-shadow">
+          <h3 class="font-semibold text-primary-800 mb-2">GB/T 34120-2023 电化学储能系统储能变流器技术规范</h3>
+          <p class="text-sm text-primary-500 mb-2">涵盖 PCS 的电气性能、并网适应性、保护功能及 EMC 要求。</p>
+          <div class="flex gap-2">
+            <span class="text-xs px-2 py-0.5 bg-amber-50 text-amber-600 rounded-full">推荐性国标</span>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl border border-primary-100 p-5 hover:shadow-md transition-shadow">
+          <h3 class="font-semibold text-primary-800 mb-2">NB/T 42091-2023 电化学储能电站监控系统技术规范</h3>
+          <p class="text-sm text-primary-500 mb-2">对储能电站监控系统的功能、性能、通信接口和安全防护提出要求。</p>
+          <div class="flex gap-2">
+            <span class="text-xs px-2 py-0.5 bg-amber-50 text-amber-600 rounded-full">行业标准</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fire safety -->
+    <div>
+      <h2 class="text-xl font-bold text-primary-800 mb-4">消防规范</h2>
+      <div class="space-y-4">
+        <div class="bg-white rounded-xl border border-primary-100 p-5 hover:shadow-md transition-shadow">
+          <h3 class="font-semibold text-primary-800 mb-2">山东省《电化学储能电站消防设计审查验收技术导则（试行）》</h3>
+          <p class="text-sm text-primary-500 mb-2">全国首个省级储能消防专项导则。要求 Pack 级热失控预警（H₂/CO 特征气体检测）、舱级七氟丙烷 + 水喷淋三级防护体系。</p>
+          <div class="flex gap-2">
+            <span class="text-xs px-2 py-0.5 bg-blue-50 text-blue-600 rounded-full">地方标准</span>
+            <span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">试行</span>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl border border-primary-100 p-5 hover:shadow-md transition-shadow">
+          <h3 class="font-semibold text-primary-800 mb-2">GB 51048-2014 电化学储能电站设计规范（修订中）</h3>
+          <p class="text-sm text-primary-500 mb-2">现行版本正在修订中，预计 2026 年发布新版，将增加液冷系统消防、Pack 级灭火、站级火灾联动等新要求。</p>
+          <div class="flex gap-2">
+            <span class="text-xs px-2 py-0.5 bg-yellow-50 text-yellow-600 rounded-full">修订中</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accident reports -->
+    <div class="lg:col-span-2">
+      <h2 class="text-xl font-bold text-primary-800 mb-4">安全事故复盘</h2>
+      <div class="bg-white rounded-xl border border-primary-100 overflow-hidden">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-primary-800 text-white">
+              <th class="px-4 py-3 text-left">时间</th>
+              <th class="px-4 py-3 text-left">地点</th>
+              <th class="px-4 py-3 text-left">类型</th>
+              <th class="px-4 py-3 text-left">原因</th>
+              <th class="px-4 py-3 text-left">教训</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-primary-100">
+            <tr class="hover:bg-primary-50">
+              <td class="px-4 py-3 text-primary-700">2025.08</td>
+              <td class="px-4 py-3 text-primary-700">广东深圳</td>
+              <td class="px-4 py-3"><span class="text-xs px-2 py-0.5 bg-red-50 text-red-600 rounded-full">热失控</span></td>
+              <td class="px-4 py-3 text-primary-500">电池管理系统故障导致过充，单电芯热失控引发模组级蔓延</td>
+              <td class="px-4 py-3 text-primary-500">Pack 级预警（特征气体+温度）比舱级烟感提前 8 分钟响应</td>
+            </tr>
+            <tr class="hover:bg-primary-50">
+              <td class="px-4 py-3 text-primary-700">2025.03</td>
+              <td class="px-4 py-3 text-primary-700">江苏苏州</td>
+              <td class="px-4 py-3"><span class="text-xs px-2 py-0.5 bg-amber-50 text-amber-600 rounded-full">电气火灾</span></td>
+              <td class="px-4 py-3 text-primary-500">直流汇流箱接头松动导致电弧，引燃电缆绝缘层</td>
+              <td class="px-4 py-3 text-primary-500">直流侧电弧检测（AFCI）应列为标准配置；定期红外测温巡检不可替代</td>
+            </tr>
+            <tr class="hover:bg-primary-50">
+              <td class="px-4 py-3 text-primary-700">2024.11</td>
+              <td class="px-4 py-3 text-primary-700">浙江杭州</td>
+              <td class="px-4 py-3"><span class="text-xs px-2 py-0.5 bg-blue-50 text-blue-600 rounded-full">环境事故</span></td>
+              <td class="px-4 py-3 text-primary-500">暴雨导致户外储能舱进水，PCS 绝缘击穿</td>
+              <td class="px-4 py-3 text-primary-500">户外储能舱 IP55 以上防护等级、基础抬高 ≥300mm、水位监测探头</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Practical guide -->
+    <div class="lg:col-span-2">
+      <div class="bg-gradient-to-r from-primary-800 to-primary-900 rounded-xl p-6 text-white">
+        <h3 class="font-bold text-lg mb-3">工程避坑要点</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+          <div class="bg-white/10 rounded-lg p-4">
+            <div class="font-semibold text-accent-300 mb-2">前期规划</div>
+            <ul class="space-y-1.5 text-primary-200">
+              <li>· 项目选址前完成地质勘察和环境评估</li>
+              <li>· 确认当地并网标准和接入审查流程</li>
+              <li>· 预留消防间距（含相邻建筑和站内间距）</li>
+            </ul>
+          </div>
+          <div class="bg-white/10 rounded-lg p-4">
+            <div class="font-semibold text-accent-300 mb-2">设计采购</div>
+            <ul class="space-y-1.5 text-primary-200">
+              <li>· 电芯级、Pack 级、舱级三级消防联动</li>
+              <li>· 液冷系统设计需考虑泄漏检测</li>
+              <li>· PCS 选型注意电网适应性（SCR≥1.5）</li>
+            </ul>
+          </div>
+          <div class="bg-white/10 rounded-lg p-4">
+            <div class="font-semibold text-accent-300 mb-2">施工运维</div>
+            <ul class="space-y-1.5 text-primary-200">
+              <li>· 所有电气连接点需力矩校验 + 红外测温</li>
+              <li>· 建立 SOC/SOH 趋势分析预警机制</li>
+              <li>· 每季度消防联动测试，每年全站热成像</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</SectionLayout>

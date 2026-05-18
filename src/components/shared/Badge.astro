@@ -1,0 +1,14 @@
+---
+export interface Props {
+  text: string;
+  color?: string;
+  size?: 'sm' | 'md';
+}
+
+const { text, color = 'bg-primary-100 text-primary-700', size = 'sm' } = Astro.props;
+const sizeClass = size === 'sm' ? 'text-xs px-2 py-0.5' : 'text-sm px-2.5 py-1';
+---
+
+<span class={`inline-flex items-center font-medium rounded-full ${color} ${sizeClass}`}>
+  {text}
+</span>

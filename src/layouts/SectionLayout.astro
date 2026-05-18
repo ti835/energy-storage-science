@@ -1,0 +1,46 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+export interface Props {
+  title: string;
+  description?: string;
+  currentPath?: string;
+}
+
+const { title, description, currentPath = '' } = Astro.props;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  currentPath={currentPath}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Section header -->
+    <div class="mb-10">
+      {
+        Astro.slots.has('hero') && (
+          <slot name="hero" />
+        )
+      }
+      <h1 class="text-3xl font-bold text-primary-900">{title}</h1>
+      {
+        description && (
+          <p class="mt-2 text-lg text-primary-500">{description}</p>
+        )
+      }
+    </div>
+
+    <!-- Filters / tools row -->
+    {
+      Astro.slots.has('tools') && (
+        <div class="mb-8">
+          <slot name="tools" />
+        </div>
+      )
+    }
+
+    <!-- Content grid -->
+    <slot />
+  </div>
+</BaseLayout>

@@ -1,0 +1,72 @@
+---
+import SectionLayout from '@layouts/SectionLayout.astro';
+import Calculator from '@components/projects/Calculator.astro';
+---
+
+<SectionLayout
+  title="储能收益动态计算器"
+  description="输入当地电价与装机容量，自动测算峰谷套利收益与投资回报周期"
+  currentPath="/projects/calculator"
+>
+  <slot name="head-extra">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  </slot>
+
+  <div class="mb-8">
+    <div class="bg-gradient-to-r from-accent-50 to-blue-50 border border-accent-100 rounded-xl p-5 mb-6">
+      <h3 class="font-semibold text-accent-800 mb-2">使用说明</h3>
+      <p class="text-sm text-accent-600">
+        拖动滑块或直接输入参数，右侧结果和现金流图将实时更新。默认值基于典型工商业储能场景（2000kWh/500kW 系统）。
+        峰谷价差参考山东省电力现货市场近一个月均值（峰 1.0 元/kWh，谷 0.3 元/kWh）。
+      </p>
+    </div>
+
+    <Calculator />
+  </div>
+
+  <!-- Additional context -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+    <div class="bg-white rounded-xl border border-primary-100 p-5">
+      <h3 class="font-semibold text-primary-800 mb-3">影响 IRR 的关键因素</h3>
+      <ul class="space-y-2 text-sm text-primary-600">
+        <li class="flex gap-2">
+          <span class="text-accent-500 font-bold">1.</span>
+          <span><strong>峰谷价差</strong>是最敏感变量，价差每扩大 0.1 元/kWh，IRR 约提升 2-3 个百分点</span>
+        </li>
+        <li class="flex gap-2">
+          <span class="text-accent-500 font-bold">2.</span>
+          <span><strong>每日循环次数</strong>直接翻倍收益，但需考虑电池日历寿命衰减</span>
+        </li>
+        <li class="flex gap-2">
+          <span class="text-accent-500 font-bold">3.</span>
+          <span><strong>单位投资成本</strong>持续下降中（年均降幅约 8-10%），延迟投资可能获得更低成本</span>
+        </li>
+        <li class="flex gap-2">
+          <span class="text-accent-500 font-bold">4.</span>
+          <span><strong>需量管理</strong>和<strong>需求响应</strong>等辅佐服务收益未包含在内，实际 IRR 通常更高</span>
+        </li>
+      </ul>
+    </div>
+    <div class="bg-white rounded-xl border border-primary-100 p-5">
+      <h3 class="font-semibold text-primary-800 mb-3">典型场景参考</h3>
+      <div class="space-y-3 text-sm">
+        <div class="flex justify-between py-2 border-b border-primary-100">
+          <span class="text-primary-600">广东工商业（价差 0.55）</span>
+          <span class="font-semibold text-primary-800">IRR ~12-15%</span>
+        </div>
+        <div class="flex justify-between py-2 border-b border-primary-100">
+          <span class="text-primary-600">山东工商业（价差 0.65）</span>
+          <span class="font-semibold text-primary-800">IRR ~15-18%</span>
+        </div>
+        <div class="flex justify-between py-2 border-b border-primary-100">
+          <span class="text-primary-600">浙江工商业（价差 0.70）</span>
+          <span class="font-semibold text-primary-800">IRR ~16-20%</span>
+        </div>
+        <div class="flex justify-between py-2">
+          <span class="text-primary-600">江苏工商业（价差 0.50）</span>
+          <span class="font-semibold text-primary-800">IRR ~10-13%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</SectionLayout>

@@ -1,0 +1,81 @@
+---
+import ChartWrapper from '@components/shared/ChartWrapper.astro';
+import comparisonData from '@data/tech-comparison.json';
+
+const { technologies } = comparisonData;
+
+const normalizedData = technologies.map((t) => ({
+  name: t.name,
+  value: [
+    Math.round((t.energyDensity / 400) * 100),
+    Math.round((t.cycleLife / 15000) * 100),
+    Math.round(((0.8 - t.lcoe) / 0.6) * 100),
+    Math.round((t.roundTripEfficiency / 95) * 100),
+    Math.round((t.safetyIndex / 100) * 100),
+    Math.round((t.trlLevel / 9) * 100),
+  ],
+}));
+
+const option = {
+  tooltip: {
+    trigger: 'item',
+    backgroundColor: 'rgba(255,255,255,0.95)',
+    borderColor: '#d9e2ec',
+    borderWidth: 1,
+    textStyle: { color: '#334e68', fontSize: 13 },
+  },
+  legend: {
+    data: technologies.map((t) => t.name),
+    bottom: 0,
+    textStyle: { color: '#627d98', fontSize: 11 },
+    itemWidth: 12,
+    itemHeight: 12,
+  },
+  radar: {
+    center: ['50%', '48%'],
+    radius: '65%',
+    indicator: [
+      { name: '能量密度', max: 100 },
+      { name: '循环寿命', max: 100 },
+      { name: '经济性', max: 100 },
+      { name: '效率', max: 100 },
+      { name: '安全性', max: 100 },
+      { name: '成熟度', max: 100 },
+    ],
+    axisName: {
+      color: '#486581',
+      fontSize: 11,
+      borderRadius: 2,
+      padding: [2, 4],
+    },
+    splitArea: {
+      areaStyle: {
+        color: ['rgba(20,145,155,0.02)', 'rgba(20,145,155,0.02)', 'rgba(20,145,155,0.02)', 'rgba(20,145,155,0.02)'],
+      },
+    },
+    splitLine: {
+      lineStyle: { color: '#d9e2ec' },
+    },
+    axisLine: {
+      lineStyle: { color: '#d9e2ec' },
+    },
+  },
+  series: [
+    {
+      type: 'radar',
+      data: normalizedData,
+      symbol: 'circle',
+      symbolSize: 4,
+      lineStyle: { width: 2 },
+      areaStyle: { opacity: 0.05 },
+    },
+  ],
+};
+---
+
+<ChartWrapper
+  id="tech-radar-chart"
+  option={option}
+  height="480px"
+  className="bg-white rounded-xl border border-primary-100 p-5"
+/>

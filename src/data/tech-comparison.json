@@ -1,0 +1,73 @@
+{
+  "lastUpdated": "2026-05-17",
+  "technologies": [
+    {
+      "name": "磷酸铁锂",
+      "energyDensity": 160,
+      "cycleLife": 6000,
+      "lcoe": 0.32,
+      "trlLevel": 9,
+      "roundTripEfficiency": 92,
+      "safetyIndex": 70,
+      "maxEnergyDensity": 180
+    },
+    {
+      "name": "钠离子电池",
+      "energyDensity": 140,
+      "cycleLife": 5000,
+      "lcoe": 0.30,
+      "trlLevel": 8,
+      "roundTripEfficiency": 90,
+      "safetyIndex": 80,
+      "maxEnergyDensity": 160
+    },
+    {
+      "name": "固态电池",
+      "energyDensity": 400,
+      "cycleLife": 2000,
+      "lcoe": 0.45,
+      "trlLevel": 6,
+      "roundTripEfficiency": 88,
+      "safetyIndex": 95,
+      "maxEnergyDensity": 600
+    },
+    {
+      "name": "全钒液流",
+      "energyDensity": 25,
+      "cycleLife": 15000,
+      "lcoe": 0.25,
+      "trlLevel": 8,
+      "roundTripEfficiency": 75,
+      "safetyIndex": 95,
+      "maxEnergyDensity": 35
+    },
+    {
+      "name": "压缩空气",
+      "energyDensity": 8,
+      "cycleLife": 10000,
+      "lcoe": 0.20,
+      "trlLevel": 8,
+      "roundTripEfficiency": 72,
+      "safetyIndex": 90,
+      "maxEnergyDensity": 12
+    },
+    {
+      "name": "飞轮储能",
+      "energyDensity": 20,
+      "cycleLife": 100000,
+      "lcoe": 0.80,
+      "trlLevel": 9,
+      "roundTripEfficiency": 93,
+      "safetyIndex": 75,
+      "maxEnergyDensity": 30
+    }
+  ],
+  "axes": {
+    "energyDensity": "能量密度 (Wh/kg)",
+    "cycleLife": "循环寿命 (次)",
+    "lcoe": "度电成本 (元/kWh)",
+    "roundTripEfficiency": "往返效率 (%)",
+    "safetyIndex": "安全指数",
+    "trlLevel": "技术成熟度 (TRL)"
+  }
+}

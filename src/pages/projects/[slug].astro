@@ -1,0 +1,60 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import ContentLayout from '@layouts/ContentLayout.astro';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<'projects'>;
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await entry.render();
+const { title, summary, location, capacity, startDate, tags, lifecycleStage } = entry.data;
+---
+
+<ContentLayout
+  title={title}
+  description={summary}
+  currentPath={`/projects/${entry.slug}`}
+  publishDate={startDate}
+  category="project"
+  headings={headings}
+>
+  <slot name="aside">
+    <div class="space-y-3 text-sm">
+      {location && (
+        <div>
+          <span class="text-primary-400 text-xs block">项目地点</span>
+          <span class="text-primary-700 font-medium">{location}</span>
+        </div>
+      )}
+      {capacity && (
+        <div>
+          <span class="text-primary-400 text-xs block">装机规模</span>
+          <span class="text-primary-700 font-medium">{capacity}</span>
+        </div>
+      )}
+      {lifecycleStage && (
+        <div>
+          <span class="text-primary-400 text-xs block">项目阶段</span>
+          <span class="text-primary-700 font-medium">{lifecycleStage}</span>
+        </div>
+      )}
+      {tags && tags.length > 0 && (
+        <div class="flex flex-wrap gap-1.5 pt-2">
+          {tags.map((tag: string) => (
+            <span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">{tag}</span>
+          ))}
+        </div>
+      )}
+    </div>
+  </slot>
+  <Content />
+</ContentLayout>

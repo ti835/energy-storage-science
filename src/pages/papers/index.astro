@@ -1,0 +1,87 @@
+---
+import SectionLayout from '@layouts/SectionLayout.astro';
+---
+
+<SectionLayout
+  title="论文追踪与前瞻雷达"
+  description="近期顶刊文献与专利动态的自动追踪，提取关键结论作为私人技术情报库"
+  currentPath="/papers"
+>
+  <!-- Status -->
+  <div class="bg-accent-50 border border-accent-200 rounded-xl p-5 mb-8">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 bg-accent-500 rounded-full flex items-center justify-center">
+        <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </div>
+      <div>
+        <h3 class="font-semibold text-accent-800">自动化追踪状态</h3>
+        <p class="text-sm text-accent-600">论文自动抓取与摘要提取功能将在 Phase 6 自动化管线部署后激活。数据源：arXiv、Nature Energy、Joule、Advanced Energy Materials。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Paper feed placeholder -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="bg-white rounded-xl border border-primary-100 p-6">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs px-2 py-0.5 bg-energy-red/10 text-energy-red rounded-full">高相关</span>
+        <span class="text-xs text-primary-400">Nature Energy · 2026-05</span>
+      </div>
+      <h3 class="font-semibold text-primary-800 mb-1">Ultra-stable sodium metal anodes enabled by fluorinated interphase engineering</h3>
+      <p class="text-xs text-primary-400 mb-3">Chen L. et al.</p>
+      <p class="text-sm text-primary-500 line-clamp-3">通过氟化界面工程设计实现超稳定钠金属负极，循环寿命超过 5000 次，库仑效率 >99.9%。</p>
+      <div class="flex flex-wrap gap-1.5 mt-3">
+        <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">钠金属负极</span>
+        <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">界面工程</span>
+        <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">电解液设计</span>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl border border-primary-100 p-6">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs px-2 py-0.5 bg-energy-amber/10 text-energy-amber rounded-full">中相关</span>
+        <span class="text-xs text-primary-400">Joule · 2026-04</span>
+      </div>
+      <h3 class="font-semibold text-primary-800 mb-1">Techno-economic analysis of long-duration energy storage in high-renewable grids</h3>
+      <p class="text-xs text-primary-400 mb-3">Sepulveda N. et al.</p>
+      <p class="text-sm text-primary-500 line-clamp-3">系统评估了液流电池、压缩空气、氢储能在高比例可再生能源电网中的经济竞争力。</p>
+      <div class="flex flex-wrap gap-1.5 mt-3">
+        <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">长时储能</span>
+        <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">技术经济分析</span>
+        <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">电网建模</span>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl border border-primary-100 p-6">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs px-2 py-0.5 bg-energy-red/10 text-energy-red rounded-full">高相关</span>
+        <span class="text-xs text-primary-400">Adv. Energy Mater. · 2026-05</span>
+      </div>
+      <h3 class="font-semibold text-primary-800 mb-1">Li₆PS₅Cl electrolyte with in-situ formed LiF-rich interphase for all-solid-state batteries</h3>
+      <p class="text-xs text-primary-400 mb-3">Park J. et al.</p>
+      <p class="text-sm text-primary-500 line-clamp-3">原位形成富 LiF 界面的硫化物电解质，临界电流密度提升至 6.8 mA/cm²。</p>
+      <div class="flex flex-wrap gap-1.5 mt-3">
+        <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">硫化物电解质</span>
+        <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">界面工程</span>
+        <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">临界电流密度</span>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl border border-primary-100 p-6">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs px-2 py-0.5 bg-energy-amber/10 text-energy-amber rounded-full">中相关</span>
+        <span class="text-xs text-primary-400">arXiv · 2026-05</span>
+      </div>
+      <h3 class="font-semibold text-primary-800 mb-1">Machine learning accelerated discovery of novel solid electrolytes with high ionic conductivity</h3>
+      <p class="text-xs text-primary-400 mb-3">Wang Y. et al.</p>
+      <p class="text-sm text-primary-500 line-clamp-3">利用机器学习加速筛选高离子电导率固态电解质材料，从 12000+ 候选物中预测出 23 种新结构。</p>
+      <div class="flex flex-wrap gap-1.5 mt-3">
+        <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">机器学习</span>
+        <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">材料筛选</span>
+        <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">固态电解质</span>
+      </div>
+    </div>
+  </div>
+</SectionLayout>

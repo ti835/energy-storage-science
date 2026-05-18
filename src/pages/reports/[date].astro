@@ -1,0 +1,45 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import ContentLayout from '@layouts/ContentLayout.astro';
+
+export async function getStaticPaths() {
+  const reports = await getCollection('reports');
+  return reports.map((entry) => ({
+    params: { date: entry.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<'reports'>;
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await entry.render();
+const { date, topics, aiSummary } = entry.data;
+---
+
+<ContentLayout
+  title={`储能科学日报 — ${date instanceof Date ? date.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' }) : date}`}
+  description={aiSummary}
+  currentPath={`/reports/${entry.slug}`}
+  publishDate={date instanceof Date ? date : new Date(date)}
+  category="report"
+  headings={headings}
+>
+  <slot name="aside">
+    {
+      topics && topics.length > 0 && (
+        <div>
+          <span class="text-xs text-primary-400 block mb-2">本期主题</span>
+          <div class="flex flex-wrap gap-1.5">
+            {topics.map((topic: string) => (
+              <span class="text-xs px-2 py-0.5 bg-accent-50 text-accent-700 rounded-full">{topic}</span>
+            ))}
+          </div>
+        </div>
+      )
+    }
+  </slot>
+  <Content />
+</ContentLayout>

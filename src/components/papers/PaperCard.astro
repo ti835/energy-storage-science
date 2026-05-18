@@ -1,0 +1,34 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Badge from '@components/shared/Badge.astro';
+
+interface Props {
+  entry: CollectionEntry<'papers'>;
+}
+
+const { entry } = Astro.props;
+const { title, authors, journal, publishDate, abstract, keywords, relevance } = entry.data;
+const relevanceColor = relevance === 'high' ? 'bg-energy-red text-white' : relevance === 'medium' ? 'bg-energy-amber text-white' : 'bg-primary-100 text-primary-600';
+const relevanceLabel = relevance === 'high' ? '高相关' : relevance === 'medium' ? '中相关' : '低相关';
+---
+
+<article class="bg-white rounded-xl border border-primary-100 hover:border-accent-200 hover:shadow-md transition-all p-6">
+  <div class="flex items-start justify-between mb-2">
+    <Badge text={relevanceLabel} color={relevanceColor} size="sm" />
+    <span class="text-xs text-primary-400">{journal}</span>
+  </div>
+
+  <h3 class="text-base font-bold text-primary-900 mb-1.5 leading-snug">{title}</h3>
+  <p class="text-xs text-primary-400 mb-3">
+    {authors.slice(0, 4).join(', ')}{authors.length > 4 ? ' et al.' : ''}
+    <span class="mx-1">·</span>
+    {publishDate.toLocaleDateString('zh-CN', { year: 'numeric', month: 'short', day: 'numeric' })}
+  </p>
+  <p class="text-sm text-primary-600 line-clamp-3 mb-3 leading-relaxed">{abstract}</p>
+
+  <div class="flex flex-wrap gap-1.5">
+    {keywords.slice(0, 5).map((kw: string) => (
+      <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">{kw}</span>
+    ))}
+  </div>
+</article>

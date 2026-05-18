@@ -1,0 +1,50 @@
+---
+import SectionLayout from '@layouts/SectionLayout.astro';
+import TechRadarChart from '@components/tech/TechRadarChart.astro';
+import TechSpecTable from '@components/tech/TechSpecTable.astro';
+import TechRoadmap from '@components/tech/TechRoadmap.astro';
+---
+
+<SectionLayout
+  title="技术路线全景对比"
+  description="多维度雷达图对比 + 交互式参数表格 + 技术发展路线图"
+  currentPath="/technologies/compare"
+>
+  <!-- Radar chart -->
+  <div class="mb-8">
+    <h2 class="text-xl font-bold text-primary-800 mb-4">六维雷达图对比</h2>
+    <TechRadarChart />
+    <p class="text-sm text-primary-400 mt-3 text-center">注：指标已归一化处理（0-100），数值越大越优。经济性为度电成本反比映射。</p>
+  </div>
+
+  <!-- Spec table -->
+  <div class="mb-8">
+    <h2 class="text-xl font-bold text-primary-800 mb-4">核心参数一览</h2>
+    <TechSpecTable />
+  </div>
+
+  <!-- Roadmap -->
+  <div class="mb-8">
+    <h2 class="text-xl font-bold text-primary-800 mb-4">技术发展路线图</h2>
+    <TechRoadmap />
+  </div>
+
+  <!-- Key takeaways -->
+  <div class="bg-accent-50 border border-accent-200 rounded-xl p-6">
+    <h3 class="font-bold text-accent-800 mb-3">关键洞察</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-accent-700">
+      <div>
+        <h4 class="font-semibold mb-1">近期（2-3 年）</h4>
+        <p>钠离子电池 + 磷酸铁锂构成储能市场主力，液流电池在 4h+ 场景上量</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-1">中期（3-5 年）</h4>
+        <p>固态电池在高端车型实现量产验证，压缩空气储能 300MW 机组成熟</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-1">远期（5+ 年）</h4>
+        <p>固态电池成本下降后与液流电池在长时储能市场形成竞争，技术路线选择取决于场景需求</p>
+      </div>
+    </div>
+  </div>
+</SectionLayout>

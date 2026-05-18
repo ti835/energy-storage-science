@@ -1,0 +1,62 @@
+name: Daily Report Generation
+
+on:
+  schedule:
+    # Run at 2:00 UTC (10:00 AM Beijing time) every day
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub UI
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache Python dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}-${{ hashFiles('scripts/requirements.txt') }}
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch bidding news
+        run: python scripts/fetch_bidding_news.py
+
+      - name: Fetch papers (arXiv)
+        run: python scripts/fetch_papers.py
+
+      - name: Generate daily report
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_API_URL: ${{ secrets.LLM_API_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+        run: python scripts/generate_daily_report.py
+
+      - name: Update chart data
+        run: python scripts/update_chart_data.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "energy-storage-bot"
+          git config user.email "bot@energy-storage-science.local"
+          git add src/content/reports/ src/data/ src/content/papers/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "auto: daily report $(date +%Y-%m-%d)"
+            git push
+          fi
+
+      # Deploy is handled by deploy.yml (triggers on push to main)

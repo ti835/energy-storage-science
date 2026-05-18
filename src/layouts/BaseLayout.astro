@@ -1,0 +1,76 @@
+---
+import { SITE } from '@lib/constants';
+import NavBar from '@components/global/NavBar.astro';
+import Footer from '@components/global/Footer.astro';
+import SearchModal from '@components/global/SearchModal.astro';
+import '@styles/global.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  currentPath?: string;
+  bodyClass?: string;
+}
+
+const {
+  title,
+  description = SITE.description,
+  ogImage = SITE.ogImage,
+  currentPath = '',
+  bodyClass = '',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={`${title} | ${SITE.title}`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={SITE.url + ogImage} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>{title} | {SITE.title}</title>
+
+    {
+      Astro.slots.has('head-extra') && (
+        <slot name="head-extra" />
+      )
+    }
+  </head>
+  <body class={`min-h-screen flex flex-col ${bodyClass}`}>
+    <NavBar currentPath={currentPath} />
+
+    <main class="flex-1">
+      {Astro.slots.has('hero') && (
+        <slot name="hero" />
+      )}
+      <slot />
+    </main>
+
+    <Footer />
+    <SearchModal />
+
+    <script>
+      import { initSearchModal } from '@lib/search';
+      document.addEventListener('DOMContentLoaded', () => {
+        initSearchModal();
+      });
+    </script>
+  </body>
+</html>

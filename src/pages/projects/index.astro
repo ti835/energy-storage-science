@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import SectionLayout from '@layouts/SectionLayout.astro';
+import ProjectCard from '@components/projects/ProjectCard.astro';
+
+const projects = await getCollection('projects');
+const sorted = projects.sort((a, b) => b.data.startDate.getTime() - a.data.startDate.getTime());
+---
+
+<SectionLayout
+  title="最新储能工程"
+  description="按项目全生命周期归档，从规划到运维的完整工程实践参考"
+  currentPath="/projects"
+>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {sorted.map((entry) => (
+      <ProjectCard entry={entry} />
+    ))}
+  </div>
+  {
+    sorted.length === 0 && (
+      <p class="text-primary-400 text-center py-20">工程案例正在整理中，敬请期待</p>
+    )
+  }
+  <div class="mt-8 text-center">
+    <a href="/projects/calculator" class="inline-flex px-6 py-3 bg-accent-600 text-white rounded-lg font-medium hover:bg-accent-700 transition-colors">
+      储能收益计算器 →
+    </a>
+  </div>
+</SectionLayout>
