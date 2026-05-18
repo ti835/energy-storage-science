@@ -1,5 +1,10 @@
 ---
+import { getCollection } from 'astro:content';
 import SectionLayout from '@layouts/SectionLayout.astro';
+import { BASE } from '@lib/constants';
+
+const reports = await getCollection('reports');
+const sorted = reports.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 ---
 
 <SectionLayout
@@ -7,5 +12,33 @@ import SectionLayout from '@layouts/SectionLayout.astro';
   description="每日自动生成的行业简报，涵盖技术突破、工程招标与政策变动"
   currentPath="/reports"
 >
-  <p class="text-primary-400 text-center py-20">日报将在 Phase 6 自动化管线启用后自动生成</p>
+  {
+    sorted.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {sorted.map((entry) => (
+          <a href={`${BASE}/reports/${entry.id}`} class="block bg-white rounded-xl border border-primary-100 p-6 hover:shadow-md hover:border-accent-300 transition-all group">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-medium text-primary-400">{
+                entry.data.date.toLocaleDateString ?
+                `${entry.data.date.getFullYear()}年${entry.data.date.getMonth() + 1}月${entry.data.date.getDate()}日` :
+                entry.id
+              }</span>
+              {entry.data.generatedBy === 'automation' && (
+                <span class="text-xs px-2 py-0.5 bg-accent-100 text-accent-700 rounded-full">自动生成</span>
+              )}
+            </div>
+            <h3 class="font-bold text-primary-800 mb-2 group-hover:text-accent-600 transition-colors">储能科学日报</h3>
+            <p class="text-sm text-primary-500 leading-relaxed line-clamp-3">{entry.data.aiSummary}</p>
+            <div class="flex flex-wrap gap-1.5 mt-3">
+              {entry.data.topics.map((topic: string) => (
+                <span class="text-xs px-2 py-0.5 bg-primary-50 text-primary-500 rounded-full">{topic}</span>
+              ))}
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="text-primary-400 text-center py-20">日报内容正在生成中，每天北京时间 10:00 自动更新</p>
+    )
+  }
 </SectionLayout>

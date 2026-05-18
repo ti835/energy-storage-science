@@ -1,4 +1,5 @@
 ---
+import { getCollection } from 'astro:content';
 import DashboardLayout from '@layouts/DashboardLayout.astro';
 import KpiRow from '@components/dashboard/KpiRow.astro';
 import InstallChart from '@components/dashboard/InstallChart.astro';
@@ -7,6 +8,18 @@ import DispatchChart from '@components/dashboard/DispatchChart.astro';
 import DailyReportCard from '@components/dashboard/DailyReportCard.astro';
 import QuickNavCards from '@components/dashboard/QuickNavCards.astro';
 import { BASE } from '@lib/constants';
+import installData from '@data/install-growth.json';
+
+const reports = await getCollection('reports');
+const latestReport = reports.sort((a, b) => b.data.date.getTime() - a.data.date.getTime())[0];
+
+const technologies = await getCollection('technologies');
+const latestTechs = technologies.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()).slice(0, 2);
+
+const projects = await getCollection('projects');
+const latestProjects = projects.sort((a, b) => b.data.startDate.getTime() - a.data.startDate.getTime()).slice(0, 2);
+
+const totalInstalled = installData.totalInstalled;
 ---
 
 <DashboardLayout
@@ -23,10 +36,10 @@ import { BASE } from '@lib/constants';
   <div class="mb-6">
     <KpiRow
       items={[
-        { label: '中国储能装机', value: '249.3', change: 12.5, unit: 'GWh', icon: 'installed' },
+        { label: '中国储能装机', value: String(totalInstalled.china), change: 12.5, unit: 'GWh', icon: 'installed' },
         { label: '平均峰谷价差', value: '0.63', change: 3.2, unit: '元/kWh', icon: 'spread' },
         { label: '今日调频次数', value: '59', change: -2.8, unit: '次', icon: 'dispatch' },
-        { label: '在建项目', value: '187', change: 8.1, unit: '个', icon: 'projects' },
+        { label: '在建项目', value: String(projects.length), change: 8.1, unit: '个', icon: 'projects' },
       ]}
     />
   </div>
@@ -65,7 +78,17 @@ import { BASE } from '@lib/constants';
     </div>
     <div>
       <h2 class="text-lg font-bold text-primary-800 mb-3">每日报告</h2>
-      <DailyReportCard />
+      {
+        latestReport ? (
+          <DailyReportCard
+            date={latestReport.data.date.toISOString().split('T')[0]}
+            topics={latestReport.data.topics}
+            summary={latestReport.data.aiSummary}
+          />
+        ) : (
+          <DailyReportCard />
+        )
+      }
     </div>
   </div>
 
@@ -77,18 +100,17 @@ import { BASE } from '@lib/constants';
         <a href={`${BASE}/technologies`} class="text-xs text-accent-600 hover:text-accent-700">全部 →</a>
       </div>
       <ul class="space-y-3">
-        <li>
-          <a href={`${BASE}/technologies/solid-state-battery`} class="block group">
-            <span class="text-sm text-primary-700 group-hover:text-accent-600 transition-colors">固态电池技术深度解析 — 从材料体系到量产挑战</span>
-            <span class="text-xs text-primary-400 block mt-0.5">2026-03-15</span>
-          </a>
-        </li>
-        <li>
-          <a href={`${BASE}/technologies/sodium-ion-battery`} class="block group">
-            <span class="text-sm text-primary-700 group-hover:text-accent-600 transition-colors">钠离子电池产业化进程 — 层状氧化物 vs 普鲁士蓝 vs 聚阴离子</span>
-            <span class="text-xs text-primary-400 block mt-0.5">2026-04-20</span>
-          </a>
-        </li>
+        {latestTechs.map((entry) => (
+          <li>
+            <a href={`${BASE}/technologies/${entry.id}`} class="block group">
+              <span class="text-sm text-primary-700 group-hover:text-accent-600 transition-colors">{entry.data.title}</span>
+              <span class="text-xs text-primary-400 block mt-0.5">{entry.data.publishDate.toISOString().split('T')[0]}</span>
+            </a>
+          </li>
+        ))}
+        {latestTechs.length === 0 && (
+          <li><span class="text-sm text-primary-400">暂无内容</span></li>
+        )}
       </ul>
     </div>
     <div class="bg-white rounded-xl border border-primary-100 p-6">
@@ -97,18 +119,17 @@ import { BASE } from '@lib/constants';
         <a href={`${BASE}/projects`} class="text-xs text-accent-600 hover:text-accent-700">全部 →</a>
       </div>
       <ul class="space-y-3">
-        <li>
-          <a href={`${BASE}/projects/shandong-lng-cni-storage`} class="block group">
-            <span class="text-sm text-primary-700 group-hover:text-accent-600 transition-colors">山东 LNG 接收站 200MW/400MWh 工商业储能项目</span>
-            <span class="text-xs text-primary-400 block mt-0.5">烟台 · 施工安装阶段</span>
-          </a>
-        </li>
-        <li>
-          <a href={`${BASE}/projects/gansu-gw-compressed-air`} class="block group">
-            <span class="text-sm text-primary-700 group-hover:text-accent-600 transition-colors">甘肃河西走廊 300MW/1200MWh 压缩空气储能电站</span>
-            <span class="text-xs text-primary-400 block mt-0.5">酒泉 · 可行性论证阶段</span>
-          </a>
-        </li>
+        {latestProjects.map((entry) => (
+          <li>
+            <a href={`${BASE}/projects/${entry.id}`} class="block group">
+              <span class="text-sm text-primary-700 group-hover:text-accent-600 transition-colors">{entry.data.title}</span>
+              <span class="text-xs text-primary-400 block mt-0.5">{entry.data.location} · {entry.data.lifecycleStage}</span>
+            </a>
+          </li>
+        ))}
+        {latestProjects.length === 0 && (
+          <li><span class="text-sm text-primary-400">暂无内容</span></li>
+        )}
       </ul>
     </div>
   </div>
