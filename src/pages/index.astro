@@ -102,7 +102,7 @@ const totalInstalled = installData.totalInstalled;
       <ul class="space-y-3">
         {latestTechs.map((entry) => (
           <li>
-            <a href={`${BASE}/technologies/${entry.id}/`} class="block group">
+            <a href={`${BASE}/technologies/${entry.slug}/`} class="block group">
               <span class="text-sm text-primary-700 group-hover:text-accent-600 transition-colors">{entry.data.title}</span>
               <span class="text-xs text-primary-400 block mt-0.5">{entry.data.publishDate.toISOString().split('T')[0]}</span>
             </a>
@@ -121,7 +121,7 @@ const totalInstalled = installData.totalInstalled;
       <ul class="space-y-3">
         {latestProjects.map((entry) => (
           <li>
-            <a href={`${BASE}/projects/${entry.id}/`} class="block group">
+            <a href={`${BASE}/projects/${entry.slug}/`} class="block group">
               <span class="text-sm text-primary-700 group-hover:text-accent-600 transition-colors">{entry.data.title}</span>
               <span class="text-xs text-primary-400 block mt-0.5">{entry.data.location} · {entry.data.lifecycleStage}</span>
             </a>
