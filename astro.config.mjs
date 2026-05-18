@@ -5,7 +5,8 @@ import { fileURLToPath } from 'node:url';
 
 export default defineConfig({
   integrations: [tailwind(), sitemap()],
-  site: 'https://energy-storage-science.pages.dev',
+  site: 'https://ti835.github.io',
+  base: '/energy-storage-science',
   output: 'static',
   build: {
     format: 'directory',
