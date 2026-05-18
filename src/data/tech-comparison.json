@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17",
+  "lastUpdated": "2026-05-18",
   "technologies": [
     {
       "name": "磷酸铁锂",
@@ -15,7 +15,7 @@
       "name": "钠离子电池",
       "energyDensity": 140,
       "cycleLife": 5000,
-      "lcoe": 0.30,
+      "lcoe": 0.3,
       "trlLevel": 8,
       "roundTripEfficiency": 90,
       "safetyIndex": 80,
@@ -45,7 +45,7 @@
       "name": "压缩空气",
       "energyDensity": 8,
       "cycleLife": 10000,
-      "lcoe": 0.20,
+      "lcoe": 0.2,
       "trlLevel": 8,
       "roundTripEfficiency": 72,
       "safetyIndex": 90,
@@ -55,7 +55,7 @@
       "name": "飞轮储能",
       "energyDensity": 20,
       "cycleLife": 100000,
-      "lcoe": 0.80,
+      "lcoe": 0.8,
       "trlLevel": 9,
       "roundTripEfficiency": 93,
       "safetyIndex": 75,

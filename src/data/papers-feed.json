@@ -1,0 +1,51 @@
+{
+  "lastUpdated": "2026-05-18",
+  "papers": [
+    {
+      "title": "Designing Datacenter Power Delivery Hierarchies for the AI Era",
+      "authors": [
+        "Grant Wilkins",
+        "Fiodar Kazhamiaka",
+        "Alok Gautam Kumbhare",
+        "Chaojie Zhang",
+        "Ricardo Bianchini"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-15",
+      "abstract": "Demand for AI accelerators is rapidly increasing rack power density, with projections approaching 1MW per deployment by 2027. This poses a major challenge for datacenter power delivery designers. As power densities increase, a datacenter designed for a different target density may strand power, i.e., may be unable to use all the power that its delivery hierarchy has provisioned. Designs must remain efficient over long datacenter lifetimes and multiple hardware generations. Power utilization is p",
+      "keywords": [],
+      "arxivId": "2605.16255v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Fortuity and Complexity in a Simple Quark Model",
+      "authors": [
+        "Jackson R. Fliss",
+        "Vishnu Jejjala",
+        "Onkar Parrikar"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-15",
+      "abstract": "We observe and elaborate on a structural similarity between the categorization of monotone and fortuitous BPS operators in supersymmetric theories and gauge invariant quark operators in $SU(N_c)$ QCD. Our designation of fortuity does not rely on supersymmetry and instead uses the BRST cohomology. We argue that within this designation, baryon states are fortuitous while meson states are monotone. We illustrate that in the Veneziano limit of large number of flavors and colors, this designation dis",
+      "keywords": [],
+      "arxivId": "2605.16254v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Stern--Gerlach Spin Sorting in Relativistic Magnetic Reconnection",
+      "authors": [
+        "K. Nykyri"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-15",
+      "abstract": "We introduce a Stern--Gerlach (SG) spin-kinetic control parameter for magnetic reconnection. The fully projected branch parameter, $Ξ_0=&lt;Z&gt;/r_L$ compares the SG cross-sheet displacement accumulated during a diffusion-region transit with the relativistic Larmor radius. For an ensemble or partially participating population the relevant effective parameter is $Ξ_{\\rm Eff}=P_{eff}Ξ_0$, where $P_{eff}$ represents the surviving branch weight or effective spin/moment projection. Evaluating $Ξ_{\\r",
+      "keywords": [],
+      "arxivId": "2605.16243v1",
+      "doi": "",
+      "relevance": "medium"
+    }
+  ],
+  "totalCount": 3
+}
