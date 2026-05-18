@@ -1,8 +1,10 @@
+export const BASE = '/energy-storage-science';
+
 export const SITE = {
   title: '储能科学',
   tagline: '数据驱动的储能技术洞察',
   description: '专注于储能科学与工程的个人知识库，深度聚合前沿技术、工程实践与市场数据。',
-  url: 'https://energy-storage-science.pages.dev',
+  url: 'https://ti835.github.io/energy-storage-science',
   ogImage: '/images/og-default.png',
 } as const;
 

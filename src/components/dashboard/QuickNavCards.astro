@@ -1,5 +1,9 @@
+---
+import { BASE } from '@lib/constants';
+---
+
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-  <a href="/technologies" class="group relative overflow-hidden bg-white rounded-xl border border-primary-100 hover:border-accent-300 hover:shadow-lg transition-all p-6">
+  <a href={`${BASE}/technologies`} class="group relative overflow-hidden bg-white rounded-xl border border-primary-100 hover:border-accent-300 hover:shadow-lg transition-all p-6">
     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent-50 to-transparent rounded-bl-3xl -mr-8 -mt-8 group-hover:scale-150 transition-transform duration-500"></div>
     <div class="relative">
       <div class="w-12 h-12 bg-gradient-to-br from-accent-500 to-accent-700 rounded-xl flex items-center justify-center mb-4 shadow-sm group-hover:shadow-md transition-shadow">
@@ -21,7 +25,7 @@
     </div>
   </a>
 
-  <a href="/projects" class="group relative overflow-hidden bg-white rounded-xl border border-primary-100 hover:border-accent-300 hover:shadow-lg transition-all p-6">
+  <a href={`${BASE}/projects`} class="group relative overflow-hidden bg-white rounded-xl border border-primary-100 hover:border-accent-300 hover:shadow-lg transition-all p-6">
     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-blue-50 to-transparent rounded-bl-3xl -mr-8 -mt-8 group-hover:scale-150 transition-transform duration-500"></div>
     <div class="relative">
       <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center mb-4 shadow-sm group-hover:shadow-md transition-shadow">

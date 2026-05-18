@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import SectionLayout from '@layouts/SectionLayout.astro';
 import ProjectCard from '@components/projects/ProjectCard.astro';
+import { BASE } from '@lib/constants';
 
 const projects = await getCollection('projects');
 const sorted = projects.sort((a, b) => b.data.startDate.getTime() - a.data.startDate.getTime());
@@ -23,7 +24,7 @@ const sorted = projects.sort((a, b) => b.data.startDate.getTime() - a.data.start
     )
   }
   <div class="mt-8 text-center">
-    <a href="/projects/calculator" class="inline-flex px-6 py-3 bg-accent-600 text-white rounded-lg font-medium hover:bg-accent-700 transition-colors">
+    <a href={`${BASE}/projects/calculator`} class="inline-flex px-6 py-3 bg-accent-600 text-white rounded-lg font-medium hover:bg-accent-700 transition-colors">
       储能收益计算器 →
     </a>
   </div>

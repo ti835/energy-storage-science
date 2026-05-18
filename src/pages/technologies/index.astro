@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import SectionLayout from '@layouts/SectionLayout.astro';
 import TechCard from '@components/tech/TechCard.astro';
+import { BASE } from '@lib/constants';
 
 const technologies = await getCollection('technologies');
 const sorted = technologies.sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
@@ -23,7 +24,7 @@ const sorted = technologies.sort((a, b) => b.data.publishDate.getTime() - a.data
     )
   }
   <div class="mt-8 text-center">
-    <a href="/technologies/compare" class="inline-flex px-6 py-3 bg-accent-600 text-white rounded-lg font-medium hover:bg-accent-700 transition-colors">
+    <a href={`${BASE}/technologies/compare`} class="inline-flex px-6 py-3 bg-accent-600 text-white rounded-lg font-medium hover:bg-accent-700 transition-colors">
       技术路线对比 →
     </a>
   </div>

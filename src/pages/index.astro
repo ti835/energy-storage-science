@@ -6,6 +6,7 @@ import PriceSpreadChart from '@components/dashboard/PriceSpreadChart.astro';
 import DispatchChart from '@components/dashboard/DispatchChart.astro';
 import DailyReportCard from '@components/dashboard/DailyReportCard.astro';
 import QuickNavCards from '@components/dashboard/QuickNavCards.astro';
+import { BASE } from '@lib/constants';
 ---
 
 <DashboardLayout
@@ -73,17 +74,17 @@ import QuickNavCards from '@components/dashboard/QuickNavCards.astro';
     <div class="bg-white rounded-xl border border-primary-100 p-6">
       <div class="flex items-center justify-between mb-4">
         <h3 class="font-bold text-primary-800">最新技术洞察</h3>
-        <a href="/technologies" class="text-xs text-accent-600 hover:text-accent-700">全部 →</a>
+        <a href={`${BASE}/technologies`} class="text-xs text-accent-600 hover:text-accent-700">全部 →</a>
       </div>
       <ul class="space-y-3">
         <li>
-          <a href="/technologies/solid-state-battery" class="block group">
+          <a href={`${BASE}/technologies/solid-state-battery`} class="block group">
             <span class="text-sm text-primary-700 group-hover:text-accent-600 transition-colors">固态电池技术深度解析 — 从材料体系到量产挑战</span>
             <span class="text-xs text-primary-400 block mt-0.5">2026-03-15</span>
           </a>
         </li>
         <li>
-          <a href="/technologies/sodium-ion-battery" class="block group">
+          <a href={`${BASE}/technologies/sodium-ion-battery`} class="block group">
             <span class="text-sm text-primary-700 group-hover:text-accent-600 transition-colors">钠离子电池产业化进程 — 层状氧化物 vs 普鲁士蓝 vs 聚阴离子</span>
             <span class="text-xs text-primary-400 block mt-0.5">2026-04-20</span>
           </a>
@@ -93,17 +94,17 @@ import QuickNavCards from '@components/dashboard/QuickNavCards.astro';
     <div class="bg-white rounded-xl border border-primary-100 p-6">
       <div class="flex items-center justify-between mb-4">
         <h3 class="font-bold text-primary-800">最新工程案例</h3>
-        <a href="/projects" class="text-xs text-accent-600 hover:text-accent-700">全部 →</a>
+        <a href={`${BASE}/projects`} class="text-xs text-accent-600 hover:text-accent-700">全部 →</a>
       </div>
       <ul class="space-y-3">
         <li>
-          <a href="/projects/shandong-lng-cni-storage" class="block group">
+          <a href={`${BASE}/projects/shandong-lng-cni-storage`} class="block group">
             <span class="text-sm text-primary-700 group-hover:text-accent-600 transition-colors">山东 LNG 接收站 200MW/400MWh 工商业储能项目</span>
             <span class="text-xs text-primary-400 block mt-0.5">烟台 · 施工安装阶段</span>
           </a>
         </li>
         <li>
-          <a href="/projects/gansu-gw-compressed-air" class="block group">
+          <a href={`${BASE}/projects/gansu-gw-compressed-air`} class="block group">
             <span class="text-sm text-primary-700 group-hover:text-accent-600 transition-colors">甘肃河西走廊 300MW/1200MWh 压缩空气储能电站</span>
             <span class="text-xs text-primary-400 block mt-0.5">酒泉 · 可行性论证阶段</span>
           </a>

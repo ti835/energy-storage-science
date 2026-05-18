@@ -1,5 +1,6 @@
 ---
 import { SITE } from '@lib/constants';
+import { BASE } from '@lib/constants';
 ---
 
 <footer class="bg-primary-900 text-primary-300 mt-20">
@@ -22,10 +23,10 @@ import { SITE } from '@lib/constants';
       <div>
         <h3 class="text-white font-semibold mb-3 text-sm uppercase tracking-wider">快速导航</h3>
         <ul class="space-y-2">
-          <li><a href="/technologies" class="text-sm hover:text-white transition-colors">前沿储能技术</a></li>
-          <li><a href="/projects" class="text-sm hover:text-white transition-colors">最新储能工程</a></li>
-          <li><a href="/papers" class="text-sm hover:text-white transition-colors">论文追踪</a></li>
-          <li><a href="/reports" class="text-sm hover:text-white transition-colors">日报存档</a></li>
+          <li><a href={`${BASE}/technologies`} class="text-sm hover:text-white transition-colors">前沿储能技术</a></li>
+          <li><a href={`${BASE}/projects`} class="text-sm hover:text-white transition-colors">最新储能工程</a></li>
+          <li><a href={`${BASE}/papers`} class="text-sm hover:text-white transition-colors">论文追踪</a></li>
+          <li><a href={`${BASE}/reports`} class="text-sm hover:text-white transition-colors">日报存档</a></li>
         </ul>
       </div>
 

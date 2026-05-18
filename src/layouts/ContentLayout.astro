@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import TableOfContents from '@components/shared/TableOfContents.astro';
+import { BASE } from '@lib/constants';
 
 export interface Props {
   title: string;
@@ -34,7 +35,7 @@ const {
         {
           category && (
             <nav class="flex items-center gap-2 text-sm text-primary-400 mb-6">
-              <a href="/" class="hover:text-primary-600 transition-colors">首页</a>
+              <a href={`${BASE}/`} class="hover:text-primary-600 transition-colors">首页</a>
               <span>/</span>
               <a
                 href={`/${category === 'technology' ? 'technologies' : category === 'project' ? 'projects' : category === 'report' ? 'reports' : 'papers'}`}
