@@ -9,11 +9,11 @@ export const SITE = {
 } as const;
 
 export const NAV_ITEMS = [
-  { label: '首页', href: '/', icon: 'dashboard' },
-  { label: '前沿技术', href: '/technologies', icon: 'tech' },
-  { label: '储能工程', href: '/projects', icon: 'engineering' },
-  { label: '论文追踪', href: '/papers', icon: 'papers' },
-  { label: '日报存档', href: '/reports', icon: 'reports' },
+  { label: '首页', href: `${BASE}/`, icon: 'dashboard' },
+  { label: '前沿技术', href: `${BASE}/technologies`, icon: 'tech' },
+  { label: '储能工程', href: `${BASE}/projects`, icon: 'engineering' },
+  { label: '论文追踪', href: `${BASE}/papers`, icon: 'papers' },
+  { label: '日报存档', href: `${BASE}/reports`, icon: 'reports' },
 ] as const;
 
 export const TECH_CATEGORIES = {
