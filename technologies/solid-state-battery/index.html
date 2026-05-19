@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="全面剖析固态电池的核心技术路径（氧化物/硫化物/聚合物电解质），梳理能量密度突破600Wh/kg的研发进展，以及量产面临的关键工程瓶颈。"><meta property="og:title" content="固态电池技术深度解析 — 从材料体系到量产挑战 | 储能科学"><meta property="og:description" content="全面剖析固态电池的核心技术路径（氧化物/硫化物/聚合物电解质），梳理能量密度突破600Wh/kg的研发进展，以及量产面临的关键工程瓶颈。"><meta property="og:image" content="https://ti835.github.io/energy-storage-science/images/og-default.png"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/svg+xml" href="/energy-storage-science/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><title>固态电池技术深度解析 — 从材料体系到量产挑战 | 储能科学</title><script type="module">function v(){const r=document.getElementById("search-modal"),s=document.getElementById("search-input"),l=document.getElementById("search-trigger"),L=document.getElementById("search-backdrop"),y=document.getElementById("search-close"),n=document.getElementById("search-results-list"),t=document.getElementById("search-loading"),i=document.getElementById("search-empty"),e=document.getElementById("search-no-results");if(!r||!s||!l)return;function m(){r.classList.remove("hidden"),document.body.style.overflow="hidden",setTimeout(()=>s?.focus(),100)}function a(){r.classList.add("hidden"),document.body.style.overflow="",s&&(s.value=""),n&&(n.innerHTML=""),t&&t.classList.add("hidden"),i&&i.classList.remove("hidden"),e&&e?.classList.add("hidden")}l.addEventListener("click",m),L?.addEventListener("click",a),y?.addEventListener("click",a),document.addEventListener("keydown",d=>{d.key==="Escape"&&(r.classList.contains("hidden")||a(),s?.blur()),(d.ctrlKey||d.metaKey)&&d.key==="k"&&(d.preventDefault(),r.classList.contains("hidden")?m():a())});let u;s.addEventListener("input",()=>{clearTimeout(u);const d=s.value.trim();if(!d){n&&(n.innerHTML=""),t&&t.classList.add("hidden"),i&&i.classList.remove("hidden"),e&&e?.classList.add("hidden");return}u=setTimeout(async()=>{if(!(!n||!t||!i||!e)){n.innerHTML="",t.classList.remove("hidden"),i.classList.add("hidden"),e.classList.add("hidden");try{if(typeof window.pagefind<"u"){const f=await window.pagefind.search(d,{excerptLength:30});if(t.classList.add("hidden"),!f?.results?.length){e.classList.remove("hidden");return}for(const p of f.results.slice(0,10)){const c=await p.data(),o=document.createElement("a");o.href=c.url,o.className="block p-3 rounded-lg hover:bg-primary-50 transition-colors border border-transparent hover:border-primary-100",o.innerHTML=`
+              <div class="text-sm font-semibold text-primary-800">${c.meta?.title||c.url}</div>
+              <div class="text-xs text-primary-400 mt-1 line-clamp-2">${c.excerpt||""}</div>
+            `,n.appendChild(o)}}else t.classList.add("hidden"),e.classList.remove("hidden"),e&&(e.innerHTML='<div class="text-center py-8 text-primary-400 text-sm">搜索功能需构建后可用（运行 npm run build 后预览）</div>')}catch(h){console.error("Pagefind search error:",h),t.classList.add("hidden"),e.classList.remove("hidden")}}},300)})}document.addEventListener("DOMContentLoaded",()=>{v()});</script><link rel="stylesheet" href="/energy-storage-science/_astro/about.bcAbhYR2.css">
+<link rel="stylesheet" href="/energy-storage-science/_astro/_slug_.DwPgwzgh.css"></head> <body class="min-h-screen flex flex-col "> <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-primary-100 shadow-sm"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="flex items-center justify-between h-16"> <!-- Logo --> <a href="/energy-storage-science/" class="flex items-center gap-2.5 group"> <div class="w-8 h-8 bg-gradient-to-br from-accent-500 to-primary-600 rounded-lg flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow"> <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path> </svg> </div> <span class="text-lg font-bold text-primary-900 tracking-tight">储能科学</span> </a> <!-- Desktop nav --> <div class="hidden md:flex items-center gap-1"> <a href="/energy-storage-science/" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 首页 </a><a href="/energy-storage-science/technologies" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 前沿技术 </a><a href="/energy-storage-science/projects" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 储能工程 </a><a href="/energy-storage-science/papers" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 论文追踪 </a><a href="/energy-storage-science/reports" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 日报存档 </a> </div> <!-- Search + mobile menu --> <div class="flex items-center gap-2"> <button id="search-trigger" class="flex items-center gap-2 px-3 py-2 text-sm text-primary-500 hover:text-primary-700 hover:bg-primary-50 rounded-lg transition-colors border border-primary-200" aria-label="搜索"> <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path> </svg> <span class="hidden sm:inline">搜索</span> <kbd class="hidden sm:inline text-xs px-1.5 py-0.5 bg-primary-100 rounded text-primary-400">Ctrl+K</kbd> </button> <!-- Mobile menu toggle --> <button id="mobile-menu-toggle" class="md:hidden p-2 text-primary-500 hover:text-primary-700" aria-label="菜单"> <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path> </svg> </button> </div> </div> <!-- Mobile nav (hidden by default) --> <div id="mobile-menu" class="hidden md:hidden pb-4 border-t border-primary-100 mt-0 pt-3"> <a href="/energy-storage-science/" class="block px-3 py-2 rounded-lg text-sm font-medium transition-colors mb-1 text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 首页 </a><a href="/energy-storage-science/technologies" class="block px-3 py-2 rounded-lg text-sm font-medium transition-colors mb-1 text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 前沿技术 </a><a href="/energy-storage-science/projects" class="block px-3 py-2 rounded-lg text-sm font-medium transition-colors mb-1 text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 储能工程 </a><a href="/energy-storage-science/papers" class="block px-3 py-2 rounded-lg text-sm font-medium transition-colors mb-1 text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 论文追踪 </a><a href="/energy-storage-science/reports" class="block px-3 py-2 rounded-lg text-sm font-medium transition-colors mb-1 text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 日报存档 </a> </div> </div> </nav> <script type="module">const e=document.getElementById("mobile-menu-toggle"),t=document.getElementById("mobile-menu");e&&t&&e.addEventListener("click",()=>{t.classList.toggle("hidden")});</script> <main class="flex-1">   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8"> <div class="flex gap-8"> <article class="flex-1 min-w-0"> <!-- Breadcrumb --> <nav class="flex items-center gap-2 text-sm text-primary-400 mb-6"> <a href="/energy-storage-science/" class="hover:text-primary-600 transition-colors">首页</a> <span>/</span> <a href="/energy-storage-science/technologies" class="hover:text-primary-600 transition-colors"> 前沿技术 </a> <span>/</span> <span class="text-primary-600 truncate">固态电池技术深度解析 — 从材料体系到量产挑战</span> </nav> <!-- Header --> <header class="mb-8"> <h1 class="text-3xl font-bold text-primary-900 leading-tight">固态电池技术深度解析 — 从材料体系到量产挑战</h1> <time datetime="2026-03-15T00:00:00.000Z" class="text-sm text-primary-400 mt-2 block"> 2026年3月15日 </time> </header> <!-- Content --> <div class="prose prose-lg max-w-none">   <div class="flex flex-wrap gap-1.5"> <span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">固态电解质</span><span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">硫化物体系</span><span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">界面工程</span><span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">丰田</span> </div>  <h2 id="为什么固态电池是颠覆性技术">为什么固态电池是”颠覆性”技术</h2>
+<p>传统锂离子电池使用液态有机电解液，其固有的可燃性和电化学窗口限制（~4.3V vs. Li/Li+）已成为能量密度继续攀升的根本障碍。固态电池以无机固态电解质替代液态电解液，在三个维度上实现跨越：</p>
+<ol>
+<li><strong>安全性</strong>：固态电解质不可燃，从根本上消除了热失控风险</li>
+<li><strong>能量密度</strong>：可匹配金属锂负极（理论比容量 3860 mAh/g），将电芯级能量密度推至 500+ Wh/kg</li>
+<li><strong>宽温域</strong>：无机电解质可在 -30°C 至 100°C 范围内稳定工作</li>
+</ol>
+<h2 id="三大电解质技术路线对比">三大电解质技术路线对比</h2>
+<h3 id="氧化物电解质-llzo-latp">氧化物电解质 (LLZO, LATP)</h3>
+<p>氧化物体系离子电导率中等（10⁻⁴ - 10⁻³ S/cm），但化学稳定性好，对空气不敏感。</p>
+<p><strong>优势</strong>：可在大气环境中制备，工艺兼容性好
+<strong>瓶颈</strong>：晶界电阻大，与正极界面接触差，需高温共烧</p>
+<h3 id="硫化物电解质-lgps-lipscl">硫化物电解质 (LGPS, Li₆PS₅Cl)</h3>
+<p>离子电导率最高（10⁻² S/cm），接近甚至超越液态电解液水平。</p>
+<p><strong>优势</strong>：冷压即可成型，无需高温烧结，最有量产前景
+<strong>瓶颈</strong>：对水分极度敏感，遇水产生 H₂S 有毒气体，需全程干燥环境（露点 -60°C）</p>
+<h3 id="聚合物电解质-peo-基">聚合物电解质 (PEO 基)</h3>
+<p>柔韧性好，与电极界面接触优异。</p>
+<p><strong>优势</strong>：工艺最简单，已有小规模量产
+<strong>瓶颈</strong>：室温离子电导率极低（10⁻⁶ - 10⁻⁵ S/cm），需加热至 60°C 以上使用</p>
+<h2 id="量产进度与关键玩家">量产进度与关键玩家</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>企业/机构</th><th>技术路线</th><th>进展阶段</th><th>目标能量密度</th></tr></thead><tbody><tr><td>丰田汽车</td><td>硫化物</td><td>2027年装车</td><td>700 Wh/L</td></tr><tr><td>宁德时代</td><td>凝聚态/准固态</td><td>2025年样品</td><td>500 Wh/kg</td></tr><tr><td>QuantumScape</td><td>氧化物</td><td>B样送样</td><td>400 Wh/kg</td></tr><tr><td>卫蓝新能源</td><td>氧化物+聚合物</td><td>已装车蔚来ET7</td><td>360 Wh/kg</td></tr><tr><td>Solid Power</td><td>硫化物</td><td>A样送样</td><td>390 Wh/kg</td></tr></tbody></table>
+<h2 id="核心工程挑战">核心工程挑战</h2>
+<h3 id="1-固-固界面接触">1. 固-固界面接触</h3>
+<p>液态电池的电极/电解液界面是天然的固-液接触，而固态电池的固-固界面接触面积小、阻抗大。充电过程中电极体积膨胀（如硅负极膨胀 300%）会进一步劣化界面。</p>
+<p><strong>解决方向</strong>：界面修饰层（如 Al₂O₃ 纳米涂层）、梯度电解质设计、施加外部压力（1-10 MPa）</p>
+<h3 id="2-锂枝晶穿透">2. 锂枝晶穿透</h3>
+<p>固态电解质虽在理论上可阻挡锂枝晶，但实际中枝晶会沿晶界或缺陷穿透。尤其在 > 3 mA/cm² 的电流密度下，硫化物电解质穿透现象显著。</p>
+<h3 id="3-规模化制造">3. 规模化制造</h3>
+<p>硫化物路线的干房建设、大尺寸电解质膜的连续化制备、叠片工艺的精度控制，均处于工程化验证期。</p>
+<h2 id="未来展望与技术判断">未来展望与技术判断</h2>
+<ul>
+<li><strong>时间线</strong>：2027-2028 年硫化物全固态电池有望在高端车型实现首次量产搭载</li>
+<li><strong>产业化路径</strong>：聚合物体系作为过渡产品先行；氧化物/聚合物复合体系在储能场景有性价比优势；硫化物是全固态终极方向</li>
+<li><strong>对储能的影响</strong>：若量产成本降至 0.4 元/Wh 以下，固态电池将在长时储能领域对液流电池构成直接竞争</li>
+</ul>  </div> </article> <!-- Sidebar --> <aside class="hidden lg:block w-56 flex-shrink-0"> <div class="sticky top-24"> <h4 class="text-xs font-semibold text-primary-400 uppercase tracking-wider mb-3">目录</h4> <nav class="text-sm leading-relaxed"> <ul class="space-y-1.5"> <li> <a href="#为什么固态电池是颠覆性技术" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> 为什么固态电池是”颠覆性”技术 </a> </li><li> <a href="#三大电解质技术路线对比" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> 三大电解质技术路线对比 </a> </li><li> <a href="#氧化物电解质-llzo-latp" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 氧化物电解质 (LLZO, LATP) </a> </li><li> <a href="#硫化物电解质-lgps-lipscl" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 硫化物电解质 (LGPS, Li₆PS₅Cl) </a> </li><li> <a href="#聚合物电解质-peo-基" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 聚合物电解质 (PEO 基) </a> </li><li> <a href="#量产进度与关键玩家" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> 量产进度与关键玩家 </a> </li><li> <a href="#核心工程挑战" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> 核心工程挑战 </a> </li><li> <a href="#1-固-固界面接触" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 1. 固-固界面接触 </a> </li><li> <a href="#2-锂枝晶穿透" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 2. 锂枝晶穿透 </a> </li><li> <a href="#3-规模化制造" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 3. 规模化制造 </a> </li><li> <a href="#未来展望与技术判断" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> 未来展望与技术判断 </a> </li> </ul> </nav> <script type="module">const s=document.querySelectorAll("h2[id], h3[id]"),c=document.querySelectorAll('nav a[href^="#"]'),o=new IntersectionObserver(t=>{t.forEach(r=>{r.isIntersecting&&c.forEach(e=>{e.classList.remove("text-accent-600","font-medium"),e.classList.add("text-primary-500"),e.getAttribute("href")===`#${r.target.id}`&&(e.classList.add("text-accent-600","font-medium"),e.classList.remove("text-primary-500"))})})},{rootMargin:"-80px 0px -80% 0px"});s.forEach(t=>o.observe(t));</script>  </div> </aside> </div> </div>  </main> <footer class="bg-primary-900 text-primary-300 mt-20"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"> <div class="grid grid-cols-1 md:grid-cols-3 gap-8"> <!-- Brand --> <div> <div class="flex items-center gap-2 mb-3"> <div class="w-7 h-7 bg-gradient-to-br from-accent-500 to-accent-700 rounded flex items-center justify-center"> <svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path> </svg> </div> <span class="text-white font-semibold">储能科学</span> </div> <p class="text-sm leading-relaxed">专注于储能科学与工程的个人知识库，深度聚合前沿技术、工程实践与市场数据。</p> </div> <!-- Quick links --> <div> <h3 class="text-white font-semibold mb-3 text-sm uppercase tracking-wider">快速导航</h3> <ul class="space-y-2"> <li><a href="/energy-storage-science/technologies" class="text-sm hover:text-white transition-colors">前沿储能技术</a></li> <li><a href="/energy-storage-science/projects" class="text-sm hover:text-white transition-colors">最新储能工程</a></li> <li><a href="/energy-storage-science/papers" class="text-sm hover:text-white transition-colors">论文追踪</a></li> <li><a href="/energy-storage-science/reports" class="text-sm hover:text-white transition-colors">日报存档</a></li> </ul> </div> <!-- Tech stack --> <div> <h3 class="text-white font-semibold mb-3 text-sm uppercase tracking-wider">技术驱动</h3> <p class="text-sm leading-relaxed">
+基于 Astro + ECharts 构建，Python 自动化数据抓取与 LLM 日报生成，Pagefind 全文检索。
+</p> </div> </div> <div class="border-t border-primary-700 mt-8 pt-6 text-center text-xs text-primary-500">
+&copy; 2026 储能科学 &mdash; 仅供个人学习与研究使用
+</div> </div> </footer> <!--
+  Search modal overlay - uses Pagefind browser API.
+  Pagefind bundle is loaded from /pagefind/pagefind.js after build.
+  For dev mode, we show a simple notice.
+--><div id="search-modal" class="fixed inset-0 z-[100] hidden" role="dialog" aria-modal="true" aria-label="搜索"> <!-- Backdrop --> <div class="absolute inset-0 bg-primary-900/60 backdrop-blur-sm" id="search-backdrop"></div> <!-- Panel --> <div class="relative z-10 max-w-2xl mx-auto mt-[15vh] px-4"> <div class="bg-white rounded-xl shadow-2xl border border-primary-100 overflow-hidden animate-fade-in"> <!-- Search input --> <div class="flex items-center gap-3 px-4 py-3 border-b border-primary-100"> <svg class="w-5 h-5 text-primary-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path> </svg> <input type="text" id="search-input" placeholder="搜索 固态电池、液流电池、钙钛矿、峰谷套利..." class="flex-1 border-0 outline-none text-primary-800 placeholder-primary-300 text-base py-1 bg-transparent" autocomplete="off"> <button id="search-close" class="text-primary-400 hover:text-primary-600 p-1" aria-label="关闭搜索"> <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path> </svg> </button> </div> <!-- Results --> <div id="search-results" class="max-h-96 overflow-y-auto p-4"> <div id="search-loading" class="hidden text-center py-8 text-primary-400 text-sm"> <div class="animate-pulse-slow">搜索中...</div> </div> <div id="search-empty" class="text-center py-8 text-primary-400 text-sm">
+输入关键词开始搜索
+</div> <div id="search-no-results" class="hidden text-center py-8 text-primary-400 text-sm">
+未找到相关结果，请尝试其他关键词
+</div> <div id="search-results-list" class="space-y-3"></div> </div> <!-- Footer --> <div class="px-4 py-2 border-t border-primary-100 bg-gray-50 flex items-center justify-between text-xs text-primary-400"> <span>Pagefind 全文检索</span> <span><kbd class="px-1.5 py-0.5 bg-white border border-primary-200 rounded text-primary-500">ESC</kbd> 关闭</span> </div> </div> </div> </div> <script type="module" src="/energy-storage-science/_astro/BaseLayout.astro_astro_type_script_index_1_lang.DAHdJGr7.js"></script> </body> </html>

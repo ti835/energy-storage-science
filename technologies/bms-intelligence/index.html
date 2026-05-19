@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="储能电池管理系统正从基础的 SOC/SOH 估算向基于 AI 的预测性维护、云端数字孪生、以及 Pack 级主动安全决策演进。本文梳理 BMS 算法架构、关键传感技术和智能化路径。"><meta property="og:title" content="储能 BMS 智能化 — 从 SOC 估算到云端数字孪生的技术跃迁 | 储能科学"><meta property="og:description" content="储能电池管理系统正从基础的 SOC/SOH 估算向基于 AI 的预测性维护、云端数字孪生、以及 Pack 级主动安全决策演进。本文梳理 BMS 算法架构、关键传感技术和智能化路径。"><meta property="og:image" content="https://ti835.github.io/energy-storage-science/images/og-default.png"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/svg+xml" href="/energy-storage-science/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><title>储能 BMS 智能化 — 从 SOC 估算到云端数字孪生的技术跃迁 | 储能科学</title><script type="module">function v(){const r=document.getElementById("search-modal"),s=document.getElementById("search-input"),l=document.getElementById("search-trigger"),L=document.getElementById("search-backdrop"),y=document.getElementById("search-close"),n=document.getElementById("search-results-list"),t=document.getElementById("search-loading"),i=document.getElementById("search-empty"),e=document.getElementById("search-no-results");if(!r||!s||!l)return;function m(){r.classList.remove("hidden"),document.body.style.overflow="hidden",setTimeout(()=>s?.focus(),100)}function a(){r.classList.add("hidden"),document.body.style.overflow="",s&&(s.value=""),n&&(n.innerHTML=""),t&&t.classList.add("hidden"),i&&i.classList.remove("hidden"),e&&e?.classList.add("hidden")}l.addEventListener("click",m),L?.addEventListener("click",a),y?.addEventListener("click",a),document.addEventListener("keydown",d=>{d.key==="Escape"&&(r.classList.contains("hidden")||a(),s?.blur()),(d.ctrlKey||d.metaKey)&&d.key==="k"&&(d.preventDefault(),r.classList.contains("hidden")?m():a())});let u;s.addEventListener("input",()=>{clearTimeout(u);const d=s.value.trim();if(!d){n&&(n.innerHTML=""),t&&t.classList.add("hidden"),i&&i.classList.remove("hidden"),e&&e?.classList.add("hidden");return}u=setTimeout(async()=>{if(!(!n||!t||!i||!e)){n.innerHTML="",t.classList.remove("hidden"),i.classList.add("hidden"),e.classList.add("hidden");try{if(typeof window.pagefind<"u"){const f=await window.pagefind.search(d,{excerptLength:30});if(t.classList.add("hidden"),!f?.results?.length){e.classList.remove("hidden");return}for(const p of f.results.slice(0,10)){const c=await p.data(),o=document.createElement("a");o.href=c.url,o.className="block p-3 rounded-lg hover:bg-primary-50 transition-colors border border-transparent hover:border-primary-100",o.innerHTML=`
+              <div class="text-sm font-semibold text-primary-800">${c.meta?.title||c.url}</div>
+              <div class="text-xs text-primary-400 mt-1 line-clamp-2">${c.excerpt||""}</div>
+            `,n.appendChild(o)}}else t.classList.add("hidden"),e.classList.remove("hidden"),e&&(e.innerHTML='<div class="text-center py-8 text-primary-400 text-sm">搜索功能需构建后可用（运行 npm run build 后预览）</div>')}catch(h){console.error("Pagefind search error:",h),t.classList.add("hidden"),e.classList.remove("hidden")}}},300)})}document.addEventListener("DOMContentLoaded",()=>{v()});</script><link rel="stylesheet" href="/energy-storage-science/_astro/about.bcAbhYR2.css">
+<link rel="stylesheet" href="/energy-storage-science/_astro/_slug_.DwPgwzgh.css"></head> <body class="min-h-screen flex flex-col "> <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-primary-100 shadow-sm"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="flex items-center justify-between h-16"> <!-- Logo --> <a href="/energy-storage-science/" class="flex items-center gap-2.5 group"> <div class="w-8 h-8 bg-gradient-to-br from-accent-500 to-primary-600 rounded-lg flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow"> <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path> </svg> </div> <span class="text-lg font-bold text-primary-900 tracking-tight">储能科学</span> </a> <!-- Desktop nav --> <div class="hidden md:flex items-center gap-1"> <a href="/energy-storage-science/" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 首页 </a><a href="/energy-storage-science/technologies" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 前沿技术 </a><a href="/energy-storage-science/projects" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 储能工程 </a><a href="/energy-storage-science/papers" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 论文追踪 </a><a href="/energy-storage-science/reports" class="px-3 py-2 rounded-lg text-sm font-medium transition-colors text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 日报存档 </a> </div> <!-- Search + mobile menu --> <div class="flex items-center gap-2"> <button id="search-trigger" class="flex items-center gap-2 px-3 py-2 text-sm text-primary-500 hover:text-primary-700 hover:bg-primary-50 rounded-lg transition-colors border border-primary-200" aria-label="搜索"> <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path> </svg> <span class="hidden sm:inline">搜索</span> <kbd class="hidden sm:inline text-xs px-1.5 py-0.5 bg-primary-100 rounded text-primary-400">Ctrl+K</kbd> </button> <!-- Mobile menu toggle --> <button id="mobile-menu-toggle" class="md:hidden p-2 text-primary-500 hover:text-primary-700" aria-label="菜单"> <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path> </svg> </button> </div> </div> <!-- Mobile nav (hidden by default) --> <div id="mobile-menu" class="hidden md:hidden pb-4 border-t border-primary-100 mt-0 pt-3"> <a href="/energy-storage-science/" class="block px-3 py-2 rounded-lg text-sm font-medium transition-colors mb-1 text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 首页 </a><a href="/energy-storage-science/technologies" class="block px-3 py-2 rounded-lg text-sm font-medium transition-colors mb-1 text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 前沿技术 </a><a href="/energy-storage-science/projects" class="block px-3 py-2 rounded-lg text-sm font-medium transition-colors mb-1 text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 储能工程 </a><a href="/energy-storage-science/papers" class="block px-3 py-2 rounded-lg text-sm font-medium transition-colors mb-1 text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 论文追踪 </a><a href="/energy-storage-science/reports" class="block px-3 py-2 rounded-lg text-sm font-medium transition-colors mb-1 text-primary-500 hover:text-primary-700 hover:bg-primary-50"> 日报存档 </a> </div> </div> </nav> <script type="module">const e=document.getElementById("mobile-menu-toggle"),t=document.getElementById("mobile-menu");e&&t&&e.addEventListener("click",()=>{t.classList.toggle("hidden")});</script> <main class="flex-1">   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8"> <div class="flex gap-8"> <article class="flex-1 min-w-0"> <!-- Breadcrumb --> <nav class="flex items-center gap-2 text-sm text-primary-400 mb-6"> <a href="/energy-storage-science/" class="hover:text-primary-600 transition-colors">首页</a> <span>/</span> <a href="/energy-storage-science/technologies" class="hover:text-primary-600 transition-colors"> 前沿技术 </a> <span>/</span> <span class="text-primary-600 truncate">储能 BMS 智能化 — 从 SOC 估算到云端数字孪生的技术跃迁</span> </nav> <!-- Header --> <header class="mb-8"> <h1 class="text-3xl font-bold text-primary-900 leading-tight">储能 BMS 智能化 — 从 SOC 估算到云端数字孪生的技术跃迁</h1> <time datetime="2026-03-05T00:00:00.000Z" class="text-sm text-primary-400 mt-2 block"> 2026年3月5日 </time> </header> <!-- Content --> <div class="prose prose-lg max-w-none">   <div class="flex flex-wrap gap-1.5"> <span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">BMS</span><span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">数字孪生</span><span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">SOC估算</span><span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">热失控预警</span><span class="text-xs px-2 py-0.5 bg-primary-100 text-primary-600 rounded-full">云BMS</span> </div>  <h2 id="bms-为什么是储能安全的第一道防线">BMS 为什么是储能安全的第一道防线</h2>
+<p>2023-2025 年间全球储能电站火灾事故中，约 75% 的初期征兆被 BMS 数据记录，但仅有不到 20% 触发了有效预警。核心矛盾在于：<strong>传统阈值式告警无法捕捉热失控前兆的复杂模式</strong>。</p>
+<p>新一代智能 BMS 的核心目标是将”事后告警”升级为”事前预测”。</p>
+<h2 id="bms-架构演进三级--四级">BMS 架构演进：三级 → 四级</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>层级</th><th>传统三级架构</th><th>智能四级架构</th></tr></thead><tbody><tr><td>L1</td><td>电芯监控单元 (CMU)</td><td>CMU（增加电芯内阻在线辨识）</td></tr><tr><td>L2</td><td>电池簇管理单元 (BCMU)</td><td>BCMU（增加边缘 AI 推理）</td></tr><tr><td>L3</td><td>系统控制单元 (SCU)</td><td>SCU（本地数字孪生引擎）</td></tr><tr><td>L4</td><td>—</td><td>云 BMS 平台（全局模型 + OTA 更新）</td></tr></tbody></table>
+<p>第四级的云 BMS 平台通过汇集多个储能电站的运行数据，训练全局退化模型，再通过 OTA 下发至各站点的边缘推理单元，形成”数据飞轮”。</p>
+<h2 id="soc-估算从安时积分到混合模型">SOC 估算：从安时积分到混合模型</h2>
+<h3 id="安时积分--ocv-校正传统方法">安时积分 + OCV 校正（传统方法）</h3>
+<p>SOC(t) = SOC(0) − ∫I(t)dt / C_nominal，配合开路电压查表校正。</p>
+<ul>
+<li>优点：实现简单，算力要求低</li>
+<li>缺点：电流传感器漂移累积误差；OCV 需要在静置状态测量，在线校正机会少</li>
+</ul>
+<h3 id="扩展卡尔曼滤波-ekf">扩展卡尔曼滤波 (EKF)</h3>
+<p>将电池等效电路模型（RC 网络）与实测电压/电流进行状态估计，在线实时输出 SOC。</p>
+<ul>
+<li>SOC 误差：传统 3-5% → EKF 1-2%</li>
+<li>需要精确的电池模型参数（R₀, R₁, C₁ 等随温度/SOC 变化）</li>
+</ul>
+<h3 id="数据驱动方法aiml">数据驱动方法（AI/ML）</h3>
+<p>利用 LSTM/Transformer 模型学习电压、电流、温度时间序列到 SOC 的映射。宁德时代 2025 年公布的”天恒 BMS”在 NCM 体系上将 SOC 估算误差降至 1% 以内。</p>
+<p><strong>当前最佳实践是 EKF + 数据驱动的混合架构</strong>：EKF 提供物理可解释性和鲁棒性，ML 模型处理老化引起的参数漂移。</p>
+<h2 id="soh-估算与寿命预测">SOH 估算与寿命预测</h2>
+<p>电池健康状态 (SOH) 的准确估算比 SOC 更难——没有直接传感器可测量 SOH。</p>
+<h3 id="间接特征提取">间接特征提取</h3>
+<ul>
+<li>容量增量分析 (ICA)：从 dQ/dV 曲线峰位偏移推断活性物质损失和锂库存损失</li>
+<li>电化学阻抗谱 (EIS)：在线注入交流小信号，测量阻抗谱变化</li>
+<li>差分温度分析 (DTA)：充放电过程中的温差曲线特征</li>
+</ul>
+<h3 id="剩余使用寿命-rul-预测">剩余使用寿命 (RUL) 预测</h3>
+<p>基于 ICA 特征 + 高斯过程回归 (GPR)，在电池衰减至 80% SOH 前 100 循环即可给出 ±30 循环的 RUL 预测。</p>
+<h2 id="热失控预警从阈值到多模态">热失控预警：从阈值到多模态</h2>
+<p>传统预警依赖”电压跌落 + 温度骤升 + 特征气体”的单一阈值判断。新一代方案采用：</p>
+<ol>
+<li><strong>时间序列异常检测</strong>：基于正常运行数据训练自编码器，检测偏离正常模式的异常</li>
+<li><strong>多参数耦合分析</strong>：内阻增长率 + 库伦效率衰减 + 温度分布不均度的多维联合判断</li>
+<li><strong>特征气体早期检测</strong>：H₂（SEI 膜分解）、CO（电解液分解）的 ppm 级检测，比热失控提前 5-15 分钟</li>
+</ol>
+<p>特斯拉 Megapack 的 BMS 在 2024 年更新中加入了基于 Transformer 的异常检测模块，将误报率降低了 70%。</p>
+<h2 id="云-bms-与数字孪生">云 BMS 与数字孪生</h2>
+<p>数字孪生是 BMS 智能化的终极形态：每个物理电芯在云端拥有一个实时同步的虚拟模型。</p>
+<h3 id="数字孪生的技术栈">数字孪生的技术栈</h3>
+<ul>
+<li><strong>电芯模型</strong>：P2D（伪二维）电化学模型降阶 → 可在边缘设备上实时运行</li>
+<li><strong>参数在线辨识</strong>：利用运行数据持续更新电芯模型参数（内阻、容量、扩散系数）</li>
+<li><strong>虚拟传感</strong>：利用模型推算不可直接测量的内部状态（如锂离子浓度分布、SEI 膜厚度）</li>
+<li><strong>预测性维护</strong>：根据数字孪生推演，提前 2-4 周给出维护建议</li>
+</ul>
+<h3 id="落地挑战">落地挑战</h3>
+<ul>
+<li>电化学模型降阶的保真度与计算效率的平衡</li>
+<li>云边通信带宽限制（一个 100MW 电站有数十万个电芯）</li>
+<li>数据安全与隐私（储能电站属于关键基础设施）</li>
+</ul>
+<h2 id="产业格局">产业格局</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>企业</th><th>产品/方案</th><th>特色</th></tr></thead><tbody><tr><td>宁德时代</td><td>天恒 BMS</td><td>端侧 AI 芯片 + EKF + Transformer</td></tr><tr><td>比亚迪</td><td>刀片 BMS</td><td>与刀片电芯深度耦合的专用 BMS</td></tr><tr><td>华为</td><td>智能组串式储能 BMS</td><td>云边协同 + 包级优化器</td></tr><tr><td>特斯拉</td><td>Megapack BMS</td><td>全球最大储能运行数据库</td></tr><tr><td>阳光电源</td><td>储能 BMS 3.0</td><td>三电平拓扑 + 主动均衡</td></tr></tbody></table>
+<h2 id="技术判断">技术判断</h2>
+<ul>
+<li><strong>短期（2025-2027）</strong>：EKF + 轻量 ML 成为储能 BMS 标配，云端接入率从 30% 升至 70%</li>
+<li><strong>中期（2028-2030）</strong>：数字孪生在大型独立储能电站落地，保险机构开始认可基于 BMS 数据的风险评估</li>
+<li><strong>长期</strong>：BMS 不再只是”电池的守护者”，而是虚拟电厂的分布式智能节点</li>
+</ul>  </div> </article> <!-- Sidebar --> <aside class="hidden lg:block w-56 flex-shrink-0"> <div class="sticky top-24"> <h4 class="text-xs font-semibold text-primary-400 uppercase tracking-wider mb-3">目录</h4> <nav class="text-sm leading-relaxed"> <ul class="space-y-1.5"> <li> <a href="#bms-为什么是储能安全的第一道防线" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> BMS 为什么是储能安全的第一道防线 </a> </li><li> <a href="#bms-架构演进三级--四级" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> BMS 架构演进：三级 → 四级 </a> </li><li> <a href="#soc-估算从安时积分到混合模型" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> SOC 估算：从安时积分到混合模型 </a> </li><li> <a href="#安时积分--ocv-校正传统方法" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 安时积分 + OCV 校正（传统方法） </a> </li><li> <a href="#扩展卡尔曼滤波-ekf" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 扩展卡尔曼滤波 (EKF) </a> </li><li> <a href="#数据驱动方法aiml" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 数据驱动方法（AI/ML） </a> </li><li> <a href="#soh-估算与寿命预测" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> SOH 估算与寿命预测 </a> </li><li> <a href="#间接特征提取" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 间接特征提取 </a> </li><li> <a href="#剩余使用寿命-rul-预测" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 剩余使用寿命 (RUL) 预测 </a> </li><li> <a href="#热失控预警从阈值到多模态" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> 热失控预警：从阈值到多模态 </a> </li><li> <a href="#云-bms-与数字孪生" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> 云 BMS 与数字孪生 </a> </li><li> <a href="#数字孪生的技术栈" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 数字孪生的技术栈 </a> </li><li> <a href="#落地挑战" class="block text-primary-500 hover:text-primary-700 transition-colors truncate pl-3 text-primary-400"> 落地挑战 </a> </li><li> <a href="#产业格局" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> 产业格局 </a> </li><li> <a href="#技术判断" class="block text-primary-500 hover:text-primary-700 transition-colors truncate "> 技术判断 </a> </li> </ul> </nav> <script type="module">const s=document.querySelectorAll("h2[id], h3[id]"),c=document.querySelectorAll('nav a[href^="#"]'),o=new IntersectionObserver(t=>{t.forEach(r=>{r.isIntersecting&&c.forEach(e=>{e.classList.remove("text-accent-600","font-medium"),e.classList.add("text-primary-500"),e.getAttribute("href")===`#${r.target.id}`&&(e.classList.add("text-accent-600","font-medium"),e.classList.remove("text-primary-500"))})})},{rootMargin:"-80px 0px -80% 0px"});s.forEach(t=>o.observe(t));</script>  </div> </aside> </div> </div>  </main> <footer class="bg-primary-900 text-primary-300 mt-20"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"> <div class="grid grid-cols-1 md:grid-cols-3 gap-8"> <!-- Brand --> <div> <div class="flex items-center gap-2 mb-3"> <div class="w-7 h-7 bg-gradient-to-br from-accent-500 to-accent-700 rounded flex items-center justify-center"> <svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path> </svg> </div> <span class="text-white font-semibold">储能科学</span> </div> <p class="text-sm leading-relaxed">专注于储能科学与工程的个人知识库，深度聚合前沿技术、工程实践与市场数据。</p> </div> <!-- Quick links --> <div> <h3 class="text-white font-semibold mb-3 text-sm uppercase tracking-wider">快速导航</h3> <ul class="space-y-2"> <li><a href="/energy-storage-science/technologies" class="text-sm hover:text-white transition-colors">前沿储能技术</a></li> <li><a href="/energy-storage-science/projects" class="text-sm hover:text-white transition-colors">最新储能工程</a></li> <li><a href="/energy-storage-science/papers" class="text-sm hover:text-white transition-colors">论文追踪</a></li> <li><a href="/energy-storage-science/reports" class="text-sm hover:text-white transition-colors">日报存档</a></li> </ul> </div> <!-- Tech stack --> <div> <h3 class="text-white font-semibold mb-3 text-sm uppercase tracking-wider">技术驱动</h3> <p class="text-sm leading-relaxed">
+基于 Astro + ECharts 构建，Python 自动化数据抓取与 LLM 日报生成，Pagefind 全文检索。
+</p> </div> </div> <div class="border-t border-primary-700 mt-8 pt-6 text-center text-xs text-primary-500">
+&copy; 2026 储能科学 &mdash; 仅供个人学习与研究使用
+</div> </div> </footer> <!--
+  Search modal overlay - uses Pagefind browser API.
+  Pagefind bundle is loaded from /pagefind/pagefind.js after build.
+  For dev mode, we show a simple notice.
+--><div id="search-modal" class="fixed inset-0 z-[100] hidden" role="dialog" aria-modal="true" aria-label="搜索"> <!-- Backdrop --> <div class="absolute inset-0 bg-primary-900/60 backdrop-blur-sm" id="search-backdrop"></div> <!-- Panel --> <div class="relative z-10 max-w-2xl mx-auto mt-[15vh] px-4"> <div class="bg-white rounded-xl shadow-2xl border border-primary-100 overflow-hidden animate-fade-in"> <!-- Search input --> <div class="flex items-center gap-3 px-4 py-3 border-b border-primary-100"> <svg class="w-5 h-5 text-primary-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path> </svg> <input type="text" id="search-input" placeholder="搜索 固态电池、液流电池、钙钛矿、峰谷套利..." class="flex-1 border-0 outline-none text-primary-800 placeholder-primary-300 text-base py-1 bg-transparent" autocomplete="off"> <button id="search-close" class="text-primary-400 hover:text-primary-600 p-1" aria-label="关闭搜索"> <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path> </svg> </button> </div> <!-- Results --> <div id="search-results" class="max-h-96 overflow-y-auto p-4"> <div id="search-loading" class="hidden text-center py-8 text-primary-400 text-sm"> <div class="animate-pulse-slow">搜索中...</div> </div> <div id="search-empty" class="text-center py-8 text-primary-400 text-sm">
+输入关键词开始搜索
+</div> <div id="search-no-results" class="hidden text-center py-8 text-primary-400 text-sm">
+未找到相关结果，请尝试其他关键词
+</div> <div id="search-results-list" class="space-y-3"></div> </div> <!-- Footer --> <div class="px-4 py-2 border-t border-primary-100 bg-gray-50 flex items-center justify-between text-xs text-primary-400"> <span>Pagefind 全文检索</span> <span><kbd class="px-1.5 py-0.5 bg-white border border-primary-200 rounded text-primary-500">ESC</kbd> 关闭</span> </div> </div> </div> </div> <script type="module" src="/energy-storage-science/_astro/BaseLayout.astro_astro_type_script_index_1_lang.DAHdJGr7.js"></script> </body> </html>
