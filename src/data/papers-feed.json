@@ -1,5 +1,103 @@
 {
-  "lastUpdated": "2026-05-19",
-  "papers": [],
-  "totalCount": 0
+  "lastUpdated": "2026-05-20",
+  "papers": [
+    {
+      "title": "WIMP-like Dark Matter Without Thermalization At Freeze-Out",
+      "authors": [
+        "Dan Hooper",
+        "Gordan Krnjaic",
+        "Gabriele Montefalcone"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-19",
+      "abstract": "In the standard thermal relic scenario, dark matter remains in chemical equilibrium with the Standard Model radiation bath until freeze-out occurs at $T \\sim m_X/20$, where $m_X$ is the dark matter mass. In this familiar class of models, the observed relic density is obtained for annihilation cross sections of order $σv \\sim 10^{-26}$ cm$^3$/s. We show that comparable cross sections can naturally be realized in hidden-sector models in which the dark matter and Standard Model sectors decouple at ",
+      "keywords": [],
+      "arxivId": "2605.20186v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Pauli Correlation Encoding for mRNA Secondary Structure Prediction: Problem-Aware Decoding for Dense-Constraint QUBOs",
+      "authors": [
+        "Triet Friedhoff",
+        "Mihir Metkar",
+        "Wade Davis",
+        "Vaibhaw Kumar",
+        "Alexey Galda"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-19",
+      "abstract": "Pauli Correlation Encoding (PCE) compresses $m$ binary variables onto $n=O(m^{1/k})$ qubits by mapping them to commuting Pauli correlators, but its continuous expectation values must be decoded into feasible binary solutions, a challenge for dense-constraint problems. We apply PCE to mRNA secondary-structure prediction, formulated as a densely constrained QUBO, and train with a QUBO-space sigmoid loss thatpreserves the QUBO penalty structure. For decoding, we introduce the Problem-Aware Guided D",
+      "keywords": [],
+      "arxivId": "2605.20163v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Dark Matter Interpretation of the Super-Kamiokande Antineutrino Excess and Predictions for JUNO",
+      "authors": [
+        "Alessandro Granelli",
+        "Silvia Pascoli",
+        "Salvador Rosauro-Alcaraz"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-19",
+      "abstract": "Super-Kamiokande has reported a small excess of electron antineutrino events in the 20 MeV energy range, in the search for the diffuse supernova neutrino background. We interpret this signal as a possible indication of dark matter that annihilates dominantly into neutrinos, pointing to a thermal dark matter candidate with $s$-wave annihilation and with mass in the tens of MeV range. This mass scale naturally fits into rich dark sector extensions of the Standard Model. Neutrino experiments, inclu",
+      "keywords": [],
+      "arxivId": "2605.20162v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "PiG-Avatar: Hierarchical Neural-Field-Guided Gaussian Avatars",
+      "authors": [
+        "Julian Kaltheuner",
+        "Jan Spindler",
+        "Sina Kitz",
+        "Patrick Stotko",
+        "Reinhard Klein"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-19",
+      "abstract": "Existing Gaussian avatar methods typically parameterize geometry on a body-template surface, which entangles the avatar's representation space with the template's deformation space and limits the capture of layered, off-body, and non-rigid clothing geometry. We present PiG-Avatar, which addresses this limitation by using the parametric body model solely for kinematic transport, while representing the avatar as Gaussians anchored in a volumetric canonical space governed by a continuous neural fie",
+      "keywords": [],
+      "arxivId": "2605.20185v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Hypercube geodesics with few colour changes",
+      "authors": [
+        "Lawrence Hollom"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-19",
+      "abstract": "What is the maximum, over all 2-colourings of the edges of the $n$-dimensional hypercube $Q_n$, of the minimal number of times a path between a vertex $v$ and its antipode $\\bar{v}$ changes colour? A conjecture of Norine, in a form due to Feder and Subi, states that this maximum should be 1. The previous best-known upper bound on the number of colour changes was $(\\tfrac{3}{8} + o(1))n$ due to Dvořák. We improve this bound and answer a question of Leader and Long by finding a geodesic path with ",
+      "keywords": [],
+      "arxivId": "2605.20184v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "MSAVBench: Towards Comprehensive and Reliable Evaluation of Multi-Shot Audio-Video Generation",
+      "authors": [
+        "Yujie Wei",
+        "Yujin Han",
+        "Zhekai Chen",
+        "Yongming Li",
+        "Kaixun Jiang",
+        "Zhihang Liu",
+        "Quanhao Li",
+        "Zhiwu Qing"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-19",
+      "abstract": "Video generation is rapidly evolving from single-shot synthesis to complex multi-shot audio-video (MSAV) narratives to meet real-world demands. However, evaluating such frontier models remains a fundamental challenge. Existing benchmarks are limited in scope and data diversity, and rely on rigid evaluation pipelines, preventing systematic and reliable assessment of modern MSAV models. To bridge these gaps, we introduce MSAVBench, the first comprehensive benchmark and adaptive hybrid evaluation f",
+      "keywords": [],
+      "arxivId": "2605.20183v1",
+      "doi": "",
+      "relevance": "medium"
+    }
+  ],
+  "totalCount": 6
 }
