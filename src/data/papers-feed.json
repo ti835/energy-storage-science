@@ -1,114 +1,86 @@
 {
-  "lastUpdated": "2026-05-24",
+  "lastUpdated": "2026-05-25",
   "papers": [
     {
-      "title": "Bottom-up open EFT for non-Abelian gauge theory with dynamical color environment",
+      "title": "What to do with a Ricci-flat Calabi--Yau metric?",
       "authors": [
-        "Yoshihiko Abe",
-        "Kanji Nishii"
+        "Per Berglund",
+        "Tristan Hübsch",
+        "Vishnu Jejjala"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-21",
-      "abstract": "We develop a bottom-up open effective field theory (EFT) for non-Abelian gauge theories within the Schwinger--Keldysh formalism. Instead of integrating out the environment completely and starting from a nonlocal influence functional, we retain the slow environmental response variables explicitly and construct a local system-environment EFT. The environmental sector is described by a dynamical color-frame variable, Stückelberg-like field, and an associated color-current sector, which gives the no",
+      "publishDate": "2026-05-22",
+      "abstract": "Numerical approximations to Ricci-flat Calabi--Yau metrics make it possible to move beyond the topological and holomorphic data that have traditionally dominated explicit string compactifications. This article explains what new physics and mathematics become accessible once the metric, and eventually the associated Hermitian Yang--Mills bundle data, can be computed. In heterotic compactifications, such data are needed to determine matter Kähler metrics, canonically normalized Yukawa couplings, K",
       "keywords": [],
-      "arxivId": "2605.22822v1",
+      "arxivId": "2605.23900v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "New constraints on physics within and beyond the standard model from the latest CONUS datasets",
+      "title": "A Stochastic Approach for Determining the Quark Confinement Potential of Charmonia",
       "authors": [
-        "N. Ackermann",
-        "H. Bonet",
-        "A. Bonhomme",
-        "C. Buck",
-        "1 K. Fülber",
-        "J. Hakenmüller",
-        "J. Hempfling",
-        "G. Heusser"
+        "Ahmet Bingul",
+        "Altug Ozpineci"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-21",
-      "abstract": "Its detections with pion-decay-at-rest, solar and recently with reactor antineutrinos by the CONUS collaboration render coherent elastic neutrino-nucleus scattering (CE$ν$NS) an established tool for investigations within and beyond the Standard Model (SM). The CONUS experiment located at the nuclear power plants in Brokdorf (Germany) and Leibstadt (Switzerland) operates Germanium semiconductor detectors in a compact shield at close distance to the reactor core. An observation with $3.7 σ$ signif",
+      "publishDate": "2026-05-22",
+      "abstract": "In this study, a non-relativistic potential model is used to calculate the mass spectrum and decay properties of low lying charmonium states. A stochastic framework is proposed to extract the possible analytical form of the confinement part of the interaction potential between quarks. Based on this approach, it is found that the confinement function deviates slightly from a linear form at large distances. The results obtained are compared with other theoretical predictions and current PDG values",
       "keywords": [],
-      "arxivId": "2605.22815v1",
+      "arxivId": "2605.23896v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Two bodies left behind",
+      "title": "Heterotic Strings on Enriques Surfaces",
       "authors": [
-        "Raúl A. Briceño",
-        "Caroline S. R. Costa",
-        "Hans-Werner Hammer",
-        "Daniel R. Phillips"
+        "Arata Ishige",
+        "Elisa Iris Marieni"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-21",
-      "abstract": "We consider scenarios in which a shallow bound state undergoes breakup by a probe whose energy is high compared to the binding energy. The first two scenarios, which serve as warm-up exercises, involve a single heavy particle bound to a light particle, analogous to a core nucleus bound to a neutron. We show that in quasi-free kinematics, the leading effect comes from the heavy particle being knocked out by the probe, with corrections suppressed by inverse powers of the probe momentum. This forma",
+      "publishDate": "2026-05-22",
+      "abstract": "We study orbifold compactifications of heterotic strings on Enriques surfaces. We classify the inequivalent shift vectors for both the E8\\times E8 and Spin(32)/Z2 lattices, and analyse the light spectrum of the resulting models. We show that these models can be interpreted as compactifications of ten-dimensional non-supersymmetric heterotic strings on Enriques surfaces. For certain classes of shifts, the moduli-independent tachyons inherited from the parent theories are projected out.",
       "keywords": [],
-      "arxivId": "2605.22805v1",
+      "arxivId": "2605.23886v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Which Way Did It Move? Diagnosing and Overcoming Directional Motion Blindness in Video-LLMs",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
       "authors": [
-        "Jongseo Lee",
-        "Hyuntak Lee",
-        "Sunghun Kim",
-        "Sooa Kim",
-        "Jihoon Chung",
-        "Jinwoo Choi"
+        "Yifan Yang",
+        "Ziyang Gong",
+        "Weiquan Huang",
+        "Qihao Yang",
+        "Ziwei Zhou",
+        "Zisu Huang",
+        "Yan Li",
+        "Xuemei Gao"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-21",
-      "abstract": "Video Large Language Models (Video-LLMs) have made rapid progress on temporal video understanding, yet many fail at a basic perceptual primitive: signed image-plane motion direction. On simple videos of a single object moving left, right, up, or down, most Video-LLMs perform near chance, with above-chance cases largely attributable to prediction biases rather than genuine direction understanding. We call this failure directional motion blindness. We localize the failure by tracing motion directi",
+      "publishDate": "2026-05-22",
+      "abstract": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedback. We argue the skill should instead be trained as the external state of a frozen agent, with the same discipline that makes weight-space optimization reproducible. SkillOpt is, to our knowledge, the first systematic controllable text-space optimize",
       "keywords": [],
-      "arxivId": "2605.22823v1",
+      "arxivId": "2605.23904v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Cambrian-P: Pose-Grounded Video Understanding",
+      "title": "Divergent Paths to Depolarization: Dialogue Design Determines the Prosocial Benefits of AI-Assisted Political Argumentation",
       "authors": [
-        "Jihan Yang",
-        "Zifan Zhao",
-        "Xichen Pan",
-        "Shusheng Yang",
-        "Junyi Zhang",
-        "Bingyi Kang",
-        "Hu Xu",
-        "Saining Xie"
+        "Jianlong Zhu",
+        "Syed Muhammad Jhon Raza Naqvi",
+        "Carolin-Theresa Ziemer",
+        "Usman Naseem",
+        "Ingmar Weber"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-21",
-      "abstract": "Camera pose matters. The position and orientation of each viewpoint define a shared spatial coordinate frame that relates observations across video frames. Yet this signal is largely absent from multimodal LLMs (MLLMs) for video understanding, which process frames as isolated 2D snapshots, instead of the persistent scene humans perceive. We revisit pose as a lightweight supervisory signal and introduce Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regressio",
+      "publishDate": "2026-05-22",
+      "abstract": "Argumentative dialogues across political divides can reduce polarization, yet opportunities for citizens to engage with opposing views in accessible and structured ways remain limited. AI dialogue partners offer a scalable framework for such open-mindedness exercises, but how the format of human-AI dialogues shapes their benefits remains unclear. In a two-session online experiment, 469 US participants were assigned to argue either for or against their own attitude on a contested political issue ",
       "keywords": [],
-      "arxivId": "2605.22819v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation",
-      "authors": [
-        "Wenxuan Guo",
-        "Xiuwei Xu",
-        "Yichen Liu",
-        "Xiangyu Li",
-        "Hang Yin",
-        "Huangxing Chen",
-        "Wenzhao Zheng",
-        "Jianjiang Feng"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-05-21",
-      "abstract": "Vision-and-Language Navigation (VLN) requires an agent to ground language instructions to its own movement within a visual environment. While state-of-the-art methods leverage the reasoning capabilities of Vision-Language Models (VLMs) for end-to-end action prediction, they often lack an explicit and explainable understanding of the relationships between the agent, the instruction, and the scene. Conversely, explicitly building a scene map for heuristic planning is intuitively appealing but reli",
-      "keywords": [],
-      "arxivId": "2605.22816v1",
+      "arxivId": "2605.23890v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
