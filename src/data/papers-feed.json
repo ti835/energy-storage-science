@@ -1,5 +1,90 @@
 {
-  "lastUpdated": "2026-05-27",
-  "papers": [],
-  "totalCount": 0
+  "lastUpdated": "2026-05-28",
+  "papers": [
+    {
+      "title": "Realization of the Ruby Lattice Antiferromagnet in Layered Transition-Metal Fluorides",
+      "authors": [
+        "Harald O. Jeschke",
+        "Daniel Guterding",
+        "Pratyay Ghosh"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-27",
+      "abstract": "The antiferromagnet on the ruby lattice is expected to host a range of exotic emergent phenomena, yet its material realization has remained elusive. Here we show that the layered transition metal fluorides CsBaFe$_3$F$_{12}$ and CsBaCr$_3$F$_{12}$ with Fe$^{3+}$ and Cr$^{3+}$ ions realize only slightly distorted ruby lattice geometries with spin moments $S=5/2$ and $S=3/2$, respectively. Their microscopic Hamiltonians, calculated with DFT energy mapping, are dominated by short-ranged antiferroma",
+      "keywords": [],
+      "arxivId": "2605.28821v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Fewer simulations, sharper covariances: Reducing mock covariance noise with Zeldovich approximation control variates",
+      "authors": [
+        "Boryana Hadzhiyska",
+        "Martin White"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-27",
+      "abstract": "We present a control-variate method for reducing the variance of power spectrum covariance matrix estimates from simulations of large-scale structure. The key idea is to pair each mock simulation with a cheap Zeldovich-approximation realization sharing the same initial conditions, and to use the known statistical properties of the Zeldovich field to remove correlated sample variance from the covariance estimator. Under a Gaussian disconnected approximation, we derive fully analytic expressions f",
+      "keywords": [],
+      "arxivId": "2605.28817v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Quantum effects in the quadrupole rotor picture of ultra-relativistic ion-ion collisions",
+      "authors": [
+        "Stavros Bofos",
+        "Yi Li",
+        "Chenrong Ding",
+        "Benjamin Bally",
+        "Thomas Duguet",
+        "Mikael Frosini",
+        "Jiangming Yao"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-27",
+      "abstract": "The azimuthal hadronic flow observed in ultra-relativistic ion-ion collisions provides a sensitive probe of many-body ground-state correlations in the colliding nuclei. In particular, collective correlations associated with nuclear \"intrinsic deformation\" are expected to leave pronounced fingerprints on specific final-state observables. However, such effects are commonly interpreted within a classical rigid-rotor picture, despite the intrinsically quantum nature of nuclei. In this Letter, the va",
+      "keywords": [],
+      "arxivId": "2605.28813v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "A cryogenic apparatus for coupling two-dimensional materials to a confocal multimode optical cavity",
+      "authors": [
+        "Han S. Hiller",
+        "Pranav Parakh",
+        "Samuel H. Aronson",
+        "Kenji Maeda",
+        "Di Lao",
+        "Julian Stewart",
+        "Zengde She",
+        "Jierong Wang"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-27",
+      "abstract": "Two-dimensional van der Waals materials exhibit a variety of correlated electron phases, and optical driving offers a promising route toward manipulating them. For example, cavity-enhanced, continuous-wave (CW) Raman excitation has been suggested as a way to coherently and superradiantly populate phonons or charge density waves via material excitons. A steady-state phonon population may be sustained with sufficiently strong electron-phonon coupling to drive novel collective response. We describe",
+      "keywords": [],
+      "arxivId": "2605.28815v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation",
+      "authors": [
+        "Jiahe Pan",
+        "Stelian Coros",
+        "Jitendra Malik",
+        "Toru Lin"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-27",
+      "abstract": "A primary bottleneck in contact-rich manipulation is the difficulty of collecting real-world data. Sim-to-real reinforcement learning offers a scalable alternative, but the simulation-reality gap prevents information-dense modalities like touch from being effectively used. Existing sim-to-real methods often mitigate this gap by simplifying tactile data into coarse low-dimensional features -- sacrificing the richness required for complex manipulation. In this work, we introduce Center-of-Pressure",
+      "keywords": [],
+      "arxivId": "2605.28812v1",
+      "doi": "",
+      "relevance": "medium"
+    }
+  ],
+  "totalCount": 5
 }
