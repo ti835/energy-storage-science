@@ -1,90 +1,104 @@
 {
-  "lastUpdated": "2026-05-28",
+  "lastUpdated": "2026-05-29",
   "papers": [
     {
-      "title": "Realization of the Ruby Lattice Antiferromagnet in Layered Transition-Metal Fluorides",
+      "title": "Quiver Approach to Symmetry Theories",
       "authors": [
-        "Harald O. Jeschke",
-        "Daniel Guterding",
-        "Pratyay Ghosh"
+        "Vivek Chakrabhavi",
+        "Mirjam Cvetič",
+        "Jonathan J. Heckman",
+        "Shani Meynet"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-27",
-      "abstract": "The antiferromagnet on the ruby lattice is expected to host a range of exotic emergent phenomena, yet its material realization has remained elusive. Here we show that the layered transition metal fluorides CsBaFe$_3$F$_{12}$ and CsBaCr$_3$F$_{12}$ with Fe$^{3+}$ and Cr$^{3+}$ ions realize only slightly distorted ruby lattice geometries with spin moments $S=5/2$ and $S=3/2$, respectively. Their microscopic Hamiltonians, calculated with DFT energy mapping, are dominated by short-ranged antiferroma",
+      "publishDate": "2026-05-28",
+      "abstract": "Global symmetry anomalies of a quantum field theory (QFT) can be packaged as specific couplings of a higher-dimensional symmetry theory (SymTh). In this work we show that for 5D superconformal field theories (SCFTs) engineered from M-theory backgrounds $X$ a Calabi-Yau cone, this data can be extracted from the path algebra of branes probing $X$. This provides a complementary algebraic approach compared with more geometric computations based on the explicit calculation of triple intersection numb",
       "keywords": [],
-      "arxivId": "2605.28821v1",
+      "arxivId": "2605.30354v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Fewer simulations, sharper covariances: Reducing mock covariance noise with Zeldovich approximation control variates",
+      "title": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
       "authors": [
-        "Boryana Hadzhiyska",
-        "Martin White"
+        "Hidir Yesiltepe",
+        "Jiazhen Hu",
+        "Tuna Han Salih Meral",
+        "Adil Kaan Akan",
+        "Kaan Oktay",
+        "Hoda Eldardiry",
+        "Pinar Yanardag"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-27",
-      "abstract": "We present a control-variate method for reducing the variance of power spectrum covariance matrix estimates from simulations of large-scale structure. The key idea is to pair each mock simulation with a cheap Zeldovich-approximation realization sharing the same initial conditions, and to use the known statistical properties of the Zeldovich field to remove correlated sample variance from the covariance estimator. Under a Gaussian disconnected approximation, we derive fully analytic expressions f",
+      "publishDate": "2026-05-28",
+      "abstract": "Long-rollout causal video diffusion has converged on a fixed-size sliding-window KV cache, with recent progress innovating within this layout by changing which tokens occupy the window or how their positions are encoded. The per-head KV layout itself, a dominant contributor to streaming memory and latency, has been mostly left unchanged. In this paper, we present the first study of Multi-Head Latent Attention (MLA) in video diffusion. VideoMLA replaces per-head keys and values with a shared low-",
       "keywords": [],
-      "arxivId": "2605.28817v1",
+      "arxivId": "2605.30351v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Quantum effects in the quadrupole rotor picture of ultra-relativistic ion-ion collisions",
+      "title": "Colored Noise Diffusion Sampling",
       "authors": [
-        "Stavros Bofos",
-        "Yi Li",
-        "Chenrong Ding",
-        "Benjamin Bally",
-        "Thomas Duguet",
-        "Mikael Frosini",
-        "Jiangming Yao"
+        "Hadar Davidson",
+        "Noam Issachar",
+        "Sagie Benaim"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-27",
-      "abstract": "The azimuthal hadronic flow observed in ultra-relativistic ion-ion collisions provides a sensitive probe of many-body ground-state correlations in the colliding nuclei. In particular, collective correlations associated with nuclear \"intrinsic deformation\" are expected to leave pronounced fingerprints on specific final-state observables. However, such effects are commonly interpreted within a classical rigid-rotor picture, despite the intrinsically quantum nature of nuclei. In this Letter, the va",
+      "publishDate": "2026-05-28",
+      "abstract": "Diffusion models achieve state-of-the-art image synthesis, with their generative trajectories fundamentally exhibiting a spectral bias, resolving low-frequency global structures early and high-frequency fine details later. Conventional stochastic differential equation (SDE) solvers fail to account for this dynamic, naively injecting uniform white noise throughout the entire process and misusing the finite energy budget. In this work, we establish a mathematical framework that reconsiders SDE inf",
       "keywords": [],
-      "arxivId": "2605.28813v1",
+      "arxivId": "2605.30332v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A cryogenic apparatus for coupling two-dimensional materials to a confocal multimode optical cavity",
+      "title": "GMOS: Grounding Moving Object Segmentation in 3D Space and Time",
       "authors": [
-        "Han S. Hiller",
-        "Pranav Parakh",
-        "Samuel H. Aronson",
-        "Kenji Maeda",
-        "Di Lao",
-        "Julian Stewart",
-        "Zengde She",
-        "Jierong Wang"
+        "Junyu Xie",
+        "Tengda Han",
+        "Weidi Xie",
+        "Andrew Zisserman"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-27",
-      "abstract": "Two-dimensional van der Waals materials exhibit a variety of correlated electron phases, and optical driving offers a promising route toward manipulating them. For example, cavity-enhanced, continuous-wave (CW) Raman excitation has been suggested as a way to coherently and superradiantly populate phonons or charge density waves via material excitons. A steady-state phonon population may be sustained with sufficiently strong electron-phonon coupling to drive novel collective response. We describe",
+      "publishDate": "2026-05-28",
+      "abstract": "Moving Object Segmentation (MOS) aims to discover, segment, and track objects that move independently of the camera. Current MOS methods, however, exhibit two fundamental limitations: they rely on pre-computed 2D auxiliary modalities such as optical flow or point trajectories that lack 3D geometric information, and they treat motion as a sequence-level attribute, overlooking the instantaneous motion state of each object. We address both by grounding MOS in 3D space and time, and propose GMOS, a ",
       "keywords": [],
-      "arxivId": "2605.28815v1",
+      "arxivId": "2605.30352v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation",
+      "title": "AdaState: Self-Evolving Anchors for Streaming Video Generation",
       "authors": [
-        "Jiahe Pan",
-        "Stelian Coros",
-        "Jitendra Malik",
-        "Toru Lin"
+        "Yusuf Dalva",
+        "Pinar Yanardag"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-27",
-      "abstract": "A primary bottleneck in contact-rich manipulation is the difficulty of collecting real-world data. Sim-to-real reinforcement learning offers a scalable alternative, but the simulation-reality gap prevents information-dense modalities like touch from being effectively used. Existing sim-to-real methods often mitigate this gap by simplifying tactile data into coarse low-dimensional features -- sacrificing the richness required for complex manipulation. In this work, we introduce Center-of-Pressure",
+      "publishDate": "2026-05-28",
+      "abstract": "Autoregressive video diffusion models generate streaming video by producing frames sequentially, conditioning each chunk on previously generated content. These models are structurally anchored to the first frame: its key-value representation occupies a privileged position in the attention cache and serves as the primary scene reference throughout generation. As the cleanest and most error-free position in the cache, this anchor draws disproportionate attention, suppressing video dynamics, and lo",
       "keywords": [],
-      "arxivId": "2605.28812v1",
+      "arxivId": "2605.30349v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "NeuROK: Generative 4D Neural Object Kinematics",
+      "authors": [
+        "Chen Geng",
+        "Guangzhao He",
+        "Yue Gao",
+        "Yunzhi Zhang",
+        "Shangzhe Wu",
+        "Jiajun Wu"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-05-28",
+      "abstract": "Data-driven approaches have revolutionized 3D vision, enabling transformers to effectively reconstruct and generate static 3D objects. However, generating simulative 4D dynamics -- realistic temporal deformations of static objects under various physical conditions -- remains challenging and often ad hoc, despite its importance in building comprehensive 3D world models. Most existing methods assume a predefined physical model and use system identification to estimate parameters, restricting these",
+      "keywords": [],
+      "arxivId": "2605.30347v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
