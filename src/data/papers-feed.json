@@ -1,104 +1,88 @@
 {
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-06-02",
   "papers": [
     {
-      "title": "Quiver Approach to Symmetry Theories",
+      "title": "Twin Algebras: Condensable Algebras beyond Anyons",
       "authors": [
-        "Vivek Chakrabhavi",
-        "Mirjam Cvetič",
-        "Jonathan J. Heckman",
-        "Shani Meynet"
+        "Yuhan Gai",
+        "Sakura Schafer-Nameki",
+        "Alison Warman"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-28",
-      "abstract": "Global symmetry anomalies of a quantum field theory (QFT) can be packaged as specific couplings of a higher-dimensional symmetry theory (SymTh). In this work we show that for 5D superconformal field theories (SCFTs) engineered from M-theory backgrounds $X$ a Calabi-Yau cone, this data can be extracted from the path algebra of branes probing $X$. This provides a complementary algebraic approach compared with more geometric computations based on the explicit calculation of triple intersection numb",
-      "keywords": [],
-      "arxivId": "2605.30354v1",
+      "publishDate": "2026-05-29",
+      "abstract": "Condensable algebras in 2+1d non-chiral topological orders characterize gapped boundary conditions and interfaces. Applied to the Symmetry Topological Field Theory, they allow classification of symmetric gapped phases and impose sharp constraints on possible phase transitions. A condensable algebra is specified not only by its underlying set of anyons, which end on the boundary or interface, but also by its algebra structure. We introduce the concept of twin condensable algebras, which have the ",
+      "keywords": [
+        "interface"
+      ],
+      "arxivId": "2605.31602v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
+      "title": "Twin Phases: Phase Transitions Without Hidden Symmetry Breaking",
       "authors": [
-        "Hidir Yesiltepe",
-        "Jiazhen Hu",
-        "Tuna Han Salih Meral",
-        "Adil Kaan Akan",
-        "Kaan Oktay",
-        "Hoda Eldardiry",
-        "Pinar Yanardag"
+        "Alison Warman",
+        "Yuhan Gai",
+        "Sakura Schafer-Nameki"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-28",
-      "abstract": "Long-rollout causal video diffusion has converged on a fixed-size sliding-window KV cache, with recent progress innovating within this layout by changing which tokens occupy the window or how their positions are encoded. The per-head KV layout itself, a dominant contributor to streaming memory and latency, has been mostly left unchanged. In this paper, we present the first study of Multi-Head Latent Attention (MLA) in video diffusion. VideoMLA replaces per-head keys and values with a shared low-",
+      "publishDate": "2026-05-29",
+      "abstract": "We introduce the concept of twin phases for a symmetry $\\mathcal{S}$, defined as inequivalent phases, whose order parameters are part of the same generalized charge under $\\mathcal{S}$. Stable, direct transitions between such twin phases are never spontaneous-symmetry-breaking transitions, even after (partially) gauging the initial symmetry $\\mathcal{S}$: they are phase transitions without hidden symmetry breaking. We illustrate this with an (anomalous) finite group symmetry in 1+1d, which exhib",
       "keywords": [],
-      "arxivId": "2605.30351v1",
+      "arxivId": "2605.31601v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Colored Noise Diffusion Sampling",
+      "title": "Gravitational Waves from hybrid defects as probe of Flavor symmetry breaking: Machine-Learning Approach",
       "authors": [
-        "Hadar Davidson",
-        "Noam Issachar",
-        "Sagie Benaim"
+        "Anish Ghoshal",
+        "Ilia Gogoladze",
+        "Amit Tiwari"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-28",
-      "abstract": "Diffusion models achieve state-of-the-art image synthesis, with their generative trajectories fundamentally exhibiting a spectral bias, resolving low-frequency global structures early and high-frequency fine details later. Conventional stochastic differential equation (SDE) solvers fail to account for this dynamic, naively injecting uniform white noise throughout the entire process and misusing the finite energy budget. In this work, we establish a mathematical framework that reconsiders SDE inf",
+      "publishDate": "2026-05-29",
+      "abstract": "We present a novel possibility that a network of domain walls bounded by cosmic strings generates a stochastic gravitational wave background (SWGB) signal originating from the spontaneous breaking of a gauged $U(1)_F$ flavor symmetry and the subsequent breaking of discrete $Z_2$ symmetry that accommodates dark matter. The gravitational wave (GW) spectrum produced by the string-bounded-wall network can be detected for high $U(1)_F$ breaking scales in forthcoming GW detectors including LISA, ET an",
       "keywords": [],
-      "arxivId": "2605.30332v1",
+      "arxivId": "2605.31600v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "GMOS: Grounding Moving Object Segmentation in 3D Space and Time",
+      "title": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
       "authors": [
-        "Junyu Xie",
-        "Tengda Han",
-        "Weidi Xie",
-        "Andrew Zisserman"
+        "Yuqing Wang",
+        "Zhijie Lin",
+        "Ceyuan Yang",
+        "Yang Zhao",
+        "Fei Xiao",
+        "Hao He",
+        "Qi Zhao",
+        "Zihan Ding"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-28",
-      "abstract": "Moving Object Segmentation (MOS) aims to discover, segment, and track objects that move independently of the camera. Current MOS methods, however, exhibit two fundamental limitations: they rely on pre-computed 2D auxiliary modalities such as optical flow or point trajectories that lack 3D geometric information, and they treat motion as a sequence-level attribute, overlooking the instantaneous motion state of each object. We address both by grounding MOS in 3D space and time, and propose GMOS, a ",
+      "publishDate": "2026-05-29",
+      "abstract": "Unified multimodal models (UMMs) aim to handle perception and generation in a single model. Yet existing UMMs still rely on a frozen, separately pretrained VAE for image generation, imposing a structural bottleneck. Naively removing it introduces a quality gap, as the model must learn both high-level structure and low-level details from raw pixels. In this paper, we propose Representation Forcing (RF), a technique that closes this gap by making representation prediction a native capability of th",
       "keywords": [],
-      "arxivId": "2605.30352v1",
+      "arxivId": "2605.31604v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "AdaState: Self-Evolving Anchors for Streaming Video Generation",
+      "title": "Linear Scaling Video VLMs for Long Video Understanding",
       "authors": [
-        "Yusuf Dalva",
-        "Pinar Yanardag"
+        "Cristobal Eyzaguirre",
+        "Jiajun Wu",
+        "Juan Carlos Niebles"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-28",
-      "abstract": "Autoregressive video diffusion models generate streaming video by producing frames sequentially, conditioning each chunk on previously generated content. These models are structurally anchored to the first frame: its key-value representation occupies a privileged position in the attention cache and serves as the primary scene reference throughout generation. As the cleanest and most error-free position in the cache, this anchor draws disproportionate attention, suppressing video dynamics, and lo",
+      "publishDate": "2026-05-29",
+      "abstract": "Video vision-language models (VLMs) are increasingly used in long-horizon and streaming settings, yet most video encoders still rely on spatiotemporal self-attention, causing compute and latency to grow quadratically with the number of frames. Existing efficiency methods improve scalability but often lose accuracy relative to full self-attention, for example through aggressive frame/token dropping or coarse attention approximations. We introduce StateKV, an inference-time method that adapts pret",
       "keywords": [],
-      "arxivId": "2605.30349v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "NeuROK: Generative 4D Neural Object Kinematics",
-      "authors": [
-        "Chen Geng",
-        "Guangzhao He",
-        "Yue Gao",
-        "Yunzhi Zhang",
-        "Shangzhe Wu",
-        "Jiajun Wu"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-05-28",
-      "abstract": "Data-driven approaches have revolutionized 3D vision, enabling transformers to effectively reconstruct and generate static 3D objects. However, generating simulative 4D dynamics -- realistic temporal deformations of static objects under various physical conditions -- remains challenging and often ad hoc, despite its importance in building comprehensive 3D world models. Most existing methods assume a predefined physical model and use system identification to estimate parameters, restricting these",
-      "keywords": [],
-      "arxivId": "2605.30347v1",
+      "arxivId": "2605.31598v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
