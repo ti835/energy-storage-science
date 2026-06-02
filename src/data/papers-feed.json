@@ -1,85 +1,92 @@
 {
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-06-03",
   "papers": [
     {
-      "title": "Twin Algebras: Condensable Algebras beyond Anyons",
+      "title": "New Windows on Heavy Dark Matter: Mineral Melt Modelling and X-Ray Readout for Muscovite Mica",
       "authors": [
-        "Yuhan Gai",
-        "Sakura Schafer-Nameki",
-        "Alison Warman"
+        "Yilda Boukhtouchen",
+        "Joseph Bramante",
+        "Andrew Buchanan",
+        "Alexander Hayes",
+        "Matthew Leybourne",
+        "Jennika McIntosh",
+        "Anupam Ray",
+        "Aaron Shugar"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-29",
-      "abstract": "Condensable algebras in 2+1d non-chiral topological orders characterize gapped boundary conditions and interfaces. Applied to the Symmetry Topological Field Theory, they allow classification of symmetric gapped phases and impose sharp constraints on possible phase transitions. A condensable algebra is specified not only by its underlying set of anyons, which end on the boundary or interface, but also by its algebra structure. We introduce the concept of twin condensable algebras, which have the ",
-      "keywords": [
-        "interface"
-      ],
-      "arxivId": "2605.31602v1",
+      "publishDate": "2026-06-01",
+      "abstract": "Muscovite mica is a translucent, layered silicate mineral whose basal cleavage, low radiogenic background, gigayear exposures, and demonstrated track retention over geological timescales make it a compelling target for rare particle searches. In this work, we develop a new framework for detecting heavy composite dark matter using muscovite mica as a paleodetector. We model melt track formation by heavy composite dark matter transiting through mica using a Sedov-Taylor thermal spike formalism, an",
+      "keywords": [],
+      "arxivId": "2606.02579v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Twin Phases: Phase Transitions Without Hidden Symmetry Breaking",
+      "title": "Quantum Simulation of Nucleon-Antinucleon Interaction in Large-$N$ QCD$_2$ on an IBM Quantum Nighthawk Processor",
       "authors": [
-        "Alison Warman",
-        "Yuhan Gai",
-        "Sakura Schafer-Nameki"
+        "Cameron V. Cogburn",
+        "Sebastian Grieninger",
+        "Dmitri E. Kharzeev"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-29",
-      "abstract": "We introduce the concept of twin phases for a symmetry $\\mathcal{S}$, defined as inequivalent phases, whose order parameters are part of the same generalized charge under $\\mathcal{S}$. Stable, direct transitions between such twin phases are never spontaneous-symmetry-breaking transitions, even after (partially) gauging the initial symmetry $\\mathcal{S}$: they are phase transitions without hidden symmetry breaking. We illustrate this with an (anomalous) finite group symmetry in 1+1d, which exhib",
+      "publishDate": "2026-06-01",
+      "abstract": "We report a quantum simulation of the nucleon--antinucleon interaction in large-$N$ two-dimensional quantum chromodynamics (QCD$_2$) on the IBM Quantum Nighthawk processor. In the large-$N$ limit, QCD$_2$ admits a bosonized description in which baryons emerge as topological solitons (kinks) of an effective mesonic field theory, providing a controlled, nonperturbative framework for baryon--antibaryon dynamics.\n  We formulate the problem by mapping the continuum bosonized Hamiltonian to a spin-cha",
       "keywords": [],
-      "arxivId": "2605.31601v1",
+      "arxivId": "2606.02574v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Gravitational Waves from hybrid defects as probe of Flavor symmetry breaking: Machine-Learning Approach",
+      "title": "Mergers Matter: Gravothermal Collapse in Dwarf Halos with Self-Interacting Dark Matter",
       "authors": [
-        "Anish Ghoshal",
-        "Ilia Gogoladze",
-        "Amit Tiwari"
+        "Maya Silverman",
+        "Abdelaziz Hussein",
+        "Arpit Arora",
+        "Mariangela Lisanti",
+        "Manoj Kaplinghat",
+        "Lina Necib",
+        "Andreas Thoyas",
+        "Stephanie O'Neil"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-29",
-      "abstract": "We present a novel possibility that a network of domain walls bounded by cosmic strings generates a stochastic gravitational wave background (SWGB) signal originating from the spontaneous breaking of a gauged $U(1)_F$ flavor symmetry and the subsequent breaking of discrete $Z_2$ symmetry that accommodates dark matter. The gravitational wave (GW) spectrum produced by the string-bounded-wall network can be detected for high $U(1)_F$ breaking scales in forthcoming GW detectors including LISA, ET an",
+      "publishDate": "2026-06-01",
+      "abstract": "Self-Interacting Dark Matter (SIDM) models with large cross sections at relative velocities below $\\sim100\\,{\\rm km \\, s}^{-1}$ can be tested with dwarf galaxy observations. We analyze six dark-matter-only zoom-in $\\sim10^{10}\\,{\\rm M}_\\odot$ halos with diverse assembly histories, adopting a cross section over mass of $σ/m = 70\\,cm^2 \\, g^{-1}$. We find that mergers inject orbital kinetic energy into the halo, altering the heat transport and the gravothermal evolution of the core. Three of the s",
       "keywords": [],
-      "arxivId": "2605.31600v1",
+      "arxivId": "2606.02566v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
+      "title": "VISReg: Variance-Invariance-Sketching Regularization for JEPA training",
       "authors": [
-        "Yuqing Wang",
-        "Zhijie Lin",
-        "Ceyuan Yang",
-        "Yang Zhao",
-        "Fei Xiao",
-        "Hao He",
-        "Qi Zhao",
-        "Zihan Ding"
+        "Haiyu Wu",
+        "Randall Balestriero",
+        "Morgan Levine"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-29",
-      "abstract": "Unified multimodal models (UMMs) aim to handle perception and generation in a single model. Yet existing UMMs still rely on a frozen, separately pretrained VAE for image generation, imposing a structural bottleneck. Naively removing it introduces a quality gap, as the model must learn both high-level structure and low-level details from raw pixels. In this paper, we propose Representation Forcing (RF), a technique that closes this gap by making representation prediction a native capability of th",
+      "publishDate": "2026-06-01",
+      "abstract": "Self-supervised learning methods prevent embedding collapse via modeling heuristics or explicit regularization of the embedding space. Among the latter, VICReg decomposes regularization into variance and covariance objectives, offering flexibility and interpretability. However, covariance captures only second-order statistics -- encouraging decorrelation but failing to enforce the full distributional shape needed for stable training. Sketching-based methods such as SIGReg address this by alignin",
       "keywords": [],
-      "arxivId": "2605.31604v1",
+      "arxivId": "2606.02572v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Linear Scaling Video VLMs for Long Video Understanding",
+      "title": "VLMs are Good Teachers for Video Reasoning via Adaptive Test-Time Optimization",
       "authors": [
-        "Cristobal Eyzaguirre",
-        "Jiajun Wu",
-        "Juan Carlos Niebles"
+        "Junhao Cheng",
+        "Liang Hou",
+        "Tianxiong Zhong",
+        "Xin Tao",
+        "Pengfei Wan",
+        "Kun Gai",
+        "Jing Liao"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-05-29",
-      "abstract": "Video vision-language models (VLMs) are increasingly used in long-horizon and streaming settings, yet most video encoders still rely on spatiotemporal self-attention, causing compute and latency to grow quadratically with the number of frames. Existing efficiency methods improve scalability but often lose accuracy relative to full self-attention, for example through aggressive frame/token dropping or coarse attention approximations. We introduce StateKV, an inference-time method that adapts pret",
+      "publishDate": "2026-06-01",
+      "abstract": "The recent \"Reasoning with Video\" paradigm utilizes Video Generation Models (VGMs) to generate temporally coherent visual trajectories to complete reasoning tasks. Although state-of-the-art VGMs excel at visual quality, they often struggle to understand and follow task-specific rules, leading to logical failures across diverse reasoning scenarios. Existing efforts try to utilize Vision-Language Models (VLMs) as problem pre-solvers to produce or refine textual guidance for the VGM. However, textu",
       "keywords": [],
-      "arxivId": "2605.31598v1",
+      "arxivId": "2606.02564v1",
       "doi": "",
       "relevance": "medium"
     }
