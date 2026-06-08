@@ -1,103 +1,99 @@
 {
-  "lastUpdated": "2026-06-07",
+  "lastUpdated": "2026-06-08",
   "papers": [
     {
-      "title": "What it takes to solve the Hubble tension through Modifications of Cosmological Recombination II: in light of ACT DR6 and DESI DR2",
+      "title": "Boundary criticality in the Gross-Neveu-Yukawa model at higher orders",
       "authors": [
-        "Nanoom Lee",
-        "Tianji Zhou"
+        "Oleksandr Diatlyk",
+        "Simone Giombi",
+        "Zimo Sun"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-04",
-      "abstract": "We construct data-driven solutions to the Hubble tension, in light of recent data from the Atacama Cosmology Telescope (ACT DR6) and the Dark Energy Spectroscopic Instrument (DESI DR2). We search for the minimal modification to the recombination history through a time-varying electron mass $m_e(z)$ that increases the best-fit $H_0$ inferred from CMB data toward the SH0ES value, without worsening the fit to the data. Using Planck and ACT data including lensing, we find a perturbative modification",
+      "publishDate": "2026-06-05",
+      "abstract": "We extend the study of boundary criticality in the Gross-Neveu-Yukawa universality class beyond leading order. Using the hyperbolic space formulation of boundary conformal field theories, we compute the first subleading corrections at large $N$ to the free energies of the ``normal\", ``ordinary\" and ``special\" boundary universality classes. We also determine the order $1/N$ correction to the dimension of the boundary fermion at the normal fixed point. In the Gross-Neveu-Yukawa theory in $d=4-ε$, ",
       "keywords": [],
-      "arxivId": "2606.06495v1",
+      "arxivId": "2606.07510v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Phenomenology of Inflaton-Driven Early QCD Confinement and Solution to Axion Isocurvature Problem",
+      "title": "Primordial Black Hole Triggered Type Ia Supernovae II: Comparison with Supernova Remnants and Galactic Chemical Evolution",
       "authors": [
-        "Evangelos I. Sfakianakis",
-        "Barmak Shams Es Haghi",
-        "Katherine Freese"
+        "Shing-Chi Leung",
+        "Seth Walther",
+        "Alexander Kusenko",
+        "Ken'ichi Nomoto",
+        "Tomoharu Suzuki"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-04",
-      "abstract": "We study the phenomenology of early QCD confinement during inflation, driven by a direct coupling between the inflaton and Standard Model gluons. This coupling dynamically raises the QCD confinement scale, making the axion sufficiently heavy to suppress isocurvature perturbations during the CMB epoch. As inflation proceeds, the confinement scale decreases and the axion becomes light, allowing de Sitter fluctuations during the late stages of inflation or post-inflationary thermal fluctuations to ",
+      "publishDate": "2026-06-05",
+      "abstract": "The asteroid-mass class of Primordial Black Holes (PBHs) is one of the candidates for the dark matter in the universe. With a mass between $4 \\times 10^{-17} &lt; M_{\\rm PBH} &lt; 4 \\times 10^{-12}~M_{\\odot}$, they could be the major component of dark matter in the cosmic mass budget. The infall of these PBH into a white dwarf could be one triggering mechanism of Type Ia supernovae (SNe Ia). In [Leung et al, ApJ 991, 11 (2025)] (Paper I), we studied the ignition, explosion dynamics, radiative tr",
       "keywords": [],
-      "arxivId": "2606.06484v1",
+      "arxivId": "2606.07505v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Short Gravitational-Wave Transients as Probes of Cosmic Domain Walls",
+      "title": "On the large N convergence of matrix models",
       "authors": [
-        "Tore Boybeyi",
-        "Doga Veske",
-        "David Maibach"
+        "M. P. Garcia del Moral",
+        "P. León",
+        "A. Restuccia"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-04",
-      "abstract": "GW190521 and GW231123 have been reported as short-duration gravitational-wave transients consistent with very massive binary black hole (BBH) coalescences whose inferred parameters, i.e., exceptionally high total masses and spin magnitudes, challenge standard isolated binary stellar evolution. We test a topological dark matter (TDM) interpretation invoking cosmic domain walls by fitting a physically motivated domain wall template to the LIGO Hanford and Livingston strain data. The BBH hypothesis",
+      "publishDate": "2026-06-05",
+      "abstract": "In this paper, the large N behavior of a supersymmetric matrix model is compared with its exact continuum description. We concentrate on the large N limit of a supersymmetric matrix model describing a supermembrane with central charge on a toroidally compactified target space. We analyze, on the one hand, the supermembrane model formulated on a differentiable compact torus without boundary, with structure group given by the area-preserving diffeomorphisms, and, on the other hand, the associated ",
       "keywords": [],
-      "arxivId": "2606.06478v1",
+      "arxivId": "2606.07504v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers",
+      "title": "Non-Abelian braiding in Abelian Fractional Quantum Hall Phases from realistic interactions",
       "authors": [
-        "Lizhi Yang",
-        "Junheng Li",
-        "Nehar Poddar",
-        "Yiling Hou",
-        "Gio Huh",
-        "Robert Griffin",
-        "Georgia Gkioxari",
-        "Aaron Ames"
+        "Ha Quang Trung",
+        "Bo Yang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-04",
-      "abstract": "For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typically demand dense kinematic or spatial references that planners struggle to synthesize from task semantics. We instead propose a compact, explicit interface that is intuitive, general, modular, and expressive enough for diverse manipulation skills. To this end, we introduce HANDOFF, a single humanoid",
-      "keywords": [
-        "interface"
-      ],
-      "arxivId": "2606.06493v1",
+      "publishDate": "2026-06-05",
+      "abstract": "We propose a method of realizing non-Abelian braiding of fractionalized quasiholes in the Laughlin fractional quantum Hall phase at $ν=1/3$ with realistic two-body interactions within the lowest Landau level. It is numerically shown that low-lying gapped excitations near $ν=1/3$ are contained almost entirely within the null space of the three-body Moore-Read model Hamiltonian. They are thus quantum fluids of non-Abelian quasiholes that are in principle physically accessible. In particular, Laugh",
+      "keywords": [],
+      "arxivId": "2606.07517v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
+      "title": "How reliable are LLMs when it comes to playing dice?",
       "authors": [
-        "Liliana Hotsko",
-        "Yinxi Li",
-        "Yuntian Deng",
-        "Pengyu Nie"
+        "Luca Avena",
+        "Gianmarco Bet",
+        "Bernardo Busoni"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-04",
-      "abstract": "Code language models need repository-level context to resolve imports, APIs, and project conventions. Existing methods inject this knowledge as long inputs (retrieved through RAG or dependency analysis) or through per-repository fine-tuning and LoRA -- costly at repository scale and brittle to evolving codebases. We introduce Code2LoRA, a hypernetwork framework that generates repository-specific LoRA adapters, effectively injecting repository knowledge with zero inference-time token overhead. Co",
+      "publishDate": "2026-06-05",
+      "abstract": "We investigate the probabilistic reasoning capabilities of large language models through a controlled benchmarking study on discrete probability problems. We constructed two datasets, respectively a set of standard exercises and a set of counterintuitive exercises, designed to trigger heuristic reasoning, and evaluated 8 state-of-the-art models, each tested with and without Chain-of-Thought prompting. Models achieve an average accuracy of 0.96 on standard problems but only 0.59 on counterintuiti",
       "keywords": [],
-      "arxivId": "2606.06492v1",
+      "arxivId": "2606.07515v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Coherent room-temperature dipole synchronization in nanocavity sheets",
+      "title": "Bulk Superconductivity driven by Disorder-Induced Delocalization in 4Hb-Ta(S$_{1-x}$Se$_x$)$_2$",
       "authors": [
-        "Rakesh Arul",
-        "Piper Fowler-Wright",
-        "Lille Borresen",
-        "Brendon W. Lovett",
-        "Jonathan Keeling",
-        "Jeremy J. Baumberg"
+        "Lu Chen",
+        "Sae-Hee Ryu",
+        "Avior Almoalem",
+        "Yuanqi Lyu",
+        "Koh Yamakawa",
+        "Luke Pritchard Cairns",
+        "Ryan Day",
+        "Ehud Altman"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-04",
-      "abstract": "Plasmonic nanocavities enable the synchronization of spatially distant emissive dipoles through strong near-field coupling in sub-nm gaps. We report formation of a room-temperature synchronized dipole state in locally-ordered plasmonic nanogap 2D arrays under non-resonant continuous-wave pumping. Unlike lasers, photonic Bose-Einstein condensates, or exciton-polariton condensates, this system exhibits spatial coherence across the dipoles, while rapid radiative and non-radiative emission suppresse",
+      "publishDate": "2026-06-05",
+      "abstract": "The unconventional superconductor 4Hb-TaS$_2$ is a natural heterostructure that can be broadly understood as interleaving Mott-like and metallic layers. We study the properties of this material as a function of quenched disorder in the form of Se/S substitution and find that while disordered samples show bulk superconductivity, clean samples do not. We show that a disorder-driven delocalization of carriers in the Mott-like ($1T$-) layer forms a new Fermi surface that is absent in the cleanest sa",
       "keywords": [],
-      "arxivId": "2606.06490v1",
+      "arxivId": "2606.07509v1",
       "doi": "",
       "relevance": "medium"
     }
