@@ -1,99 +1,108 @@
 {
-  "lastUpdated": "2026-06-08",
+  "lastUpdated": "2026-06-09",
   "papers": [
     {
-      "title": "Boundary criticality in the Gross-Neveu-Yukawa model at higher orders",
+      "title": "Topological Triplons in the Pinwheel Valence Bond Solid on the Kagome Lattice",
       "authors": [
-        "Oleksandr Diatlyk",
-        "Simone Giombi",
-        "Zimo Sun"
+        "Laura Calonge-Martínez",
+        "Peng Rao",
+        "Frédéric Mila",
+        "Johannes Knolle"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-05",
-      "abstract": "We extend the study of boundary criticality in the Gross-Neveu-Yukawa universality class beyond leading order. Using the hyperbolic space formulation of boundary conformal field theories, we compute the first subleading corrections at large $N$ to the free energies of the ``normal\", ``ordinary\" and ``special\" boundary universality classes. We also determine the order $1/N$ correction to the dimension of the boundary fermion at the normal fixed point. In the Gross-Neveu-Yukawa theory in $d=4-ε$, ",
+      "publishDate": "2026-06-08",
+      "abstract": "We investigate the triplon excitations of the pinwheel valence-bond-solid phase on the deformed kagome lattice compound Rb2Cu3SnF12. Using bond-operator mean-field theory, we compute the triplon band structure, dynamical structure factor, Berry curvatures and the associated thermal Hall response. We show that the presence of Dzyaloshinskii-Moriya interactions and an external magnetic field are key for endowing triplon bands with nontrivial Chern numbers. We find good qualitative agreement of the",
       "keywords": [],
-      "arxivId": "2606.07510v1",
+      "arxivId": "2606.09823v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Primordial Black Hole Triggered Type Ia Supernovae II: Comparison with Supernova Remnants and Galactic Chemical Evolution",
+      "title": "Universal Suppression of Gravitational Waves from Black Hole Evaporation Dynamics",
       "authors": [
-        "Shing-Chi Leung",
-        "Seth Walther",
-        "Alexander Kusenko",
-        "Ken'ichi Nomoto",
-        "Tomoharu Suzuki"
+        "Xin-Chen He",
+        "Xiao-Han Ma",
+        "Misao Sasaki",
+        "Volodymyr Takhistov"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-05",
-      "abstract": "The asteroid-mass class of Primordial Black Holes (PBHs) is one of the candidates for the dark matter in the universe. With a mass between $4 \\times 10^{-17} &lt; M_{\\rm PBH} &lt; 4 \\times 10^{-12}~M_{\\odot}$, they could be the major component of dark matter in the cosmic mass budget. The infall of these PBH into a white dwarf could be one triggering mechanism of Type Ia supernovae (SNe Ia). In [Leung et al, ApJ 991, 11 (2025)] (Paper I), we studied the ignition, explosion dynamics, radiative tr",
+      "publishDate": "2026-06-08",
+      "abstract": "Evaporating black holes can leave distinct imprints on gravitational wave (GW) backgrounds. We show that black hole populations with finite width mass distributions exhibit a universal late time evolution governed by the evaporation dynamics rather than the details of the initial mass distribution, leading to a characteristic power law suppression of the induced GWs. We demonstrate this for a broad class of mass functions in primordial black hole (PBH) scenarios featuring an early Universe matte",
       "keywords": [],
-      "arxivId": "2606.07505v1",
+      "arxivId": "2606.09804v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "On the large N convergence of matrix models",
+      "title": "Proximity-induced orbital antiferromagnetism in Ising superconductors",
       "authors": [
-        "M. P. Garcia del Moral",
-        "P. León",
-        "A. Restuccia"
+        "G. A. Bobkov",
+        "V. A. Bobkov",
+        "T. Karabassov",
+        "I. V. Bobkova",
+        "A. A. Golubov"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-05",
-      "abstract": "In this paper, the large N behavior of a supersymmetric matrix model is compared with its exact continuum description. We concentrate on the large N limit of a supersymmetric matrix model describing a supermembrane with central charge on a toroidally compactified target space. We analyze, on the one hand, the supermembrane model formulated on a differentiable compact torus without boundary, with structure group given by the area-preserving diffeomorphisms, and, on the other hand, the associated ",
+      "publishDate": "2026-06-08",
+      "abstract": "We predict a fundamentally new superconducting state in superconductor/antiferromagnet heterostructures with Ising spin--orbit coupling: proximity-induced orbital antiferromagnetism. In this state, the order parameter acquires a periodic phase modulation locked to the magnetic lattice, generating atomic-scale loop currents with opposite orbital moments on neighboring unit cells. Its emergence requires at least three nonequivalent magnetic sublattices per unit cell and finite spin--orbit coupling",
       "keywords": [],
-      "arxivId": "2606.07504v1",
+      "arxivId": "2606.09797v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Non-Abelian braiding in Abelian Fractional Quantum Hall Phases from realistic interactions",
+      "title": "Latent Spatial Memory for Video World Models",
       "authors": [
-        "Ha Quang Trung",
-        "Bo Yang"
+        "Weijie Wang",
+        "Haoyu Zhao",
+        "Yifan Yang",
+        "Feng Chen",
+        "Zeyu Zhang",
+        "Yefei He",
+        "Zicheng Duan",
+        "Donny Y. Chen"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-05",
-      "abstract": "We propose a method of realizing non-Abelian braiding of fractionalized quasiholes in the Laughlin fractional quantum Hall phase at $ν=1/3$ with realistic two-body interactions within the lowest Landau level. It is numerically shown that low-lying gapped excitations near $ν=1/3$ are contained almost entirely within the null space of the three-body Moore-Read model Hamiltonian. They are thus quantum fluids of non-Abelian quasiholes that are in principle physically accessible. In particular, Laugh",
+      "publishDate": "2026-06-08",
+      "abstract": "Video world models that maintain 3D spatial consistency across generated frames typically rely on explicit point cloud memory constructed in RGB space. This design is both computationally expensive, requiring repeated rendering and VAE encoding, and inherently lossy, as the round trip through pixel space discards rich features of the learned latent representation. In this paper, we introduce \\emph{latent spatial memory} for video world models, a persistent 3D cache that stores scene information ",
       "keywords": [],
-      "arxivId": "2606.07517v1",
+      "arxivId": "2606.09828v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "How reliable are LLMs when it comes to playing dice?",
+      "title": "MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models",
       "authors": [
-        "Luca Avena",
-        "Gianmarco Bet",
-        "Bernardo Busoni"
+        "Hao Shi",
+        "Weiye Li",
+        "Bin Xie",
+        "Yulin Wang",
+        "Renping Zhou",
+        "Tiancai Wang",
+        "Xiangyu Zhang",
+        "Ping Luo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-05",
-      "abstract": "We investigate the probabilistic reasoning capabilities of large language models through a controlled benchmarking study on discrete probability problems. We constructed two datasets, respectively a set of standard exercises and a set of counterintuitive exercises, designed to trigger heuristic reasoning, and evaluated 8 state-of-the-art models, each tested with and without Chain-of-Thought prompting. Models achieve an average accuracy of 0.96 on standard problems but only 0.59 on counterintuiti",
+      "publishDate": "2026-06-08",
+      "abstract": "Temporal modeling is essential for robotic manipulation, as effective control requires both memory of past interactions and imagination of future states. However, most VLA models rely primarily on the current observation and therefore struggle with long-horizon, temporally dependent tasks. Cognitive science suggests that humans rely on working memory to buffer short-lived context, the hippocampal system to preserve episodic memory of past experience, and internal models to imagine possible futur",
       "keywords": [],
-      "arxivId": "2606.07515v1",
+      "arxivId": "2606.09827v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Bulk Superconductivity driven by Disorder-Induced Delocalization in 4Hb-Ta(S$_{1-x}$Se$_x$)$_2$",
+      "title": "An Agency-Transferring Model-Free Policy Enhancement Technique",
       "authors": [
-        "Lu Chen",
-        "Sae-Hee Ryu",
-        "Avior Almoalem",
-        "Yuanqi Lyu",
-        "Koh Yamakawa",
-        "Luke Pritchard Cairns",
-        "Ryan Day",
-        "Ehud Altman"
+        "Anton Bolychev",
+        "Georgiy Malaniya",
+        "Sinan Ibrahim",
+        "Pavel Osinenko"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-05",
-      "abstract": "The unconventional superconductor 4Hb-TaS$_2$ is a natural heterostructure that can be broadly understood as interleaving Mott-like and metallic layers. We study the properties of this material as a function of quenched disorder in the form of Se/S substitution and find that while disordered samples show bulk superconductivity, clean samples do not. We show that a disorder-driven delocalization of carriers in the Mott-like ($1T$-) layer forms a new Fermi surface that is absent in the cleanest sa",
+      "publishDate": "2026-06-08",
+      "abstract": "Training reinforcement learning (RL) policies from scratch is\n  costly: it requires careful reward and environment design,\n  extensive tuning, and substantial computation.\n  Yet many control problems already have a functional but\n  suboptimal policy available as a baseline.\n  This paper proposes a method for embedding such a baseline into\n  the RL training process, simultaneously improving training\n  efficiency relative to from-scratch methods and producing a\n  learning policy that outperforms t",
       "keywords": [],
-      "arxivId": "2606.07509v1",
+      "arxivId": "2606.09825v1",
       "doi": "",
       "relevance": "medium"
     }
