@@ -1,104 +1,110 @@
 {
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-06-11",
   "papers": [
     {
-      "title": "Combined Analysis of Lattice QCD and Experimental Data on the Pion Transition Form Factor",
+      "title": "When direct detection constrains reheating temperature: freeze-in with stronger couplings and inflaton-seeded freeze-in",
       "authors": [
-        "Franziska Hagelstein",
-        "Danaheb Naomi Navarro Durán",
-        "Timon Esser",
-        "Vadim Lensky",
-        "Sotiris Pitelis",
-        "Vladyslava Sharkovska"
+        "Xavier Bertou",
+        "Olivier Deligny",
+        "Mathieu Gross",
+        "Yann Mambrini",
+        "Issam-Eddine Mellouki"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-09",
-      "abstract": "The evaluation of the hadronic light-by-light scattering contribution to the muon anomalous magnetic moment requires precise knowledge of the pion transition form factor (TFF). In this work, we present a feasibility study for a combined analysis of lattice QCD (LQCD) and experimental data. Our methodology is driven by the goal of combining complementary datasets to leverage their respective kinematic advantages: while LQCD provides robust predictions for the doubly-virtual TFF, $e^+e^-$ scatteri",
+      "publishDate": "2026-06-10",
+      "abstract": "Recent results from the DAMIC-M and PandaX collaborations have excluded the standard freeze-in production of dark matter for masses in the range $3~\\mathrm{MeV} \\lesssim m_χ\\lesssim 1~\\mathrm{GeV}$ in the context of extensions of the Standard Model featuring an additional ultra-light $U(1)_{\\rm X}$ gauge boson. In this work, we analyze the constraints induced by DAMIC-M and PandaX results on the reheating temperature in freeze-in models at stronger coupling, or when a non-thermal source (such as",
       "keywords": [],
-      "arxivId": "2606.11181v1",
+      "arxivId": "2606.12408v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "MATCHA: A Mathematica package for matching UV models onto HEFT",
+      "title": "Collective neutrino oscillations: Many-body non-forward effects and non-classicality",
       "authors": [
-        "Raquel Gómez-Ambrosio",
-        "Carlos Quezada-Calonge"
+        "Julien Froustey",
+        "Ermal Rrapaj",
+        "Yuhao Liu",
+        "Gushu Li",
+        "Costin Iancu",
+        "Vincenzo Cirigliano"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-09",
-      "abstract": "We present MATChing HEFT Amplitudes (MATCHA), a Mathematica package designed for leading-order (LO) matching of an ultraviolet (UV) model to the Higgs Effective Field Theory (HEFT). MATCHA performs the matching of non-decoupling effects $\\mathcal{O}(1)$ to the LO HEFT lagrangian for an arbitrary number of Higgs fields. The main benefit of \\heftmatcha is that it is built on existing packages such as \\texttt{FeynArts} and \\texttt{FormCalc}, which are familiar to the user, and directly benefits fro",
+      "publishDate": "2026-06-10",
+      "abstract": "Neutrino evolution in dense astrophysical environments is typically described either within a quantum kinetic framework, which neglects the build-up of multi-body correlations, or through simplified many-body calculations that allow significant entanglement to develop. In this work, we compare these two approaches in a simple neutrino-gas configuration, with particular emphasis on the role of non-forward scattering processes. These effects are incorporated either through a collision term in the ",
       "keywords": [],
-      "arxivId": "2606.11170v1",
+      "arxivId": "2606.12404v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Revisiting \"Cooler is Better\": ITD-Aware Per-CPU Thermal Optimization for Sustainable Data Center Operation",
+      "title": "The Fundaments of Unity: ${\\mathcal O}(1)$ Couplings in Quantum Field Theories",
       "authors": [
-        "Jason Crop",
-        "Hayden Moore",
-        "Sudeep Pasricha"
+        "Ben Allanach"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-09",
-      "abstract": "As data center energy demand approaches grid-level constraints, optimizing conventional server infrastructure is essential for sustainable growth. The long-standing assumption that \"cooler is better\", i.e., lower CPU temperatures reduce power, does not fully hold for modern low-voltage CPUs, where inverse temperature dependence (ITD) drives higher supply voltages at lower temperatures. This creates a non-monotonic performance-per-watt curve where efficiency peaks at an intermediate thermal point",
+      "publishDate": "2026-06-10",
+      "abstract": "We critically examine the expectation that in a fundamental quantum field theory, dimensionless couplings in the Lagrangian density should all be of order unity. We propose a measure to quantify the adherence of a theory to this: the spread (the ratio of the largest to the smallest of the magnitudes) of such dimensionless couplings, obtaining various closed-form results. If we take independent identically distributed (IID) couplings to parameterise our uncertainty on the values of the order unit",
       "keywords": [],
-      "arxivId": "2606.11163v1",
+      "arxivId": "2606.12393v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Next Forcing: Causal World Modeling with Multi-Chunk Prediction",
+      "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
       "authors": [
-        "Gangwei Xu",
-        "Qihang Zhang",
-        "Jiaming Zhou",
-        "Xing Zhu",
-        "Yujun Shen",
-        "Xin Yang",
-        "Yinghao Xu"
+        "Yeongseo Jung",
+        "Jaehyeok Kim",
+        "Eunseo Jung",
+        "Jiachuan Wang",
+        "Yongqi Zhang",
+        "Ka Chun Cheung",
+        "Simon See",
+        "Lei Chen"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-09",
-      "abstract": "Autoregressive video generation has emerged as a powerful paradigm for World Action Models (WAMs). However, existing approaches suffer from slow training convergence and limited converged accuracy, particularly at high frame rates, as the training supervision is confined to the current chunk without explicit signals about future dynamics; they also suffer from slow inference due to iterative video denoising. In this paper, we present Next Forcing, a multi-chunk prediction (MCP) framework for cau",
+      "publishDate": "2026-06-10",
+      "abstract": "Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length. Naive truncation or summarization degrades fidelity, while existing context compressors lack cross-turn memory sharing or revision, causing information loss and compounding errors in long dialogues. We revisit the context compression under conversational dynamics and empirically present its fragility. To improve both efficie",
       "keywords": [],
-      "arxivId": "2606.11187v1",
+      "arxivId": "2606.12411v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Full-State and Reduced-Moment Encodings: A Representation-Level View of Equilibrium Quantum Many-Body Theory",
+      "title": "A Pfaffian quantum Hall state of ultracold bosons",
       "authors": [
-        "Nan Sheng"
+        "Joyce Kwan",
+        "Perrin Segura",
+        "Yanfei Li",
+        "Tizian Blatz",
+        "Annie Zhi",
+        "Brice Bakkali-Hassani",
+        "Annabelle Bohrdt",
+        "Martin Greiter"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-09",
-      "abstract": "Equilibrium quantum many-body methods differ not only in approximation, but in which information they represent explicitly. We formulate this distinction by fixing an equilibrium specification and viewing every representation as an encoder from admissible states to represented variables. The identity encoder gives a full-state representation, whereas a non-injective encoder gives a reduced representation whose value labels a fiber of compatible states. For a specified task, an exact decoder exis",
-      "keywords": [
-        "interface"
-      ],
-      "arxivId": "2606.11177v1",
+      "publishDate": "2026-06-10",
+      "abstract": "Fractional quantum Hall states are a cornerstone of topological physics, hosting fractionally charged quasiparticles with exotic statistics that promise to enable topologically protected quantum information processing. Among these, the Pfaffian state introduced by Moore and Read implements a p-wave pairing structure that supports excitations with non-Abelian exchange statistics. Despite extensive study in electronic systems, direct access to its pairing structure has remained limited. Here we re",
+      "keywords": [],
+      "arxivId": "2606.12409v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Piper: A Programmable Distributed Training System",
+      "title": "World Pilot: Steering Vision-Language-Action Models with World-Action Priors",
       "authors": [
-        "Megan Frisella",
-        "Shubham Tiwari",
-        "Andy Ruan",
-        "Yi Pan",
-        "Parker Gustafson",
-        "Mat Jacob",
-        "Gilbert Bernstein",
-        "Stephanie Wang"
+        "Zefu Lin",
+        "Rongxu Cui",
+        "Junjia Xu",
+        "Xiaojuan Jin",
+        "Wenling Li",
+        "Lue Fan",
+        "Zhaoxiang Zhang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-09",
-      "abstract": "Large-scale model training increasingly relies on composing multiple parallelism strategies, such as data, pipeline, and expert parallelism, together with memory-saving optimizations like ZeRO. Deployed systems for foundation model pretraining often rely on human experts to manually design a high-level parallelism strategy then implement the corresponding low-level execution strategy, making it difficult to adapt the system to new strategies. Meanwhile, many general-purpose frameworks are more f",
+      "publishDate": "2026-06-10",
+      "abstract": "Vision-Language-Action (VLA) models inherit semantic grounding from large-scale pretraining and perform competently across in-distribution manipulation tasks. This grounding, however, is built on static image-text pairs, whereas manipulation is a continuous, contact-rich process whose dynamics this pretraining cannot capture. We present World Pilot, a VLA framework that augments the policy with priors from a World-Action Model (WAM), routed into the decision chain through two complementary pathw",
       "keywords": [],
-      "arxivId": "2606.11169v1",
+      "arxivId": "2606.12403v1",
       "doi": "",
       "relevance": "medium"
     }
