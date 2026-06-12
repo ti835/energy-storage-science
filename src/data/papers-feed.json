@@ -1,110 +1,105 @@
 {
-  "lastUpdated": "2026-06-11",
+  "lastUpdated": "2026-06-12",
   "papers": [
     {
-      "title": "When direct detection constrains reheating temperature: freeze-in with stronger couplings and inflaton-seeded freeze-in",
+      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
       "authors": [
-        "Xavier Bertou",
-        "Olivier Deligny",
-        "Mathieu Gross",
-        "Yann Mambrini",
-        "Issam-Eddine Mellouki"
+        "Dimitri Kachler",
+        "Damien Sileo",
+        "Pascal Denis"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-10",
-      "abstract": "Recent results from the DAMIC-M and PandaX collaborations have excluded the standard freeze-in production of dark matter for masses in the range $3~\\mathrm{MeV} \\lesssim m_χ\\lesssim 1~\\mathrm{GeV}$ in the context of extensions of the Standard Model featuring an additional ultra-light $U(1)_{\\rm X}$ gauge boson. In this work, we analyze the constraints induced by DAMIC-M and PandaX results on the reheating temperature in freeze-in models at stronger coupling, or when a non-thermal source (such as",
+      "publishDate": "2026-06-11",
+      "abstract": "With the growth of LLMs' (Large Language Models) capabilities, there has been an increasing push to curate high quality datasets by filtering samples in the training data. In general, Data Attribution (DA) methods aim to estimate how individual samples in a training dataset can precondition a model to generate certain outputs. As an example, one might be interested in which samples in the data could be the source of toxic behavior after training the LLM. Many methods quantify this conditioning t",
       "keywords": [],
-      "arxivId": "2606.12408v1",
+      "arxivId": "2606.13668v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Collective neutrino oscillations: Many-body non-forward effects and non-classicality",
+      "title": "One-loop five-point gluing analytically",
       "authors": [
-        "Julien Froustey",
-        "Ermal Rrapaj",
-        "Yuhao Liu",
-        "Gushu Li",
-        "Costin Iancu",
-        "Vincenzo Cirigliano"
+        "B. Eden",
+        "M. Gottwald"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-10",
-      "abstract": "Neutrino evolution in dense astrophysical environments is typically described either within a quantum kinetic framework, which neglects the build-up of multi-body correlations, or through simplified many-body calculations that allow significant entanglement to develop. In this work, we compare these two approaches in a simple neutrino-gas configuration, with particular emphasis on the role of non-forward scattering processes. These effects are incorporated either through a collision term in the ",
+      "publishDate": "2026-06-11",
+      "abstract": "The one-loop five-point function of stress tensor multiplets in N=4 super Yang-Mills theory in four dimensions has previously been studied by integrability methods. The finite-size viz gluing corrections defining it were originally matched on the known field theory result - establishing many features of the formalism on the way - and later to a good extent also analytically evaluated. For the first time, we present a full analytic evaluation of all processes. The starting point is the re-summati",
       "keywords": [],
-      "arxivId": "2606.12404v1",
+      "arxivId": "2606.13665v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "The Fundaments of Unity: ${\\mathcal O}(1)$ Couplings in Quantum Field Theories",
+      "title": "Orbital-optimized density functional calculations of excited electronic states: Recent advances and perspectives",
       "authors": [
-        "Ben Allanach"
+        "Lorenzo Restaino",
+        "Giulia Gamboni",
+        "Elli Selenius",
+        "Gianluca Levi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-10",
-      "abstract": "We critically examine the expectation that in a fundamental quantum field theory, dimensionless couplings in the Lagrangian density should all be of order unity. We propose a measure to quantify the adherence of a theory to this: the spread (the ratio of the largest to the smallest of the magnitudes) of such dimensionless couplings, obtaining various closed-form results. If we take independent identically distributed (IID) couplings to parameterise our uncertainty on the values of the order unit",
+      "publishDate": "2026-06-11",
+      "abstract": "Orbital-optimized (OO) density functional calculations provide a time-independent, variational route to electronic excitations that complements the presently widely used time-dependent density functional theory (TDDFT). As the orbitals are optimized in a state specific way, these methods can provide a balanced description of excited states with different character, thereby overcoming several limitations of practical implementations of TDDFT. Driven by recent developments in algorithms for obtain",
       "keywords": [],
-      "arxivId": "2606.12393v1",
+      "arxivId": "2606.13654v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
       "authors": [
-        "Yeongseo Jung",
-        "Jaehyeok Kim",
-        "Eunseo Jung",
-        "Jiachuan Wang",
-        "Yongqi Zhang",
-        "Ka Chun Cheung",
-        "Simon See",
-        "Lei Chen"
+        "Jundong Xu",
+        "Qingchuan Li",
+        "Jiaying Wu",
+        "Yihuai Lan",
+        "Shuyue Stella Li",
+        "Huichi Zhou",
+        "Bowen Jiang",
+        "Lei Wang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-10",
-      "abstract": "Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length. Naive truncation or summarization degrades fidelity, while existing context compressors lack cross-turn memory sharing or revision, causing information loss and compounding errors in long dialogues. We revisit the context compression under conversational dynamics and empirically present its fragility. To improve both efficie",
+      "publishDate": "2026-06-11",
+      "abstract": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and so",
       "keywords": [],
-      "arxivId": "2606.12411v1",
+      "arxivId": "2606.13681v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A Pfaffian quantum Hall state of ultracold bosons",
+      "title": "Modality Forcing for Scalable Spatial Generation",
       "authors": [
-        "Joyce Kwan",
-        "Perrin Segura",
-        "Yanfei Li",
-        "Tizian Blatz",
-        "Annie Zhi",
-        "Brice Bakkali-Hassani",
-        "Annabelle Bohrdt",
-        "Martin Greiter"
+        "Bardienus Pieter Duisterhof",
+        "Deva Ramanan",
+        "Jeffrey Ichnowski",
+        "Justin Johnson",
+        "Keunhong Park"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-10",
-      "abstract": "Fractional quantum Hall states are a cornerstone of topological physics, hosting fractionally charged quasiparticles with exotic statistics that promise to enable topologically protected quantum information processing. Among these, the Pfaffian state introduced by Moore and Read implements a p-wave pairing structure that supports excitations with non-Abelian exchange statistics. Despite extensive study in electronic systems, direct access to its pairing structure has remained limited. Here we re",
+      "publishDate": "2026-06-11",
+      "abstract": "Text-to-image (T2I) models contain rich spatial priors. Synthesizing photorealistic, cluttered scenes requires an understanding of geometry, including perspective and relative scale. Prior works adapt T2I models to leverage this prior for depth prediction, but they require dense depth data and involve complex recipes. We propose Modality Forcing, a simple, scalable post-training recipe for joint image-depth generation using a single DiT trained on sparse depth data. Modality Forcing enables cond",
       "keywords": [],
-      "arxivId": "2606.12409v1",
+      "arxivId": "2606.13676v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "World Pilot: Steering Vision-Language-Action Models with World-Action Priors",
+      "title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers",
       "authors": [
-        "Zefu Lin",
-        "Rongxu Cui",
-        "Junjia Xu",
-        "Xiaojuan Jin",
-        "Wenling Li",
-        "Lue Fan",
-        "Zhaoxiang Zhang"
+        "Junke Wang",
+        "Qihang Zhang",
+        "Shuai Yang",
+        "Yiming Luo",
+        "Yujun Shen",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang",
+        "Yinghao Xu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-10",
-      "abstract": "Vision-Language-Action (VLA) models inherit semantic grounding from large-scale pretraining and perform competently across in-distribution manipulation tasks. This grounding, however, is built on static image-text pairs, whereas manipulation is a continuous, contact-rich process whose dynamics this pretraining cannot capture. We present World Pilot, a VLA framework that augments the policy with priors from a World-Action Model (WAM), routed into the decision chain through two complementary pathw",
+      "publishDate": "2026-06-11",
+      "abstract": "This work presents RepWAM, a representation-centric world action model (WAM) built on representation visual-action tokenizers. Existing WAMs typically inherit reconstruction-oriented video tokenizers from pretrained video generation models. Although these tokenizers preserve visual fidelity, pixel reconstruction alone provides limited guidance for learning instruction-following dynamics that connect future prediction with robot control. To address this, we explore a semantic visual-action latent",
       "keywords": [],
-      "arxivId": "2606.12403v1",
+      "arxivId": "2606.13674v1",
       "doi": "",
       "relevance": "medium"
     }
