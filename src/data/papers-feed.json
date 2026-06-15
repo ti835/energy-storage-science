@@ -1,105 +1,91 @@
 {
-  "lastUpdated": "2026-06-14",
+  "lastUpdated": "2026-06-16",
   "papers": [
     {
-      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+      "title": "Leptonic flavour transfer: a new window on flavour gauge symmetries",
       "authors": [
-        "Dimitri Kachler",
-        "Damien Sileo",
-        "Pascal Denis"
+        "L. Darmé",
+        "N. Fardeau",
+        "F. Mahmoudi",
+        "M. Palmiotto"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-11",
-      "abstract": "With the growth of LLMs' (Large Language Models) capabilities, there has been an increasing push to curate high quality datasets by filtering samples in the training data. In general, Data Attribution (DA) methods aim to estimate how individual samples in a training dataset can precondition a model to generate certain outputs. As an example, one might be interested in which samples in the data could be the source of toxic behavior after training the LLM. Many methods quantify this conditioning t",
+      "publishDate": "2026-06-12",
+      "abstract": "New flavour non-abelian gauge groups, which may arise as part of a fundamental theory of flavour, can lead to distinctive flavour-transfer processes. When restricted to the lepton sector, such processes partially mimic the standard charged current interactions at low energy. We explicitly study such constructions with various flavour structures, and investigate systematically all relevant accelerator-based constraints, exploring specific experimental signatures for these models. In the absence o",
       "keywords": [],
-      "arxivId": "2606.13668v1",
+      "arxivId": "2606.14689v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "One-loop five-point gluing analytically",
+      "title": "Primal Bootstrap for Pion Scattering at Large-N",
       "authors": [
-        "B. Eden",
-        "M. Gottwald"
+        "Sebastiano Bocchia",
+        "Alessandro Vichi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-11",
-      "abstract": "The one-loop five-point function of stress tensor multiplets in N=4 super Yang-Mills theory in four dimensions has previously been studied by integrability methods. The finite-size viz gluing corrections defining it were originally matched on the known field theory result - establishing many features of the formalism on the way - and later to a good extent also analytically evaluated. For the first time, we present a full analytic evaluation of all processes. The starting point is the re-summati",
+      "publishDate": "2026-06-12",
+      "abstract": "We introduce a basis for tree-level meromorphic scattering amplitudes suitable for describing pion scattering in the large-N limit. The basis is constructed as linear combinations of Lovelace-Shapiro-like amplitudes with varying Regge slopes and intercepts. The resulting amplitudes satisfy by construction the fundamental requirements of analyticity, crossing symmetry, and Regge behavior. We analyze their behavior in specific kinematical regimes, including the high-energy fixed-angle limit. We al",
       "keywords": [],
-      "arxivId": "2606.13665v1",
+      "arxivId": "2606.14676v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Orbital-optimized density functional calculations of excited electronic states: Recent advances and perspectives",
+      "title": "Linear Gravitational Wave Memory Through the Window of Core-Collapse Supernovae",
       "authors": [
-        "Lorenzo Restaino",
-        "Giulia Gamboni",
-        "Elli Selenius",
-        "Gianluca Levi"
+        "Colter J. Richardson",
+        "Anthony Mezzacappa",
+        "Haakon Andresen",
+        "Michele Zanolin"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-11",
-      "abstract": "Orbital-optimized (OO) density functional calculations provide a time-independent, variational route to electronic excitations that complements the presently widely used time-dependent density functional theory (TDDFT). As the orbitals are optimized in a state specific way, these methods can provide a balanced description of excited states with different character, thereby overcoming several limitations of practical implementations of TDDFT. Driven by recent developments in algorithms for obtain",
+      "publishDate": "2026-06-12",
+      "abstract": "Low-frequency gravitational waves ($\\lessapprox$ 50 Hz) from core-collapse supernovae are becoming more important for current and future gravitational wave studies. This frequency region is dominated by the global morphology of the explosion and the anisotropic emission of neutrinos from the event. This paper serves as a brief review of both theory and detection (prospects) for gravitational waves in the low-frequency region. We discuss the generation of the linear gravitational wave memory sour",
       "keywords": [],
-      "arxivId": "2606.13654v1",
+      "arxivId": "2606.14670v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "title": "Resolving the Edge of a Quantum Pyramid",
       "authors": [
-        "Jundong Xu",
-        "Qingchuan Li",
-        "Jiaying Wu",
-        "Yihuai Lan",
-        "Shuyue Stella Li",
-        "Huichi Zhou",
-        "Bowen Jiang",
-        "Lei Wang"
+        "Alvan Arulandu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-11",
-      "abstract": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and so",
+      "publishDate": "2026-06-12",
+      "abstract": "Standing on the shoulders of giants, we resolve the quantum pyramids conjecture, confirming the globally information-optimal measurement for an ensemble of equiangular equiprobable pure states, as conjectured by Englert and Řeháček (arXiv:0905.0510). We do so by proving the remaining entropy inequalities of Holevo and Utkin (arXiv:2506.06700), which certify optimality for obtuse and flat pyramids. For obtuse pyramids, our key contribution is a rigorous proof that local minimizers of the correspo",
       "keywords": [],
-      "arxivId": "2606.13681v1",
+      "arxivId": "2606.14698v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Modality Forcing for Scalable Spatial Generation",
+      "title": "Scalar dissipation anomaly and scalar-gradient scaling in turbulence: A joint velocity-scalar multifractal view",
       "authors": [
-        "Bardienus Pieter Duisterhof",
-        "Deva Ramanan",
-        "Jeffrey Ichnowski",
-        "Justin Johnson",
-        "Keunhong Park"
+        "Dhawal Buaria"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-11",
-      "abstract": "Text-to-image (T2I) models contain rich spatial priors. Synthesizing photorealistic, cluttered scenes requires an understanding of geometry, including perspective and relative scale. Prior works adapt T2I models to leverage this prior for depth prediction, but they require dense depth data and involve complex recipes. We propose Modality Forcing, a simple, scalable post-training recipe for joint image-depth generation using a single DiT trained on sparse depth data. Modality Forcing enables cond",
+      "publishDate": "2026-06-12",
+      "abstract": "We revisit the problem of scalar dissipation anomaly and scaling of scalar gradients in passive scalar turbulence using theory and data from well-resolved direct numerical simulations (DNS) on grid sizes of up to $8192^3$, spanning Taylor-scale Reynolds numbers $Re_λ=140-1000$ and Schmidt numbers $Sc = 1-512$. The theory is based on a joint multifractal description of longitudinal velocity increments and scalar increments, constrained by Yaglom's law and extended to gradients via a fluctuating B",
       "keywords": [],
-      "arxivId": "2606.13676v1",
+      "arxivId": "2606.14696v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers",
+      "title": "Persona-Pruner: Sculpting Lightweight Models for Role-Playing",
       "authors": [
-        "Junke Wang",
-        "Qihang Zhang",
-        "Shuai Yang",
-        "Yiming Luo",
-        "Yujun Shen",
-        "Zuxuan Wu",
-        "Yu-Gang Jiang",
-        "Yinghao Xu"
+        "Jinsu Kim",
+        "Jihoon Tack",
+        "Noah Lee",
+        "Jongheon Jeong"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-11",
-      "abstract": "This work presents RepWAM, a representation-centric world action model (WAM) built on representation visual-action tokenizers. Existing WAMs typically inherit reconstruction-oriented video tokenizers from pretrained video generation models. Although these tokenizers preserve visual fidelity, pixel reconstruction alone provides limited guidance for learning instruction-following dynamics that connect future prediction with robot control. To address this, we explore a semantic visual-action latent",
+      "publishDate": "2026-06-12",
+      "abstract": "Language Models (LMs) have shown remarkable potential as role-playing chatbots, delivering consistent, stylized interactions when given a specification of a character or user persona. However, applying these capabilities to real-world applications (e.g., ecosystems with numerous NPCs interacting simultaneously) exposes a critical inefficiency due to the excessive computational cost. In this paper, we question the necessity of dedicating a full, generalist model to a single persona, hypothesizing",
       "keywords": [],
-      "arxivId": "2606.13674v1",
+      "arxivId": "2606.14695v1",
       "doi": "",
       "relevance": "medium"
     }
