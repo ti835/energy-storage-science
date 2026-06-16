@@ -1,91 +1,104 @@
 {
-  "lastUpdated": "2026-06-16",
+  "lastUpdated": "2026-06-17",
   "papers": [
     {
-      "title": "Leptonic flavour transfer: a new window on flavour gauge symmetries",
+      "title": "Galaxy-cluster-stacked Fermi-LAT, part IV: $\\sim70$ GeV WIMP annihilation lines",
       "authors": [
-        "L. Darmé",
-        "N. Fardeau",
-        "F. Mahmoudi",
-        "M. Palmiotto"
+        "Uri Keshet"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-12",
-      "abstract": "New flavour non-abelian gauge groups, which may arise as part of a fundamental theory of flavour, can lead to distinctive flavour-transfer processes. When restricted to the lepton sector, such processes partially mimic the standard charged current interactions at low energy. We explicitly study such constructions with various flavour structures, and investigate systematically all relevant accelerator-based constraints, exploring specific experimental signatures for these models. In the absence o",
+      "publishDate": "2026-06-15",
+      "abstract": "The strongest constraints on the velocity-dependent ($p$-wave) annihilation of weakly interacting massive particle (WIMP) dark matter were derived from the deep potential wells of galaxy clusters. Even weaker signals can be extracted from sufficient aggregated clusters, by cross-correlating $γ$-rays with large-scale structure tracers or stacking over extensive cluster catalogs. Three independent such analyses show a similar triad of emission lines in Fermi-LAT data, around 70, 40, and 13 GeV, em",
       "keywords": [],
-      "arxivId": "2606.14689v1",
+      "arxivId": "2606.17044v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Primal Bootstrap for Pion Scattering at Large-N",
+      "title": "First Experimental Limit on the Thermal Solar Neutrino Flux",
       "authors": [
-        "Sebastiano Bocchia",
-        "Alessandro Vichi"
+        "Cecilia Ferrari",
+        "Gonzalo Herrera",
+        "Brooke Russell"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-12",
-      "abstract": "We introduce a basis for tree-level meromorphic scattering amplitudes suitable for describing pion scattering in the large-N limit. The basis is constructed as linear combinations of Lovelace-Shapiro-like amplitudes with varying Regge slopes and intercepts. The resulting amplitudes satisfy by construction the fundamental requirements of analyticity, crossing symmetry, and Regge behavior. We analyze their behavior in specific kinematical regimes, including the high-energy fixed-angle limit. We al",
+      "publishDate": "2026-06-15",
+      "abstract": "The neutrino sky below 165\\,keV is yet to be explored. This region provides a unique probe of stellar cooling mechanisms through the detection of thermal solar neutrinos and the low-energy tail of the $pp$ solar cycle. Here, we investigate prospects for probing this regime via neutrino capture on tritium. Analyzing KATRIN public data, we set the first experimental bound on the thermal solar neutrino flux $Φ/Φ_{\\mathrm{SSM}} &lt; 1.86 \\times 10^{18}$ at 95\\%~CL ($1.58\\times10^{18}$ at 90\\%~CL), a",
       "keywords": [],
-      "arxivId": "2606.14676v1",
+      "arxivId": "2606.17042v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Linear Gravitational Wave Memory Through the Window of Core-Collapse Supernovae",
+      "title": "Curvature--Radiation Geometries Across the Second CHIME/FRB Fast Radio Burst Population",
       "authors": [
-        "Colter J. Richardson",
-        "Anthony Mezzacappa",
-        "Haakon Andresen",
-        "Michele Zanolin"
+        "Thonimar V. Alencar",
+        "Jéferson A. S. Fortunato",
+        "Wiliam S. Hipólito-Ricaldi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-12",
-      "abstract": "Low-frequency gravitational waves ($\\lessapprox$ 50 Hz) from core-collapse supernovae are becoming more important for current and future gravitational wave studies. This frequency region is dominated by the global morphology of the explosion and the anisotropic emission of neutrinos from the event. This paper serves as a brief review of both theory and detection (prospects) for gravitational waves in the low-frequency region. We discuss the generation of the linear gravitational wave memory sour",
+      "publishDate": "2026-06-15",
+      "abstract": "We present a population-level spectral analysis of fast radio bursts from the second CHIME/FRB catalog using three curvature-radiation-motivated templates: point-source, one-dimensional bunch, and paired-bunch cavity models. Fits are evaluated with reduced chi-squared $χ^2_r$, AIC/BIC, and the Ljung-Box residual autocorrelation test. All three templates yield median $χ^2_r$ values close to unity for both repeating and non-repeating bursts. Repeaters show narrower $χ^2_r$ distributions than non-r",
       "keywords": [],
-      "arxivId": "2606.14670v1",
+      "arxivId": "2606.17039v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Resolving the Edge of a Quantum Pyramid",
+      "title": "Human Universal Grasping",
       "authors": [
-        "Alvan Arulandu"
+        "Kevin Yuanbo Wu",
+        "Tianxing Zhou",
+        "Isaac Tu",
+        "Billy Yan",
+        "Irmak Guzey",
+        "David Fouhey",
+        "Dandan Shan",
+        "Lerrel Pinto"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-12",
-      "abstract": "Standing on the shoulders of giants, we resolve the quantum pyramids conjecture, confirming the globally information-optimal measurement for an ensemble of equiangular equiprobable pure states, as conjectured by Englert and Řeháček (arXiv:0905.0510). We do so by proving the remaining entropy inequalities of Holevo and Utkin (arXiv:2506.06700), which certify optimality for obtuse and flat pyramids. For obtuse pyramids, our key contribution is a rigorous proof that local minimizers of the correspo",
+      "publishDate": "2026-06-15",
+      "abstract": "Humans can grasp objects effortlessly, whereas multi-fingered robots are far from this level of generality. We argue that the most natural source of robot grasping data is from humans, who pick up thousands of objects every day. We present HUG, a flow-matching model that generates diverse human grasps for any user-specified object in a single RGB-D image captured from a stereo camera. Using smart glasses, we first collect 1M-HUGs, an egocentric dataset of human grasps spanning 1M frames (27.8 hr",
       "keywords": [],
-      "arxivId": "2606.14698v1",
+      "arxivId": "2606.17054v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Scalar dissipation anomaly and scalar-gradient scaling in turbulence: A joint velocity-scalar multifractal view",
+      "title": "Compact Spin-Charge Separated Neural Quantum States for Valence-Bond States",
       "authors": [
-        "Dhawal Buaria"
+        "Ang-Kun Wu",
+        "Louis Primeau",
+        "Yixin Zhang",
+        "Jingtao Zhang",
+        "Adrian Del Maestro",
+        "Yang Zhang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-12",
-      "abstract": "We revisit the problem of scalar dissipation anomaly and scaling of scalar gradients in passive scalar turbulence using theory and data from well-resolved direct numerical simulations (DNS) on grid sizes of up to $8192^3$, spanning Taylor-scale Reynolds numbers $Re_λ=140-1000$ and Schmidt numbers $Sc = 1-512$. The theory is based on a joint multifractal description of longitudinal velocity increments and scalar increments, constrained by Yaglom's law and extended to gradients via a fluctuating B",
+      "publishDate": "2026-06-15",
+      "abstract": "Neural-network quantum states (NQS) provide a flexible nonlinear representation of quantum many-body wavefunctions, but their efficiency depends sensitively on whether the architecture reflects the sign structure and constrained Hilbert space of the target state. In this work, we propose a solvable-point-guided strategy: design the architecture at an exactly solvable point where the correct local rules can be read off, then refine to the non-exact regime by enlarging only the kernel size and hid",
       "keywords": [],
-      "arxivId": "2606.14696v1",
+      "arxivId": "2606.17045v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Persona-Pruner: Sculpting Lightweight Models for Role-Playing",
+      "title": "Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes",
       "authors": [
-        "Jinsu Kim",
-        "Jihoon Tack",
-        "Noah Lee",
-        "Jongheon Jeong"
+        "Tongyan Fang",
+        "Siyuan Huang",
+        "Naiyu Fang",
+        "Ganlong Zhao",
+        "Zhongjin Luo",
+        "Jianbo Liu",
+        "Xiaogang Wang",
+        "Ying Dong"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-12",
-      "abstract": "Language Models (LMs) have shown remarkable potential as role-playing chatbots, delivering consistent, stylized interactions when given a specification of a character or user persona. However, applying these capabilities to real-world applications (e.g., ecosystems with numerous NPCs interacting simultaneously) exposes a critical inefficiency due to the excessive computational cost. In this paper, we question the necessity of dedicating a full, generalist model to a single persona, hypothesizing",
+      "publishDate": "2026-06-15",
+      "abstract": "When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision. Existing approaches commonly reduce this sparse outcome to a single scalar reward or advantage signal, which conflates distinct forms of transition-level feedback and provides limited guidance once basic task success becomes achievable. First, a single scalar signal conflates the two objectives of",
       "keywords": [],
-      "arxivId": "2606.14695v1",
+      "arxivId": "2606.17043v1",
       "doi": "",
       "relevance": "medium"
     }
