@@ -2,106 +2,92 @@
   "lastUpdated": "2026-06-17",
   "papers": [
     {
-      "title": "Galaxy-cluster-stacked Fermi-LAT, part IV: $\\sim70$ GeV WIMP annihilation lines",
+      "title": "Superconductivity from interband coupling to ferroelectric quantum critical fluctuations in two dimensions",
       "authors": [
-        "Uri Keshet"
+        "Sudip Kumar Saha",
+        "Jonathan Ruhman",
+        "Avraham Klein"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-15",
-      "abstract": "The strongest constraints on the velocity-dependent ($p$-wave) annihilation of weakly interacting massive particle (WIMP) dark matter were derived from the deep potential wells of galaxy clusters. Even weaker signals can be extracted from sufficient aggregated clusters, by cross-correlating $γ$-rays with large-scale structure tracers or stacking over extensive cluster catalogs. Three independent such analyses show a similar triad of emission lines in Fermi-LAT data, around 70, 40, and 13 GeV, em",
+      "publishDate": "2026-06-16",
+      "abstract": "Soft critical fluctuations associated with ferroelectric quantum phase transitions are typically transverse owing to their polar nature. This implies that the conventional density--density electron--phonon coupling to these modes is strongly suppressed, which is puzzling as a variety of materials exhibit enhanced superconductivity in the vicinity of ferroelectricity. An alternative coupling mechanism is an interband ``Stark''-like coupling that connects bands of opposite parity. In the limit whe",
       "keywords": [],
-      "arxivId": "2606.17044v1",
+      "arxivId": "2606.18251v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "First Experimental Limit on the Thermal Solar Neutrino Flux",
+      "title": "Pushing the Primordial Frontier: Exact Linear Solutions in Multifield Inflation",
       "authors": [
-        "Cecilia Ferrari",
-        "Gonzalo Herrera",
-        "Brooke Russell"
+        "Javier Huenupi",
+        "Claudio Muñoz",
+        "Gonzalo A. Palma",
+        "Spyros Sypsas"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-15",
-      "abstract": "The neutrino sky below 165\\,keV is yet to be explored. This region provides a unique probe of stellar cooling mechanisms through the detection of thermal solar neutrinos and the low-energy tail of the $pp$ solar cycle. Here, we investigate prospects for probing this regime via neutrino capture on tritium. Analyzing KATRIN public data, we set the first experimental bound on the thermal solar neutrino flux $Φ/Φ_{\\mathrm{SSM}} &lt; 1.86 \\times 10^{18}$ at 95\\%~CL ($1.58\\times10^{18}$ at 90\\%~CL), a",
+      "publishDate": "2026-06-16",
+      "abstract": "We present exact analytic solutions for the linear dynamics of a two-field inflationary system in which the primordial curvature perturbation $ζ$ is coupled to an isocurvature perturbation $σ$ of entropy mass $μ$. The solutions are valid for arbitrary values of $μ$ and the dimensionless interaction strength $λ$, within a quasi-de Sitter background. They therefore provide analytic control over the strongly coupled regime in which $ζ$ interacts with light isocurvature fields, commonly associated w",
       "keywords": [],
-      "arxivId": "2606.17042v1",
+      "arxivId": "2606.18248v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Curvature--Radiation Geometries Across the Second CHIME/FRB Fast Radio Burst Population",
+      "title": "A Joint Optimal Search for Gravitational Waves from Resolved and Unresolved Supermassive Binary Black Holes with Pulsar Timing Arrays",
       "authors": [
-        "Thonimar V. Alencar",
-        "Jéferson A. S. Fortunato",
-        "Wiliam S. Hipólito-Ricaldi"
+        "Boris Goncharov",
+        "Gabriela Sato-Polito",
+        "Xiaoming Bi",
+        "Matias Zaldarriaga"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-15",
-      "abstract": "We present a population-level spectral analysis of fast radio bursts from the second CHIME/FRB catalog using three curvature-radiation-motivated templates: point-source, one-dimensional bunch, and paired-bunch cavity models. Fits are evaluated with reduced chi-squared $χ^2_r$, AIC/BIC, and the Ljung-Box residual autocorrelation test. All three templates yield median $χ^2_r$ values close to unity for both repeating and non-repeating bursts. Repeaters show narrower $χ^2_r$ distributions than non-r",
+      "publishDate": "2026-06-16",
+      "abstract": "We introduce, from first principles, a joint model of the gravitational wave background (GWB) and brightest supermassive black hole binary (SMBHB) sources that may be individually resolvable in Pulsar Timing Array (PTA) searches for gravitational waves. We propose the characteristic number of SMBHB sources, $N_{\\rm c}$, as a detection statistic for the astrophysical origin of the GWB. We then demonstrate how the brightest SMBHBs assist in resolving $N_{\\rm c}$. Applying our method to the simulat",
       "keywords": [],
-      "arxivId": "2606.17039v1",
+      "arxivId": "2606.18241v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Human Universal Grasping",
+      "title": "Unified Multimodal Autoregressive Modeling with Shared Context-Visual Tokenizer is Key to Unification",
       "authors": [
-        "Kevin Yuanbo Wu",
-        "Tianxing Zhou",
-        "Isaac Tu",
-        "Billy Yan",
-        "Irmak Guzey",
-        "David Fouhey",
-        "Dandan Shan",
-        "Lerrel Pinto"
+        "Wujian Peng",
+        "Lingchen Meng",
+        "Yuxuan Cai",
+        "Xianwei Zhuang",
+        "Yuhuan Yang",
+        "Rongyao Fang",
+        "Chenfei Wu",
+        "Junyang Lin"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-15",
-      "abstract": "Humans can grasp objects effortlessly, whereas multi-fingered robots are far from this level of generality. We argue that the most natural source of robot grasping data is from humans, who pick up thousands of objects every day. We present HUG, a flow-matching model that generates diverse human grasps for any user-specified object in a single RGB-D image captured from a stereo camera. Using smart glasses, we first collect 1M-HUGs, an egocentric dataset of human grasps spanning 1M frames (27.8 hr",
+      "publishDate": "2026-06-16",
+      "abstract": "Unified Multimodal Modeling aims to integrate visual understanding and generation within a single system. However, existing approaches typically rely on two disparate visual tokenizers, which splits the representation space and hinders truly unified modeling. We propose UniAR, a unified autoregressive framework where a single discrete visual tokenizer serves as the key bridge between understanding and generation, enabling a shared context in which the model can directly interpret its own generat",
       "keywords": [],
-      "arxivId": "2606.17054v1",
+      "arxivId": "2606.18249v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Compact Spin-Charge Separated Neural Quantum States for Valence-Bond States",
+      "title": "EventDrive: Event Cameras for Vision-Language Driving Intelligence",
       "authors": [
-        "Ang-Kun Wu",
-        "Louis Primeau",
-        "Yixin Zhang",
-        "Jingtao Zhang",
-        "Adrian Del Maestro",
-        "Yang Zhang"
+        "Dongyue Lu",
+        "Rong Li",
+        "Ao Liang",
+        "Lingdong Kong",
+        "Wei Yin",
+        "Lai Xing Ng",
+        "Benoit R. Cottereau",
+        "Camille Simon Chane"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-15",
-      "abstract": "Neural-network quantum states (NQS) provide a flexible nonlinear representation of quantum many-body wavefunctions, but their efficiency depends sensitively on whether the architecture reflects the sign structure and constrained Hilbert space of the target state. In this work, we propose a solvable-point-guided strategy: design the architecture at an exactly solvable point where the correct local rules can be read off, then refine to the non-exact regime by enlarging only the kernel size and hid",
+      "publishDate": "2026-06-16",
+      "abstract": "Event cameras sense the world through asynchronous brightness changes with microsecond latency and high dynamic range, offering motion fidelity far beyond frame-based sensors and capturing temporal structure that conventional exposures often miss. These properties make events a powerful complement to RGB in autonomous driving, especially under blur, glare, and rapid motion, where frame-based perception can become unreliable. However, existing event-aware vision-language models remain limited to ",
       "keywords": [],
-      "arxivId": "2606.17045v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes",
-      "authors": [
-        "Tongyan Fang",
-        "Siyuan Huang",
-        "Naiyu Fang",
-        "Ganlong Zhao",
-        "Zhongjin Luo",
-        "Jianbo Liu",
-        "Xiaogang Wang",
-        "Ying Dong"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-06-15",
-      "abstract": "When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision. Existing approaches commonly reduce this sparse outcome to a single scalar reward or advantage signal, which conflates distinct forms of transition-level feedback and provides limited guidance once basic task success becomes achievable. First, a single scalar signal conflates the two objectives of",
-      "keywords": [],
-      "arxivId": "2606.17043v1",
+      "arxivId": "2606.18242v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
