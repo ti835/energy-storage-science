@@ -1,98 +1,103 @@
 {
-  "lastUpdated": "2026-06-18",
+  "lastUpdated": "2026-06-19",
   "papers": [
     {
-      "title": "Quantum solitons and their quantum walks in transmon arrays",
+      "title": "Observation of electroweak production of pairs of Z bosons in proton-proton collisions at 13 TeV",
       "authors": [
-        "Ben Blain",
-        "Giampiero Marchegiani",
-        "Luigi Amico",
-        "Gianluigi Catelani"
+        "CMS Collaboration"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-17",
-      "abstract": "Superconducting qubits are artificial atoms whose spectra and interactions can be engineered through appropriate circuit design, a versatility that can be exploited for quantum simulation. We theoretically investigate a linear array of capacitively coupled transmons, effectively described by a Bose-Hubbard Hamiltonian with attractive interaction. We revisit the discrete-soliton nature of the lowest-energy band of the spectrum, and identify spatially localized quantum solitons. The solitonic char",
+      "publishDate": "2026-06-18",
+      "abstract": "The first evidence of electroweak (EW) production of pairs of Z bosons in association with two jets (jj) in the final state ZZjj $\\to$ $\\ell\\ellνν$jj, where $\\ell$ = e, $μ$, is reported by the CMS experiment. The analysis is based on a data sample of proton-proton (pp) collisions at $\\sqrt{s}$ = 13 TeV, corresponding to an integrated luminosity of 138 fb$^{-1}$. Events are selected by requiring exactly two leptons of same flavor and opposite charge, large missing transverse momentum, and two jet",
       "keywords": [],
-      "arxivId": "2606.19339v1",
+      "arxivId": "2606.20558v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Constraints on Cosmic Strings from the Curl-Mode CMB Lensing Power Spectrum measured by ACT DR6",
+      "title": "On the Renormalization Group Flow of Active Flocks",
       "authors": [
-        "A. I. Lonappan",
-        "K. Ramesh",
-        "T. Namikawa",
-        "F. J. Qu",
-        "B. Keating"
+        "Kevin T. Grosvenor",
+        "Subodh P. Patil"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-17",
-      "abstract": "A network of cosmic strings is one of the few well-motivated cosmological sources of vector and tensor metric perturbations on the largest observable scales. Such perturbations imprint a characteristic curl component in the deflection angle of cosmic microwave background (CMB) photons that, unlike the scalar lensing potential, vanishes for adiabatic density fluctuations at linear order. We exploit the curl-mode lensing reconstruction released as part of the Atacama Cosmology Telescope (ACT) Data",
+      "publishDate": "2026-06-18",
+      "abstract": "In this paper, we study the statistical field-theoretic renormalization of active flocks via the MSRDJ action formulation for stochastic systems, focusing on the Toner-Tu theory of `Malthusian flocks', or polar-ordered, momentum non-conserving active fluids where relaxation times for density fluctuations are so short that they can be eliminated as a hydrodynamic variable. Working in the limit of isotropic diffusion in two spatial dimensions, we compute the renormalization of the couplings and th",
       "keywords": [],
-      "arxivId": "2606.19337v1",
+      "arxivId": "2606.20552v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Fine-scale downflows above flare ribbons captured by Solar Orbiter/EUI",
+      "title": "Benchmark of quantum algorithms for ground state preparation in the presence of noise",
       "authors": [
-        "Zheng Sun",
-        "Alexander G. M. Pietrow",
-        "Malcolm K. Druett",
-        "Hui Tian",
-        "Julián D. Alvarado-Gómez",
-        "Song Tan",
-        "Alexander Warmuth",
-        "Jiasheng Wang"
+        "Daniel Molpeceres",
+        "Sirui Lu",
+        "J. Ignacio Cirac",
+        "Barbara Kraus"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-17",
-      "abstract": "In solar flares, flare ribbons map chromospheric footpoints where flare energy deposition occurs. These locations are associated with field aligned energy transport from the corona that results from energy liberated during magnetic reconnection. Recent chromospheric observations in the H$α$ and H$β$ bands have revealed fine-scale downflow structures above flare ribbons, referred to as riblets. In this study, we identify similar downflow structures in the extreme-ultraviolet (EUV) wavelength usin",
+      "publishDate": "2026-06-18",
+      "abstract": "We compare the performance of representative cooling, adiabatic, and optimization algorithms for ground-state preparation in the presence of noise. Using an exactly solvable family of quadratic fermionic Hamiltonians subject to depolarizing noise, we derive the scaling of the achievable relative energy as a function of the noise rate and support these results with numerical simulations. The Hamiltonian exhibits two phases, separated by a quantum phase transition. As expected, the performance of ",
       "keywords": [],
-      "arxivId": "2606.19335v1",
+      "arxivId": "2606.20551v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Native Active Perception as Reasoning for Omni-Modal Understanding",
+      "title": "TimeProVe: Propose, then Verify for Efficient Long Video Temporal Reasoning in Activities of Daily Living",
       "authors": [
-        "Zhenghao Xing",
-        "Ruiyang Xu",
-        "Yuxuan Wang",
-        "Jinzheng He",
-        "Ziyang Ma",
-        "Qize Yang",
-        "Yunfei Chu",
-        "Jin Xu"
+        "Arkaprava Sinha",
+        "Dominick Reilly",
+        "Siddharth Krishnan",
+        "Hieu Le",
+        "Srijan Das"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-17",
-      "abstract": "Passive models for long video understanding typically rely on a \"watch-it-all\" paradigm, processing frames uniformly regardless of query difficulty, causing computational cost to grow with video duration. Although interactive frameworks have emerged, they often rely on global pre-scanning, and their context cost still scales with video length. We propose OmniAgent, the first native omni-modal agent that formulates video understanding as a POMDP-based iterative Observation-Thought-Action cycle. O",
+      "publishDate": "2026-06-18",
+      "abstract": "Long Video Question Answering (LVQA) requires identifying sparse, query-relevant evidence within hours-long untrimmed videos. Existing approaches either process videos densely with large vision-language models (VLMs), incurring prohibitive computational cost, or rely on sparse caption-based reasoning, which often misses temporally localized and motion-centric evidence. We introduce TimeProVe, a cost-efficient hybrid framework for temporally grounded reasoning in long videos. TimeProVe first empl",
       "keywords": [],
-      "arxivId": "2606.19341v1",
+      "arxivId": "2606.20561v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games",
+      "title": "How Transparent is DiffusionGemma?",
       "authors": [
-        "Shengyuan Ding",
-        "Xilin Wei",
-        "Xinyu Fang",
-        "Haodong Duan",
-        "Dahua Lin",
-        "Jiaqi Wang",
-        "Yuhang Zang"
+        "Joshua Engels",
+        "Callum McDougall",
+        "Bilal Chughtai",
+        "Janos Kramar",
+        "Senthoran Rajamanoharan",
+        "Cindy Wu",
+        "Arthur Conmy",
+        "Asic Q Chen"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-17",
-      "abstract": "Deploying multimodal foundation models as closed-loop policies increasingly requires conditioning actions on observations that are no longer visible. However, existing benchmarks either expose the full state, conflate hidden-state reconstruction with other agent skills, or test recall only after an episode has ended. We introduce RNG-Bench (Reconstructive Non-Markov Games), a benchmark suite designed to isolate a base model's ability to reconstruct past observations and act on them during multi-",
+      "publishDate": "2026-06-18",
+      "abstract": "LLM reasoning transparency is a critical affordance for understanding model decisions, mitigating misuse and misalignment, and debugging surprising model behaviors. However, DiffusionGemma performs a larger fraction of its computation in a continuous latent space; does this make its reasoning less transparent? We study this question by decomposing transparency into two components: variable transparency, whether we understand intermediate snapshots of a model's computational state; and algorithmi",
       "keywords": [],
-      "arxivId": "2606.19338v1",
+      "arxivId": "2606.20560v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning",
+      "authors": [
+        "Wenhao Chi",
+        "Arkaprava Sinha",
+        "Dominick Reilly",
+        "Hieu Le",
+        "Srijan Das"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-06-18",
+      "abstract": "Egocentric video understanding is inherently limited by the narrow perspective of wearable cameras: a single viewpoint, a single modality, a single model cannot capture the full richness of human action. We argue that a truly expressive egocentric representation must subsume complementary knowledge across viewpoints, modalities, and foundation model representations, yet remain deployable from egocentric video alone. To this end, we introduce a hierarchical multi-teacher distillation framework th",
+      "keywords": [],
+      "arxivId": "2606.20559v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
