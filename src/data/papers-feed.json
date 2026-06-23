@@ -1,100 +1,103 @@
 {
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-06-23",
   "papers": [
     {
-      "title": "Observation of electroweak production of pairs of Z bosons in proton-proton collisions at 13 TeV",
+      "title": "Emergent Andreev Reflection from a Lattice Duality Defect",
       "authors": [
-        "CMS Collaboration"
+        "Atsushi Ueda",
+        "Tokiro Numasawa",
+        "Boris De Vos",
+        "Masataka Watanabe"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-18",
-      "abstract": "The first evidence of electroweak (EW) production of pairs of Z bosons in association with two jets (jj) in the final state ZZjj $\\to$ $\\ell\\ellνν$jj, where $\\ell$ = e, $μ$, is reported by the CMS experiment. The analysis is based on a data sample of proton-proton (pp) collisions at $\\sqrt{s}$ = 13 TeV, corresponding to an integrated luminosity of 138 fb$^{-1}$. Events are selected by requiring exactly two leptons of same flavor and opposite charge, large missing transverse momentum, and two jet",
-      "keywords": [],
-      "arxivId": "2606.20558v1",
+      "publishDate": "2026-06-22",
+      "abstract": "Andreev reflection converts an incoming fermion into an outgoing hole and is usually tied to a superconducting interface. We show that an analogous charge-conjugating boundary condition emerges from a purely lattice duality defect. Starting from a Majorana representation of the transverse-field Ising chain, we construct a folded lattice model in which a boundary Majorana impurity implements a one-site translation of a staggered Majorana chain. In the continuum, this translation becomes a chiral ",
+      "keywords": [
+        "interface"
+      ],
+      "arxivId": "2606.23684v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "On the Renormalization Group Flow of Active Flocks",
+      "title": "PHAST-Net: Attention-Guided, Physics-Informed Network for Unified Estimation of Ideal Time-Frequency Representations",
       "authors": [
-        "Kevin T. Grosvenor",
-        "Subodh P. Patil"
+        "James M. Cozens",
+        "Simon J. Godsill"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-18",
-      "abstract": "In this paper, we study the statistical field-theoretic renormalization of active flocks via the MSRDJ action formulation for stochastic systems, focusing on the Toner-Tu theory of `Malthusian flocks', or polar-ordered, momentum non-conserving active fluids where relaxation times for density fluctuations are so short that they can be eliminated as a hydrodynamic variable. Working in the limit of isotropic diffusion in two spatial dimensions, we compute the renormalization of the couplings and th",
+      "publishDate": "2026-06-22",
+      "abstract": "We introduce PHAST-Net, an attention-guided, physics-informed network for unified estimation of Ideal Time-Frequency Representations (ITFRs), spanning spectral, tempo-based, metrical, and harmonic representations such as Spectrograms, Tempograms, and Metrograms. PHAST-Net learns an application-general mapping from a constellation of wavelet transforms, the proposed Continuous Log-frequency Adaptive Wavelet Transform (CLAWT), to high-resolution, cross-term-suppressed time-frequency (T-F) represen",
       "keywords": [],
-      "arxivId": "2606.20552v1",
+      "arxivId": "2606.23665v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Benchmark of quantum algorithms for ground state preparation in the presence of noise",
+      "title": "A Reduced Order Model for Emergent Mechanics in Woven Systems",
       "authors": [
-        "Daniel Molpeceres",
-        "Sirui Lu",
-        "J. Ignacio Cirac",
-        "Barbara Kraus"
+        "Anvay A. Pradhan",
+        "Evgueni T. Filipov",
+        "Talia Y. Moore"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-18",
-      "abstract": "We compare the performance of representative cooling, adiabatic, and optimization algorithms for ground-state preparation in the presence of noise. Using an exactly solvable family of quadratic fermionic Hamiltonians subject to depolarizing noise, we derive the scaling of the achievable relative energy as a function of the noise rate and support these results with numerical simulations. The Hamiltonian exhibits two phases, separated by a quantum phase transition. As expected, the performance of ",
+      "publishDate": "2026-06-22",
+      "abstract": "Woven structures exhibit rich mechanical behaviors including anisotropic stiffness, shear-induced locking, and crimp interchange that emerge purely from the geometric arrangement of individual weavers rather than from constituent material properties. Existing models either homogenize these interactions or resolve them at prohibitive computational cost. We introduce a reduced-order model that bridges this gap by representing individual weaver interactions through a system of nodes and four physic",
       "keywords": [],
-      "arxivId": "2606.20551v1",
+      "arxivId": "2606.23658v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "TimeProVe: Propose, then Verify for Efficient Long Video Temporal Reasoning in Activities of Daily Living",
+      "title": "AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection",
       "authors": [
-        "Arkaprava Sinha",
-        "Dominick Reilly",
-        "Siddharth Krishnan",
-        "Hieu Le",
-        "Srijan Das"
+        "Mingi Choi",
+        "Gunhee Kim",
+        "Jisoo Kim",
+        "Taeksoo Kim",
+        "Taeyun Ha",
+        "Jongbin Lim",
+        "Hanbyul Joo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-18",
-      "abstract": "Long Video Question Answering (LVQA) requires identifying sparse, query-relevant evidence within hours-long untrimmed videos. Existing approaches either process videos densely with large vision-language models (VLMs), incurring prohibitive computational cost, or rely on sparse caption-based reasoning, which often misses temporally localized and motion-centric evidence. We introduce TimeProVe, a cost-efficient hybrid framework for temporally grounded reasoning in long videos. TimeProVe first empl",
+      "publishDate": "2026-06-22",
+      "abstract": "Learning robust dexterous grasping requires real-world data that records the physical outcomes of grasp attempts. Such data is hard to obtain at scale: teleoperation yields valid physical outcomes but is slow and operator-biased, while simulation-based generation is cheap and scalable but cannot certify contact validity. A natural solution is to generate candidate grasps and verify them on real hardware, but this scales only if the entire collection loop (perception, execution, labeling, and res",
       "keywords": [],
-      "arxivId": "2606.20561v1",
+      "arxivId": "2606.23689v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "How Transparent is DiffusionGemma?",
+      "title": "IMAGIN-4D: Image-Guided Controllable Interaction Generation",
       "authors": [
-        "Joshua Engels",
-        "Callum McDougall",
-        "Bilal Chughtai",
-        "Janos Kramar",
-        "Senthoran Rajamanoharan",
-        "Cindy Wu",
-        "Arthur Conmy",
-        "Asic Q Chen"
+        "Sai Kumar Dwivedi",
+        "Federica Bogo",
+        "Buğra Tekin",
+        "Chenhongyi Yang",
+        "Nadine Bertsch",
+        "Tomas Hodan",
+        "Michael J. Black",
+        "Dimitrios Tzionas"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-18",
-      "abstract": "LLM reasoning transparency is a critical affordance for understanding model decisions, mitigating misuse and misalignment, and debugging surprising model behaviors. However, DiffusionGemma performs a larger fraction of its computation in a continuous latent space; does this make its reasoning less transparent? We study this question by decomposing transparency into two components: variable transparency, whether we understand intermediate snapshots of a model's computational state; and algorithmi",
+      "publishDate": "2026-06-22",
+      "abstract": "Generating human-object interactions (HOI) is central to character animation, robotics, AR/VR, and embodied AI. Recent HOI generation methods synthesize motion from text, object geometry, and sparse waypoints, controlling action semantics and object trajectories. However, these signals underspecify interaction: the same prompt and trajectory can produce different grasps, approach directions, body poses, object poses, contacts, and body-object layouts. We address this ambiguity with a reference i",
       "keywords": [],
-      "arxivId": "2606.20560v1",
+      "arxivId": "2606.23675v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning",
+      "title": "MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?",
       "authors": [
-        "Wenhao Chi",
-        "Arkaprava Sinha",
-        "Dominick Reilly",
-        "Hieu Le",
-        "Srijan Das"
+        "Juyang Bai",
+        "Laixi Shi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-18",
-      "abstract": "Egocentric video understanding is inherently limited by the narrow perspective of wearable cameras: a single viewpoint, a single modality, a single model cannot capture the full richness of human action. We argue that a truly expressive egocentric representation must subsume complementary knowledge across viewpoints, modalities, and foundation model representations, yet remain deployable from egocentric video alone. To this end, we introduce a hierarchical multi-teacher distillation framework th",
+      "publishDate": "2026-06-22",
+      "abstract": "Multi-agent systems (MAS) offer a scalable path forward for agentic AI, comprising multiple LLM-based agents, each assigned a system prompt and a position within a workflow that governs inter-agent coordination and output aggregation. System prompts thus form a critical and accessible optimization surface: they specify agents' roles and behaviors, enabling system-level improvements without model finetuning. Although prompt optimization has shown substantial potential for single LLMs, extending i",
       "keywords": [],
-      "arxivId": "2606.20559v1",
+      "arxivId": "2606.23664v1",
       "doi": "",
       "relevance": "medium"
     }
