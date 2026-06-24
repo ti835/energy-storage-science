@@ -1,103 +1,108 @@
 {
-  "lastUpdated": "2026-06-23",
+  "lastUpdated": "2026-06-24",
   "papers": [
     {
-      "title": "Emergent Andreev Reflection from a Lattice Duality Defect",
+      "title": "The Topology of the Universe",
       "authors": [
-        "Atsushi Ueda",
-        "Tokiro Numasawa",
-        "Boris De Vos",
-        "Masataka Watanabe"
+        "Craig J. Copi",
+        "Deyan P. Mihaylov",
+        "Anna Negro",
+        "Amirhossein Samandar",
+        "Glenn D. Starkman",
+        "Yashar Akrami",
+        "George Alestas",
+        "Stefano Anselmi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-22",
-      "abstract": "Andreev reflection converts an incoming fermion into an outgoing hole and is usually tied to a superconducting interface. We show that an analogous charge-conjugating boundary condition emerges from a purely lattice duality defect. Starting from a Majorana representation of the transverse-field Ising chain, we construct a folded lattice model in which a boundary Majorana impurity implements a one-site translation of a staggered Majorana chain. In the continuum, this translation becomes a chiral ",
-      "keywords": [
-        "interface"
-      ],
-      "arxivId": "2606.23684v1",
+      "publishDate": "2026-06-23",
+      "abstract": "Is the Universe infinite in all directions? The only way to know is to look. A non-trivial cosmic topology would imprint subtle signatures on the cosmic microwave background (CMB) and on the three-dimensional distribution of matter, breaking statistical isotropy and, potentially, homogeneity at the largest scales. If the topology scale is small enough, these signatures would be observable. Over the past three decades, successive space missions, most notably WMAP and $\\textit{Planck}$, have enabl",
+      "keywords": [],
+      "arxivId": "2606.24886v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "PHAST-Net: Attention-Guided, Physics-Informed Network for Unified Estimation of Ideal Time-Frequency Representations",
+      "title": "Polyatomic Thermal Radiative Dissociation in Microcavities",
       "authors": [
-        "James M. Cozens",
-        "Simon J. Godsill"
+        "Enes Suyabatmaz",
+        "Tuan Nguyen",
+        "Raphael F. Ribeiro"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-22",
-      "abstract": "We introduce PHAST-Net, an attention-guided, physics-informed network for unified estimation of Ideal Time-Frequency Representations (ITFRs), spanning spectral, tempo-based, metrical, and harmonic representations such as Spectrograms, Tempograms, and Metrograms. PHAST-Net learns an application-general mapping from a constellation of wavelet transforms, the proposed Continuous Log-frequency Adaptive Wavelet Transform (CLAWT), to high-resolution, cross-term-suppressed time-frequency (T-F) represen",
+      "publishDate": "2026-06-23",
+      "abstract": "Blackbody infrared radiative dissociation (BIRD) activates molecules through successive absorption of ambient thermal photons until the internal energy reaches a dissociation threshold. Because these radiative transition rates depend on the electromagnetic density of states (DOS), structured infrared environments provide a route to control thermal unimolecular dissociation. Here we develop a state-resolved master-equation framework for polyatomic BIRD in a planar Au/MgO multilayer cavity, where ",
       "keywords": [],
-      "arxivId": "2606.23665v1",
+      "arxivId": "2606.24866v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A Reduced Order Model for Emergent Mechanics in Woven Systems",
+      "title": "Probing Invisible Fermions in $B \\to D^{*}\\ell X_{\\text{inv}}$ via Angular Observables",
       "authors": [
-        "Anvay A. Pradhan",
-        "Evgueni T. Filipov",
-        "Talia Y. Moore"
+        "Lipika Kolay",
+        "Soumitra Nandi",
+        "Shantanu Sahoo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-22",
-      "abstract": "Woven structures exhibit rich mechanical behaviors including anisotropic stiffness, shear-induced locking, and crimp interchange that emerge purely from the geometric arrangement of individual weavers rather than from constituent material properties. Existing models either homogenize these interactions or resolve them at prohibitive computational cost. We introduce a reduced-order model that bridges this gap by representing individual weaver interactions through a system of nodes and four physic",
+      "publishDate": "2026-06-23",
+      "abstract": "Semileptonic decays $B \\to D^{*} \\ell X_{\\text{inv}}$ provide a sensitive probe of light invisible particles, such as sterile neutrinos or dark-sector fermions. Within a general weak effective theory framework, we show that a massive invisible fermion induces distinctive modifications in the angular distributions. We identify observables with enhanced sensitivity to the invisible particle mass, allowing a clear discrimination of such scenarios, and highlight angular structures that differentiate",
       "keywords": [],
-      "arxivId": "2606.23658v1",
+      "arxivId": "2606.24865v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection",
+      "title": "DiffusionBench: On Holistic Evaluation of Diffusion Transformers",
       "authors": [
-        "Mingi Choi",
-        "Gunhee Kim",
-        "Jisoo Kim",
-        "Taeksoo Kim",
-        "Taeyun Ha",
-        "Jongbin Lim",
-        "Hanbyul Joo"
+        "Xingjian Leng",
+        "Jaskirat Singh",
+        "Zhanhao Liang",
+        "Ethan Smith",
+        "Martin Bell",
+        "Aninda Saha",
+        "Yuhui Yuan",
+        "Liang Zheng"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-22",
-      "abstract": "Learning robust dexterous grasping requires real-world data that records the physical outcomes of grasp attempts. Such data is hard to obtain at scale: teleoperation yields valid physical outcomes but is slow and operator-biased, while simulation-based generation is cheap and scalable but cannot certify contact validity. A natural solution is to generate candidate grasps and verify them on real hardware, but this scales only if the entire collection loop (perception, execution, labeling, and res",
+      "publishDate": "2026-06-23",
+      "abstract": "Diffusion transformer (DiT) research on image generation has converged to a single evaluation setup: class-conditional generation on ImageNet. While methods improve the FID and related metrics, it is increasingly unclear whether they reflect real progress in generative modeling. The natural alternative, i.e., text-to-image (T2I) generation, is perceived as too costly or inconvenient to train and evaluate and is often skipped. We argue that this perception no longer holds. We introduce NanoGen, a",
       "keywords": [],
-      "arxivId": "2606.23689v1",
+      "arxivId": "2606.24888v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "IMAGIN-4D: Image-Guided Controllable Interaction Generation",
+      "title": "BenchX: Benchmarking AI Models for Cancer Detection and Localization with Demographic and Protocol Biases",
       "authors": [
-        "Sai Kumar Dwivedi",
-        "Federica Bogo",
-        "Buğra Tekin",
-        "Chenhongyi Yang",
-        "Nadine Bertsch",
-        "Tomas Hodan",
-        "Michael J. Black",
-        "Dimitrios Tzionas"
+        "Qi Chen",
+        "Wenxuan Li",
+        "Pedro R. A. S. Bassi",
+        "Xinze Zhou",
+        "Jakob Wasserthal",
+        "Ibrahim Ethem Hamamci",
+        "Sezgin Er",
+        "Ashwin Kumar"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-22",
-      "abstract": "Generating human-object interactions (HOI) is central to character animation, robotics, AR/VR, and embodied AI. Recent HOI generation methods synthesize motion from text, object geometry, and sparse waypoints, controlling action semantics and object trajectories. However, these signals underspecify interaction: the same prompt and trajectory can produce different grasps, approach directions, body poses, object poses, contacts, and body-object layouts. We address this ambiguity with a reference i",
+      "publishDate": "2026-06-23",
+      "abstract": "Artificial intelligence (AI) has achieved remarkable success in medical imaging, but it is widely recognized that these models often perform inconsistently across real-world clinical settings. Such inconsistencies occur when patient demographics and imaging protocols vary, for example, in detecting small tumors, analyzing scans from different contrast phases, or evaluating patients of different ages or sexes. To quantify these inconsistencies, we develop a large-scale, open benchmark of 85,355 C",
       "keywords": [],
-      "arxivId": "2606.23675v1",
+      "arxivId": "2606.24883v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?",
+      "title": "Queues with Correlated Service Times -- the $M/M_D/c$ Model",
       "authors": [
-        "Juyang Bai",
-        "Laixi Shi"
+        "Qihui Bu",
+        "Suman Thapa",
+        "Yiqiang Q. Zhao"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-22",
-      "abstract": "Multi-agent systems (MAS) offer a scalable path forward for agentic AI, comprising multiple LLM-based agents, each assigned a system prompt and a position within a workflow that governs inter-agent coordination and output aggregation. System prompts thus form a critical and accessible optimization surface: they specify agents' roles and behaviors, enabling system-level improvements without model finetuning. Although prompt optimization has shown substantial potential for single LLMs, extending i",
+      "publishDate": "2026-06-23",
+      "abstract": "This paper studies multi-server queueing systems with correlated service times, modeled as the $M/M_D/c$ queue, which is a natural extension of the recent work by Thapa and Zhao \\cite{Thapa-Zhao:2026}. In this model, arrivals follow a Poisson process, while service times across servers exhibit dependence captured by the Marshall--Olkin multivariate exponential distribution (MO-MVED).\n  We first develop a rigorous sample-path construction of the system and establish that the resulting queueing pr",
       "keywords": [],
-      "arxivId": "2606.23664v1",
+      "arxivId": "2606.24881v1",
       "doi": "",
       "relevance": "medium"
     }
