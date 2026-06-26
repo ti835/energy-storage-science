@@ -1,108 +1,84 @@
 {
-  "lastUpdated": "2026-06-25",
+  "lastUpdated": "2026-06-26",
   "papers": [
     {
-      "title": "Positron-Emitting and Electron-Capturing Double-Beta Processes in the Standard Model and Beyond",
+      "title": "Dirac fermions in non-Hermitian magnetic fields: Zero modes and index theorem",
       "authors": [
-        "Lukáš Gráf",
-        "Jenni Kotila",
-        "Oliver Scholer"
+        "Christopher A. Leong",
+        "Bitan Roy"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-24",
-      "abstract": "We study positron-emitting and electron-capturing double-beta-decay modes as probes complementary to the usual double beta decay. Motivated by the proposed NuDoubt++ experiment, we analyze the candidate isotopes ${}^{78}$Kr, ${}^{106}$Cd, and ${}^{124}$Xe, providing nuclear matrix elements and phase-space factors for both neutrinoful and neutrinoless modes. For the Standard-Model channels, we find that $2ν$ECEC and $2νβ^+$EC are the most experimentally accessible, whereas $2νβ^+β^+$ remains stro",
+      "publishDate": "2026-06-25",
+      "abstract": "In a Lorentz symmetric non-Hermitian (NH) Dirac theory, containing the canonical relativistic Hamiltonian accompanied by a masslike anti-Hermitian Dirac operator, when the associated NH parameter becomes spatially modulated it couples massless Dirac fermions as NH gauge fields. With specific choices of such resulting NH gauge potential, the system experiences NH magnetic fields. When a planar Dirac system encloses a finite flux of such NH magnetic fields, a manifold of spatially localized \\emph{",
       "keywords": [],
-      "arxivId": "2606.26097v1",
+      "arxivId": "2606.27370v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A Population of Little Red Dot-like Quasars in SDSS",
+      "title": "Hidden-ordered Dirac fermions",
       "authors": [
-        "Quinn O. Casey",
-        "Ryan C. Hickox",
-        "Nikko J. Cleri",
-        "Jonathan H. Cohn",
-        "David M. Alexander",
-        "Emmanuel Durodola",
-        "Kelly E. Whalen",
-        "Raphael E. Hviding"
+        "Bitan Roy"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-24",
-      "abstract": "Compact and red sources in the high redshift ($z\\sim5$) Universe, known as \"Little Red Dots\" (LRDs), are among JWST's most intriguing discoveries. These sources have broad Balmer emission lines, weak X-ray emission, and unique spectral energy distributions (SEDs) poorly fit by either stellar or AGN templates. Local analogs of LRDs allow for detailed studies of the underlying physical processes with archival multi-wavelength datasets unavailable in the high-$z$ Universe. We show that the SDSS $ug",
+      "publishDate": "2026-06-25",
+      "abstract": "I propose a Hermitian extension of the Lorentz-symmetric Dirac theory by complementing the associated Hamiltonian with another \\emph{masslike} anticommuting Dirac operator. The resulting theory manifests the iconic linear energy-momentum relationship in any dimension ($d$) and hence the emergent nodal quasiparticle excitations are named \\emph{hidden-ordered Dirac fermions}, which are symmetry protected and their responses are analogous to those in original Dirac systems, however, in terms of a r",
       "keywords": [],
-      "arxivId": "2606.26098v1",
+      "arxivId": "2606.27368v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Parnassus: A GPU-enabled, Python-based Package for Fast Particle Detector Simulation and Reconstruction",
+      "title": "The Effect of Topological Defects and Magnetic Flux on Fully-Heavy Tetraquarks and Mass Spectra of Heavy Quarkonia Using the Analytical Exact Iteration Method",
       "authors": [
-        "Abdelrahman Elabd",
-        "Eilam Gross",
-        "Dmitrii Kobylianskii",
-        "Benjamin Nachman"
+        "N. H. Gerish",
+        "M. Abu-Shady",
+        "E. M. Khokha"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-24",
-      "abstract": "We present the public software release of Parnassus, a Python/PyTorch, GPU-compatible framework for fast detector simulation and reconstruction in particle and nuclear physics. Parnassus provides a user-friendly framework with interchangeable detector models: neural models can emulate computationally expensive Geant4-based detector simulation and reconstruction chains, while parametric models provide PyTorch implementations of selected Delphes-style detector responses. This initial release inclu",
-      "keywords": [
-        "interface"
-      ],
-      "arxivId": "2606.26089v1",
+      "publishDate": "2026-06-25",
+      "abstract": "Investigating the non-perturbative behavior of QCD and the dynamics of strong interaction is crucial for the study of heavy quarkonia and the understanding of exotic fully-heavy tetraquarks. In this work, using the analytical exact iteration method (AEIM), the analytical eigenvalue solutions of the non-relativistic Schrödinger equation are obtained in the presence of topological defects and external magnetic flux. The interactions are modelled using a modified Cornell potential supplemented by h",
+      "keywords": [],
+      "arxivId": "2606.27363v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Higher Berry curvature, second Chern numbers and magnetoelectric coupling in crystalline insulators",
+      "title": "DanceOPD: On-Policy Generative Field Distillation",
       "authors": [
-        "Niclas Heinsdorf",
-        "Ken Shiozaki"
+        "Wei Zhou",
+        "Xiongwei Zhu",
+        "Zelin Xu",
+        "Bo Dong",
+        "Lixue Gong",
+        "Yongyuan Liang",
+        "Meng Chu",
+        "Leigang Qu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-24",
-      "abstract": "We rewrite a lattice model of the four-dimensional Chern insulator as a family of translationally-invariant infinite chains over the three-dimensional Brillouin zone and compute its higher three-form Berry curvature using infinite matrix product states (iMPS). We calculate the topological phase diagram of the associated Dixmier--Douady--Kapustin--Spodyneiko (DDKS) number as a function of the model's mass term, and show that it is exactly congruent to the phase diagram in terms of the second Cher",
+      "publishDate": "2026-06-25",
+      "abstract": "Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing. However, these capabilities are rarely naturally aligned and often conflict. For instance, editing tends to degrade T2I performance, while global and local editing interfere with each other. Consequently, effectively composing these capabilities has become a central challenge for image generation model training. To tackle this, we introduce DanceOPD,",
       "keywords": [],
-      "arxivId": "2606.26096v1",
+      "arxivId": "2606.27377v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
+      "title": "Don't Settle at the Mode! Mitigating Diversity Collapse in Pretrained Flow Models via Feature Self-Guidance",
       "authors": [
-        "Dong Jing",
-        "Tianqi Zhang",
-        "Jiaqi Liu",
-        "Jinman Zhao",
-        "Zelong Sun",
-        "Li Erran Li",
-        "Zhiwu Lu",
-        "Mingyu Ding"
+        "Pradhaan S Bhat",
+        "Rishubh Parihar",
+        "Abhijnya Bhat",
+        "R. Venkatesh Babu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-24",
-      "abstract": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and linguistic priors from the VLM, but leaves the action module to learn physical motion almost from scratch. As a result, the policy lacks an explicit motion prior, forcing early optimization to simultaneously discover temporal action dynamics and cross-modal alignment, a challenge further amplified in ",
+      "publishDate": "2026-06-25",
+      "abstract": "State-of-the-art flow models generate stunning images from text or image prompts. However, they suffer from diversity collapse when generating multiple samples under the same conditioning. Existing methods address this issue via either latent guidance, which has limited effectiveness, or sample selection, which relies on external reward models that incur significant inference-time overhead. In this work, we introduce an efficient, training-free self-guidance mechanism to mitigate diversity colla",
       "keywords": [],
-      "arxivId": "2606.26095v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Simulating Universal Quantum Gate Sets on Photonic OAM Qubits: Single-Qubit and Multi-Qubit Operations via Spatial Light Modulator Phase Holography",
-      "authors": [
-        "Saleha Maqsood",
-        "Muhammad Kamran",
-        "Tahir Malik"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-06-24",
-      "abstract": "Spatial light modulators (SLMs) have emerged as reconfigurable platforms for photonic quantum information processing, offering software-defined control over the orbital angular momentum (OAM) of light encoded in Laguerre-Gaussian (LG) beams. This paper presents a comprehensive simulation and hardware-grounded fidelity analysis of quantum gate operations implemented on the HOLOEYE LC 2012 transmissive SLM. A realistic three-channel noise model comprising 8-bit quantisation noise, twisted-nematic ",
-      "keywords": [],
-      "arxivId": "2606.26088v1",
+      "arxivId": "2606.27371v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
