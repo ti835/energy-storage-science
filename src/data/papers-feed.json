@@ -1,68 +1,79 @@
 {
-  "lastUpdated": "2026-06-29",
+  "lastUpdated": "2026-06-30",
   "papers": [
     {
-      "title": "Near-threshold scattering of proton and Omega baryon and possible bound states",
+      "title": "Expansion rate of the young, oxygen-rich supernova remnant G292.0+1.8",
       "authors": [
-        "Yu-Jie Feng",
-        "Qian Wang",
-        "Qiang Zhao"
+        "Maria Aslanidou",
+        "Manan Agarwal",
+        "Jacco Vink"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-26",
-      "abstract": "We study the near-threshold scattering and bound-state structure of the $NΩ$ system by solving the Lippmann-Schwinger (L-S) equation within the framework of the meson exchange model and the Pomeron exchange model. The numerical results indicate that after incorporating the Pomeron exchange mechanism, the observables of the ${^5}S{_2}$ channel, such as the binding energy, scattering length, and effective range, agree better with the experimental measurements. In addition, The Pomeron exchange can",
+      "publishDate": "2026-06-29",
+      "abstract": "Core-collapse supernova remnants (CCSNRs) are ideal targets for studying ejecta--interstellar-medium interactions, shock dynamics, and explosion characteristics. G292.0+1.8 is a classic CCSNR featuring oxygen-rich ejecta, circumstellar material, a rapidly moving pulsar, and a pulsar wind nebula (PWN). We examine its expansion rate using deep Chandra ACIS-I observations over two nearly independent $\\sim$10 yr baselines (2006--2016). After applying astrometric corrections based on Gaia DR3 sources",
       "keywords": [],
-      "arxivId": "2606.28319v1",
+      "arxivId": "2606.30643v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Continuation of Force-Free Electrodynamics upon the loss of magnetic dominance",
+      "title": "Lagrangian correspondences of nonabelian Hodge type and shifted twistor structures",
       "authors": [
-        "Morifumi Mizuno"
+        "Jacob Kryczka",
+        "Yuuji Tanaka",
+        "Shing-Tung Yau"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-26",
-      "abstract": "Force-Free Electrodynamics (FFE) describes the evolution of the electromagnetic field in magnetically dominated plasmas, but ceases to be hyperbolic once the magnetic dominance condition $F^{ab}F_{ab}&gt;0$ is lost. We demonstrate that, after the loss of magnetic dominance, FFE may be replaced by a theory of null fields, $F^{ab}F_{ab}=0=F^{ab}\\tilde{F}_{ab}$, characterized by the condition that its principal null direction is tangent to a geodesic congruence. In flat spacetime, this theory may b",
+      "publishDate": "2026-06-29",
+      "abstract": "Classical nonabelian Hodge theory identifies Dolbeault and de Rham moduli spaces by providing a real-analytic isomorphism. In this paper, motivated by the Kapustin--Witten theory, we study this correspondence in the more general framework of perfect complexes on proper varieties, paying special attention to the surface case. We establish a Lagrangian correspondence which relates the shifted symplectic geometries by Pantev--Toën--Vaquié--Vezzosi (PTVV) between the derived stacks of flat and Higgs",
       "keywords": [],
-      "arxivId": "2606.28317v1",
+      "arxivId": "2606.30637v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "The Role of Scintillation in Detecting HI Absorption in FRB Spectra",
+      "title": "Provable random-matrix spectral ramp in a static, geometrically local Hamiltonian",
       "authors": [
-        "Om Gupta",
-        "Pawan Kumar",
-        "Paz Beniamini",
-        "Edward L. Robinson"
+        "Matteo Ippoliti"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-26",
-      "abstract": "The 21-cm absorption line of neutral hydrogen has been a long hypothesized observational feature of the spectra of Fast Radio Bursts (FRBs). The difficulties associated with detector noise in extracting HI absorption have been previously studied. We test the role that scintillation plays in the HI absorption line's detectability, and characterize the regimes where a realistic FRB may yield the 21-cm line. We build an efficient model to simulate diffractive scintillation arising from FRB passage ",
+      "publishDate": "2026-06-29",
+      "abstract": "Quantum chaos is commonly associated with the emergence of random-matrix statistics in the spectra of quantum systems. A useful diagnostic is provided by the spectral form factor (SFF), which for random matrix ensembles displays a universal linear-growth regime (`ramp'). In the last decade, a landmark result by Bertini, Kos and Prosen (BKP) identified for the first time a class of geometrically local quantum dynamics of finite-dimensional particles where the SFF provably exhibits a random-matrix",
       "keywords": [],
-      "arxivId": "2606.28314v1",
+      "arxivId": "2606.30635v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand",
+      "title": "GROW$^2$: Grounding Which and Where for Robot Tool Use",
       "authors": [
-        "Dihong Huang",
-        "Zhenyu Wei",
-        "Zhuxiu Xu",
-        "Yunchao Yao",
-        "Sikai Li",
-        "Mingyu Ding"
+        "Yuhong Deng",
+        "Yuyao Liu",
+        "David Hsu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-06-26",
-      "abstract": "Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation skill often imposes conflicting demands on overlapping fingers and contact modes, causing destructive interference between preserving an existing manipulation outcome and executing a new one. We propose DexCompose, a role-aware residual composition framework that reuses pretrained dexterous policies ",
+      "publishDate": "2026-06-29",
+      "abstract": "Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challenge of $\\textit{open-world affordance grounding}$: select an open-category object to act as a tool and localize its specific region of action. To this end, we introduce GROW$^2$ (GROunding Which and Where), which leverages object parts as a natural abstraction to split the grounding process hierarchic",
       "keywords": [],
-      "arxivId": "2606.28323v1",
+      "arxivId": "2606.30632v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Cavity-mediated probabilistic magic $T$-gate injection",
+      "authors": [
+        "Sofia Cocciaretto",
+        "Roberto Menta",
+        "Vittorio Giovannetti"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-06-29",
+      "abstract": "Non-Clifford gates are a necessary resource for universal quantum computation, yet their fault-tolerant implementation typically relies on magic-state distillation, which incurs significant overhead in qubit count and circuit depth. In this work, we propose a probabilistic cavity-based magic-state injection protocol. Our scheme exploits controlled atom-cavity interactions and conditional measurements to probabilistically prepare an effective magic state encoded in the first two level Fock subspa",
+      "keywords": [],
+      "arxivId": "2606.30628v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 4
+  "totalCount": 5
 }
