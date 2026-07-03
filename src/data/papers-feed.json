@@ -1,5 +1,108 @@
 {
-  "lastUpdated": "2026-07-02",
-  "papers": [],
-  "totalCount": 0
+  "lastUpdated": "2026-07-03",
+  "papers": [
+    {
+      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+      "authors": [
+        "Matteo Boglioni",
+        "Thibault Rousset",
+        "Siva Reddy",
+        "Marius Mosbach",
+        "Verna Dankers"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-02",
+      "abstract": "LLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often following a localize-first, unlearn-second paradigm that targets specific model parameters. However, existing benchmarks evaluate unlearning solely at the output level, leaving open the question of whether unlearning truly erases knowledge from a model's",
+      "keywords": [],
+      "arxivId": "2607.02513v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "A critical look at low-scale cosmological phase transitions in the PTA era",
+      "authors": [
+        "Simone Biondini",
+        "Philipp Schicho"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-02",
+      "abstract": "Motivated by the recent evidence for a stochastic gravitational-wave (GW) background reported by pulsar timing array (PTA) collaborations, we perform a precision study of low-scale phase transitions in a dark Abelian Higgs sector, a minimal gauge theory of spontaneous symmetry breaking relevant for cosmological phase transitions. Using dimensionally reduced high-temperature effective field theory, we quantify the impact of thermal resummation, higher-order matching corrections, and higher-dimens",
+      "keywords": [],
+      "arxivId": "2607.02505v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Alleviating prior dependencies for DESI DR1 clustering fits through reparameterization",
+      "authors": [
+        "Marco Bonici",
+        "Simone Paradiso",
+        "Glenn McGee",
+        "Guido D'Amico",
+        "Minas Karamanis",
+        "Hanyu Zhang",
+        "Will Percival",
+        "Jessica Nicole Aguilar"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-02",
+      "abstract": "Bayesian analyses of the full-shape clustering of Dark Energy Spectroscopic Instrument (DESI) Data Release 1 (DR1) exhibit prior-volume projection effects, whereby weakly constrained nuisance parameters of the Effective Field Theory of Large Scale Structure (EFTofLSS) shift marginalized cosmological posteriors away from the posterior maximum. We reanalyze DESI DR1 power spectrum multipoles using two complementary mitigation strategies: (i) nonlinear orthogonalization to decorrelate nuisance and ",
+      "keywords": [],
+      "arxivId": "2607.02498v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Alignment Is All You Need For X-to-4D Generation",
+      "authors": [
+        "Qiaowei Miao",
+        "Kehan Li",
+        "Yawei Luo",
+        "Yi Yang"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-02",
+      "abstract": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existing methods. This paper presents Align4D, a flexible framework that translates any-modal input into coherent video-3D pairs, using video to guide 4D motion and 3D data to shape 4D geometry. Align4D intr",
+      "keywords": [],
+      "arxivId": "2607.02516v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation",
+      "authors": [
+        "Haofei Xu",
+        "Rundi Wu",
+        "Philipp Henzler",
+        "Nikolai Kalischek",
+        "Michael Oechsle",
+        "Fabian Manhardt",
+        "Marc Pollefeys",
+        "Andreas Geiger"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-02",
+      "abstract": "State-of-the-art single-image 3D reconstruction methods often rely on complex hybrid architectures and loss functions, or compress geometry into latent spaces in order to leverage pre-trained latent diffusion models. In this work, we show that such architectural overhead and intricate loss formulations are unnecessary. We introduce a minimalist pixel-space Diffusion Transformer, built on a plain ViT, that operates directly on raw 3D point map patches and is conditioned on image tokens from a pre",
+      "keywords": [],
+      "arxivId": "2607.02515v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Distributed Attacks in Persistent-State AI Control",
+      "authors": [
+        "Josh Hills",
+        "Ida Caspary",
+        "Asa Cooper Stickland"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-02",
+      "abstract": "As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR with the best natural cover. To study the resulting dynamics, we introduce Iterative VibeCoding, a setting for AI control, the study of safely deploying capable but potentially untrusted AI. In Iterativ",
+      "keywords": [],
+      "arxivId": "2607.02514v1",
+      "doi": "",
+      "relevance": "medium"
+    }
+  ],
+  "totalCount": 6
 }
