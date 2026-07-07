@@ -1,105 +1,109 @@
 {
-  "lastUpdated": "2026-07-06",
+  "lastUpdated": "2026-07-07",
   "papers": [
     {
-      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+      "title": "Liénard--Wiechert fields in AdS and flat-space antipodal matching from geodesic-centered Coulombic data",
       "authors": [
-        "Matteo Boglioni",
-        "Thibault Rousset",
-        "Siva Reddy",
-        "Marius Mosbach",
-        "Verna Dankers"
+        "Sarthak Duary"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-02",
-      "abstract": "LLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often following a localize-first, unlearn-second paradigm that targets specific model parameters. However, existing benchmarks evaluate unlearning solely at the output level, leaving open the question of whether unlearning truly erases knowledge from a model's",
+      "publishDate": "2026-07-06",
+      "abstract": "We give a geometric derivation of Li'enard--Wiechert fields in flat space and in global AdS, emphasizing the origin of antipodal matching. In flat space, the field of a uniformly moving charge is obtained by using coordinates centered on the source timelike geodesic, where the charge is at rest and the solution is the ordinary Coulomb field. The nontrivial angular dependence of the leading data at null infinity arises only after rewriting this static solution in a non-centered frame, making the ",
       "keywords": [],
-      "arxivId": "2607.02513v1",
+      "arxivId": "2607.05395v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A critical look at low-scale cosmological phase transitions in the PTA era",
+      "title": "Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification",
       "authors": [
-        "Simone Biondini",
-        "Philipp Schicho"
+        "Raphaël Bonnet-Guerrini",
+        "Bruno Sanchez",
+        "Dominique Fouchez",
+        "Benjamin Racine",
+        "Maya Guy",
+        "Mariam Sabalbal",
+        "Manal Yassine",
+        "Vincenzo Piuri"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-02",
-      "abstract": "Motivated by the recent evidence for a stochastic gravitational-wave (GW) background reported by pulsar timing array (PTA) collaborations, we perform a precision study of low-scale phase transitions in a dark Abelian Higgs sector, a minimal gauge theory of spontaneous symmetry breaking relevant for cosmological phase transitions. Using dimensionally reduced high-temperature effective field theory, we quantify the impact of thermal resummation, higher-order matching corrections, and higher-dimens",
+      "publishDate": "2026-07-06",
+      "abstract": "Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noisy and survey-dependent. We aim to develop a Real-Bogus classification framework that can be trained without human-labeled data using injected transients and bogus-dominated survey data, remains robust under strong class contamination, and provides calibrated uncertainty quantification. We combine s",
       "keywords": [],
-      "arxivId": "2607.02505v1",
+      "arxivId": "2607.05393v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Alleviating prior dependencies for DESI DR1 clustering fits through reparameterization",
+      "title": "Charge-Sector Construction of the Type-IIB Axion--Dilaton Wormhole Partition Function",
       "authors": [
-        "Marco Bonici",
-        "Simone Paradiso",
-        "Glenn McGee",
-        "Guido D'Amico",
-        "Minas Karamanis",
-        "Hanyu Zhang",
-        "Will Percival",
-        "Jessica Nicole Aguilar"
+        "Soo-Jong Rey"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-02",
-      "abstract": "Bayesian analyses of the full-shape clustering of Dark Energy Spectroscopic Instrument (DESI) Data Release 1 (DR1) exhibit prior-volume projection effects, whereby weakly constrained nuisance parameters of the Effective Field Theory of Large Scale Structure (EFTofLSS) shift marginalized cosmological posteriors away from the posterior maximum. We reanalyze DESI DR1 power spectrum multipoles using two complementary mitigation strategies: (i) nonlinear orthogonalization to decorrelate nuisance and ",
+      "publishDate": "2026-07-06",
+      "abstract": "I construct the Type-IIB axion--dilaton wormhole partition function from charge-sector data. In a chosen axion charge, equivalently form-field flux sector, the long-distance saddle calculation supplies a two-end operator term with coefficient matrix \\(C^{ij}_ν\\). The labels \\(i,j\\) label end-insertion operators; the labels \\(A,B\\) label parent universes. Reduction data \\(b\\) convert this matrix into scalar coefficients \\(W_ν[b]\\). The wormhole partition function in the theta variable is \\(Z_{\\rm",
       "keywords": [],
-      "arxivId": "2607.02498v1",
+      "arxivId": "2607.05385v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Alignment Is All You Need For X-to-4D Generation",
+      "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
       "authors": [
-        "Qiaowei Miao",
-        "Kehan Li",
-        "Yawei Luo",
-        "Yi Yang"
+        "Shiyuan Feng",
+        "Huan-ang Gao",
+        "Haohan Chi",
+        "Hanlin Wu",
+        "Zhilong Zhang",
+        "Zheng Jiang",
+        "Bingxiang He",
+        "Wei-Ying Ma"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-02",
-      "abstract": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existing methods. This paper presents Align4D, a flexible framework that translates any-modal input into coherent video-3D pairs, using video to guide 4D motion and 3D data to shape 4D geometry. Align4D intr",
+      "publishDate": "2026-07-06",
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) is a powerful recipe for improving language-model reasoning, but it is expensive to repeat on every new strong model because the target model must generate many rollouts during training. As models scale, post-training itself becomes a bottleneck. We study a weak-to-strong alternative: run RL on a smaller model where rollouts are cheaper, then reuse what that RL run learned to improve a stronger target model. Directly distilling the post-RL we",
       "keywords": [],
-      "arxivId": "2607.02516v1",
+      "arxivId": "2607.05394v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation",
+      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
       "authors": [
-        "Haofei Xu",
-        "Rundi Wu",
-        "Philipp Henzler",
-        "Nikolai Kalischek",
-        "Michael Oechsle",
-        "Fabian Manhardt",
-        "Marc Pollefeys",
-        "Andreas Geiger"
+        "Jacky Kwok",
+        "Shulu Li",
+        "Pranav Atreya",
+        "Yuejiang Liu",
+        "Yixing Jiang",
+        "Chelsea Finn",
+        "Marco Pavone",
+        "Ion Stoica"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-02",
-      "abstract": "State-of-the-art single-image 3D reconstruction methods often rely on complex hybrid architectures and loss functions, or compress geometry into latent spaces in order to leverage pre-trained latent diffusion models. In this work, we show that such architectural overhead and intricate loss formulations are unnecessary. We introduce a minimalist pixel-space Diffusion Transformer, built on a plain ViT, that operates directly on raw 3D point map patches and is conditioned on image tokens from a pre",
+      "publishDate": "2026-07-06",
+      "abstract": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis. To unlock this and demonstrate its effectiveness, we introduce LLM-as-a-Verifier, a general-purpose verification framework that provides fine-grained feedback for agentic tasks without requiring additional training. Unlike standard LM judges that p",
       "keywords": [],
-      "arxivId": "2607.02515v1",
+      "arxivId": "2607.05391v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Distributed Attacks in Persistent-State AI Control",
+      "title": "Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models",
       "authors": [
-        "Josh Hills",
-        "Ida Caspary",
-        "Asa Cooper Stickland"
+        "Hongyu Li",
+        "Wanjia Fu",
+        "Xiaoyan Cong",
+        "Zekun Li",
+        "Binghao Huang",
+        "Hanxiao Jiang",
+        "Xintong He",
+        "Yiqing Liang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-02",
-      "abstract": "As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR with the best natural cover. To study the resulting dynamics, we introduce Iterative VibeCoding, a setting for AI control, the study of safely deploying capable but potentially untrusted AI. In Iterativ",
+      "publishDate": "2026-07-06",
+      "abstract": "Predicting object dynamics (i.e., world modeling) is a fundamental challenge for robotic manipulation, and modeling deformable objects presents a particularly difficult case due to their high-dimensional state spaces and complex material properties. While current world models approach this through two distinct paradigms: learning the dynamics over the 2D pixel space or more explicit 3D geometric space. A systematic understanding of their relative strengths and limitations remains elusive due to ",
       "keywords": [],
-      "arxivId": "2607.02514v1",
+      "arxivId": "2607.05390v1",
       "doi": "",
       "relevance": "medium"
     }
