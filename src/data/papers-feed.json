@@ -1,109 +1,100 @@
 {
-  "lastUpdated": "2026-07-07",
+  "lastUpdated": "2026-07-08",
   "papers": [
     {
-      "title": "Liénard--Wiechert fields in AdS and flat-space antipodal matching from geodesic-centered Coulombic data",
-      "authors": [
-        "Sarthak Duary"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-07-06",
-      "abstract": "We give a geometric derivation of Li'enard--Wiechert fields in flat space and in global AdS, emphasizing the origin of antipodal matching. In flat space, the field of a uniformly moving charge is obtained by using coordinates centered on the source timelike geodesic, where the charge is at rest and the solution is the ordinary Coulomb field. The nontrivial angular dependence of the leading data at null infinity arises only after rewriting this static solution in a non-centered frame, making the ",
-      "keywords": [],
-      "arxivId": "2607.05395v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification",
-      "authors": [
-        "Raphaël Bonnet-Guerrini",
-        "Bruno Sanchez",
-        "Dominique Fouchez",
-        "Benjamin Racine",
-        "Maya Guy",
-        "Mariam Sabalbal",
-        "Manal Yassine",
-        "Vincenzo Piuri"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-07-06",
-      "abstract": "Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noisy and survey-dependent. We aim to develop a Real-Bogus classification framework that can be trained without human-labeled data using injected transients and bogus-dominated survey data, remains robust under strong class contamination, and provides calibrated uncertainty quantification. We combine s",
-      "keywords": [],
-      "arxivId": "2607.05393v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Charge-Sector Construction of the Type-IIB Axion--Dilaton Wormhole Partition Function",
+      "title": "The Chiral Random-Matrix Ensemble of the Type-IIB Axion--Dilaton Wormhole Partition Function",
       "authors": [
         "Soo-Jong Rey"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-06",
-      "abstract": "I construct the Type-IIB axion--dilaton wormhole partition function from charge-sector data. In a chosen axion charge, equivalently form-field flux sector, the long-distance saddle calculation supplies a two-end operator term with coefficient matrix \\(C^{ij}_ν\\). The labels \\(i,j\\) label end-insertion operators; the labels \\(A,B\\) label parent universes. Reduction data \\(b\\) convert this matrix into scalar coefficients \\(W_ν[b]\\). The wormhole partition function in the theta variable is \\(Z_{\\rm",
+      "publishDate": "2026-07-07",
+      "abstract": "I construct a microscopic ADHM/chiral-Wishart representative of the reduced charge-sector coefficient $W_ν[b]$ that enters the Type-IIB axion--dilaton wormhole partition function $Z_{\\rm wh}(θ;b)$. I fix the axion-charge sector, equivalently the form-field-flux sector, which plays the exact same structural role as a fixed-topology sector in QCD: it supplies the domain where I compute the microscopic coefficient before forming the final theta sum. At $E=0$, the axion--dilaton radial family reache",
       "keywords": [],
-      "arxivId": "2607.05385v1",
+      "arxivId": "2607.06566v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+      "title": "Minimum Energies and Magnetic Field Strengths of Edge-brightened Compact Symmetric Objects",
       "authors": [
-        "Shiyuan Feng",
-        "Huan-ang Gao",
-        "Haohan Chi",
-        "Hanlin Wu",
-        "Zhilong Zhang",
-        "Zheng Jiang",
-        "Bingxiang He",
-        "Wei-Ying Ma"
+        "Tirth D. Surti",
+        "Martijn S. S. L. Oei",
+        "Anthony C. S. Readhead",
+        "Andrew G. Sullivan"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-06",
-      "abstract": "Reinforcement learning with verifiable rewards (RLVR) is a powerful recipe for improving language-model reasoning, but it is expensive to repeat on every new strong model because the target model must generate many rollouts during training. As models scale, post-training itself becomes a bottleneck. We study a weak-to-strong alternative: run RL on a smaller model where rollouts are cheaper, then reuse what that RL run learned to improve a stronger target model. Directly distilling the post-RL we",
+      "publishDate": "2026-07-07",
+      "abstract": "Compact symmetric objects (CSOs) are subkiloparsec radio sources with two-sided emission about a core resulting from jets that are not relativistically beamed towards the observer. This relative simplicity makes them attractive targets to study the launching and evolution of relativistic jets. We use radio surveys and spatially resolved VLBA observations to estimate the minimum energies and magnetic field strengths of a subset of edge-brightened CSOs (CSO-2s). These are necessary to test models ",
       "keywords": [],
-      "arxivId": "2607.05394v1",
+      "arxivId": "2607.06562v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+      "title": "Predictions for $b$-baryon lifetimes at NNLO-QCD",
       "authors": [
-        "Jacky Kwok",
-        "Shulu Li",
-        "Pranav Atreya",
-        "Yuejiang Liu",
-        "Yixing Jiang",
-        "Chelsea Finn",
-        "Marco Pavone",
-        "Ion Stoica"
+        "Alexander Lenz",
+        "Maria Laura Piscopo",
+        "Aleksey V. Rusov"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-06",
-      "abstract": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis. To unlock this and demonstrate its effectiveness, we introduce LLM-as-a-Verifier, a general-purpose verification framework that provides fine-grained feedback for agentic tasks without requiring additional training. Unlike standard LM judges that p",
+      "publishDate": "2026-07-07",
+      "abstract": "Motivated by recent and forthcoming experimental progress, we provide updated predictions for the total decay rates of $b$-baryons, their lifetime ratios and their lifetimes normalised to that of the $B^0_d$ meson within the framework of the heavy quark expansion (HQE). We include, for the first time, next-to-next-to-leading-order QCD corrections to the free $b$-quark decay, which significantly reduce the theoretical uncertainties in the total decay rates. In addition, we also include, for the f",
       "keywords": [],
-      "arxivId": "2607.05391v1",
+      "arxivId": "2607.06538v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models",
+      "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
       "authors": [
-        "Hongyu Li",
-        "Wanjia Fu",
-        "Xiaoyan Cong",
-        "Zekun Li",
-        "Binghao Huang",
-        "Hanxiao Jiang",
-        "Xintong He",
-        "Yiqing Liang"
+        "Tianjiao Yu",
+        "Xinzhuo Li",
+        "Yifan Shen",
+        "Onkar Susladkar",
+        "Yuanzhe Liu",
+        "Xiaona Zhou",
+        "Ismini Lourentzou"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-06",
-      "abstract": "Predicting object dynamics (i.e., world modeling) is a fundamental challenge for robotic manipulation, and modeling deformable objects presents a particularly difficult case due to their high-dimensional state spaces and complex material properties. While current world models approach this through two distinct paradigms: learning the dynamics over the 2D pixel space or more explicit 3D geometric space. A systematic understanding of their relative strengths and limitations remains elusive due to ",
+      "publishDate": "2026-07-07",
+      "abstract": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural cues and fine geometric details into one undifferentiated representation. We introduce ELSA3D, a unified 3D model that addresses this with elastic semantic anchoring, structuring language and geometri",
       "keywords": [],
-      "arxivId": "2607.05390v1",
+      "arxivId": "2607.06565v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "2D Transport in an in-plane magnetic field",
+      "authors": [
+        "Aryaman Babbar",
+        "Sankar Das Sarma"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-07",
+      "abstract": "A parallel in-plane magnetic field could, in principle, distinguish between two competing physical scenarios for the experimentally observed density-tuned 2D metal-insulator transition (where decreasing the carrier density leads to a crossover from an effective metal to an effective insulator): Wigner crystallization or Anderson localization. Since the main scattering mechanism in 2D doped semiconductors arises from screened random charged impurities and screening in turn depends on the electron",
+      "keywords": [
+        "screening"
+      ],
+      "arxivId": "2607.06561v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+      "authors": [
+        "Haoyu Zhao",
+        "Xingyue Zhao",
+        "Siteng Huang",
+        "Xin Li",
+        "Deli Zhao",
+        "Zhongyu Li"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-07",
+      "abstract": "Robotic manipulation in the open world requires not only recognizing what a scene looks like, but also anticipating how its 3D structure moves under interaction. We argue that synchronized RGB, depth, and optical flow, namely RGB-DF, provide a physically grounded representation that captures the underlying 4D dynamics of a scene. Compared to 2D pixel videos, this multi-modal synergy aligns visual appearance with geometric structure and temporal motion, creating a representation space significant",
+      "keywords": [],
+      "arxivId": "2607.06559v1",
       "doi": "",
       "relevance": "medium"
     }
