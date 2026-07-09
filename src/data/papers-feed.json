@@ -1,103 +1,84 @@
 {
-  "lastUpdated": "2026-07-08",
+  "lastUpdated": "2026-07-09",
   "papers": [
     {
-      "title": "The Chiral Random-Matrix Ensemble of the Type-IIB Axion--Dilaton Wormhole Partition Function",
+      "title": "Radio emission from close-in exoplanets: Can we extend the radio-magnetic scaling law to the sub-Alfvénic stellar wind regime?",
       "authors": [
-        "Soo-Jong Rey"
+        "Filip Elekes",
+        "Aline A. Vidotto"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-07",
-      "abstract": "I construct a microscopic ADHM/chiral-Wishart representative of the reduced charge-sector coefficient $W_ν[b]$ that enters the Type-IIB axion--dilaton wormhole partition function $Z_{\\rm wh}(θ;b)$. I fix the axion-charge sector, equivalently the form-field-flux sector, which plays the exact same structural role as a fixed-topology sector in QCD: it supplies the domain where I compute the microscopic coefficient before forming the final theta sum. At $E=0$, the axion--dilaton radial family reache",
+      "publishDate": "2026-07-08",
+      "abstract": "Observations of exoplanetary radio aurora can directly probe planetary magnetic fields and magnetic star-planet interactions. However, the search for exoplanetary radio aurora has been without confirmed detections despite favorable predictions based on extrapolations of the radio-magnetic scaling law (RMSL). The RMSL is based on solar system planets in the super-Alvenic solar wind and it is unclear whether the RMSL holds for close-in exoplanets in more magnetic, sub-Alfvenic winds. We aim to tes",
       "keywords": [],
-      "arxivId": "2607.06566v1",
+      "arxivId": "2607.07704v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Minimum Energies and Magnetic Field Strengths of Edge-brightened Compact Symmetric Objects",
+      "title": "Non-Hermitian Edge State Endocytosis",
       "authors": [
-        "Tirth D. Surti",
-        "Martijn S. S. L. Oei",
-        "Anthony C. S. Readhead",
-        "Andrew G. Sullivan"
+        "Si-Yu Yuan",
+        "Wen-Tan Xue",
+        "Ching Hua Lee"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-07",
-      "abstract": "Compact symmetric objects (CSOs) are subkiloparsec radio sources with two-sided emission about a core resulting from jets that are not relativistically beamed towards the observer. This relative simplicity makes them attractive targets to study the launching and evolution of relativistic jets. We use radio surveys and spatially resolved VLBA observations to estimate the minimum energies and magnetic field strengths of a subset of edge-brightened CSOs (CSO-2s). These are necessary to test models ",
+      "publishDate": "2026-07-08",
+      "abstract": "An isolated edge state observed in a finite open chain is usually expected to survive the thermodynamic limit (TDL), with a localization mechanism distinct from non-Hermitian skin accumulation, which localizes the \\emph{entire} bulk continuum. We show that scale-sensitive non-Hermitian systems can generically admit a different fate: as we scale up the system size, a detached edge-localized eigenstate can remain sharply visible over a broad window until a critical scale is reached, where it forms",
       "keywords": [],
-      "arxivId": "2607.06562v1",
+      "arxivId": "2607.07703v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Predictions for $b$-baryon lifetimes at NNLO-QCD",
+      "title": "Coherent Signal Detection with Pruning -- I. Finding Short-Period Binary Pulsars in Circular Orbits",
       "authors": [
-        "Alexander Lenz",
-        "Maria Laura Piscopo",
-        "Aleksey V. Rusov"
+        "Pravir Kumar",
+        "Barak Zackay"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-07",
-      "abstract": "Motivated by recent and forthcoming experimental progress, we provide updated predictions for the total decay rates of $b$-baryons, their lifetime ratios and their lifetimes normalised to that of the $B^0_d$ meson within the framework of the heavy quark expansion (HQE). We include, for the first time, next-to-next-to-leading-order QCD corrections to the free $b$-quark decay, which significantly reduce the theoretical uncertainties in the total decay rates. In addition, we also include, for the f",
+      "publishDate": "2026-07-08",
+      "abstract": "Detecting pulsars in short-period binary systems, which are unparalleled laboratories for fundamental physics and tests of general relativity, is a prime objective of radio astronomy. Their rapid orbital motion, however, presents a formidable computational challenge. Conventional searches are therefore limited to simplified signal models (e.g., constant acceleration) that remain valid for only short integrations ($\\lesssim 4$-$10$% of an orbital period). This fundamental limitation severely degr",
       "keywords": [],
-      "arxivId": "2607.06538v1",
+      "arxivId": "2607.07700v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
       "authors": [
-        "Tianjiao Yu",
-        "Xinzhuo Li",
-        "Yifan Shen",
-        "Onkar Susladkar",
-        "Yuanzhe Liu",
-        "Xiaona Zhou",
-        "Ismini Lourentzou"
+        "Chen Tang",
+        "Yizhou Wang",
+        "Jianyu Wu",
+        "Lintao Wang",
+        "Shixiang Tang",
+        "Pengze Li",
+        "Encheng Su",
+        "Jun Yao"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-07",
-      "abstract": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural cues and fine geometric details into one undifferentiated representation. We introduce ELSA3D, a unified 3D model that addresses this with elastic semantic anchoring, structuring language and geometri",
+      "publishDate": "2026-07-08",
+      "abstract": "Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization. Mechanistically explaining these relationships requires interpreting structural evidence through scientific principles and physical constraints, from stereochemistry and bonding to symmetry, energetics and periodic order. However, applying artificial intelligence to this process presents a joint ch",
       "keywords": [],
-      "arxivId": "2607.06565v1",
+      "arxivId": "2607.07708v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "2D Transport in an in-plane magnetic field",
+      "title": "The Key to Going Linear: Analysis-Driven Transformer Linearization",
       "authors": [
-        "Aryaman Babbar",
-        "Sankar Das Sarma"
+        "Anna Kuzina",
+        "Paul N. Whatmough",
+        "Babak Ehteshami Bejnordi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-07",
-      "abstract": "A parallel in-plane magnetic field could, in principle, distinguish between two competing physical scenarios for the experimentally observed density-tuned 2D metal-insulator transition (where decreasing the carrier density leads to a crossover from an effective metal to an effective insulator): Wigner crystallization or Anderson localization. Since the main scattering mechanism in 2D doped semiconductors arises from screened random charged impurities and screening in turn depends on the electron",
-      "keywords": [
-        "screening"
-      ],
-      "arxivId": "2607.06561v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
-      "authors": [
-        "Haoyu Zhao",
-        "Xingyue Zhao",
-        "Siteng Huang",
-        "Xin Li",
-        "Deli Zhao",
-        "Zhongyu Li"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-07-07",
-      "abstract": "Robotic manipulation in the open world requires not only recognizing what a scene looks like, but also anticipating how its 3D structure moves under interaction. We argue that synchronized RGB, depth, and optical flow, namely RGB-DF, provide a physically grounded representation that captures the underlying 4D dynamics of a scene. Compared to 2D pixel videos, this multi-modal synergy aligns visual appearance with geometric structure and temporal motion, creating a representation space significant",
+      "publishDate": "2026-07-08",
+      "abstract": "The quadratic cost of causal self-attention severely bottlenecks long-context transformer inference. While numerous post hoc linearization pipelines exist, it is difficult to identify which components preserve model quality. This work isolates the effect of state update design in a strict frozen-backbone regime. We show that softmax relies on key-dependent, rank-1 orthogonal projections, elucidating why delta-style networks outperform purely gated accumulation. We identify a potential source of ",
       "keywords": [],
-      "arxivId": "2607.06559v1",
+      "arxivId": "2607.07706v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
