@@ -1,84 +1,110 @@
 {
-  "lastUpdated": "2026-07-09",
+  "lastUpdated": "2026-07-10",
   "papers": [
     {
-      "title": "Radio emission from close-in exoplanets: Can we extend the radio-magnetic scaling law to the sub-Alfvénic stellar wind regime?",
+      "title": "Phase-dependent kink collisions and dual critical-velocity branches in the complex sine-Gordon model",
       "authors": [
-        "Filip Elekes",
-        "Aline A. Vidotto"
+        "Mohammad Mohammadi",
+        "Farnaz Eizadbaksh",
+        "Vahideh Bagheri"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-08",
-      "abstract": "Observations of exoplanetary radio aurora can directly probe planetary magnetic fields and magnetic star-planet interactions. However, the search for exoplanetary radio aurora has been without confirmed detections despite favorable predictions based on extrapolations of the radio-magnetic scaling law (RMSL). The RMSL is based on solar system planets in the super-Alvenic solar wind and it is unclear whether the RMSL holds for close-in exoplanets in more magnetic, sub-Alfvenic winds. We aim to tes",
-      "keywords": [],
-      "arxivId": "2607.07704v1",
+      "publishDate": "2026-07-09",
+      "abstract": "The complex sine-Gordon (CSG) model contains an internal phase degree of freedom that strongly modifies the dynamics of its solitary-wave solutions. We present a numerical study of complex kink--kink collisions and determine how the final state depends jointly on the initial velocity and relative phase. In contrast with the elastic collisions of the real sine-Gordon model, the CSG system exhibits scattering, capture, long-lived bion formation, breather-like states, and emission of radiative prof",
+      "keywords": [
+        "energy density"
+      ],
+      "arxivId": "2607.08752v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Non-Hermitian Edge State Endocytosis",
+      "title": "Decoupling Limit of Quiver Theories and the Angular Spectra of Extreme C-metrics",
       "authors": [
-        "Si-Yu Yuan",
-        "Wen-Tan Xue",
-        "Ching Hua Lee"
+        "Peng Yang",
+        "Kilar Zhang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-08",
-      "abstract": "An isolated edge state observed in a finite open chain is usually expected to survive the thermodynamic limit (TDL), with a localization mechanism distinct from non-Hermitian skin accumulation, which localizes the \\emph{entire} bulk continuum. We show that scale-sensitive non-Hermitian systems can generically admit a different fate: as we scale up the system size, a detached edge-localized eigenstate can remain sharply visible over a broad window until a critical scale is reached, where it forms",
+      "publishDate": "2026-07-09",
+      "abstract": "We investigate the angular eigenvalue problem of the extreme charged C-metric. In the extreme limit ($Q \\to M$), the governing differential equation degenerates from a Fuchsian equation with five regular singular points into a Confluent Extended Heun Equation. To evaluate the angular spectrum analytically, we formulate a decoupling limit within the dual four-dimensional $\\mathcal{N}=2$, $\\mathrm{SU(2)}\\times \\mathrm{SU(2)}$ linear quiver gauge theory. Within this framework, we derive the paramet",
       "keywords": [],
-      "arxivId": "2607.07703v1",
+      "arxivId": "2607.08747v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Coherent Signal Detection with Pruning -- I. Finding Short-Period Binary Pulsars in Circular Orbits",
+      "title": "SACRA-K: A Performance-Portable Numerical Relativity Code with Kokkos",
       "authors": [
-        "Pravir Kumar",
-        "Barak Zackay"
+        "Ming-Zhe Han",
+        "Kenta Kiuchi",
+        "Masaru Shibata"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-08",
-      "abstract": "Detecting pulsars in short-period binary systems, which are unparalleled laboratories for fundamental physics and tests of general relativity, is a prime objective of radio astronomy. Their rapid orbital motion, however, presents a formidable computational challenge. Conventional searches are therefore limited to simplified signal models (e.g., constant acceleration) that remain valid for only short integrations ($\\lesssim 4$-$10$% of an orbital period). This fundamental limitation severely degr",
+      "publishDate": "2026-07-09",
+      "abstract": "We present SACRA-K (SimulAtor for Compact objects in Relativistic Astrophysics with Kokkos), a performance-portable numerical relativity code ported from the Fortran code SACRA-MPI to C++ with the Kokkos library. SACRA-K retains the physics and numerical methods of SACRA-MPI, namely a Baumgarte-Shapiro-Shibata-Nakamura (BSSN) spacetime evolution with Z4c constraint propagation and a box-in-box Berger-Oliger adaptive mesh refinement, together with the high resolution shock capturing scheme for th",
       "keywords": [],
-      "arxivId": "2607.07700v1",
+      "arxivId": "2607.08743v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+      "title": "Wat3R: Underwater 3D Geometry Learning without Annotations",
       "authors": [
-        "Chen Tang",
-        "Yizhou Wang",
-        "Jianyu Wu",
-        "Lintao Wang",
-        "Shixiang Tang",
-        "Pengze Li",
-        "Encheng Su",
-        "Jun Yao"
+        "Jiangwei Ren",
+        "Xingyu Jiang",
+        "Zijie Song",
+        "Wei Xu",
+        "Hongkai Lin",
+        "Dingkang Liang",
+        "Xiang Bai"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-08",
-      "abstract": "Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization. Mechanistically explaining these relationships requires interpreting structural evidence through scientific principles and physical constraints, from stereochemistry and bonding to symmetry, energetics and periodic order. However, applying artificial intelligence to this process presents a joint ch",
+      "publishDate": "2026-07-09",
+      "abstract": "Estimating 3D geometry in underwater environments presents unique challenges due to light attenuation, scattering, and the absence of large-scale, high-quality 3D annotations. Pioneering methods rely on massive dense annotations that are impractical in underwater settings. In this paper, we propose Wat3R, a cross-domain semi-supervised learning framework designed to adapt feed-forward 3D reconstruction models from air to underwater scenes. Uniquely, our method eliminates the need for any annotat",
       "keywords": [],
-      "arxivId": "2607.07708v1",
+      "arxivId": "2607.08772v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "The Key to Going Linear: Analysis-Driven Transformer Linearization",
+      "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
       "authors": [
-        "Anna Kuzina",
-        "Paul N. Whatmough",
-        "Babak Ehteshami Bejnordi"
+        "Cheng-De Fan",
+        "Chun-Wei Tuan Mu",
+        "Chen-Wei Chang",
+        "Chin-Yang Lin",
+        "Kun-Ru Wu",
+        "Yu-Chee Tseng",
+        "Yu-Lun Liu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-08",
-      "abstract": "The quadratic cost of causal self-attention severely bottlenecks long-context transformer inference. While numerous post hoc linearization pipelines exist, it is difficult to identify which components preserve model quality. This work isolates the effect of state update design in a strict frozen-backbone regime. We show that softmax relies on key-dependent, rank-1 orthogonal projections, elucidating why delta-style networks outperform purely gated accumulation. We identify a potential source of ",
+      "publishDate": "2026-07-09",
+      "abstract": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trained video diffusion priors to jointly handle event-based video reconstruction, prediction, and frame interpolation. By fine-tuning a foundational video model, our approach achieves high data efficiency and superior perceptual quality. We introduce Autor",
       "keywords": [],
-      "arxivId": "2607.07706v1",
+      "arxivId": "2607.08770v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Geometry and Gradient-based Partitioning for Panoramic Outdoor Reconstruction",
+      "authors": [
+        "Weijian Chen",
+        "Weibo Yao",
+        "Yuhang Zhang",
+        "Xiaolin Tang",
+        "Guo Wang",
+        "Weijun Zhang",
+        "Xitong Gao",
+        "Yihao Chen"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-09",
+      "abstract": "Scaling 3D Gaussian Splatting (3DGS) to large outdoor scenes is costly in both data acquisition and computation. Adopting panoramic images with equirectangular projection (ERP) can reduce capture effort via their full $360^{\\circ}$ field of view, yet the resulting omnipresent visibility invalidates existing partitioning strategies that rely on local camera frustums, causing block-wise optimization to degenerate into global training. Thus, we propose PanoLOG, a two-stage coarse-to-fine framework ",
+      "keywords": [],
+      "arxivId": "2607.08769v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
