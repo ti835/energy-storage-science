@@ -1,110 +1,83 @@
 {
-  "lastUpdated": "2026-07-12",
+  "lastUpdated": "2026-07-13",
   "papers": [
     {
-      "title": "Phase-dependent kink collisions and dual critical-velocity branches in the complex sine-Gordon model",
+      "title": "PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis",
       "authors": [
-        "Mohammad Mohammadi",
-        "Farnaz Eizadbaksh",
-        "Vahideh Bagheri"
+        "Ren Takahashi",
+        "Emre Yusuf",
+        "Jayabrata Bhaduri"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-09",
-      "abstract": "The complex sine-Gordon (CSG) model contains an internal phase degree of freedom that strongly modifies the dynamics of its solitary-wave solutions. We present a numerical study of complex kink--kink collisions and determine how the final state depends jointly on the initial velocity and relative phase. In contrast with the elastic collisions of the real sine-Gordon model, the CSG system exhibits scattering, capture, long-lived bion formation, breather-like states, and emission of radiative prof",
+      "publishDate": "2026-07-10",
+      "abstract": "Current electroencephalography (EEG)-based dream detection relies on power spectral density (PSD) and statistical moment features, achieving a state-of-the-art area under the receiver operating characteristic curve (AUC) of approximately 0.70 on the DREAM database (Wong et al., 2025, Nature Communications). We introduce PHINN-EEG (Persistent Homology Inspired Neural Network for EEG), the first topological time-series framework for dream mentation analysis. Using sliding-window Takens delay embed",
+      "keywords": [],
+      "arxivId": "2607.09662v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Nonlinear particle detectors across the Rindler firewall",
+      "authors": [
+        "Matheus H. Zambianco",
+        "Eduardo Martín-Martínez"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-10",
+      "abstract": "We investigate Unruh-DeWitt detectors coupled to composite observables of a quantum scalar field, including quadratic coupling to the field momentum and coupling to the local energy density. We develop a distributional framework for evaluating the corresponding detector response functions and apply it to detectors crossing the Rindler firewall. While we recover the finite response of the derivative-coupling model, we show that quadratic momentum coupling leads to ill-defined products of distribu",
       "keywords": [
         "energy density"
       ],
-      "arxivId": "2607.08752v1",
+      "arxivId": "2607.09660v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Decoupling Limit of Quiver Theories and the Angular Spectra of Extreme C-metrics",
+      "title": "Identifying and characterizing extragalactic circum-CBC exoplanets with future gravitational-wave detectors",
       "authors": [
-        "Peng Yang",
-        "Kilar Zhang"
+        "Avinash Tiwari",
+        "Aditya Vijaykumar",
+        "Shasvath J. Kapadia",
+        "Sourav Chatterjee"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-09",
-      "abstract": "We investigate the angular eigenvalue problem of the extreme charged C-metric. In the extreme limit ($Q \\to M$), the governing differential equation degenerates from a Fuchsian equation with five regular singular points into a Confluent Extended Heun Equation. To evaluate the angular spectrum analytically, we formulate a decoupling limit within the dual four-dimensional $\\mathcal{N}=2$, $\\mathrm{SU(2)}\\times \\mathrm{SU(2)}$ linear quiver gauge theory. Within this framework, we derive the paramet",
+      "publishDate": "2026-07-10",
+      "abstract": "Exoplanets are high-value targets for a variety of ground and space-based telescopes. All known exoplanets are Galactic, and a fraction of them orbit compact objects. In this work, we investigate the possibility of detecting extragalactic exoplanets orbiting stellar-mass compact binary coalescences (CBCs), such as binary neutron stars, neutron star-black holes, and binary black holes, using future gravitational wave (GW) detectors, including A+ (LIGO in O5), Einstein Telescope, and DECIGO. We us",
       "keywords": [],
-      "arxivId": "2607.08747v1",
+      "arxivId": "2607.09658v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "SACRA-K: A Performance-Portable Numerical Relativity Code with Kokkos",
+      "title": "Local Determinacy of Quantum Master Equations and a Mechanical Interpretation of the Multi-Mode Jaynes-Cummings and Central Spin Models",
       "authors": [
-        "Ming-Zhe Han",
-        "Kenta Kiuchi",
-        "Masaru Shibata"
+        "Jaeha Lee",
+        "Miku Ishizaki"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-09",
-      "abstract": "We present SACRA-K (SimulAtor for Compact objects in Relativistic Astrophysics with Kokkos), a performance-portable numerical relativity code ported from the Fortran code SACRA-MPI to C++ with the Kokkos library. SACRA-K retains the physics and numerical methods of SACRA-MPI, namely a Baumgarte-Shapiro-Shibata-Nakamura (BSSN) spacetime evolution with Z4c constraint propagation and a box-in-box Berger-Oliger adaptive mesh refinement, together with the high resolution shock capturing scheme for th",
+      "publishDate": "2026-07-10",
+      "abstract": "We propose a novel formulation of master equations for open systems wherein the evolution of a state is determined solely by its local behaviour at any point of time. Specifically, our formulation allows for a local interpretation of the workings of beyond-Markovian dynamics as opposed to the more common conception that non-Markovian state evolution is affected by its cumulative past history. Quite interestingly, local determinacy is found prevalent in quantum dynamics. We illustrate the advanta",
       "keywords": [],
-      "arxivId": "2607.08743v1",
+      "arxivId": "2607.09651v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Wat3R: Underwater 3D Geometry Learning without Annotations",
+      "title": "Deep Gaussian Processes on Directed Acyclic Graphs",
       "authors": [
-        "Jiangwei Ren",
-        "Xingyu Jiang",
-        "Zijie Song",
-        "Wei Xu",
-        "Hongkai Lin",
-        "Dingkang Liang",
-        "Xiang Bai"
+        "Federico L. Perlino",
+        "Oliver Hamelijnck",
+        "Adam M. Johansen",
+        "Theodoros Damoulas"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-09",
-      "abstract": "Estimating 3D geometry in underwater environments presents unique challenges due to light attenuation, scattering, and the absence of large-scale, high-quality 3D annotations. Pioneering methods rely on massive dense annotations that are impractical in underwater settings. In this paper, we propose Wat3R, a cross-domain semi-supervised learning framework designed to adapt feed-forward 3D reconstruction models from air to underwater scenes. Uniquely, our method eliminates the need for any annotat",
+      "publishDate": "2026-07-10",
+      "abstract": "Many real-world processes can be represented as compositions of functions along a directed acyclic graph (DAG). In causal modelling, these correspond to the underlying mechanisms; in engineering, to multiple fidelity levels; and in gene-regulatory networks, to transcription factors. These functions are partially observed across the DAG, with noisy and heterogeneously sampled measurements, posing significant challenges for reconstruction, uncertainty propagation, and inference. To tackle these ch",
       "keywords": [],
-      "arxivId": "2607.08772v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
-      "authors": [
-        "Cheng-De Fan",
-        "Chun-Wei Tuan Mu",
-        "Chen-Wei Chang",
-        "Chin-Yang Lin",
-        "Kun-Ru Wu",
-        "Yu-Chee Tseng",
-        "Yu-Lun Liu"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-07-09",
-      "abstract": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trained video diffusion priors to jointly handle event-based video reconstruction, prediction, and frame interpolation. By fine-tuning a foundational video model, our approach achieves high data efficiency and superior perceptual quality. We introduce Autor",
-      "keywords": [],
-      "arxivId": "2607.08770v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Geometry and Gradient-based Partitioning for Panoramic Outdoor Reconstruction",
-      "authors": [
-        "Weijian Chen",
-        "Weibo Yao",
-        "Yuhang Zhang",
-        "Xiaolin Tang",
-        "Guo Wang",
-        "Weijun Zhang",
-        "Xitong Gao",
-        "Yihao Chen"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-07-09",
-      "abstract": "Scaling 3D Gaussian Splatting (3DGS) to large outdoor scenes is costly in both data acquisition and computation. Adopting panoramic images with equirectangular projection (ERP) can reduce capture effort via their full $360^{\\circ}$ field of view, yet the resulting omnipresent visibility invalidates existing partitioning strategies that rely on local camera frustums, causing block-wise optimization to degenerate into global training. Thus, we propose PanoLOG, a two-stage coarse-to-fine framework ",
-      "keywords": [],
-      "arxivId": "2607.08769v1",
+      "arxivId": "2607.09645v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
