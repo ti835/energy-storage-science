@@ -1,107 +1,104 @@
 {
-  "lastUpdated": "2026-07-14",
+  "lastUpdated": "2026-07-15",
   "papers": [
     {
-      "title": "Signatures of $10-10^4\\,{\\rm M}_{\\odot}$ Dark Matter halos in LISA via Stochastic Diffraction",
+      "title": "Inclusive P-wave Quarkonium Decay Widths from Lattice QCD and pNRQCD",
       "authors": [
-        "Han Gil Choi",
-        "Juan Urrutia",
-        "Miguel Zumalacárregui"
+        "Nora Brambilla",
+        "Viljami Leino",
+        "Julian Mayer-Steudte",
+        "Panayiotis Panayiotou",
+        "Andrea Shindler",
+        "Antonio Vairo",
+        "Xiang-Peng Wang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-13",
-      "abstract": "Cold Dark Matter predicts a population of low-mass halos which are sensitive to its fundamental nature and the primordial power spectrum, yet remain undetected. Although elusive, their discovery may be possible thanks to wave-optics lensing of gravitational waves (GWs) by the superposition of many halos along the line of sight. We study the statistical properties of stochastic diffractive lensing, which imprints correlated fluctuations on the amplitude and phase of the original waveform. The sto",
+      "publishDate": "2026-07-14",
+      "abstract": "Inclusive hadronic decay widths remain a long-standing challenge for first-principles QCD. We present a framework combining lattice QCD with strongly-coupled potential nonrelativistic QCD (pNRQCD) to compute inclusive P-wave heavy quarkonium decays to light hadrons. At leading order in the velocity expansion, all nonperturbative effects, apart from the square of the derivative of the wavefunction at the origin, are encoded in a single universal moment of the two-point chromoelectric correlator, ",
       "keywords": [],
-      "arxivId": "2607.11887v1",
+      "arxivId": "2607.13024v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Direct Measurement of Diffusion Coefficients: Evidence for Diffusive Stochastic Heating in Collisionless Plasmas",
+      "title": "Simulating the convection in red super-giant stars: wobbling jets in common envelope evolution",
       "authors": [
-        "Tamar Ervin",
-        "Trevor A. Bowen",
-        "Alfred Mallet",
-        "Philip A. Isenberg",
-        "Kristopher G. Klein",
-        "Stuart D. Bale",
-        "Benjamin D. G. Chandran",
-        "Roberto Livi"
+        "Shlomi Hillel",
+        "Ron Schreier",
+        "Noam Soker"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-13",
-      "abstract": "Open questions in collisionless plasma dissipation can be addressed using space-based observations in different astrophysical environments, with implications for both astrophysical and laboratory plasma systems. We study a low-$β$, highly imbalanced, sub-Alfvénic stream observed by Parker Solar Probe (PSP) to identify and distinguish between signatures of stochastic heating (SH) and resonant heating (RH) by parallel ion cyclotron waves (ICWs). Prior work studying this stream (Bowen et al., 2025)",
+      "publishDate": "2026-07-14",
+      "abstract": "We use our newly constructed three-dimensional red supergiant (RSG) stellar model, which also mimics nuclear energy production and photospheric emission, to calculate the stochastic component of the angular momentum of the mass that a companion spiraling within the RSG's envelope accretes during common envelope evolution (CEE). The accreted mass has a fixed-direction angular-momentum component arising from the density gradient in the RSG envelope and orbital motion. The angular momentum componen",
       "keywords": [],
-      "arxivId": "2607.11880v1",
+      "arxivId": "2607.13023v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Higher-derivative gravitational effective field theories are generically weakly hyperbolic",
+      "title": "Gamma-ray Modes in a Transitional Pulsar",
       "authors": [
-        "Farid Thaalba",
-        "Fernando Abalos",
-        "Miguel Bezares"
+        "Maksat Satybaldiev",
+        "Manuel Linares"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-13",
-      "abstract": "We analyse the initial-value problem of metric higher-derivative effective theories of gravity. We show that any such theory whose characteristic velocities are independent of derivatives of the metric is intrinsically weakly hyperbolic, independently of the gauge fixing. To show this, we identify the spin-$2$ physical sector directly from the characteristic equation; this can be done without introducing an order-reduced formulation, which greatly simplifies the computation. In this sector, ever",
+      "publishDate": "2026-07-14",
+      "abstract": "Transitional millisecond pulsars (tMSPs) exhibit a unique sub-luminous disk state, at the cross-roads between accretion and rotation power, where they switch between two distinct X-ray modes. We present the discovery of gamma-ray modes in PSR J1023+0038, the first confirmed tMSP, from stacking Fermi-LAT data during the modes (which we identify using simultaneous X-ray observations). Surprisingly, we find that gamma-rays and X-rays are anti-correlated during this mode switching: the gamma-ray flu",
       "keywords": [],
-      "arxivId": "2607.11879v1",
+      "arxivId": "2607.13019v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation",
+      "title": "Online Control via Counterfactual Tracking",
       "authors": [
-        "Dian Wang",
-        "Jisang Park",
-        "Xiaomeng Xu",
-        "Han Zhang",
-        "Shuran Song",
-        "Jeannette Bohg"
+        "Yunzong Xu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-13",
-      "abstract": "Robotic manipulation is inherently multi-frame: local actions may be simple in an end-effector frame, while transport, upright-object handling, and whole-body coordination are better represented in a base-aligned frame. However, modern diffusion-based visuomotor policies typically commit to a single predefined action frame, forcing one denoiser to model action distributions that are often unnecessarily complex in that frame. We propose Mixture of Frames Policy (MoF), a diffusion policy that perf",
+      "publishDate": "2026-07-14",
+      "abstract": "We develop a method for online control that competes with general classes of causal policies, beyond the linear-controller classes used by most existing algorithms. Over a horizon of \\(T\\) rounds, we consider a known linear dynamical system subject to adversarial disturbances and convex costs revealed after each action. The method simulates the benchmark policies on the revealed history, uses their counterfactual state--input pairs to form a moving reference, and applies a fixed stabilizing cont",
       "keywords": [],
-      "arxivId": "2607.11884v1",
+      "arxivId": "2607.13029v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
+      "title": "Non-intrusive MEMS microphone sensing of acoustic field state in resonant acoustic levitators",
       "authors": [
-        "Shikai Qiu",
-        "Marc Finzi",
-        "Yujia Zheng",
-        "Kun Zhang",
-        "Andrew Gordon Wilson"
+        "Jan H. Dörsam",
+        "Maximilian L. Amberg",
+        "Sven Suppelt",
+        "Sören Soennecken",
+        "Chuanchao Xu",
+        "Alexander A. Altmann",
+        "Tomislav Maric",
+        "Dieter Bothe"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-13",
-      "abstract": "Compression is fundamental to intelligence. A model that can represent its training data as a short code has discovered regularities that enable generalization. Large neural networks may learn functions far simpler than their parameter counts suggest, but it is challenging to construct codes that realize this simplicity. Parameter-based methods such as quantization produce code lengths that scale with model size, insensitive to how much information the parameters store. Prequential coding bypass",
+      "publishDate": "2026-07-14",
+      "abstract": "Reliable operation of resonant acoustic levitators requires knowledge of the acoustic field state because the optimum transducer-reflector distance and resonant operating condition shift with wavelength, temperature, object insertion, and mechanical alignment. Existing adjustment methods are limited, especially for compact closed-loop operation and architectures without a passive reflector. Here, we investigate transducer-mounted microelectromechanical system (MEMS) microphones as off-axis exter",
       "keywords": [],
-      "arxivId": "2607.11883v1",
+      "arxivId": "2607.13026v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "An efficient algorithm for approximate shadow Hamiltonian simulation",
+      "title": "A Shortcut to Statistically Steady-State Turbulence with Flow Matching",
       "authors": [
-        "Abhijit Chakraborty",
-        "Bharath Sambasivam",
-        "Karunya Shirali",
-        "Hunter Nelson",
-        "Mafalda Ramôa",
-        "Sophia E. Economou",
-        "Edwin Barnes"
+        "Gianluca Galletti",
+        "Gerald Gutenbrunner",
+        "William Hornsby",
+        "Lorenzo Zanisi",
+        "Naomi Carey",
+        "Stanislas Pamela",
+        "Johannes Brandstetter",
+        "Fabian Paischer"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-13",
-      "abstract": "We propose an efficient algorithm based on shadow Hamiltonian simulation to approximately simulate the real-time dynamics of observables under time-independent Hamiltonians. Shadow Hamiltonian simulation works at the level of the operator algebra generated by the observables through commutators with the Hamiltonian. Exactly encoding the quantum state in this picture is generally inefficient for interacting systems due to the exponential growth of the operator algebra. Our algorithm overcomes thi",
+      "publishDate": "2026-07-14",
+      "abstract": "Many nonlinear physical systems exhibit an initial transient phase in which perturbations grow before nonlinear interactions lead to a statistically steady state. While this saturated regime is of primary interest, direct numerical simulations must resolve the full transient dynamics before reaching it, incurring significant computational cost. In Computational Fluid Dynamics, reduced-order approaches such as Large Eddy Simulation mitigate computational cost by modeling small-scale dynamics, ena",
       "keywords": [],
-      "arxivId": "2607.11882v1",
+      "arxivId": "2607.13022v1",
       "doi": "",
       "relevance": "medium"
     }
