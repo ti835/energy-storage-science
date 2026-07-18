@@ -1,5 +1,87 @@
 {
-  "lastUpdated": "2026-07-17",
-  "papers": [],
-  "totalCount": 0
+  "lastUpdated": "2026-07-18",
+  "papers": [
+    {
+      "title": "Particle production from bubble collisions",
+      "authors": [
+        "Anish Ghoshal",
+        "Pratyay Pal",
+        "Alessandro Strumia"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-16",
+      "abstract": "Collisions of ultra-relativistic bubbles during cosmological phase transitions can produce particles much heavier than the transition scale. Previous analyses modelled this process as the off-shell decay of the scalar background. We show that its results parametrically overestimate hard particle production and depend on the gauge choice and the coordinate choice in field space. We propose an alternative formalism, analogous to the partonic description of high-energy collisions. In the ultra-rela",
+      "keywords": [],
+      "arxivId": "2607.15279v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Locality of deep thermalisation through the lens of entanglement teleportation",
+      "authors": [
+        "Saptarshi Mandal",
+        "Alan Sherry",
+        "Sthitadhi Roy"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-16",
+      "abstract": "Deep thermalisation characterises the emergence of universal quantum state ensembles on subsystems due to projective measurements on their complement. We study the notion of locality, or lack thereof, in this phenomenon by considering a subsystem partitioned into two disjoint subregions which remain causally disconnected at all times under unitary dynamics. We show that the onset of deep thermalisation in this geometry is fundamentally bounded by measurement-induced entanglement teleportation be",
+      "keywords": [],
+      "arxivId": "2607.15276v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Tunable Mpemba effect in a polymer-bead system with inertia",
+      "authors": [
+        "Hosung Kwak",
+        "Yongjoo Baek",
+        "Hawoong Jeong"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-16",
+      "abstract": "We propose an experimentally motivated model in which the Mpemba effect can be controlled through the system's inertia. The model describes a polymer undergoing a denaturation transition whose force-extension curve contains a plateau that slows relaxation. When the system is initially prepared at a higher temperature or under a weaker stretching force, the bead accumulates greater kinetic energy, allowing it to cross the plateau more rapidly and thereby producing the Mpemba effect. Increasing th",
+      "keywords": [],
+      "arxivId": "2607.15266v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Hierarchical Denoising For Multi-Step Visual Reasoning",
+      "authors": [
+        "Zezhong Qian",
+        "Xiaowei Chi",
+        "Chak-Wing Mak",
+        "Tianze Zhou",
+        "Ruibin Yuan",
+        "Yuhan Rui",
+        "Hengzhe Sun",
+        "Zhuoqun Wu"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-16",
+      "abstract": "Video models are evolving into vision foundation models, yet they still lack human-like multi-step reasoning. Streaming autoregressive diffusion models are efficient but limited in reasoning, while bidirectional diffusion enables global revision with high inference costs due to dense frame-level denoising. Both paradigms struggle to achieve logical consistency and low-latency streaming for complex reasoning tasks. We propose HDR (Hierarchical Denoising for Visual Reasoning), a unified framework ",
+      "keywords": [],
+      "arxivId": "2607.15278v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+      "authors": [
+        "Patrik Wolf",
+        "Thomas Kleine Buening",
+        "Andreas Krause",
+        "Celestine Mendler-Dünner"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-16",
+      "abstract": "In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If this interpretation holds, then LLM estimates should satisfy basic probabilistic identities. In particular, the law of total probability asserts that prior-weighted conditional distributions aggregate into population-level marginals over any valid partition of the population. In t",
+      "keywords": [],
+      "arxivId": "2607.15277v1",
+      "doi": "",
+      "relevance": "medium"
+    }
+  ],
+  "totalCount": 5
 }
