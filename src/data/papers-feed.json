@@ -1,87 +1,101 @@
 {
-  "lastUpdated": "2026-07-19",
+  "lastUpdated": "2026-07-20",
   "papers": [
     {
-      "title": "Particle production from bubble collisions",
+      "title": "Cosmological Evidence for Dark Axion-Dark Baryon Interactions from Apparent Phantom Crossing",
       "authors": [
-        "Anish Ghoshal",
-        "Pratyay Pal",
-        "Alessandro Strumia"
+        "Justin Khoury",
+        "Meng-Xiang Lin",
+        "Mark Trodden"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-16",
-      "abstract": "Collisions of ultra-relativistic bubbles during cosmological phase transitions can produce particles much heavier than the transition scale. Previous analyses modelled this process as the off-shell decay of the scalar background. We show that its results parametrically overestimate hard particle production and depend on the gauge choice and the coordinate choice in field space. We propose an alternative formalism, analogous to the partonic description of high-energy collisions. In the ultra-rela",
+      "publishDate": "2026-07-17",
+      "abstract": "Interactions between dark matter and dark energy can lead to an apparent phantom-crossing behavior that mimics the expansion history preferred by the latest cosmological observations from DESI baryon acoustic oscillations (BAO), Cosmic Microwave Background (CMB), and Type Ia supernovae (SNe Ia) data. In a previous paper [Khoury, Lin, and Trodden 2025 arXiv:2503.16415], we proposed a concrete particle physics realization of this idea, consisting of a strongly coupled dark sector in which a dark a",
       "keywords": [],
-      "arxivId": "2607.15279v1",
+      "arxivId": "2607.16191v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Locality of deep thermalisation through the lens of entanglement teleportation",
+      "title": "Geometric scaling in elastic $pp$ collisions",
       "authors": [
-        "Saptarshi Mandal",
-        "Alan Sherry",
-        "Sthitadhi Roy"
+        "Michał Praszałowicz"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-16",
-      "abstract": "Deep thermalisation characterises the emergence of universal quantum state ensembles on subsystems due to projective measurements on their complement. We study the notion of locality, or lack thereof, in this phenomenon by considering a subsystem partitioned into two disjoint subregions which remain causally disconnected at all times under unitary dynamics. We show that the onset of deep thermalisation in this geometry is fundamentally bounded by measurement-induced entanglement teleportation be",
+      "publishDate": "2026-07-17",
+      "abstract": "Geometric scaling was conjectured and observed at the ISR more than 50 years ago. We argue that it still holds at the LHC. We show that the dip-bump structures of the differential elastic cross-sections exhibit a remarkable regularity, namely that the ratio of the bump to dip positions is constant from 23 GeV to 13 TeV. Using crossing symmetry, analicity and the optical theorem, we identify the imaginary and real parts of the scattering amplitude. This allows us to compute the $ρ$ parameter and ",
       "keywords": [],
-      "arxivId": "2607.15276v1",
+      "arxivId": "2607.16182v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Tunable Mpemba effect in a polymer-bead system with inertia",
+      "title": "A Blueprint for Equilibrium-Based Differentiable Continuous-Variable Thermodynamic Computing",
       "authors": [
-        "Hosung Kwak",
-        "Yongjoo Baek",
-        "Hawoong Jeong"
+        "Owen Lockwood",
+        "Jérémy Béjanin",
+        "Joost Bus",
+        "Christopher Chamberland",
+        "Patrick Huembeli",
+        "Frank Schäfer",
+        "Guillaume Verdon"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-16",
-      "abstract": "We propose an experimentally motivated model in which the Mpemba effect can be controlled through the system's inertia. The model describes a polymer undergoing a denaturation transition whose force-extension curve contains a plateau that slows relaxation. When the system is initially prepared at a higher temperature or under a weaker stretching force, the bead accumulates greater kinetic energy, allowing it to cross the plateau more rapidly and thereby producing the Mpemba effect. Increasing th",
-      "keywords": [],
-      "arxivId": "2607.15266v1",
+      "publishDate": "2026-07-17",
+      "abstract": "To address the escalating energy and latency demands of machine-learning workloads, we introduce a blueprint for an energy-efficient and fast thermodynamic computing stack that leverages stochastic analog processes in physical hardware. In this work, we focus on energy-based thermodynamic computing where the stochastic process is well described by Langevin dynamics with tunable energy potentials. The implementation of such potentials in physical hardware enables us to generate and sample from ba",
+      "keywords": [
+        "machine learning"
+      ],
+      "arxivId": "2607.16183v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Hierarchical Denoising For Multi-Step Visual Reasoning",
+      "title": "Knowing the Self, Understanding the World: A Dual-Cognition Benchmark for UAV Spatio-temporal Reasoning with MLLMs",
       "authors": [
-        "Zezhong Qian",
-        "Xiaowei Chi",
-        "Chak-Wing Mak",
-        "Tianze Zhou",
-        "Ruibin Yuan",
-        "Yuhan Rui",
-        "Hengzhe Sun",
-        "Zhuoqun Wu"
+        "Like Liu",
+        "Zhengzheng Xu",
+        "Haitao He",
+        "Hongzhe Li",
+        "Shuchang Zhang",
+        "Dian Shao"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-16",
-      "abstract": "Video models are evolving into vision foundation models, yet they still lack human-like multi-step reasoning. Streaming autoregressive diffusion models are efficient but limited in reasoning, while bidirectional diffusion enables global revision with high inference costs due to dense frame-level denoising. Both paradigms struggle to achieve logical consistency and low-latency streaming for complex reasoning tasks. We propose HDR (Hierarchical Denoising for Visual Reasoning), a unified framework ",
+      "publishDate": "2026-07-17",
+      "abstract": "Multimodal large language models have achieved strong performance across diverse vision-language tasks, yet their capabilities in UAV scenarios remain insufficiently explored. Recent UAV-oriented benchmarks have begun to evaluate MLLMs in aerial scenarios, but they typically focus on scene understanding, event recognition, or navigation completion, rather than jointly assessing the dual-cognition capability required for UAV agents: reasoning about both the UAV's own state and the external enviro",
       "keywords": [],
-      "arxivId": "2607.15278v1",
+      "arxivId": "2607.16193v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+      "title": "Optimal control of symmetry-breaking dynamics near criticality",
       "authors": [
-        "Patrik Wolf",
-        "Thomas Kleine Buening",
-        "Andreas Krause",
-        "Celestine Mendler-Dünner"
+        "Pearson W. Miller"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-16",
-      "abstract": "In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If this interpretation holds, then LLM estimates should satisfy basic probabilistic identities. In particular, the law of total probability asserts that prior-weighted conditional distributions aggregate into population-level marginals over any valid partition of the population. In t",
+      "publishDate": "2026-07-17",
+      "abstract": "We study the problem of optimal control for dynamical systems near a pitchfork bifurcation, motivated by the role of external cues in guiding symmetry-breaking transitions in cell-fate selection and other natural processes. Using an asymptotic expansion of the optimality conditions obtained from the Pontryagin maximum principle, the leading-order optimal control law for a general n-dimensional system is examined across three dynamical regimes distinguished by scaling of control strength with res",
       "keywords": [],
-      "arxivId": "2607.15277v1",
+      "arxivId": "2607.16188v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Vision-Language Assistant for Emotional Reactions to Risky Driving",
+      "authors": [
+        "Harine Choi",
+        "Eun Hak Lee",
+        "Zhengzhong Tu"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-17",
+      "abstract": "This study introduces a vision-language pipeline that detects risky driving behaviors and generates emotionally expressive responses to support driver awareness and comfort. Although vision-language models have advanced perception and reasoning in autonomous driving, existing systems rarely consider the emotional dimension or real-world user experience. Keep Yelling Assistant (KYA) detects high-risk driving maneuvers in real time, such as sudden cut-ins. It then produces emotional responses thro",
+      "keywords": [],
+      "arxivId": "2607.16181v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
