@@ -1,101 +1,88 @@
 {
-  "lastUpdated": "2026-07-20",
+  "lastUpdated": "2026-07-21",
   "papers": [
     {
-      "title": "Cosmological Evidence for Dark Axion-Dark Baryon Interactions from Apparent Phantom Crossing",
+      "title": "Color superconductors and holon metals from doping a Fractional Chern insulator",
       "authors": [
-        "Justin Khoury",
-        "Meng-Xiang Lin",
-        "Mark Trodden"
+        "Ya-Hui Zhang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-17",
-      "abstract": "Interactions between dark matter and dark energy can lead to an apparent phantom-crossing behavior that mimics the expansion history preferred by the latest cosmological observations from DESI baryon acoustic oscillations (BAO), Cosmic Microwave Background (CMB), and Type Ia supernovae (SNe Ia) data. In a previous paper [Khoury, Lin, and Trodden 2025 arXiv:2503.16415], we proposed a concrete particle physics realization of this idea, consisting of a strongly coupled dark sector in which a dark a",
+      "publishDate": "2026-07-20",
+      "abstract": "We develop a unified framework for metallic and superconducting phases obtained by doping a fractional Chern insulator (FCI) with $C=1/3$. Starting from the parton construction $c(\\mathbf r)=f_1(\\mathbf r)f_2(\\mathbf r)f_3(\\mathbf r)$, the low-energy theory has $SU(3)_{\\mathrm{gauge}}\\times SU(3)_{\\mathrm{valley}}$ symmetry and nine Fermi pockets formed by charge-$-e/3$ holons $ψ_{ab}$, where $a$ and $b$ label color and valley. Viewing the holons as quarks connects this problem to color supercon",
       "keywords": [],
-      "arxivId": "2607.16191v1",
+      "arxivId": "2607.18238v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Geometric scaling in elastic $pp$ collisions",
+      "title": "Cosmological consequences of a dynamical dark matter in the light of DESI DR2 measurements",
       "authors": [
-        "Michał Praszałowicz"
+        "Abhijith Ajith",
+        "Utkarsh Kumar"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-17",
-      "abstract": "Geometric scaling was conjectured and observed at the ISR more than 50 years ago. We argue that it still holds at the LHC. We show that the dip-bump structures of the differential elastic cross-sections exhibit a remarkable regularity, namely that the ratio of the bump to dip positions is constant from 23 GeV to 13 TeV. Using crossing symmetry, analicity and the optical theorem, we identify the imaginary and real parts of the scattering amplitude. This allows us to compute the $ρ$ parameter and ",
+      "publishDate": "2026-07-20",
+      "abstract": "Recent DESI results exhibit preference for a Null Energy Condition violating dynamical dark energy, with early phantom behaviour. We explore an alternative interpretation in which this preference arises from unconventional dark matter dynamics rather than from dynamical dark energy. We propose a dynamical dark matter (DDM) model, with a non-zero equation of state (EoS) that smoothly interpolates between early time and late time asymptotes across a transition scale factor $a_t$, and study its con",
       "keywords": [],
-      "arxivId": "2607.16182v1",
+      "arxivId": "2607.18234v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A Blueprint for Equilibrium-Based Differentiable Continuous-Variable Thermodynamic Computing",
+      "title": "Theoretical uncertainties in reconstructing model parameters with gravitational waves from supercooled phase transitions",
       "authors": [
-        "Owen Lockwood",
-        "Jérémy Béjanin",
-        "Joost Bus",
-        "Christopher Chamberland",
-        "Patrick Huembeli",
-        "Frank Schäfer",
-        "Guillaume Verdon"
+        "Maciej Kierkla",
+        "Marek Lewicki",
+        "Philipp Schicho",
+        "Daniel Schmitt",
+        "Bogumila Swiezewska"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-17",
-      "abstract": "To address the escalating energy and latency demands of machine-learning workloads, we introduce a blueprint for an energy-efficient and fast thermodynamic computing stack that leverages stochastic analog processes in physical hardware. In this work, we focus on energy-based thermodynamic computing where the stochastic process is well described by Langevin dynamics with tunable energy potentials. The implementation of such potentials in physical hardware enables us to generate and sample from ba",
-      "keywords": [
-        "machine learning"
-      ],
-      "arxivId": "2607.16183v1",
+      "publishDate": "2026-07-20",
+      "abstract": "Future interferometers may detect a gravitational-wave (GW) signal from a cosmological first-order phase transition. Reconstructing the underlying particle-physics model from such a signal requires theoretical control over the map from microphysics to the spectrum. For classically scale-invariant extensions of the Standard Model, which generically predict strongly supercooled transitions and strong GW signals, this map depends sensitively on the treatment of quantum and thermal corrections to th",
+      "keywords": [],
+      "arxivId": "2607.18233v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Knowing the Self, Understanding the World: A Dual-Cognition Benchmark for UAV Spatio-temporal Reasoning with MLLMs",
+      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
       "authors": [
-        "Like Liu",
-        "Zhengzheng Xu",
-        "Haitao He",
-        "Hongzhe Li",
-        "Shuchang Zhang",
-        "Dian Shao"
+        "Gaoyue Zhou",
+        "Zichen Jeff Cui",
+        "Ada Langford",
+        "Bowen Tan",
+        "Yann LeCun",
+        "Lerrel Pinto"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-17",
-      "abstract": "Multimodal large language models have achieved strong performance across diverse vision-language tasks, yet their capabilities in UAV scenarios remain insufficiently explored. Recent UAV-oriented benchmarks have begun to evaluate MLLMs in aerial scenarios, but they typically focus on scene understanding, event recognition, or navigation completion, rather than jointly assessing the dual-cognition capability required for UAV agents: reasoning about both the UAV's own state and the external enviro",
+      "publishDate": "2026-07-20",
+      "abstract": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sacrificing both fine-grained spatial detail and the benefits of large-scale visual pre-training. While there exist policies that do operate on dense patch features like large vision-language-action models (VLAs), they tend to be heavy and sl",
       "keywords": [],
-      "arxivId": "2607.16193v1",
+      "arxivId": "2607.18236v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Optimal control of symmetry-breaking dynamics near criticality",
+      "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
       "authors": [
-        "Pearson W. Miller"
+        "Ruicheng Li",
+        "Qixiu Li",
+        "Ruichun Ma",
+        "Yu Deng",
+        "Lin Luo",
+        "Zhiying Du",
+        "Jianfeng Xiang",
+        "Huizhi Liang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-17",
-      "abstract": "We study the problem of optimal control for dynamical systems near a pitchfork bifurcation, motivated by the role of external cues in guiding symmetry-breaking transitions in cell-fate selection and other natural processes. Using an asymptotic expansion of the optimality conditions obtained from the Pontryagin maximum principle, the leading-order optimal control law for a general n-dimensional system is examined across three dynamical regimes distinguished by scaling of control strength with res",
+      "publishDate": "2026-07-20",
+      "abstract": "Vision-language-action (VLA) models have achieved impressive generalization in robotic manipulation, and recent memory-augmented VLAs have relaxed the Markovian assumption by conditioning on past images or language summaries. Vision-based memory approaches address this by conditioning on sampled past image frames, but they are computationally expensive and fundamentally limited when temporal events are visually ambiguous, e.g., pushing a button multiple times with small movements. We propose FM-",
       "keywords": [],
-      "arxivId": "2607.16188v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Vision-Language Assistant for Emotional Reactions to Risky Driving",
-      "authors": [
-        "Harine Choi",
-        "Eun Hak Lee",
-        "Zhengzhong Tu"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-07-17",
-      "abstract": "This study introduces a vision-language pipeline that detects risky driving behaviors and generates emotionally expressive responses to support driver awareness and comfort. Although vision-language models have advanced perception and reasoning in autonomous driving, existing systems rarely consider the emotional dimension or real-world user experience. Keep Yelling Assistant (KYA) detects high-risk driving maneuvers in real time, such as sudden cut-ins. It then produces emotional responses thro",
-      "keywords": [],
-      "arxivId": "2607.16181v1",
+      "arxivId": "2607.18231v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
