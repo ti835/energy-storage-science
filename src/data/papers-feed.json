@@ -1,85 +1,77 @@
 {
-  "lastUpdated": "2026-07-21",
+  "lastUpdated": "2026-07-22",
   "papers": [
     {
-      "title": "Color superconductors and holon metals from doping a Fractional Chern insulator",
+      "title": "Integral representation of the neutrino mass-squared differences",
       "authors": [
-        "Ya-Hui Zhang"
+        "I. Alikhanov"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-20",
-      "abstract": "We develop a unified framework for metallic and superconducting phases obtained by doping a fractional Chern insulator (FCI) with $C=1/3$. Starting from the parton construction $c(\\mathbf r)=f_1(\\mathbf r)f_2(\\mathbf r)f_3(\\mathbf r)$, the low-energy theory has $SU(3)_{\\mathrm{gauge}}\\times SU(3)_{\\mathrm{valley}}$ symmetry and nine Fermi pockets formed by charge-$-e/3$ holons $ψ_{ab}$, where $a$ and $b$ label color and valley. Viewing the holons as quarks connects this problem to color supercon",
+      "publishDate": "2026-07-21",
+      "abstract": "Determining the absolute neutrino mass scale remains one of the most compelling challenges in particle physics. To constrain theoretical models, establishing precise relations among neutrino masses is essential. We propose a simple integral representation of the neutrino mass-squared differences $Δm_{ij}^2$ that provides a complementary perspective on these oscillation parameters. We then demonstrate its utility through several examples. Specifically, assuming stringent cosmological bounds that ",
       "keywords": [],
-      "arxivId": "2607.18238v1",
+      "arxivId": "2607.19340v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Cosmological consequences of a dynamical dark matter in the light of DESI DR2 measurements",
+      "title": "Efficient strain-space hyperreduction in large-deformation solid mechanics",
       "authors": [
-        "Abhijith Ajith",
-        "Utkarsh Kumar"
+        "Erik Faust",
+        "Lisa Scheunemann"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-20",
-      "abstract": "Recent DESI results exhibit preference for a Null Energy Condition violating dynamical dark energy, with early phantom behaviour. We explore an alternative interpretation in which this preference arises from unconventional dark matter dynamics rather than from dynamical dark energy. We propose a dynamical dark matter (DDM) model, with a non-zero equation of state (EoS) that smoothly interpolates between early time and late time asymptotes across a transition scale factor $a_t$, and study its con",
+      "publishDate": "2026-07-21",
+      "abstract": "Strain-space model order reduction (MOR) techniques have recently been shown to achieve exceptional performance in terms of the tradeoff between runtime and accuracy achieved in computational homogenisation problems. In this article, we generalise such techniques to problems in large-deformation solid mechanics beyond the context of computational homogenisation. Arbitrary-valued, parameterised Dirichlet boundary conditions are satisfied by construction using a lifting with boundary-consistent fi",
       "keywords": [],
-      "arxivId": "2607.18234v1",
+      "arxivId": "2607.19330v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Theoretical uncertainties in reconstructing model parameters with gravitational waves from supercooled phase transitions",
+      "title": "Gravitational-Wave Sky Mapping with Pulsar Timing Arrays: The Full Earth-Pulsar Response and Fundamental Resolution Limits",
       "authors": [
-        "Maciej Kierkla",
-        "Marek Lewicki",
-        "Philipp Schicho",
-        "Daniel Schmitt",
-        "Bogumila Swiezewska"
+        "S. A. Andrianov",
+        "S. M. Kopeikin"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-20",
-      "abstract": "Future interferometers may detect a gravitational-wave (GW) signal from a cosmological first-order phase transition. Reconstructing the underlying particle-physics model from such a signal requires theoretical control over the map from microphysics to the spectrum. For classically scale-invariant extensions of the Standard Model, which generically predict strongly supercooled transitions and strong GW signals, this map depends sensitively on the treatment of quantum and thermal corrections to th",
+      "publishDate": "2026-07-21",
+      "abstract": "Pulsar timing arrays (PTAs) are the only means to observe nanohertz gravitational waves (GWs). While current analyses primarily exploit the Earth term, the full detector response encodes additional directional information in the pulsar terms. We develop a GW sky-mapping framework based on the complete Earth--pulsar response and a tensor spherical harmonic decomposition of the GW field. This yields closed-form response functions for an elementary baseline and casts PTA sky reconstruction as a lin",
       "keywords": [],
-      "arxivId": "2607.18233v1",
+      "arxivId": "2607.19329v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+      "title": "Degenerations of the complex projective plane with only rational singularities",
       "authors": [
-        "Gaoyue Zhou",
-        "Zichen Jeff Cui",
-        "Ada Langford",
-        "Bowen Tan",
-        "Yann LeCun",
-        "Lerrel Pinto"
+        "Marcos Canedo",
+        "Giancarlo Urzúa"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-20",
-      "abstract": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sacrificing both fine-grained spatial detail and the benefits of large-scale visual pre-training. While there exist policies that do operate on dense patch features like large vision-language-action models (VLAs), they tend to be heavy and sl",
+      "publishDate": "2026-07-21",
+      "abstract": "Wahl's conjecture states that two-dimensional singularities admitting a rational homology disk smoothing are weighted homogeneous. Assuming the conjecture, we classify all normal degenerations of the complex projective plane with only rational singularities. They are precisely the surfaces classified by Manetti and Hacking--Prokhorov, which are controlled by the Markov equation, together with six new degenerations containing four non-log canonical singularities.",
       "keywords": [],
-      "arxivId": "2607.18236v1",
+      "arxivId": "2607.19348v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
+      "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
       "authors": [
-        "Ruicheng Li",
-        "Qixiu Li",
-        "Ruichun Ma",
-        "Yu Deng",
-        "Lin Luo",
-        "Zhiying Du",
-        "Jianfeng Xiang",
-        "Huizhi Liang"
+        "Rahul Sajnani",
+        "Yulia Gryaditskaya",
+        "Radomír Měch",
+        "Srinath Sridhar",
+        "Matheus Gadelha"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-20",
-      "abstract": "Vision-language-action (VLA) models have achieved impressive generalization in robotic manipulation, and recent memory-augmented VLAs have relaxed the Markovian assumption by conditioning on past images or language summaries. Vision-based memory approaches address this by conditioning on sampled past image frames, but they are computationally expensive and fundamentally limited when temporal events are visually ambiguous, e.g., pushing a button multiple times with small movements. We propose FM-",
-      "keywords": [],
-      "arxivId": "2607.18231v1",
+      "publishDate": "2026-07-21",
+      "abstract": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved through text prompting alone. Diffusion Transformers (DiTs) can natively ingest heterogeneous tokens stemming from texts and images, but they lack mechanisms for determining where and how these tokens should influence the output. We introduce appearance pointers, compact tokens that gu",
+      "keywords": [
+        "interface"
+      ],
+      "arxivId": "2607.19344v1",
       "doi": "",
       "relevance": "medium"
     }
