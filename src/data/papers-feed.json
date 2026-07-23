@@ -1,80 +1,70 @@
 {
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-23",
   "papers": [
     {
-      "title": "Integral representation of the neutrino mass-squared differences",
+      "title": "Quantum Fisher Information in semiclassical magnon systems",
       "authors": [
-        "I. Alikhanov"
+        "Wolfgang Simeth",
+        "Pontus Laurell",
+        "Allen Scheie"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-21",
-      "abstract": "Determining the absolute neutrino mass scale remains one of the most compelling challenges in particle physics. To constrain theoretical models, establishing precise relations among neutrino masses is essential. We propose a simple integral representation of the neutrino mass-squared differences $Δm_{ij}^2$ that provides a complementary perspective on these oscillation parameters. We then demonstrate its utility through several examples. Specifically, assuming stringent cosmological bounds that ",
+      "publishDate": "2026-07-22",
+      "abstract": "Quantum Fisher Information (QFI) is a powerful spectroscopic tool to witness many-body quantum entanglement in solid state materials, but it is not always obvious how to relate it to other characteristics of condensed matter systems. In this study we elaborate on the meaning and interpretation of QFI in condensed matter by examining simple theoretical spin systems. We use finite sized spin systems to illustrate that QFI quantifies the momentum- dependent degree of quantum entanglement (that is t",
       "keywords": [],
-      "arxivId": "2607.19340v1",
+      "arxivId": "2607.20424v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Efficient strain-space hyperreduction in large-deformation solid mechanics",
+      "title": "Interaction-model dependence in calorimetric energy reconstruction methods due to non-linear material effects in modern neutrino detectors",
       "authors": [
-        "Erik Faust",
-        "Lisa Scheunemann"
+        "Katharina Lachner",
+        "Steven Boyd",
+        "Stephen Dolan",
+        "Laura Munteanu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-21",
-      "abstract": "Strain-space model order reduction (MOR) techniques have recently been shown to achieve exceptional performance in terms of the tradeoff between runtime and accuracy achieved in computational homogenisation problems. In this article, we generalise such techniques to problems in large-deformation solid mechanics beyond the context of computational homogenisation. Arbitrary-valued, parameterised Dirichlet boundary conditions are satisfied by construction using a lifting with boundary-consistent fi",
+      "publishDate": "2026-07-22",
+      "abstract": "Neutrino oscillation experiments rely on high precision neutrino energy reconstruction. A common reconstruction technique in LAr-TPCs and scintillators is via the calorimetric sum of visible particles created in the interaction. However, non-linearities in the detector response, such as Birks quenching for scintillators and recombination effects for TPCs, lead to ambiguities in the reconstruction of visible hadronic energies. Interaction-model-dependent assumptions are required to resolve these ",
       "keywords": [],
-      "arxivId": "2607.19330v1",
+      "arxivId": "2607.20419v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Gravitational-Wave Sky Mapping with Pulsar Timing Arrays: The Full Earth-Pulsar Response and Fundamental Resolution Limits",
+      "title": "Pulsar glitches in the presence of vortex traps",
       "authors": [
-        "S. A. Andrianov",
-        "S. M. Kopeikin"
+        "Anantharaman Sekharipuram Viswanathan",
+        "Dipankar Bhattacharya",
+        "M. Ali Alpar",
+        "Erbil Gügercinoğlu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-21",
-      "abstract": "Pulsar timing arrays (PTAs) are the only means to observe nanohertz gravitational waves (GWs). While current analyses primarily exploit the Earth term, the full detector response encodes additional directional information in the pulsar terms. We develop a GW sky-mapping framework based on the complete Earth--pulsar response and a tensor spherical harmonic decomposition of the GW field. This yields closed-form response functions for an elementary baseline and casts PTA sky reconstruction as a lin",
+      "publishDate": "2026-07-22",
+      "abstract": "Pulsar glitches are thought to originate when angular momentum is transferred to the crust of the neutron star from the superfluid enclosed within, mediated by vortex avalanches. This idea has been qualitatively validated in the existing literature by simulating a star with a small number ($\\sim 10^{3}$) of superfluid vortices, subject to deceleration and uniform pinning. Here, we employ the Barnes-Hut approximation to simulate up to $10^{5}$ vortices in a reasonable time. Using the new setup, w",
       "keywords": [],
-      "arxivId": "2607.19329v1",
+      "arxivId": "2607.20398v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Degenerations of the complex projective plane with only rational singularities",
+      "title": "ATSplat: Compact Feed-forward 3D Gaussian Splatting with Adaptive Token Expansion",
       "authors": [
-        "Marcos Canedo",
-        "Giancarlo Urzúa"
+        "Cho In",
+        "Jeonghwan Cho",
+        "Mijin Yoo",
+        "Gim Hee Lee",
+        "Seon Joo Kim"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-21",
-      "abstract": "Wahl's conjecture states that two-dimensional singularities admitting a rational homology disk smoothing are weighted homogeneous. Assuming the conjecture, we classify all normal degenerations of the complex projective plane with only rational singularities. They are precisely the surfaces classified by Manetti and Hacking--Prokhorov, which are controlled by the Markov equation, together with six new degenerations containing four non-log canonical singularities.",
+      "publishDate": "2026-07-22",
+      "abstract": "3D Gaussian Splatting (3DGS) achieves high-quality novel-view synthesis by optimizing freely placed primitives in 3D and adaptively densifying them in under-reconstructed regions. However, this scene-adaptive capacity allocation is largely lost in existing feed-forward 3DGS methods, which commonly regress Gaussians at input pixels and lift them along camera rays. Such pixel-aligned formulations make the number and placement of primitives depend on image resolution and input viewpoints rather tha",
       "keywords": [],
-      "arxivId": "2607.19348v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
-      "authors": [
-        "Rahul Sajnani",
-        "Yulia Gryaditskaya",
-        "Radomír Měch",
-        "Srinath Sridhar",
-        "Matheus Gadelha"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-07-21",
-      "abstract": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved through text prompting alone. Diffusion Transformers (DiTs) can natively ingest heterogeneous tokens stemming from texts and images, but they lack mechanisms for determining where and how these tokens should influence the output. We introduce appearance pointers, compact tokens that gu",
-      "keywords": [
-        "interface"
-      ],
-      "arxivId": "2607.19344v1",
+      "arxivId": "2607.20417v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 4
 }
