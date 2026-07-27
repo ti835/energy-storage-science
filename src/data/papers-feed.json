@@ -1,96 +1,104 @@
 {
-  "lastUpdated": "2026-07-26",
+  "lastUpdated": "2026-07-27",
   "papers": [
     {
-      "title": "On the strong coupling limit of Yang-Mills matrix models",
+      "title": "Integral Scaling for EFT Strings from the Bottom-Up",
       "authors": [
-        "Adrien Martina",
-        "Harish Murali"
+        "Muldrow Etheredge",
+        "Alvaro Herráez",
+        "Dieter Lüst",
+        "Luca Melotti"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-23",
-      "abstract": "We study the strong coupling limit of mass deformed Yang--Mills matrix models, with the aim of understanding when the matrices become effectively commuting. The Yang--Mills interaction classically drives the matrices toward mutually commuting valleys, where the matrices can potentially be interpreted as coordinates of an emergent space. However, taking into consideration the integration measure, commutativity is not automatic since the commuting locus is entropically suppressed, and in the boson",
+      "publishDate": "2026-07-24",
+      "abstract": "Near the core of an EFT string in a 4d $\\mathcal{N}=1$ theory, the scalars are dynamically driven to infinite field distance and a tower of states becomes light, with mass scaling with the string tension in Planck units as $m^2\\sim \\mathcal{T}^{\\,w}$. According to the Integral Scaling Conjecture, $w$ takes only values 1, 2 and 3. In this paper, we examine how this conjecture can follow from the brane-taxonomy rules associated with the Emergent String Conjecture. In this context, we classify the ",
       "keywords": [],
-      "arxivId": "2607.21593v1",
+      "arxivId": "2607.22519v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "XMM-Newton and Swift Unveil Another X-Ray Transient in NGC 4945, XMM J130514.64-493311.27",
+      "title": "Is S301 the Captured Companion of the Hypervelocity Star S5-HVS1?",
       "authors": [
-        "Ryan W. Pfeifle",
-        "Kimberly A. Weaver",
-        "Jenna M. Cann",
-        "Murray Brightman",
-        "Miranda McCarthy"
+        "Andrea Caputo",
+        "Giovanni Maria Tomaselli"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-23",
-      "abstract": "NGC 4945 hosts a Compton-thick, low luminosity AGN and a nuclear starburst in its core and has been the subject of many previous X-ray investigations of the AGN emission structure, nuclear starburst properties, and ultraluminous X-ray (ULX) source populations. Indeed, NGC 4945 has proven to be a rich system for ULX and X-ray transients, with at least four X-ray transients being reported over the last 15 years. Here we report the detection of an X-ray transient source, XMM J130514.64-493311.27, i",
+      "publishDate": "2026-07-24",
+      "abstract": "Stellar binary disruptions through the Hills mechanism produce two fossils: a hypervelocity star (HVS), and a star tightly bound to the supermassive black hole. Among known galactic HVSs, only S5-HVS1 has unambiguous galactic-centre origin. Its measured mass and velocity determine a relation between the mass and semi-major axis of its captured companion. GRAVITY has now discovered S301, whose orbit and photometrically inferred mass satisfy this relation, making it the only compelling candidate f",
       "keywords": [],
-      "arxivId": "2607.21587v1",
+      "arxivId": "2607.22517v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Gauge coupling beta functions and gauge field anomalous dimensions at four loops in the Standard Model",
+      "title": "Measurement of Born Cross Section for $e^+e^-\\to K_S^0\\barΞ^+Σ^-+\\rm{c.c.}$ at $\\sqrt{s} = 3.51-4.95$ GeV",
       "authors": [
-        "M. A. Bezuglov",
-        "B. A. Kniehl",
-        "V. N. Velizhanin"
+        "BESIII Collaboration",
+        "M. Ablikim",
+        "M. N. Achasov",
+        "P. Adlarson",
+        "X. C. Ai",
+        "C. S. Akondi",
+        "R. Aliberti",
+        "A. Amoroso"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-23",
-      "abstract": "We present the beta functions of the gauge couplings and the anomalous dimensions of the gauge fields in the unbroken phase of the Standard Model at four loops.",
+      "publishDate": "2026-07-24",
+      "abstract": "Using $e^+e^-$ collision data collected with the BESIII detector at the BEPCII collider corresponding to a total integrated luminosity of 44~fb$^{-1}$, we present the first measurement of the Born cross sections for the process $e^+e^-\\to K_S^0\\barΞ^+Σ^-+\\rm{c.c.}$ at 56 center-of-mass energies from 3.510 to 4.951~GeV. By fitting the dressed cross sections of $e^+e^-\\to K_S^0\\barΞ^+Σ^-+\\rm{c.c.}$ with the assumption of a power-law function plus a charmonium(-like) resonance, i.e. $ψ(3770)$, $ψ(4",
       "keywords": [],
-      "arxivId": "2607.21586v1",
+      "arxivId": "2607.22507v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+      "title": "Robot-Factored World Models via Robot Rendering",
       "authors": [
-        "Sicheng Mo",
-        "Yuheng Li",
-        "Ziyang Leng",
-        "Krishna Kumar Singh",
-        "Bolei Zhou"
+        "Byungjun Kim",
+        "Taeksoo Kim",
+        "Hyunsoo Cha",
+        "Hanbyul Joo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-23",
-      "abstract": "Multi-agent interactive world models should not only generate consistent observations, but also maintain world states that persist across agents and evolve across views. Existing autoregressive video diffusion pipelines carry forward observation history as conditioning context, which makes shared state difficult to maintain in multi-agent and multi-view settings. We present WorldWeaver (W^2), a streaming multi-agent video diffusion model that augments rollout with cross-agent world state registe",
-      "keywords": [],
-      "arxivId": "2607.21594v1",
+      "publishDate": "2026-07-24",
+      "abstract": "Action-conditioned video world models predict future observations from an initial observation and an action signal. In robotics, actions influence future observations through two distinct processes: they are first realized into robot motion by the robot body and controller, and the scene then responds through contact and object motion. Conditioning directly on action commands asks the world model to learn the realization process itself, while conditioning on logged future states leaks the intera",
+      "keywords": [
+        "interface"
+      ],
+      "arxivId": "2607.22535v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Expanding Flow Maps",
+      "title": "Supermoiré-trapped quadrupolar exciton",
       "authors": [
-        "Sophia Tang",
-        "Pranam Chatterjee"
+        "Anish Kumar",
+        "Suman Chatterjee",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Kausik Majumdar"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-23",
-      "abstract": "Flow-based generative models have enabled remarkable progress in fast and controllable generation across continuous and discrete state spaces, yet existing parameterizations are constrained to fixed dimensions or fixed sequence lengths. Here, we introduce Expanding Generative Flows (EFlows), which define flows between distributions of increasing dimensionality along an expanding interpolant that grows the state by augmenting it with conditional noise. Building on this construction, we propose Ex",
-      "keywords": [],
-      "arxivId": "2607.21585v1",
+      "publishDate": "2026-07-24",
+      "abstract": "Moiré-trapped dipolar interlayer exciton in heterobilayers offers a rich platform to explore interaction-driven phenomena. Extending the number of layers to three and beyond leads to highly intriguing multipolar exciton - a superposition state of vertically aligned phase-coherent excitons. However, in experiments, unintentional twist-angle mismatch among layers may degrade the strength and homogeneity of the vertical Coulomb coupling. Here we propose that the supermoiré effect in a heterotrilaye",
+      "keywords": [
+        "interface"
+      ],
+      "arxivId": "2607.22532v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Flow-based Phase-space Tomography of Continuous-variable Quantum States",
+      "title": "Effective field theories of nonlinear fluctuating hydrodynamics in one dimension",
       "authors": [
-        "Owen Dugan",
-        "Rumen Dangovski",
-        "Peter Y. Lu",
-        "Di Luo"
+        "Matija Koterle",
+        "Enej Ilievski"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-23",
-      "abstract": "Continuous-variable quantum state tomography is limited by the cost of resolving non-Gaussian structure in high-dimensional phase space. We introduce QST-Flow, a quantum state tomography framework via flow-based generative modeling that represents experimentally accessible phase-space quasiprobability distributions with normalized, samplable neural densities rather than a truncated density matrix. The framework has two variants: QST-QFlow models the positive Husimi-$Q$ function with a single nor",
+      "publishDate": "2026-07-24",
+      "abstract": "Describing emergent macroscopic phenomena in low spatial dimensions is known to be notoriously challenging, primarily due to strong interactions that render perturbative approaches inapplicable. On the other hand, low-dimensional systems host a wealth of unorthodox phenomena. A prominent example is the emergence of superdiffusive transport in one-dimensional interacting systems, traditionally studied in the framework of nonlinear fluctuating hydrodynamics. After identifying and discussing intern",
       "keywords": [],
-      "arxivId": "2607.21584v1",
+      "arxivId": "2607.22527v1",
       "doi": "",
       "relevance": "medium"
     }
