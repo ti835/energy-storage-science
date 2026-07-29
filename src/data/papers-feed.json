@@ -1,93 +1,86 @@
 {
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-07-29",
   "papers": [
     {
-      "title": "Measuring Cosmic Neutrino Masses Independently of Dark Energy",
+      "title": "QuickGWecc: Fast Bayesian pipeline for searching eccentric binaries in pulsar timing array data",
       "authors": [
-        "Frank J. Qu",
-        "Fei Ge",
-        "Hanyue Wang",
-        "Emmanuel Schaan",
-        "W. L. Kimmy Wu",
-        "Alexander Friedland",
-        "Blake D. Sherwin"
+        "Lankeswar Dey",
+        "Bence Bécsy",
+        "Abhimanyu Susobhanan",
+        "Maria Charisi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-27",
-      "abstract": "Neutrino oscillations establish that neutrinos are massive, providing the only laboratory detection of physics beyond the Standard Model. Direct kinematic experiments bound the electron-neutrino mass to $m_{ν_e} &lt; 0.45$ eV (KATRIN, 90% CL), implying $\\sum m_ν\\lesssim 1.3$ eV. Conversely, cosmology within $Λ$CDM is highly constraining: Planck CMB, CMB lensing, and DESI DR2 BAO yield $\\sum m_ν&lt; 0.056$ eV (95% CL), in 2-3$σ$ tension with the inverted-ordering floor (0.10 eV). However, this bo",
+      "publishDate": "2026-07-28",
+      "abstract": "Recent pulsar timing array (PTA) results have provided evidence for the presence of a nanohertz gravitational wave (GW) background, most likely originating from a population of supermassive black hole binaries (SMBHBs). The next major milestone is the detection of continuous GWs (CGWs) from an individual SMBHB and the identification of its electromagnetic counterpart. Typically, searches for CGWs in PTA data assume binaries in circular orbits. However, theoretical studies indicate that binaries ",
       "keywords": [],
-      "arxivId": "2607.24742v1",
+      "arxivId": "2607.26051v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Anyon Condensation In Symmetry-Enriched Topological Phases: $G$-Grading of Multifusion Categories",
+      "title": "$Λ$XCDM: a running vacuum strategy for crossing the phantom divide",
       "authors": [
-        "Nianrui Fu",
-        "Siyuan Wang",
-        "Yu Zhao",
-        "Yidun Wan"
+        "Joan Solà Peracaula",
+        "Adrià Gómez-Valent",
+        "Alex González-Fuentes"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-27",
-      "abstract": "Although anyon condensation is a standard mechanism for relating topological orders, anyon condensation in symmetry-enriched topological (SET) phases is more intricate because the condensate must also be compatible with the global symmetry. We study symmetry-preserving anyon condensation in SET phases described by the enlarged Hu-Geer-Wu (HGW) string-net model with multifusion-category input data. We show that a $G$-preserving condensation is characterized by a compatible grading of the input mu",
-      "keywords": [],
-      "arxivId": "2607.24740v1",
+      "publishDate": "2026-07-28",
+      "abstract": "Composite dynamical dark energy (DDE) has recently been explored as an efficient way to help cure cosmological tensions through the so-called $w$XCDM model {Gomez-Valent:2024tdb,Gomez-Valent:2024ejh}, a toy-model version of the $Λ$XCDM model {Grande:2006nn}. The latter is a composite running vacuum model (RVM) that involves a DE component $X$ (`cosmon') of generic nature. We compute the effective equation of state of $Λ$XCDM and use state-of-the-art techniques to fit this model to two standard s",
+      "keywords": [
+        "energy density"
+      ],
+      "arxivId": "2607.26050v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Gravitational waves from super-Hubble bubbles",
+      "title": "Probing Parity Violation with Weak Lensing Trispectrum",
       "authors": [
-        "Pulkit S. Ghoderao",
-        "Arttu Rajantie",
-        "Danièle Steer"
+        "Sijin Chen",
+        "Zhengyangguang Gong",
+        "Jiamin Hou"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-27",
-      "abstract": "We consider a cosmological first-order phase transition in which bubbles of true vacuum nucleate during inflation but do not collide and percolate until the Universe has entered the radiation-dominated era. If the collisions take place soon after the end of inflation, the size of these bubbles can be significantly greater than the Hubble length. This has two important consequences for the gravitational waves produced by the bubble collisions: First, as the peak frequency is determined by the com",
+      "publishDate": "2026-07-28",
+      "abstract": "We establish the weak gravitational lensing convergence trispectrum as an independent probe of cosmological parity violation in the late-time Large-Scale Structure (LSS). To map three-dimensional primordial symmetries into two-dimensional observables, we derive a generalized, compact projection formalism for the reduced angular trispectrum applicable to two classes of factorizable primordial curvature trispectra considered in this work. Applying this framework, we compute the parity-odd signal a",
       "keywords": [],
-      "arxivId": "2607.24734v1",
+      "arxivId": "2607.26046v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Data Pyramid for Embodied Manipulation",
+      "title": "Re-thinking Mammography Transfer Learning: The Dataset-Informed Transfer Learning (DITL) Framework for Breast Cancer Screening and Lesion Diagnosis",
       "authors": [
-        "Yifan Ye",
-        "Yankai Fu",
-        "Yaoxu Lv",
-        "Bohan Hou",
-        "Jun Cen",
-        "Lingdong Kong",
-        "Duo Zheng",
-        "Tianxing Chen"
+        "Adarsh Bhandary Panambur",
+        "Siming Bayer",
+        "Andreas Maier"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-27",
-      "abstract": "Multimodal foundation models learned to see and to speak by consuming the whole internet. Embodied agents admit no such shortcut, since they require data that couple observations with physical states and actions. These signals can be provided, to varying degrees, by multiple data sources. In this work, we organize the embodied data ecosystem as a \"pyramid\" spanning five complementary sources: real-robot data, UMI-style data, egocentric and exocentric data, simulation data, and general vision-lan",
-      "keywords": [],
-      "arxivId": "2607.24744v1",
+      "publishDate": "2026-07-28",
+      "abstract": "Enhancing classification performance in mammography remains a persistent challenge across both small curated datasets and large-scale clinical cohorts. Conventional transfer learning approaches often neglect dataset-specific characteristics, while recent neighborhood-informed methods have been restricted to narrow tasks with rigid formulations, limiting their scalability to population-level datasets. To address these challenges, we propose the Dataset-Informed Transfer Learning (DITL) framework,",
+      "keywords": [
+        "screening"
+      ],
+      "arxivId": "2607.26043v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+      "title": "VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening",
       "authors": [
-        "Hangjie Yuan",
-        "Yichen Qian",
-        "Zhiwei Tang",
-        "Xianzhe Xu",
-        "Lirong Wu",
-        "Sicheng Yang",
-        "Jinwang Wang",
-        "Pengju Wang"
+        "Syed Mhamudul Hasan",
+        "Anas AlSobeh",
+        "Hussein Zangoti",
+        "Abdur R. Shahid"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-27",
-      "abstract": "Multimodal large language models (MLLMs) hold immense potential to revolutionize clinical practice, yet deploying them in the medical domain is fundamentally a vision-centric challenge: models must absorb knowledge from heterogeneous 2D and 3D medical images, and evaluation protocols must align with radiologists' clinical practice and provide an accurate, fine-grained and factualness-driven assessment. In this paper, we introduce ClinFusion, a vision-centric MLLM designed for holistic medical un",
-      "keywords": [],
-      "arxivId": "2607.24743v1",
+      "publishDate": "2026-07-28",
+      "abstract": "We present VetClaw, an edge-cloud multimodal agentic system for early veterinary disease screening. VetClaw uses a camera module as an edge sensing device and sends captured images, together with optional symptom descriptions, to a server-hosted vision-language model for zero-shot disease classification. The system separates agent interaction from workflow orchestration: OpenClaw provides scheduling, tool access, user interaction, and notification services on the edge device, while LangGraph man",
+      "keywords": [
+        "screening"
+      ],
+      "arxivId": "2607.26042v1",
       "doi": "",
       "relevance": "medium"
     }
