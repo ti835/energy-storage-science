@@ -1,96 +1,103 @@
 {
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-07-31",
   "papers": [
     {
-      "title": "Anomalies in Hadronic $B \\to VV$ Decays",
+      "title": "Learning to Trace Seiberg Dualities",
       "authors": [
-        "Bhubanjyoti Bhattacharya",
-        "Marianne Bouchard",
-        "Alexandre Jean",
-        "David London",
-        "Ipsita Ray"
+        "Jonathan J. Heckman",
+        "Shani Meynet",
+        "Alessandro Mininno",
+        "Gary Shiu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-29",
-      "abstract": "Recently, a fit of charmless $B\\to PP$ decays ($B \\in \\{B^0, B^+, B_s^0\\}$, $P \\in \\{ π, K, η, η' \\}$) to the latest data was performed under the assumption of flavour SU(3) symmetry [SU(3)$_F$]. It was found that there is a $4.1σ$ disagreement with the SU(3)$_F$ limit of the Standard Model [$\\rm SM_{SU(3)_F}$]. In this paper, we extend this analysis to charmless $B \\to VV$ decays ($V \\in \\{ρ, K^*, φ, ω\\}$). The fit examining $B \\to ρK^*$ decays, assuming only isospin symmetry, is found to be ac",
-      "keywords": [],
-      "arxivId": "2607.27202v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Quantum-Geometric Raman Response in Multiorbital Flat-Band Systems",
-      "authors": [
-        "Wai Ting Tai",
-        "Martin Claassen"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-07-29",
-      "abstract": "Flat-band materials host rich collective phenomena, yet a complete theory of their signatures in inelastic light scattering remains lacking. While naive theories of interacting flat bands would predict that Raman scattering vertices vanish identically in the limit of vanishing dispersion, we show that this picture is incomplete upon including the multiorbital character of such systems. We show that virtual interband processes generate a finite subgap Raman vertex controlled by the quantum geomet",
-      "keywords": [],
-      "arxivId": "2607.27200v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "From Classification to Regression: Using a Fruitfly to Solve Equations",
-      "authors": [
-        "Shady E. Ahmed",
-        "Panos Stinis"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-07-29",
-      "abstract": "We present a novel approach to regression tasks using classification which is motivated by the mechanism used by fruitflies to sense their environment. Specifically, we formulate a general framework for learning nonlinear input-output relationships by replacing complex global surrogate models with a finite library of representative local patterns. Since scientific data often occupy limited and recurring regions of the input space, we generate predictions by measuring similarities between a query",
-      "keywords": [],
-      "arxivId": "2607.27196v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Fault-Tolerant Logical Operations and Efficient State Preparation in Modular Quantum Architectures with Noisy Interfaces",
-      "authors": [
-        "Siddardha Chelluri",
-        "Riccardo Mengoni",
-        "Tom Darras",
-        "Julien Laurat",
-        "Eleni Diamanti",
-        "Ioannis Lavdas"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-07-29",
-      "abstract": "Modular quantum computing is a leading paradigm for scaling quantum computation beyond the resource limitations of monolithic devices. In this architecture, multiple quantum processing units (QPUs), employing identical or distinct qubit modalities, are interconnected via shared entanglement. Here, we investigate how errors at module interfaces and within individual QPUs affect fault-tolerant computation when qubits are encoded using the rotated surface code. Going beyond the logical-memory bench",
+      "publishDate": "2026-07-30",
+      "abstract": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the \"rules of the game\" are well-known. Said differently, when confronted with two systems, how can one efficiently establish that they are in fact dual? In this paper we use machine learning methods to address this question for Seiberg dualities of su",
       "keywords": [
-        "interface"
+        "machine learning"
       ],
-      "arxivId": "2607.27204v1",
+      "arxivId": "2607.28628v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Mental World Modeling",
+      "title": "A Four-dimensional Model-agnostic Probe into the Astrophysical Origins of Binary Black Hole Subpopulations",
       "authors": [
-        "Hao Fei",
-        "Yiran Zhao"
+        "Anarya Ray",
+        "Vicky Kalogera"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-29",
-      "abstract": "World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical question: what/where it is, and how will it evolve. Human behavior, however, is driven by hidden mental state (what a person believes, wants, intends, feels, and considers socially permissible), so a model that tracks the physical scene but not what each agent knows and believes about it predicts the wrong action for the right-looking scene. We formulate Mental World Modeling (M",
+      "publishDate": "2026-07-30",
+      "abstract": "There is strong evidence of multiple binary black hole~(BBH) subpopulations in the cumulative gravitational wave catalog by the LIGO-Virgo-KAGRA collaboration that likely originate through distinct evolutionary channels. The astrophysical interpretation of this complex underlying population is subject to theoretical uncertainties in treatments of binary stellar evolution, core collapse, and host environments. Due to a lack of robust predictions and the sheer diversity of plausible features, stro",
       "keywords": [],
-      "arxivId": "2607.27201v1",
+      "arxivId": "2607.28622v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Settling the Optimal Exponent Relating Sumsets and Difference Sets",
+      "title": "Improved Approximations for Collective Neutrino Oscillations",
       "authors": [
-        "Haowei Lin",
-        "Shanda Li"
+        "Matthew Riccio",
+        "A. B. Balantekin"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-29",
-      "abstract": "For a finite nonempty subset $A$ of an abelian group, let $σ(A)=|A+A|/|A|$ and $δ(A)=|A-A|/|A|$. The classical sum-difference inequalities state that $$σ(A)^{1/2}\\leqδ(A)\\leqσ(A)^2.$$ The exponent $2$ in the second inequality is known to be optimal, whereas it has remained open whether the exponent $1/2$ in the first inequality can be improved. We settle this question by constructing an explicit family of finite sets $A_K\\subset\\mathbb{Z}$ such that $$\\frac{\\logσ(A_K)}{\\logδ(A_K)}\\longrightarrow",
+      "publishDate": "2026-07-30",
+      "abstract": "A one- and two-body $\\mathfrak{su}(n)$ Hamiltonian governing the dynamics of many systems, including collective neutrino oscillations, is investigated. We start by analyzing the algebraic structure($\\mathfrak{u}(n^N)$), formulate a product structure of the algebra, and utilize this to construct generic expressions for operator expectation values, Rényi Entropy, and Wigner Functions. Performing BBGKY hierarchy truncation we develop a systematic methodology for going beyond the mean field with pol",
       "keywords": [],
-      "arxivId": "2607.27199v1",
+      "arxivId": "2607.28619v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+      "authors": [
+        "Yukang Cao",
+        "Haozhe Xie",
+        "Beichen Wen",
+        "Runmao Yao",
+        "Yinghao Liu",
+        "Yue Huang",
+        "Zhichao Liao",
+        "Yunxiang Wang"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-30",
+      "abstract": "Embodied intelligence faces a fundamental data bottleneck. Models must capture how first-person perception, whole-body motion, dexterous manipulation, object state, sound, and touch evolve together as humans pursue goals over time. Existing datasets fragment this experience across viewpoints, modalities, or spatial scales, leaving the full perception-action loop only partially observed. We introduce the Ambient Capture Engine (ACE), a human-centric data engine that transforms real home environme",
+      "keywords": [],
+      "arxivId": "2607.28625v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "PhiZero: A World Model Built Around Physical Language",
+      "authors": [
+        "Shuyao Shang",
+        "Yuqi Wang",
+        "Ruopeng Gao",
+        "Xu Chen",
+        "Tieniu Tan",
+        "Lue Fan",
+        "Zhaoxiang Zhang"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-30",
+      "abstract": "We introduce PhiZero, a physical world model built around physical language, a compact discrete representation of world-state transitions. Existing physical world models typically predict future videos directly in pixel space, leaving the underlying world dynamics implicit within high-dimensional visual predictors. Motivated by humans' ability to abstract predictive structure from visual experience and organize it in natural language for explicit reasoning, we learn physical language from in-the",
+      "keywords": [],
+      "arxivId": "2607.28624v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball",
+      "authors": [
+        "Lizhi Yang",
+        "Junheng Li",
+        "Aaron D. Ames"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-07-30",
+      "abstract": "We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance represents clearance to every body link, and an adversarial motion prior regularizes the resulting evasive reflexes. We evaluate on a controlled any-link contact benchmark with seeded throws in two regi",
+      "keywords": [],
+      "arxivId": "2607.28623v1",
       "doi": "",
       "relevance": "medium"
     }
