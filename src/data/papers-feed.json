@@ -1,97 +1,105 @@
 {
-  "lastUpdated": "2026-08-03",
+  "lastUpdated": "2026-08-04",
   "papers": [
     {
-      "title": "Dark Photons from Perturbative Decay of a Misaligned Higgs Field",
+      "title": "Discovery of the Distant, Ultra-Faint Milky Way Satellite Aquarius IV with the Vera C. Rubin Observatory Early Data Preview 2",
       "authors": [
-        "James M. Cline",
-        "Gonzalo Herrera",
-        "Jean-Samuel Roux"
+        "William Cerny",
+        "Aashay Pai",
+        "Alex Drlica-Wagner",
+        "Andrew B. Pace",
+        "Peter S. Ferguson",
+        "Marla Geha",
+        "Chin Yi Tan",
+        "Sasha Campana"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-31",
-      "abstract": "We reconsider the production of dark photons $A'$ as dark matter, from the perturbative decay of a dark Higgs field $h$, that is stochastically misaligned from the minimum of its potential during inflation. This is a simple and predictive framework for generating the $A'$ relic abundance. It is constrained by structure formation, since the $A'$ are initially boosted, and inflationary isocurvature fluctuations, which require small quartic couplings $λh^4$. We identify $A'$ masses between 100 eV a",
+      "publishDate": "2026-08-03",
+      "abstract": "We present the discovery of Aquarius IV (Rubin J2201$-$0234) -- the first ultra-faint Milky Way satellite to be identified using data from the Vera C. Rubin Observatory. This system was detected at $\\sim$8$σ$ significance using Rubin Early Data Preview 2 (EDP2) photometry and independently confirmed at $\\sim$6$σ$ significance in archival Dark Energy Camera imaging. Jointly fitting its morphology and distance, we find that Aquarius IV is a low-luminosity ($M_V=-1.9^{+0.6}_{-1.0}$), compact ($r_{1",
       "keywords": [],
-      "arxivId": "2607.29682v1",
+      "arxivId": "2608.02601v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Magnetic properties of a quasi-two-dimensional spin-1/2 antiferromagnet Y2CuGe4O12",
+      "title": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
       "authors": [
-        "J. Khatua",
-        "Changhyun Koo",
-        "Suyoung Kim",
-        "Eundeok Mun",
-        "Yugo Oshima",
-        "V. K. Sahu",
-        "Heung-Sik Kim",
-        "B. Koteswararao"
+        "Junjie Yin",
+        "Buxin She",
+        "Xinyu Feng",
+        "Fangxing",
+        "Li"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-31",
-      "abstract": "Competing magnetic interactions and frustration-induced quantum fluctuations in spatially anisotropic low-dimensional magnets often give rise to exotic magnetic phenomena, including field-induced phases. Here, we present crystal structure, magnetic susceptibility, specific heat, and electron spin resonance (ESR) measurements on polycrystalline Y$2$CuGe$4$O${12}$, supported by density functional theory (DFT) calculations. In this compound, the Cu$^{2+}$ ions form a distorted triangular lattice wi",
+      "publishDate": "2026-08-03",
+      "abstract": "Artificial intelligence (AI) is increasingly central to power and energy systems, supporting modeling, forecasting, optimization, and control. Yet most existing works emphasize specialized applications and offer little reusable material for newcomers or interdisciplinary learners, who increasingly rely on large language models rather than building their own. This gap points to a need for engineering-grounded AI (EGAI), in which AI workflows follow established engineering and power-system domain ",
       "keywords": [],
-      "arxivId": "2607.29676v1",
+      "arxivId": "2608.02599v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A-type Sigma Models from Differential Poisson Geometry",
+      "title": "Generation of Correlated Time Series for X-ray Astronomy Applications",
       "authors": [
-        "Cesar Arias",
-        "Per Sundell"
+        "Seth Rowan Larner",
+        "Michael A. Nowak",
+        "Jörn Wilms"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-31",
-      "abstract": "We study the differential Poisson sigma model (DPSM) in the symplectic case and show that its classical reduction defines a distinguished class of A-type models on symplectic targets, not necessarily Kähler. The DPSM is a covariant first-order sigma model whose graded target is the parity-shifted tangent bundle $T[1]M$ of a Poisson manifold $M$. Its graded Poisson tensor encodes a differential Poisson bracket on $C(T[1]M)\\congΩ^\\bullet(M)$, written covariantly in terms of a connection $Γ$ and it",
+      "publishDate": "2026-08-03",
+      "abstract": "Cross-spectral methods have become essential for studying accretion physics in X-ray binaries and active galactic nuclei, where coherence and phase lag measurements constrain physical models and reveal variability components invisible in power spectra alone. Recent multi-Lorentzian fitting techniques have uncovered new quasi-periodic features through joint analysis of power spectra and cross-spectra, but testing these methods requires synthetic data with realistic statistical properties. We pres",
       "keywords": [],
-      "arxivId": "2607.29668v1",
+      "arxivId": "2608.02584v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Online Shadow Tomography Matching the Classical Bounds",
+      "title": "WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity",
       "authors": [
-        "Sitan Chen",
-        "Ryan O'Donnell",
-        "Angelos Pelecanos",
-        "John Wright"
+        "Yuxue Yang",
+        "Shuyao Shang",
+        "Jiahe Wang",
+        "Zitong Zhou",
+        "Liang Tan",
+        "Junhan Zeng",
+        "Ruizhi Li",
+        "Junyan Li"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-31",
-      "abstract": "In \\emph{Online Shadow Tomography}, we are given copies of an unknown $d$-dimensional quantum state $ρ$, an adversary (adaptively) proposes a sequence of bounded observables $A^{(1)},\\ldots,A^{(m)}$, and after each $A^{(t)}$ is given we must estimate $\\Tr(A^{(t)}ρ)$ to within $\\pm ε$.\n  This is the direct quantum generalization of the classical problem of \\emph{Adaptive Data Analysis}. %The ``offline'' case, in which $A^{(1)}, \\ldots, A^{(m)}$ are given upfront, is also a well-studied problem. T",
-      "keywords": [],
-      "arxivId": "2607.29686v1",
+      "publishDate": "2026-08-03",
+      "abstract": "Controllable video generation models are increasingly being developed as world models. Accordingly, evaluating them in this role extends beyond the apparent appearance of generated videos to the inherent reactivity of the worlds they depict: the ability to infer from the scene state how the world should react and to generate plausible consequences not explicitly described in the input. Yet existing benchmarks mainly assess visual quality or explicit instruction fulfillment by checking whether re",
+      "keywords": [
+        "interface"
+      ],
+      "arxivId": "2608.02603v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Spectrum Estimation is Almost as Hard as Tomography",
+      "title": "Nearly tight lower bounds for estimating quantum functionals: Uhlmann fidelity, trace distance, and von Neumann entropy",
       "authors": [
-        "Marco Fanizza",
-        "Ryan O'Donnell",
-        "Chirag Wadhwa"
+        "Qisheng Wang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-31",
-      "abstract": "We study the sample complexity of estimating and testing fundamental unitarily invariant properties of unknown quantum states; namely, the tasks of spectrum estimation, von Neumann entropy estimation, and rank-testing. For $d$-dimensional states, and for every $γ&gt;0$, we prove a sample complexity lower bound of $Ω(d^{2-γ})$ for spectrum estimation to constant sorted total-variation error, entropy estimation to constant additive error, and rank-testing to constant trace distance. Our hard insta",
+      "publishDate": "2026-08-03",
+      "abstract": "In this paper, we present a unified framework for proving lower bounds for estimating functionals of quantum states. We therefore resolve several open problems by establishing lower bounds that match known upper bounds: we show that it requires $\\widetildeΩ(N^2)$ samples to estimate the Uhlmann fidelity, trace distance, and von Neumann entropy. Moreover, they immediately imply matching query lower bounds of $\\widetildeΩ(N)$ by quantum sample-to-query lifting. These lower bounds imply the near-op",
       "keywords": [],
-      "arxivId": "2607.29680v1",
+      "arxivId": "2608.02600v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
+      "title": "An Argmax Principle for Sum-of-Squares Relaxations on the Sphere",
       "authors": [
-        "Zhenyu Zhang",
-        "Zhichao Cao"
+        "Fernando Jeronimo Granha",
+        "Pei Wu",
+        "Haochen Xu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-07-31",
-      "abstract": "LLM serving systems cache prompt KV state, yet most front ends still re-tokenize the full request text on every call. The cost lands on coding agents, which resubmit a long transcript after each small tool result, and reuse is hard because even a short append can change token boundaries near the end of the previous sequence. Across 153,951 calls from two agent ecosystems, the median call appends about 1.4K characters, and only 1.0-3.6% of calls start or rebuild a session with contexts of million",
+      "publishDate": "2026-08-03",
+      "abstract": "We develop an argmax principle for analyzing sum-of-squares relaxations of optimization problems over the unit sphere. Given a feasible pseudo-expectation, we form a polynomial of high-order pseudo-moments, such as $Φ_k(u)=\\widetilde{\\mathbb E}\\langle x,u\\rangle^{2k}$. Our guiding principle is that its maximizers are rounding candidates: their local and global optimality conditions reveal the reweighed pseudo-expectation inequalities governing SoS convergence. This viewpoint unifies several prob",
       "keywords": [],
-      "arxivId": "2607.29678v1",
+      "arxivId": "2608.02594v1",
       "doi": "",
       "relevance": "medium"
     }
