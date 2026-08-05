@@ -1,108 +1,91 @@
 {
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-05",
   "papers": [
     {
-      "title": "Discovery of the Distant, Ultra-Faint Milky Way Satellite Aquarius IV with the Vera C. Rubin Observatory Early Data Preview 2",
+      "title": "Localizing polymers promotes the centre-mode elastic instability",
       "authors": [
-        "William Cerny",
-        "Aashay Pai",
-        "Alex Drlica-Wagner",
-        "Andrew B. Pace",
-        "Peter S. Ferguson",
-        "Marla Geha",
-        "Chin Yi Tan",
-        "Sasha Campana"
+        "Shailendra Kumar Yadav",
+        "Jason R. Picardo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-03",
-      "abstract": "We present the discovery of Aquarius IV (Rubin J2201$-$0234) -- the first ultra-faint Milky Way satellite to be identified using data from the Vera C. Rubin Observatory. This system was detected at $\\sim$8$σ$ significance using Rubin Early Data Preview 2 (EDP2) photometry and independently confirmed at $\\sim$6$σ$ significance in archival Dark Energy Camera imaging. Jointly fitting its morphology and distance, we find that Aquarius IV is a low-luminosity ($M_V=-1.9^{+0.6}_{-1.0}$), compact ($r_{1",
+      "publishDate": "2026-08-04",
+      "abstract": "The centre-mode elastic instability, prevalent in rectilinear flows of dilute polymer solutions, allows dynamic states to emerge even in the absence of inertia. Here, we show that this instability can be significantly enhanced when the base flow has a nonuniform spatial-distribution of polymers. Specifically, we consider a polymer-laden stream sandwiched between streams of pure solvent. In such a flow, the polymeric stress not only depends on the conformation tensor (determined here by the Oldro",
       "keywords": [],
-      "arxivId": "2608.02601v1",
+      "arxivId": "2608.04004v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
+      "title": "A Stackelberg-Bayesian Capacity-Market Game of Carbon Regulation and Second-Life Battery Investment under AI Data-Center Load Growth",
       "authors": [
-        "Junjie Yin",
-        "Buxin She",
-        "Xinyu Feng",
-        "Fangxing",
-        "Li"
+        "Rouzbeh Haghighi",
+        "Ali Hassan",
+        "Sina Mohammadi",
+        "Marcus Chen I Wada",
+        "Wencong Su"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-03",
-      "abstract": "Artificial intelligence (AI) is increasingly central to power and energy systems, supporting modeling, forecasting, optimization, and control. Yet most existing works emphasize specialized applications and offer little reusable material for newcomers or interdisciplinary learners, who increasingly rely on large language models rather than building their own. This gap points to a need for engineering-grounded AI (EGAI), in which AI workflows follow established engineering and power-system domain ",
+      "publishDate": "2026-08-04",
+      "abstract": "Artificial intelligence (AI) data centers are driving rapid electricity load growth across all U.S. ISO/RTO regions, raising both system costs and carbon exposure. This study develops a three-level Stackelberg--Bayesian game in which a regulator (leader) sets carbon penalties and subsidies, a single ISO capacity market clears against an energy balance modeled as a classical generation-expansion problem, and technology-specific investors (followers) decide capacity and operation under incomplete ",
       "keywords": [],
-      "arxivId": "2608.02599v1",
+      "arxivId": "2608.03989v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Generation of Correlated Time Series for X-ray Astronomy Applications",
+      "title": "Revised exclusion limits on doubly charged Higgs bosons from a reanalysis of the ATLAS multi-lepton search at $\\sqrt{s} = 13$,TeV",
       "authors": [
-        "Seth Rowan Larner",
-        "Michael A. Nowak",
-        "Jörn Wilms"
+        "Kirtiman Ghosh",
+        "Arun Kumar Nayak",
+        "Debabrata Sahoo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-03",
-      "abstract": "Cross-spectral methods have become essential for studying accretion physics in X-ray binaries and active galactic nuclei, where coherence and phase lag measurements constrain physical models and reveal variability components invisible in power spectra alone. Recent multi-Lorentzian fitting techniques have uncovered new quasi-periodic features through joint analysis of power spectra and cross-spectra, but testing these methods requires synthetic data with realistic statistical properties. We pres",
+      "publishDate": "2026-08-04",
+      "abstract": "The ATLAS search for pair-produced doubly charged Higgs bosons in multi-lepton final states using the full Run 2 dataset [Eur. Phys. J. C 83 (2023) 605] reports the strongest limits to date on the mass of doubly charged scalars, driven by an essentially background-free four-lepton channel. We show that the four-lepton signal efficiency implied by the auxiliary cutflow of that analysis exceeds a strict, mass-independent upper bound derived from the equal-branching-ratio assumption of the search, ",
       "keywords": [],
-      "arxivId": "2608.02584v1",
+      "arxivId": "2608.03988v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity",
+      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
       "authors": [
-        "Yuxue Yang",
-        "Shuyao Shang",
-        "Jiahe Wang",
-        "Zitong Zhou",
-        "Liang Tan",
-        "Junhan Zeng",
-        "Ruizhi Li",
-        "Junyan Li"
+        "Changle Qu",
+        "Sunhao Dai",
+        "Hengyi Cai",
+        "Yuqi Zhou",
+        "Xinran Chen",
+        "Simon",
+        "Jun Xu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-03",
-      "abstract": "Controllable video generation models are increasingly being developed as world models. Accordingly, evaluating them in this role extends beyond the apparent appearance of generated videos to the inherent reactivity of the worlds they depict: the ability to infer from the scene state how the world should react and to generate plausible consequences not explicitly described in the input. Yet existing benchmarks mainly assess visual quality or explicit instruction fulfillment by checking whether re",
-      "keywords": [
-        "interface"
-      ],
-      "arxivId": "2608.02603v1",
+      "publishDate": "2026-08-04",
+      "abstract": "Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iterative tool interactions. However, existing reinforcement learning methods often rely on trajectory-level supervision, limiting fine-grained credit assignment in long-horizon TIR scenarios. On-policy self-distillation offers denser signals through teacher branches with privileged context, but existing approaches typically derive such context from ground-truth answers or retrieved skills, which may not reflect the stat",
+      "keywords": [],
+      "arxivId": "2608.04007v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Nearly tight lower bounds for estimating quantum functionals: Uhlmann fidelity, trace distance, and von Neumann entropy",
+      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
       "authors": [
-        "Qisheng Wang"
+        "Shuhan Xue",
+        "Zixin Ding",
+        "Yichen Shen",
+        "Yinjie Wang",
+        "Zhenfei Yin",
+        "Yingcheng Wu",
+        "Yuxin Chen",
+        "Mengdi Wang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-03",
-      "abstract": "In this paper, we present a unified framework for proving lower bounds for estimating functionals of quantum states. We therefore resolve several open problems by establishing lower bounds that match known upper bounds: we show that it requires $\\widetildeΩ(N^2)$ samples to estimate the Uhlmann fidelity, trace distance, and von Neumann entropy. Moreover, they immediately imply matching query lower bounds of $\\widetildeΩ(N)$ by quantum sample-to-query lifting. These lower bounds imply the near-op",
+      "publishDate": "2026-08-04",
+      "abstract": "Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agents offer a concrete setting for studying this capability because they retain preferences, task histories, tool routines, and learned skills across sessions. Yet whether retained experience actually improves them over time has not been systematically tested. We introduce PAST-Bench, a benchmark designed to isolate this question. Each agent runs through ordered sequences of fresh-",
       "keywords": [],
-      "arxivId": "2608.02600v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "An Argmax Principle for Sum-of-Squares Relaxations on the Sphere",
-      "authors": [
-        "Fernando Jeronimo Granha",
-        "Pei Wu",
-        "Haochen Xu"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-08-03",
-      "abstract": "We develop an argmax principle for analyzing sum-of-squares relaxations of optimization problems over the unit sphere. Given a feasible pseudo-expectation, we form a polynomial of high-order pseudo-moments, such as $Φ_k(u)=\\widetilde{\\mathbb E}\\langle x,u\\rangle^{2k}$. Our guiding principle is that its maximizers are rounding candidates: their local and global optimality conditions reveal the reweighed pseudo-expectation inequalities governing SoS convergence. This viewpoint unifies several prob",
-      "keywords": [],
-      "arxivId": "2608.02594v1",
+      "arxivId": "2608.04003v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
