@@ -1,91 +1,104 @@
 {
-  "lastUpdated": "2026-08-05",
+  "lastUpdated": "2026-08-06",
   "papers": [
     {
-      "title": "Localizing polymers promotes the centre-mode elastic instability",
+      "title": "The QCD Axion and Neutrino Masses",
       "authors": [
-        "Shailendra Kumar Yadav",
-        "Jason R. Picardo"
+        "Hridoy Debnath",
+        "Pavel Fileviez Perez",
+        "Grace Miller"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-04",
-      "abstract": "The centre-mode elastic instability, prevalent in rectilinear flows of dilute polymer solutions, allows dynamic states to emerge even in the absence of inertia. Here, we show that this instability can be significantly enhanced when the base flow has a nonuniform spatial-distribution of polymers. Specifically, we consider a polymer-laden stream sandwiched between streams of pure solvent. In such a flow, the polymeric stress not only depends on the conformation tensor (determined here by the Oldro",
+      "publishDate": "2026-08-05",
+      "abstract": "The strong CP problem and the origin of neutrino masses are among the clearest motivations for physics beyond the Standard Model. The Peccei-Quinn mechanism offers an elegant dynamical solution to the strong CP problem, predicting the QCD axion, while neutrino masses point to new degrees of freedom or interactions beyond the Standard Model. We explore the possibility that these two phenomena arise from a common origin by identifying the Peccei-Quinn symmetry-breaking scale with the scale respons",
       "keywords": [],
-      "arxivId": "2608.04004v1",
+      "arxivId": "2608.05150v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A Stackelberg-Bayesian Capacity-Market Game of Carbon Regulation and Second-Life Battery Investment under AI Data-Center Load Growth",
+      "title": "Machine-Learning Search for Lax Connections",
       "authors": [
-        "Rouzbeh Haghighi",
-        "Ali Hassan",
-        "Sina Mohammadi",
-        "Marcus Chen I Wada",
-        "Wencong Su"
+        "Osamu Fukushima",
+        "Tomohiro Shigemura",
+        "Ryosuke Suda",
+        "Norihiro Tanahashi",
+        "Kentaroh Yoshida"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-04",
-      "abstract": "Artificial intelligence (AI) data centers are driving rapid electricity load growth across all U.S. ISO/RTO regions, raising both system costs and carbon exposure. This study develops a three-level Stackelberg--Bayesian game in which a regulator (leader) sets carbon penalties and subsidies, a single ISO capacity market clears against an energy balance modeled as a classical generation-expansion problem, and technology-specific investors (followers) decide capacity and operation under incomplete ",
-      "keywords": [],
-      "arxivId": "2608.03989v1",
+      "publishDate": "2026-08-05",
+      "abstract": "We apply a machine learning framework to search for Lax connections in two-dimensional non-linear sigma models using local current data. For the $SU(2)$ principal chiral model and the symmetric coset $S^2 = SU(2)/U(1)$, the method successfully recovers the full spectral-parameter families without using the known spectral curves as training targets. For the non-symmetric coset $T^{1,1}$, the optimization converges to reproducible low-loss maps that distill into a compact block-diagonal ansatz. Ho",
+      "keywords": [
+        "machine learning"
+      ],
+      "arxivId": "2608.05146v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Revised exclusion limits on doubly charged Higgs bosons from a reanalysis of the ATLAS multi-lepton search at $\\sqrt{s} = 13$,TeV",
+      "title": "Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains",
       "authors": [
-        "Kirtiman Ghosh",
-        "Arun Kumar Nayak",
-        "Debabrata Sahoo"
+        "Ayoub Kirouane",
+        "Christos Petrocheilos"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-04",
-      "abstract": "The ATLAS search for pair-produced doubly charged Higgs bosons in multi-lepton final states using the full Run 2 dataset [Eur. Phys. J. C 83 (2023) 605] reports the strongest limits to date on the mass of doubly charged scalars, driven by an essentially background-free four-lepton channel. We show that the four-lepton signal efficiency implied by the auxiliary cutflow of that analysis exceeds a strict, mass-independent upper bound derived from the equal-branching-ratio assumption of the search, ",
+      "publishDate": "2026-08-05",
+      "abstract": "Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications. We present an end-to-end adaptation of the Nemotron retrieval stack for Modern Greek, including corpus mining, synthetic supervision, retrieval model training, reranker adaptation, reader fine-tuning, and a new benchmark called HERA. Our study shows that a parameter-",
       "keywords": [],
-      "arxivId": "2608.03988v1",
+      "arxivId": "2608.05138v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+      "title": "CoCo-IR: Contextual Composed Image Retrieval",
       "authors": [
-        "Changle Qu",
-        "Sunhao Dai",
-        "Hengyi Cai",
-        "Yuqi Zhou",
-        "Xinran Chen",
-        "Simon",
-        "Jun Xu"
+        "Shengcao Cao",
+        "Tanmaya Shekhar Dabral",
+        "Zhongli Ding",
+        "Madhuri Shanbhogue",
+        "Kaifeng Chen",
+        "Zhe Li",
+        "Mojtaba Seyedhosseini",
+        "Yu-Xiong Wang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-04",
-      "abstract": "Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iterative tool interactions. However, existing reinforcement learning methods often rely on trajectory-level supervision, limiting fine-grained credit assignment in long-horizon TIR scenarios. On-policy self-distillation offers denser signals through teacher branches with privileged context, but existing approaches typically derive such context from ground-truth answers or retrieved skills, which may not reflect the stat",
+      "publishDate": "2026-08-05",
+      "abstract": "Current instruction-based image retrieval systems are powerful but limited to single-turn interactions, failing to capture the iterative nature of complex, real-world visual searches. To overcome this limitation, we introduce Contextual Composed Image Retrieval (CoCo-IR), a novel task that enables users to progressively refine search results through interactions. We address this new task by proposing a new model based on a Large Multimodal Model (LMM) that functions as a context-aware reasoner f",
       "keywords": [],
-      "arxivId": "2608.04007v1",
+      "arxivId": "2608.05149v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+      "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
       "authors": [
-        "Shuhan Xue",
-        "Zixin Ding",
-        "Yichen Shen",
-        "Yinjie Wang",
-        "Zhenfei Yin",
-        "Yingcheng Wu",
-        "Yuxin Chen",
-        "Mengdi Wang"
+        "Damien Sileo",
+        "Valentin Lacombe",
+        "Dimitri Kachler"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-04",
-      "abstract": "Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agents offer a concrete setting for studying this capability because they retain preferences, task histories, tool routines, and learned skills across sessions. Yet whether retained experience actually improves them over time has not been systematically tested. We introduce PAST-Bench, a benchmark designed to isolate this question. Each agent runs through ordered sequences of fresh-",
+      "publishDate": "2026-08-05",
+      "abstract": "Procedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection of 50 generators spanning mathematics, logic, planning, state tracking, formal languages, structured data, games, causality, and code, with semantic scorers, difficulty controls, and task evaluators. Under a matched completion-supervised protocol, we compare Reasoning Core with Procedural Warmup, Rea",
       "keywords": [],
-      "arxivId": "2608.04003v1",
+      "arxivId": "2608.05148v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Fast Quantum Interconnects via Neutral Atom Ensembles",
+      "authors": [
+        "Sina Zeytinoglu",
+        "Wenchao Xu",
+        "Thomas Pohl"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-05",
+      "abstract": "Distributing entanglement between distant qubits is a crucial element of scalable quantum computing. Here, we describe a scalable quantum interconnect that generates remote entanglement at rates approaching those compatible with two-qubit gates of current neutral-atom quantum processors. The proposed approach exploits the strong dipole-dipole interactions between atomic Rydberg states to generate entanglement between stationary qubits and propagating photons, without the need for an optical cavi",
+      "keywords": [],
+      "arxivId": "2608.05147v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
