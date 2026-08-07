@@ -1,101 +1,104 @@
 {
-  "lastUpdated": "2026-08-06",
+  "lastUpdated": "2026-08-07",
   "papers": [
     {
-      "title": "The QCD Axion and Neutrino Masses",
+      "title": "A Tale of Two Compact Bosons",
       "authors": [
-        "Hridoy Debnath",
-        "Pavel Fileviez Perez",
-        "Grace Miller"
+        "Christian Ferko",
+        "Vishnu Jejjala",
+        "Brandon Robinson"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-05",
-      "abstract": "The strong CP problem and the origin of neutrino masses are among the clearest motivations for physics beyond the Standard Model. The Peccei-Quinn mechanism offers an elegant dynamical solution to the strong CP problem, predicting the QCD axion, while neutrino masses point to new degrees of freedom or interactions beyond the Standard Model. We explore the possibility that these two phenomena arise from a common origin by identifying the Peccei-Quinn symmetry-breaking scale with the scale respons",
+      "publishDate": "2026-08-06",
+      "abstract": "Neural network field theory (NN-FT) defines a field theory by a network architecture together with a probability density on its latent variables. For compact theories the local Gaussian sector is only part of the story: one must also sum over discrete topological sectors. We review a mixed continuous/discrete latent-variable construction and apply it to two compact bosons. For the Berezinskii--Kosterlitz--Thouless transition, a random Fourier feature spin-wave sampler supplemented by an explicit",
       "keywords": [],
-      "arxivId": "2608.05150v1",
+      "arxivId": "2608.06376v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Machine-Learning Search for Lax Connections",
+      "title": "Global weak solutions to the Cahn-Hilliard equation with degenerate mobility and singular diffusion",
       "authors": [
-        "Osamu Fukushima",
-        "Tomohiro Shigemura",
-        "Ryosuke Suda",
-        "Norihiro Tanahashi",
-        "Kentaroh Yoshida"
+        "Monica Conti",
+        "Andrea Giorgini",
+        "Greta Ricchi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-05",
-      "abstract": "We apply a machine learning framework to search for Lax connections in two-dimensional non-linear sigma models using local current data. For the $SU(2)$ principal chiral model and the symmetric coset $S^2 = SU(2)/U(1)$, the method successfully recovers the full spectral-parameter families without using the known spectral curves as training targets. For the non-symmetric coset $T^{1,1}$, the optimization converges to reproducible low-loss maps that distill into a compact block-diagonal ansatz. Ho",
-      "keywords": [
-        "machine learning"
-      ],
-      "arxivId": "2608.05146v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains",
-      "authors": [
-        "Ayoub Kirouane",
-        "Christos Petrocheilos"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-08-05",
-      "abstract": "Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications. We present an end-to-end adaptation of the Nemotron retrieval stack for Modern Greek, including corpus mining, synthetic supervision, retrieval model training, reranker adaptation, reader fine-tuning, and a new benchmark called HERA. Our study shows that a parameter-",
+      "publishDate": "2026-08-06",
+      "abstract": "We study the initial-boundary value problem for the Cahn-Hilliard equation with degenerate mobility and singular diffusion at pure phases. This model describes the dynamics of phase separation in polymer blends with associated Flory-Huggins-de Gennes free energy. We prove the existence of suitable global weak solutions in three-dimensional bounded, smooth, and convex domains, assuming that the initial datum has finite energy. A key novelty of our analysis is the derivation of $L^4(0,T; H^2(Ω))$ ",
       "keywords": [],
-      "arxivId": "2608.05138v1",
+      "arxivId": "2608.06371v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "CoCo-IR: Contextual Composed Image Retrieval",
+      "title": "Quasiconvexity for the Dacorogna--Marcellini Energy",
       "authors": [
-        "Shengcao Cao",
-        "Tanmaya Shekhar Dabral",
-        "Zhongli Ding",
-        "Madhuri Shanbhogue",
-        "Kaifeng Chen",
+        "Giuseppe Bruno",
+        "Federico Pasqualotto"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-06",
+      "abstract": "We prove that the planar Dacorogna--Marcellini energy $f_γ(A)=|A|^4-2γ|A|^2\\det A$ is quasiconvex exactly when it is rank-one convex, i.e. if and only if $|γ|\\leq\\frac{2}{\\sqrt3}$. The proof uses a monotonicity property of the energy functional along the componentwise heat flow. As a corollary of our method, we show that for homogeneous quartic polynomials on $2 \\times 2$ matrices invariant by left and right rotation, quasiconvexity is equivalent to rank one convexity.",
+      "keywords": [],
+      "arxivId": "2608.06367v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
+      "authors": [
         "Zhe Li",
-        "Mojtaba Seyedhosseini",
-        "Yu-Xiong Wang"
+        "Zhenzhe Zhang",
+        "Yangyang Wei",
+        "Wenjie Zhang",
+        "Xichen Yuan",
+        "Peiyuan Zhi",
+        "Gen Li",
+        "Xinying Guo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-05",
-      "abstract": "Current instruction-based image retrieval systems are powerful but limited to single-turn interactions, failing to capture the iterative nature of complex, real-world visual searches. To overcome this limitation, we introduce Contextual Composed Image Retrieval (CoCo-IR), a novel task that enables users to progressively refine search results through interactions. We address this new task by proposing a new model based on a Large Multimodal Model (LMM) that functions as a context-aware reasoner f",
+      "publishDate": "2026-08-06",
+      "abstract": "Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models remain either arm-centric or video-centered. We present $ω$-0, a latent predictive whole-body world-action model for real-world humanoid concurrent loco-manipulation. Given a language instruction, cur",
       "keywords": [],
-      "arxivId": "2608.05149v1",
+      "arxivId": "2608.06375v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
+      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
       "authors": [
-        "Damien Sileo",
-        "Valentin Lacombe",
-        "Dimitri Kachler"
+        "Junfeng Li",
+        "Junjie He",
+        "Zhide Zhong",
+        "Yangyang Zheng",
+        "Pingyue Sheng",
+        "Jiayu Dong",
+        "Ruixin Li",
+        "Haodong Yan"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-05",
-      "abstract": "Procedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection of 50 generators spanning mathematics, logic, planning, state tracking, formal languages, structured data, games, causality, and code, with semantic scorers, difficulty controls, and task evaluators. Under a matched completion-supervised protocol, we compare Reasoning Core with Procedural Warmup, Rea",
+      "publishDate": "2026-08-06",
+      "abstract": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors shared across diverse visual and interaction data, limiting cross-embodiment transfer. Second, they require extensive manual preprocessing to convert embodiment-specific actions into a common format. To overcome these limitati",
       "keywords": [],
-      "arxivId": "2608.05148v1",
+      "arxivId": "2608.06374v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Fast Quantum Interconnects via Neutral Atom Ensembles",
+      "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
       "authors": [
-        "Sina Zeytinoglu",
-        "Wenchao Xu",
-        "Thomas Pohl"
+        "Boning Li",
+        "Yu Chen",
+        "Longbo Huang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-05",
-      "abstract": "Distributing entanglement between distant qubits is a crucial element of scalable quantum computing. Here, we describe a scalable quantum interconnect that generates remote entanglement at rates approaching those compatible with two-qubit gates of current neutral-atom quantum processors. The proposed approach exploits the strong dipole-dipole interactions between atomic Rydberg states to generate entanglement between stationary qubits and propagating photons, without the need for an optical cavi",
-      "keywords": [],
-      "arxivId": "2608.05147v1",
+      "publishDate": "2026-08-06",
+      "abstract": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the result is settled or stop before the agents can be told apart, while naive optional stopping with an ordinary confidence interval invalidates the stated level. We make such an evaluation stop as soon as its evidence suffices, with the guarantee intact",
+      "keywords": [
+        "screening"
+      ],
+      "arxivId": "2608.06362v1",
       "doi": "",
       "relevance": "medium"
     }
