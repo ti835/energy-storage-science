@@ -1,113 +1,106 @@
 {
-  "lastUpdated": "2026-08-10",
+  "lastUpdated": "2026-08-11",
   "papers": [
     {
-      "title": "Quantum de Sitter and Analytically Continued Chern Simons Theory",
+      "title": "Cell Natural Orbitals in Interacting Topological Bands",
       "authors": [
-        "Stephon Alexander",
-        "Kenneth Blakey"
+        "Nishchhal Verma",
+        "Harshitra Mahalingam",
+        "Daniel Muñoz-Segovia",
+        "Raquel Queiroz"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-07",
-      "abstract": "We give a Lefschetz thimble definition of the Chern--Simons--Kodama wavefunctional in Lorentzian self-dual gravity with positive cosmological constant. By complexifying the connection and choosing the Lefschetz thimble attached to the self-dual de~Sitter saddle, Witten's analytic continuation of Chern--Simons theory replaces the real contour, on which the defining integral is at best conditionally convergent, by an absolutely convergent integration cycle and yields a controlled semiclassical exp",
+      "publishDate": "2026-08-10",
+      "abstract": "Topological bands exhibit obstruction to exponentially localized and symmetric Wannier functions, challenging the standard paradigm of representing projected interactions in terms of local orbitals with finite range. To faithfully capture the form factors and quantum geometry of topological bands we introduce a singular-value decomposition of the band-projected density form factors, enabling a geometry-based truncation scheme of the Hilbert space, exposing an intrinsic hierarchy on band-projecte",
+      "keywords": [],
+      "arxivId": "2608.09932v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Realization Variance of Gravitational Wave Background Anisotropies from Shot Noise for Pulsar Timing Arrays",
+      "authors": [
+        "Meng-Xiang Lin",
+        "Adam Lidz",
+        "Chung-Pei Ma"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-10",
+      "abstract": "Shot-noise anisotropies in the nHz gravitational wave background (GWB) are a promising target for pulsar timing arrays (PTAs). If the nHz GWB is sourced by merging supermassive black hole binaries (SMBHBs), as current evidence suggests, the shot-noise signal is expected to be large, potentially of order unity at observing frequencies of $f \\sim 1 \\, \\mathrm{yr}^{-1}$. In this regime, the signal is dominated by rare bright binaries, and Poisson fluctuations in the discrete SMBHB population produc",
+      "keywords": [],
+      "arxivId": "2608.09929v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch",
+      "authors": [
+        "Laurens Samson",
+        "Iva Gornishka",
+        "Gossa Lô",
+        "Yuki M. Asano",
+        "Sennay Ghebreab"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-10",
+      "abstract": "Large language models are increasingly being deployed in governmental settings, yet few existing evaluation frameworks jointly reflect the values of public administration and the linguistic requirements of non-English contexts. We present the \"Grip on LLMs\" framework, a systematic evaluation suite for Dutch governmental use developed in collaboration with domain experts from a major Dutch municipal organisation. Through an advisory board process, user research, and a survey of the users of a civ",
+      "keywords": [],
+      "arxivId": "2608.09925v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Multimodal Model Diffing for Feature Discovery and Control",
+      "authors": [
+        "Hunar Batra",
+        "Lachin Naghashyar",
+        "Ashkan Khakzar",
+        "Philip Torr",
+        "Christian Schroeder de Witt",
+        "Constantin Venhoff",
+        "Ronald Clark"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-10",
+      "abstract": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these behaviors remain difficult to identify, audit, or control. While applicable to post-hoc inspection, hidden states that are decomposed into interpretable feature directions using sparse autoencoders (SAEs) neither readily isolate which features are changed by multimodal training, nor are they directly useful for targeted control. We introduce MMDiff, a multimodal model-diffing ",
       "keywords": [
         "interface"
       ],
-      "arxivId": "2608.07467v1",
+      "arxivId": "2608.09928v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A clear detection of proper motion confirms that the claimed $\\mathbf{z\\simeq32}$ galaxy candidate, \"Capotauro'', is a Y-type brown dwarf",
+      "title": "A Quantum Coherence Microscope in the Hubbard Regime",
       "authors": [
-        "F. -Y. F. Liu",
-        "D. J. McLeod",
-        "B. J. Sutlieff",
-        "T. J. Dupuy",
-        "J. S. Dunlop",
-        "X. Chen",
-        "R. J. McLure",
-        "H. -H. Leung"
+        "Lin Su",
+        "Michal Szurek",
+        "Alec Douglas",
+        "Ceren B. Dag",
+        "Markus Greiner"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-07",
-      "abstract": "The compact red source ``Capotauro'', discovered in deep JWST imaging in 2025, has been suggested as a possible galaxy candidate at redshift $z\\simeq32$ on account of its extreme NIRCam colours. However, given the lack of evidence that this source is spatially resolved, a very cool brown dwarf, at a distance consistent with the scale-height of the Milky Way stellar disc ($\\simeq 500$ pc), provides an alternative explanation of the observed photometry. Here we exploit new medium-band NIRCam imagi",
+      "publishDate": "2026-08-10",
+      "abstract": "Quantum coherence underlies collective quantum phenomena and emerging quantum technologies. Quantum gas microscopes have transformed quantum simulation by providing projective snapshots of many-body states with single-atom resolution, but spatially resolved measurements of off-diagonal correlations have remained elusive. Here, using the Talbot effect, we introduce a quantum coherence microscope that maps off-diagonal correlations onto site-resolved density signals with near-single-site resolutio",
       "keywords": [],
-      "arxivId": "2608.07461v1",
+      "arxivId": "2608.09924v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Optimal Calibration-Free Observable for the Nucleon-Coupling Ratio in a Dual-Alkali Comagnetometer for Dark Matter Searches",
+      "title": "The quadratic growth of Krylov spread complexity in the BTZ black hole",
       "authors": [
-        "Yossi Rosenzweig",
-        "Yevgeny Kats",
-        "Eli Sarid",
-        "Menachem Givon",
-        "Yonathan Japha",
-        "Ron Folman"
+        "Aranya Bhattacharya",
+        "Mario Flory",
+        "Michal P. Heller",
+        "Emiliano Rizza",
+        "Tim Schuhmann"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-07",
-      "abstract": "A dual-alkali single-cell $^{87}$Rb-$^{39}$K-$^{3}$He comagnetometer can read an axionlike dark matter signal through two optical-rotation channels, encoding the ratio $\\mathcal{R}=ξ_n/ξ_p$ of the field's neutron and proton spin couplings in their relative response. The inter-species phase difference $Δ\\varphi$ has been proposed as a calibration-free readout that is sensitive to $\\mathcal{R}$. Treating the extraction of $\\mathcal{R}$ as a statistical estimation problem, we show that the optimal ",
+      "publishDate": "2026-08-10",
+      "abstract": "The boundary quantity that captures the growth of black-hole interiors quantified by holographic complexity remains unknown beyond 2d dilaton gravity. We provide a critical analysis of a partition-function construction of Krylov spread complexity for thermofield-double states that provides a dimension-independent boundary reconstruction from semiclassical holographic partition functions, while developing the present dynamical and bulk construction for the BTZ saddle. In the double-scaled Sachdev",
       "keywords": [],
-      "arxivId": "2608.07456v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
-      "authors": [
-        "Zongchuang Zhao",
-        "Xin Zhou",
-        "Tianyang Xu",
-        "Zhengyang Sun",
-        "Kaixuan Zhou",
-        "Honglin Li",
-        "Dingkang Liang",
-        "Xiang Bai"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-08-07",
-      "abstract": "World-Action Models (WAMs) improve end-to-end autonomous driving by transferring video dynamics priors to action prediction, but existing methods require costly future generation at inference. We present SimWAM, a simple yet effective WAM that uses video generation purely as a training signal. It co-trains a pretrained video expert and a lightweight action expert with joint flow matching. An isolated attention mask keeps action prediction independent of future frames, allowing the video branch t",
-      "keywords": [
-        "interface"
-      ],
-      "arxivId": "2608.07468v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Entanglement Mpemba Effect",
-      "authors": [
-        "Ruicheng Bao",
-        "Yue Liu"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-08-07",
-      "abstract": "Generating entanglement rapidly and reliably is essential for quantum information processing, communication, and metrology. Dissipative preparation is attractive because engineered reservoirs robustly drive a system toward an entangled target, yet relaxation can carry a substantial time cost. Here we formulate the entanglement Mpemba effect, whereby an initially less entangled state overtakes a more entangled state under the same open-system dynamics. This effect turns initial-state engineering ",
-      "keywords": [],
-      "arxivId": "2608.07465v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "SemBridge: Semantic Token Anchoring for Continuous-Latent Autoregressive Speech Generation",
-      "authors": [
-        "Hanke Xie",
-        "Haopeng Lin",
-        "Jiale Qian",
-        "Dake Guo",
-        "Yuepeng Jiang",
-        "Zhichao Wang",
-        "Wenxiao Cao",
-        "Jingbin Hu"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-08-07",
-      "abstract": "Continuous-latent autoregressive speech generation has emerged as a promising alternative to discrete-token modeling by avoiding quantization loss and preserving richer acoustic information. However, continuous acoustic targets do not ex- pose linguistic structure as explicit token-level prediction tar- gets. Consequently, the autoregressive language model (LM) must acquire linguistic structure indirectly through acous- tic prediction, which can compromise the content fidelity of generated speec",
-      "keywords": [],
-      "arxivId": "2608.07462v1",
+      "arxivId": "2608.09922v1",
       "doi": "",
       "relevance": "medium"
     }
