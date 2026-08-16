@@ -1,5 +1,105 @@
 {
-  "lastUpdated": "2026-08-15",
-  "papers": [],
-  "totalCount": 0
+  "lastUpdated": "2026-08-16",
+  "papers": [
+    {
+      "title": "Localised Horizons and Holographic Thermodynamics: Supercooling in the 1/D Expansion",
+      "authors": [
+        "Prateek Agrawal",
+        "Gaurang Ramakant Kane",
+        "Vazha Loladze"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-13",
+      "abstract": "In holography, four-dimensional confining gauge theories are often modelled by five-dimensional Einstein--scalar gravity by choosing a specific form of the scalar potential. In a large class of non-conformal theories, we show that a predictive structure emerges for the thermal confinement transition by generalising the gravitational dual to $D+1$ dimensions and using a $1/D$ expansion. These results are independent of the details of the scalar potential, hinting towards universality. The black b",
+      "keywords": [],
+      "arxivId": "2608.13557v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Effective field theory of quasi-hydrodynamics from kinetic theory",
+      "authors": [
+        "Lorenzo Gavassino"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-13",
+      "abstract": "Quasi-hydrodynamics describes systems with quasi-conserved degrees of freedom, namely observables that relax on timescales that are finite but parametrically longer than microscopic relaxation times. Examples include kinetic chemistry and linear viscoelasticity. Here, we develop a rigorous effective-field-theory framework for linear quasi-hydrodynamics from kinetic-type theories. Starting from any linearized, causal kinetic-like theory endowed with slow degrees of freedom, we show that the exact",
+      "keywords": [],
+      "arxivId": "2608.13542v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Kinematic Fingerprints of a Nucleon-Triggered $V_{\\mathcal{B}}$ in Rare $η^{(\\prime)}\\toπ^0(η)γγ$ Decays on Nucleon Targets",
+      "authors": [
+        "Yaroslav Balytskyi"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-13",
+      "abstract": "The nucleon-triggered vector-boson scenario $V_{\\mathcal B}$ was motivated by a statistically significant discrepancy between the KLOE measurement, $\\mathrm{BR}^{η\\rightarrowπ^{0}γγ}_{\\text{KLOE}} = \\left(0.98\\pm0.11_{\\text{stat}}\\pm0.14_{\\text{syst}}\\right)\\times10^{-4}$, and the current world average, $\\left(2.55\\pm0.22\\right)\\times10^{-4}$, dominated by MAMI photoproduction data. In this model, the new interaction is activated by external nucleons, which causes deviations from the Standard Mo",
+      "keywords": [],
+      "arxivId": "2608.13537v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "authors": [
+        "Dairu Liu",
+        "Zekun Qi",
+        "Jiayu Zeng",
+        "Ruixi Yu",
+        "Yu Guan",
+        "Yintianrun Zhang",
+        "Xuchuan Chen",
+        "Sikai Liang"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-13",
+      "abstract": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contacts such as foot skating and mistimed touch-downs. Meanwhile, widely used test suites are small and lack the diversity needed to stress contact-rich, long-horizon behaviors. We introduce HumanTracker to",
+      "keywords": [],
+      "arxivId": "2608.13555v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
+      "authors": [
+        "Kaixin Ding",
+        "Xi Chen",
+        "Minghong Cai",
+        "Zhiyuan Xu",
+        "Yiyang Wang",
+        "Yuxiang Lu",
+        "Junyi Li",
+        "Shuyang Chen"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-13",
+      "abstract": "Video world models simulate future states conditioned on current observations and user actions. Recent systems have demonstrated impressive video consistency and action controllability over long sequences. However, fairly comparing these interactive models remains challenging. In practice, a human player typically evaluates a world model by pursuing long-horizon objectives through interaction. For example, a user may turn around 360 degrees to see whether the environment remains consistent, or w",
+      "keywords": [],
+      "arxivId": "2608.13552v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "authors": [
+        "Shangao Li",
+        "Yao Zhang",
+        "Volker Tresp",
+        "Yuanyuan Yang"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-13",
+      "abstract": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after generation. QuoteBench measures this boundary with exact final-state validation on 56 one-shot tasks from 14 incident-derived families, crossing the generation contract with the execution transport around one deliberately unescaped added parser. Escaping at the interpolation point re",
+      "keywords": [
+        "interface"
+      ],
+      "arxivId": "2608.13547v1",
+      "doi": "",
+      "relevance": "medium"
+    }
+  ],
+  "totalCount": 6
 }
