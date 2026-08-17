@@ -1,105 +1,84 @@
 {
-  "lastUpdated": "2026-08-16",
+  "lastUpdated": "2026-08-17",
   "papers": [
     {
-      "title": "Localised Horizons and Holographic Thermodynamics: Supercooling in the 1/D Expansion",
+      "title": "Blazar Boosted Dark Matter in IceCube",
       "authors": [
-        "Prateek Agrawal",
-        "Gaurang Ramakant Kane",
-        "Vazha Loladze"
+        "Alberto M. Gago",
+        "Jaime Hoefken Zink",
+        "Joel Jones-Pérez",
+        "Gabriel D. Zapata"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-13",
-      "abstract": "In holography, four-dimensional confining gauge theories are often modelled by five-dimensional Einstein--scalar gravity by choosing a specific form of the scalar potential. In a large class of non-conformal theories, we show that a predictive structure emerges for the thermal confinement transition by generalising the gravitational dual to $D+1$ dimensions and using a $1/D$ expansion. These results are independent of the details of the scalar potential, hinting towards universality. The black b",
+      "publishDate": "2026-08-14",
+      "abstract": "We study the sensitivity of IceCube to blazar-boosted dark matter in a fermionic dark matter model with a massive vector mediator coupling to quarks. To this aim, we compute the diffuse flux arising from a sample of 324 blazars with proton spectra inferred from multiwavelength observations, adopting conservative dark matter spike profiles around the central supermassive black holes and consistently accounting for attenuation effects during propagation through the Earth. The dark matter-nucleon s",
       "keywords": [],
-      "arxivId": "2608.13557v1",
+      "arxivId": "2608.14549v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Effective field theory of quasi-hydrodynamics from kinetic theory",
+      "title": "Cosmic Ray Diffusion and the Origin of Very High Energy Gamma-Ray Emission in Young Massive Stellar Clusters",
       "authors": [
-        "Lorenzo Gavassino"
+        "Lucas Barreto-Mota",
+        "Elisabete M. de Gouveia Dal Pino",
+        "Gaetano Di Marco",
+        "Rafael Alves Batista",
+        "Stela Adduci Faria"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-13",
-      "abstract": "Quasi-hydrodynamics describes systems with quasi-conserved degrees of freedom, namely observables that relax on timescales that are finite but parametrically longer than microscopic relaxation times. Examples include kinetic chemistry and linear viscoelasticity. Here, we develop a rigorous effective-field-theory framework for linear quasi-hydrodynamics from kinetic-type theories. Starting from any linearized, causal kinetic-like theory endowed with slow degrees of freedom, we show that the exact",
+      "publishDate": "2026-08-14",
+      "abstract": "The search for Galactic sources capable of accelerating cosmic rays (CRs) to PeV energies has advanced significantly in recent years. High-energy observatories such as LHAASO have detected extended gamma-ray halos around several sources, suggesting that CRs escape their acceleration sites through anomalously slow diffusion. Theoretical studies propose that magnetic mirror diffusion combined with pitch-angle scattering in turbulent flow can naturally suppress CR transport. Here, we first show how",
       "keywords": [],
-      "arxivId": "2608.13542v1",
+      "arxivId": "2608.14547v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Kinematic Fingerprints of a Nucleon-Triggered $V_{\\mathcal{B}}$ in Rare $η^{(\\prime)}\\toπ^0(η)γγ$ Decays on Nucleon Targets",
+      "title": "Building a Quantum Black Hole Microstate: A Bulk Path Integral for a Heavy Virasoro Primary",
       "authors": [
-        "Yaroslav Balytskyi"
+        "Chethan Krishnan",
+        "Rajdeep Mitra"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-13",
-      "abstract": "The nucleon-triggered vector-boson scenario $V_{\\mathcal B}$ was motivated by a statistically significant discrepancy between the KLOE measurement, $\\mathrm{BR}^{η\\rightarrowπ^{0}γγ}_{\\text{KLOE}} = \\left(0.98\\pm0.11_{\\text{stat}}\\pm0.14_{\\text{syst}}\\right)\\times10^{-4}$, and the current world average, $\\left(2.55\\pm0.22\\right)\\times10^{-4}$, dominated by MAMI photoproduction data. In this model, the new interaction is activated by external nucleons, which causes deviations from the Standard Mo",
+      "publishDate": "2026-08-14",
+      "abstract": "Consider level-$k$ $SL(2,R) \\times SL(2,R)$ Chern-Simons theory on a semi-infinite solid cylinder, with a Wilson line in the unitary principal continuous series inserted along the time direction at the center of the spatial disc. We argue that at the $τ=0$ cut, this Euclidean path integral prepares the bulk dual of a heavy Virasoro primary above the BTZ threshold, with Drinfel'd-Sokolov (DS) reduction playing a crucial role in converting the affine module into a Virasoro module. Semi-classically",
       "keywords": [],
-      "arxivId": "2608.13537v1",
+      "arxivId": "2608.14541v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "title": "Generation-Powered Inference for Distribution-Valued Outcomes",
       "authors": [
-        "Dairu Liu",
-        "Zekun Qi",
-        "Jiayu Zeng",
-        "Ruixi Yu",
-        "Yu Guan",
-        "Yintianrun Zhang",
-        "Xuchuan Chen",
-        "Sikai Liang"
+        "Yijiao Zhang",
+        "Hongzhe Li"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-13",
-      "abstract": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contacts such as foot skating and mistimed touch-downs. Meanwhile, widely used test suites are small and lack the diversity needed to stress contact-rich, long-horizon behaviors. We introduce HumanTracker to",
+      "publishDate": "2026-08-14",
+      "abstract": "Modern generative models increasingly produce distribution-valued outputs, such as predicted cellular responses to genetic perturbations in single-cell genomics. While these models provide valuable auxiliary information, they are inherently imperfect, creating a need for statistical methods that leverage their predictions without relying on their correctness. We propose generation-powered inference (GPI), a general framework for improving inference on distribution-valued parameters using auxilia",
       "keywords": [],
-      "arxivId": "2608.13555v1",
+      "arxivId": "2608.14542v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
+      "title": "Skyrmion Fractional Chern Insulator: An Intrinsically Multiband Route to Fractionalization in Rhombohedral Graphene",
       "authors": [
-        "Kaixin Ding",
-        "Xi Chen",
-        "Minghong Cai",
-        "Zhiyuan Xu",
-        "Yiyang Wang",
-        "Yuxiang Lu",
-        "Junyi Li",
-        "Shuyang Chen"
+        "Julian May-Mann",
+        "Tixuan Tan",
+        "Patrick J. Ledwith",
+        "Zhengyan Darius Shi",
+        "Trithep Devakul"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-13",
-      "abstract": "Video world models simulate future states conditioned on current observations and user actions. Recent systems have demonstrated impressive video consistency and action controllability over long sequences. However, fairly comparing these interactive models remains challenging. In practice, a human player typically evaluates a world model by pursuing long-horizon objectives through interaction. For example, a user may turn around 360 degrees to see whether the environment remains consistent, or w",
+      "publishDate": "2026-08-14",
+      "abstract": "We propose an unconventional microscopic origin for the fractional quantum anomalous Hall (FQAH) effect in rhombohedral graphene moiré superlattices: skyrmion fractionalization. We view the state at filling $ν&lt;1$ as a metal of skyrmion vacancies, charge $+e$ objects formed by removing layer-pseudospin skyrmions from the interaction-generated skyrmion lattice Chern insulator at $ν=1$. These vacancies are intrinsically multiband degrees of freedom, absent in single Chern band-projected studies.",
       "keywords": [],
-      "arxivId": "2608.13552v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
-      "authors": [
-        "Shangao Li",
-        "Yao Zhang",
-        "Volker Tresp",
-        "Yuanyuan Yang"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-08-13",
-      "abstract": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after generation. QuoteBench measures this boundary with exact final-state validation on 56 one-shot tasks from 14 incident-derived families, crossing the generation contract with the execution transport around one deliberately unescaped added parser. Escaping at the interpolation point re",
-      "keywords": [
-        "interface"
-      ],
-      "arxivId": "2608.13547v1",
+      "arxivId": "2608.14535v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
