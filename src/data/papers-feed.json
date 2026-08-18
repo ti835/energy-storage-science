@@ -1,81 +1,82 @@
 {
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-18",
   "papers": [
     {
-      "title": "Blazar Boosted Dark Matter in IceCube",
+      "title": "Giant Thermal Amplification via Engineered Dissipation in a Sierpiski-Gasket Aharonov-Bohm Interferometer",
       "authors": [
-        "Alberto M. Gago",
-        "Jaime Hoefken Zink",
-        "Joel Jones-Pérez",
-        "Gabriel D. Zapata"
+        "Shubhra Shubhadarshini Mallick",
+        "Salil Bedkihal",
+        "Mattias Fitzpatrick",
+        "Malay Bandyopadhyay"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-14",
-      "abstract": "We study the sensitivity of IceCube to blazar-boosted dark matter in a fermionic dark matter model with a massive vector mediator coupling to quarks. To this aim, we compute the diffuse flux arising from a sample of 324 blazars with proton spectra inferred from multiwavelength observations, adopting conservative dark matter spike profiles around the central supermassive black holes and consistently accounting for attenuation effects during propagation through the Earth. The dark matter-nucleon s",
+      "publishDate": "2026-08-17",
+      "abstract": "We propose a three-terminal thermal amplifier based on a Sierpiski-gasket Aharonov-Bohm interferometer, where the third (base) terminal is realized as a floating Buttiker probe that acts as an engineered dissipative reservoir, exchanging energy with the conductor while carrying no net charge current. Using the nonequilibrium Green's function formalism, we demonstrate that the interplay of quantum coherence and engineered dissipation gives rise to giant, magnetic-flux-controlled thermal amplifica",
       "keywords": [],
-      "arxivId": "2608.14549v1",
+      "arxivId": "2608.16877v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Cosmic Ray Diffusion and the Origin of Very High Energy Gamma-Ray Emission in Young Massive Stellar Clusters",
+      "title": "Truncation of the Radial Ladder in Heavy Quarkonia",
       "authors": [
-        "Lucas Barreto-Mota",
-        "Elisabete M. de Gouveia Dal Pino",
-        "Gaetano Di Marco",
-        "Rafael Alves Batista",
-        "Stela Adduci Faria"
+        "Wen-Xuan Zhang",
+        "Si-Qiang Luo",
+        "Xiang Liu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-14",
-      "abstract": "The search for Galactic sources capable of accelerating cosmic rays (CRs) to PeV energies has advanced significantly in recent years. High-energy observatories such as LHAASO have detected extended gamma-ray halos around several sources, suggesting that CRs escape their acceleration sites through anomalously slow diffusion. Theoretical studies propose that magnetic mirror diffusion combined with pitch-angle scattering in turbulent flow can naturally suppress CR transport. Here, we first show how",
+      "publishDate": "2026-08-17",
+      "abstract": "A fundamental open question in hadron spectroscopy is whether the radial excitation ladder of quarkonia truncates at a finite level---a possibility that would challenge the conventional quark-antiquark bound-state picture and offer decisive clues to the nonperturbative strong interaction. Taking advantage of the newly observed high-mass hadronic states, we address this issue by solving a screened Godfrey--Isgur Hamiltonian for charmonium and bottomonium using the Gaussian expansion method. The c",
       "keywords": [],
-      "arxivId": "2608.14547v1",
+      "arxivId": "2608.16875v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Building a Quantum Black Hole Microstate: A Bulk Path Integral for a Heavy Virasoro Primary",
+      "title": "The first comprehensive spectral and timing study of the ultra-compact X-ray binary 4U 1812-12 with NICER and NuSTAR",
       "authors": [
-        "Chethan Krishnan",
-        "Rajdeep Mitra"
+        "Swarnendu Jana",
+        "Aditya S. Mondal",
+        "Aru Beri",
+        "Gulab C. Dewangan"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-14",
-      "abstract": "Consider level-$k$ $SL(2,R) \\times SL(2,R)$ Chern-Simons theory on a semi-infinite solid cylinder, with a Wilson line in the unitary principal continuous series inserted along the time direction at the center of the spatial disc. We argue that at the $τ=0$ cut, this Euclidean path integral prepares the bulk dual of a heavy Virasoro primary above the BTZ threshold, with Drinfel'd-Sokolov (DS) reduction playing a crucial role in converting the affine module into a Virasoro module. Semi-classically",
+      "publishDate": "2026-08-17",
+      "abstract": "The source 4U 1812-12 is a persistent, weakly variable low-mass X-ray binary containing a neutron star. The source was observed by NICER between 2019 and 2021 and, more recently, by NuSTAR in 2025. During the NICER and NuSTAR observations, the source was detected in a hard spectral state with a bolometric luminosity of $\\sim 1.90\\times 10^{36}$ ergs s$^{-1}$. Its $3-70$ keV NuSTAR spectrum is characterized by a soft thermal emission from the disc, a hard Comptonized emission from the corona, and",
       "keywords": [],
-      "arxivId": "2608.14541v1",
+      "arxivId": "2608.16841v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Generation-Powered Inference for Distribution-Valued Outcomes",
+      "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
       "authors": [
-        "Yijiao Zhang",
-        "Hongzhe Li"
+        "Bingxin Xu",
+        "Yuzhang Shang",
+        "Emilio Ferrara"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-14",
-      "abstract": "Modern generative models increasingly produce distribution-valued outputs, such as predicted cellular responses to genetic perturbations in single-cell genomics. While these models provide valuable auxiliary information, they are inherently imperfect, creating a need for statistical methods that leverage their predictions without relying on their correctness. We propose generation-powered inference (GPI), a general framework for improving inference on distribution-valued parameters using auxilia",
+      "publishDate": "2026-08-17",
+      "abstract": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next. A promising recipe freezes the VLA and puts an LLM agent in charge: it plans in language, moves in free space with analytic primitives, invokes the VLA only for contact-rich segments, and writes adapta",
       "keywords": [],
-      "arxivId": "2608.14542v1",
+      "arxivId": "2608.16889v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Skyrmion Fractional Chern Insulator: An Intrinsically Multiband Route to Fractionalization in Rhombohedral Graphene",
+      "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
       "authors": [
-        "Julian May-Mann",
-        "Tixuan Tan",
-        "Patrick J. Ledwith",
-        "Zhengyan Darius Shi",
-        "Trithep Devakul"
+        "Kejia Zhang",
+        "Youran Sun",
+        "Xinyu Ren",
+        "Chugang Yi",
+        "Haizhao Yang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-14",
-      "abstract": "We propose an unconventional microscopic origin for the fractional quantum anomalous Hall (FQAH) effect in rhombohedral graphene moiré superlattices: skyrmion fractionalization. We view the state at filling $ν&lt;1$ as a metal of skyrmion vacancies, charge $+e$ objects formed by removing layer-pseudospin skyrmions from the interaction-generated skyrmion lattice Chern insulator at $ν=1$. These vacancies are intrinsically multiband degrees of freedom, absent in single Chern band-projected studies.",
+      "publishDate": "2026-08-17",
+      "abstract": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolated equations. Finite, noisy data often yield numerically competitive expressions that imply very different behavior outside the observed regime, making numerical fit and syntactic complexity insufficient measures of scientific credibility. Existing approaches largely focus on improving expressions, y",
       "keywords": [],
-      "arxivId": "2608.14535v1",
+      "arxivId": "2608.16876v1",
       "doi": "",
       "relevance": "medium"
     }
