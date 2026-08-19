@@ -1,85 +1,99 @@
 {
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-19",
   "papers": [
     {
-      "title": "Giant Thermal Amplification via Engineered Dissipation in a Sierpiski-Gasket Aharonov-Bohm Interferometer",
+      "title": "Analytic Continuation of Conformal Integrals in Momentum Space",
       "authors": [
-        "Shubhra Shubhadarshini Mallick",
-        "Salil Bedkihal",
-        "Mattias Fitzpatrick",
-        "Malay Bandyopadhyay"
+        "Jonathan Gräfe",
+        "Prashanth Raman",
+        "Denis Werth"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-17",
-      "abstract": "We propose a three-terminal thermal amplifier based on a Sierpiski-gasket Aharonov-Bohm interferometer, where the third (base) terminal is realized as a floating Buttiker probe that acts as an engineered dissipative reservoir, exchanging energy with the conductor while carrying no net charge current. Using the nonequilibrium Green's function formalism, we demonstrate that the interplay of quantum coherence and engineered dissipation gives rise to giant, magnetic-flux-controlled thermal amplifica",
+      "publishDate": "2026-08-18",
+      "abstract": "Conformal symmetry strongly constrains correlation functions. In momentum space, the conformal Ward identities are solved for three-point functions by integrals of a product of three Bessel functions (\"triple-$K$ integrals\"); more generally, integrals of this type (\"multiple-$K$ integrals\"), serve as the building blocks of a wide class of higher-point conformal correlators. These integrals belong to the class of generalised hypergeometric functions, and while their series representations are kno",
       "keywords": [],
-      "arxivId": "2608.16877v1",
+      "arxivId": "2608.18073v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Truncation of the Radial Ladder in Heavy Quarkonia",
+      "title": "Universal admissibility for scattering transforms",
       "authors": [
-        "Wen-Xuan Zhang",
-        "Si-Qiang Luo",
-        "Xiang Liu"
+        "Max Getter"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-17",
-      "abstract": "A fundamental open question in hadron spectroscopy is whether the radial excitation ladder of quarkonia truncates at a finite level---a possibility that would challenge the conventional quark-antiquark bound-state picture and offer decisive clues to the nonperturbative strong interaction. Taking advantage of the newly observed high-mass hadronic states, we address this issue by solving a screened Godfrey--Isgur Hamiltonian for charmonium and bottomonium using the Gaussian expansion method. The c",
+      "publishDate": "2026-08-18",
+      "abstract": "We resolve the admissibility problem for scattering transforms: every Parseval filter bank on $\\mathbb{R}^d$ whose low-pass filter is nonvanishing at the origin induces a norm-preserving scattering transform, without requiring any analyticity, frequency-localization, or geometric covering assumptions. Furthermore, for any Sobolev input $f\\in H^s(\\mathbb{R}^d)$, we establish a universal decay bound of $\\mathcal{O}(N^{-\\min\\{s,1\\}/d})$ on the depth-$N$ residual norm. Finally, we construct a filter",
       "keywords": [],
-      "arxivId": "2608.16875v1",
+      "arxivId": "2608.18064v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "The first comprehensive spectral and timing study of the ultra-compact X-ray binary 4U 1812-12 with NICER and NuSTAR",
+      "title": "Electronic Reconstruction at the Quasicrystal-Moiré Crossover in Twisted Bilayer Graphene",
       "authors": [
-        "Swarnendu Jana",
-        "Aditya S. Mondal",
-        "Aru Beri",
-        "Gulab C. Dewangan"
+        "Kuo-En Chang",
+        "Aitor Garcia-Ruiz",
+        "Ta-Lei Chou",
+        "Yen-Ting Liu",
+        "Sheng-Chin Ho",
+        "Yu-Chiang Hsieh",
+        "Ching-Hua Kao",
+        "Chiu-Hua Huang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-17",
-      "abstract": "The source 4U 1812-12 is a persistent, weakly variable low-mass X-ray binary containing a neutron star. The source was observed by NICER between 2019 and 2021 and, more recently, by NuSTAR in 2025. During the NICER and NuSTAR observations, the source was detected in a hard spectral state with a bolometric luminosity of $\\sim 1.90\\times 10^{36}$ ergs s$^{-1}$. Its $3-70$ keV NuSTAR spectrum is characterized by a soft thermal emission from the disc, a hard Comptonized emission from the corona, and",
+      "publishDate": "2026-08-18",
+      "abstract": "Large twist angles in twisted bilayer graphene are widely expected to be electronically trivial, with negligible interlayer coupling and no electronic reconstruction, in contrast to the rich moiré-driven band reconstruction and correlated physics that emerge at small twist angles. Here, we show that this paradigm breaks down near a twist angle of 29°, where the system crosses over between quasicrystalline and commensurate order. Atomic-resolution transmission electron microscopy directly reveals",
       "keywords": [],
-      "arxivId": "2608.16841v1",
+      "arxivId": "2608.18052v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+      "title": "Unique Ergodicity for the Projective Process of the 2D Navier--Stokes Equation with Nondegenerate Noise",
       "authors": [
-        "Bingxin Xu",
-        "Yuzhang Shang",
-        "Emilio Ferrara"
+        "Zeng Lian",
+        "Rongchang Liu",
+        "Kening Lu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-17",
-      "abstract": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next. A promising recipe freezes the VLA and puts an LLM agent in charge: it plans in language, moves in free space with analytic primitives, invokes the VLA only for contact-rich segments, and writes adapta",
+      "publishDate": "2026-08-18",
+      "abstract": "We prove unique ergodicity of the projective process associated with the two dimensional Navier--Stokes equation in vorticity form, with additive diagonal noise acting on every nonzero real Fourier phase and satisfying two sided power law bounds. Consequently, the exact Furstenberg--Khasminskii formula for the top Lyapunov exponent holds.\n  The main new ingredient is a compact dense mechanism for asymptotic generalized coupling in the absence of a Foiaş--Prodi type high-low mode decomposition fo",
       "keywords": [],
-      "arxivId": "2608.16889v1",
+      "arxivId": "2608.18075v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+      "title": "Ultrafast and high resolution spatial light modulation for cold atoms",
       "authors": [
-        "Kejia Zhang",
-        "Youran Sun",
-        "Xinyu Ren",
-        "Chugang Yi",
-        "Haizhao Yang"
+        "Alexander Dennisovich Deters",
+        "Yanfei Li",
+        "Alexander Douglas",
+        "Markus Greiner",
+        "Aaron W. Young"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-17",
-      "abstract": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolated equations. Finite, noisy data often yield numerically competitive expressions that imply very different behavior outside the observed regime, making numerical fit and syntactic complexity insufficient measures of scientific credibility. Existing approaches largely focus on improving expressions, y",
+      "publishDate": "2026-08-18",
+      "abstract": "Programmable arrays of ultracold atoms are a leading platform for quantum computation and simulation, enabling state-of-the-art implementations of quantum error correction, and analog simulations of Hubbard models that address open problems in condensed matter physics. In these systems, all local control is mediated through precisely shaped optical fields, and so the challenge of managing many-body quantum states becomes an exercise in optical design. In particular, one wishes for fast, flexible",
       "keywords": [],
-      "arxivId": "2608.16876v1",
+      "arxivId": "2608.18071v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Planning Against Learning in Rank-1 Games",
+      "authors": [
+        "William Overman"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-18",
+      "abstract": "Learning algorithms are often used to make decisions in repeated multi-agent environments. When another player understands how a learner adapts from past experience, that player can plan strategically across rounds to influence the learner's future behavior. Recent work shows that optimizing against Replicator Dynamics, the continuous-time analogue of Multiplicative Weights Update, is tractable in zero-sum games but can be hard in unrestricted general-sum games. We study the first structured cla",
+      "keywords": [],
+      "arxivId": "2608.18067v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
