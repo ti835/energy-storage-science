@@ -1,96 +1,98 @@
 {
-  "lastUpdated": "2026-08-19",
+  "lastUpdated": "2026-08-20",
   "papers": [
     {
-      "title": "Analytic Continuation of Conformal Integrals in Momentum Space",
+      "title": "Unconventional bond- and current-density waves on hexagonal lattices",
       "authors": [
-        "Jonathan Gräfe",
-        "Prashanth Raman",
-        "Denis Werth"
+        "Andras Szabo",
+        "Hannes Braun",
+        "Laura Classen"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-18",
-      "abstract": "Conformal symmetry strongly constrains correlation functions. In momentum space, the conformal Ward identities are solved for three-point functions by integrals of a product of three Bessel functions (\"triple-$K$ integrals\"); more generally, integrals of this type (\"multiple-$K$ integrals\"), serve as the building blocks of a wide class of higher-point conformal correlators. These integrals belong to the class of generalised hypergeometric functions, and while their series representations are kno",
+      "publishDate": "2026-08-19",
+      "abstract": "Charge-density wave (CDW) orders are conventionally described as modulations of on-site charge at an ordering wave vector $\\boldsymbol{Q}$ with symmetry-related wave vectors typically forming a multicomponent order-parameter manifold. Recent developments significantly broadened this phenomenology to bond and loop-current density waves, which possess nontrivial, potentially symmetry-breaking textures within the unit cell in addition to their spatial modulation at $\\boldsymbol{Q}$. Such textures a",
       "keywords": [],
-      "arxivId": "2608.18073v1",
+      "arxivId": "2608.19185v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Universal admissibility for scattering transforms",
+      "title": "Chiral bosonic mean-field Ansatz and spin dynamics in spin-1 Kitaev magnets",
       "authors": [
-        "Max Getter"
+        "Daiki Sasamoto",
+        "Arnaud Ralko",
+        "Jaime Merino",
+        "Joji Nasu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-18",
-      "abstract": "We resolve the admissibility problem for scattering transforms: every Parseval filter bank on $\\mathbb{R}^d$ whose low-pass filter is nonvanishing at the origin induces a norm-preserving scattering transform, without requiring any analyticity, frequency-localization, or geometric covering assumptions. Furthermore, for any Sobolev input $f\\in H^s(\\mathbb{R}^d)$, we establish a universal decay bound of $\\mathcal{O}(N^{-\\min\\{s,1\\}/d})$ on the depth-$N$ residual norm. Finally, we construct a filter",
+      "publishDate": "2026-08-19",
+      "abstract": "The Kitaev model is a paradigmatic system for realizing quantum spin liquids, but its higher-spin extensions are not exactly solvable, and their spin dynamics is less well understood than in the spin-1/2 case. In this work, we reexamine a previously introduced triplet-pairing $φ_t = π/2$ phase pattern for the antiferromagnetic $S = 1$ Kitaev model and extend the analysis to weak symmetric off-diagonal exchanges $Γ$ and $Γ'$. Using a bond-operator formulation of Schwinger-boson mean-field theory,",
       "keywords": [],
-      "arxivId": "2608.18064v1",
+      "arxivId": "2608.19178v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Electronic Reconstruction at the Quasicrystal-Moiré Crossover in Twisted Bilayer Graphene",
+      "title": "Maximal Enhancements in Eight-Dimensional Non-Supersymmetric Heterotic Strings",
       "authors": [
-        "Kuo-En Chang",
-        "Aitor Garcia-Ruiz",
-        "Ta-Lei Chou",
-        "Yen-Ting Liu",
-        "Sheng-Chin Ho",
-        "Yu-Chiang Hsieh",
-        "Ching-Hua Kao",
-        "Chiu-Hua Huang"
+        "Yamato Honda",
+        "Justin Kaidi",
+        "Yuichi Koga",
+        "Yuefeng Liu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-18",
-      "abstract": "Large twist angles in twisted bilayer graphene are widely expected to be electronically trivial, with negligible interlayer coupling and no electronic reconstruction, in contrast to the rich moiré-driven band reconstruction and correlated physics that emerge at small twist angles. Here, we show that this paradigm breaks down near a twist angle of 29°, where the system crosses over between quasicrystalline and commensurate order. Atomic-resolution transmission electron microscopy directly reveals",
+      "publishDate": "2026-08-19",
+      "abstract": "We classify maximally enhanced, rank-preserving non-supersymmetric heterotic strings in eight dimensions by studying orbifolds of supersymmetric heterotic strings on $T^2$. We first review the construction in nine dimensions, where it reproduces the $95$ maximally semisimple enhancement points obtained from previous extended-Dynkin analyses. We then start from the maximally enhanced supersymmetric Narain points in eight dimensions and use Kac's theorem to enumerate candidate order-two inner acti",
       "keywords": [],
-      "arxivId": "2608.18052v1",
+      "arxivId": "2608.19166v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Unique Ergodicity for the Projective Process of the 2D Navier--Stokes Equation with Nondegenerate Noise",
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
       "authors": [
-        "Zeng Lian",
-        "Rongchang Liu",
-        "Kening Lu"
+        "Bo Liu",
+        "Simon Yu",
+        "Yiding Jiang",
+        "Ao Qu",
+        "Andrew Zhao",
+        "Zichen Liu",
+        "Junsu Kim",
+        "Zijian Zhou"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-18",
-      "abstract": "We prove unique ergodicity of the projective process associated with the two dimensional Navier--Stokes equation in vorticity form, with additive diagonal noise acting on every nonzero real Fourier phase and satisfying two sided power law bounds. Consequently, the exact Furstenberg--Khasminskii formula for the top Lyapunov exponent holds.\n  The main new ingredient is a compact dense mechanism for asymptotic generalized coupling in the absence of a Foiaş--Prodi type high-low mode decomposition fo",
-      "keywords": [],
-      "arxivId": "2608.18075v1",
+      "publishDate": "2026-08-19",
+      "abstract": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM plays two roles: an Environment Designer that writes complete, long-horizon training environments a",
+      "keywords": [
+        "interface"
+      ],
+      "arxivId": "2608.19197v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Ultrafast and high resolution spatial light modulation for cold atoms",
+      "title": "Qualified Cross-References as a Verification Method: The Normative Environment of the EU AI Act",
       "authors": [
-        "Alexander Dennisovich Deters",
-        "Yanfei Li",
-        "Alexander Douglas",
-        "Markus Greiner",
-        "Aaron W. Young"
+        "Nicola Fabiano"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-18",
-      "abstract": "Programmable arrays of ultracold atoms are a leading platform for quantum computation and simulation, enabling state-of-the-art implementations of quantum error correction, and analog simulations of Hubbard models that address open problems in condensed matter physics. In these systems, all local control is mediated through precisely shaped optical fields, and so the challenge of managing many-body quantum states becomes an exercise in optical design. In particular, one wishes for fast, flexible",
+      "publishDate": "2026-08-19",
+      "abstract": "Legal cross-references are commonly represented as links between instruments or provisions. For a curated legal knowledge base, the existence of a link is only the beginning of the claim: it must also state the legal character of the interaction, identify the provisions supporting it, preserve its conditions, and remain consistent when reached from either instrument. This paper presents a provision-level model and a construction protocol for qualified cross-references, developed through a biling",
       "keywords": [],
-      "arxivId": "2608.18071v1",
+      "arxivId": "2608.19194v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Planning Against Learning in Rank-1 Games",
+      "title": "The Structured Totient Preimage Problem: Reconstruction, Collisions, and Cryptographic Implications",
       "authors": [
-        "William Overman"
+        "Luis Adrián Lizama-Pérez"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-18",
-      "abstract": "Learning algorithms are often used to make decisions in repeated multi-agent environments. When another player understands how a learner adapts from past experience, that player can plan strategically across rounds to influence the learner's future behavior. Recent work shows that optimizing against Replicator Dynamics, the continuous-time analogue of Multiplicative Weights Update, is tractable in zero-sum games but can be hard in unrestricted general-sum games. We study the first structured cla",
+      "publishDate": "2026-08-19",
+      "abstract": "We define and study the Structured Totient Preimage (STP) problem as a restricted reconstruction relation with a direct cryptographic motivation. Let $p_1,\\ldots,p_k$ be distinct primes of the same bit length and reveal only $x=\\prod_{i=1}^k(p_i-1)$. Given $(x,λ,k)$, STP asks for any set of $k$ distinct $λ$-bit primes satisfying this product. The relation is efficiently verifiable, but its reconstruction complexity is not known. We establish three concrete results. First, for factored $x$ we der",
       "keywords": [],
-      "arxivId": "2608.18067v1",
+      "arxivId": "2608.19191v1",
       "doi": "",
       "relevance": "medium"
     }
