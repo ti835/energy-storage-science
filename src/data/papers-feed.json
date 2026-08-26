@@ -1,99 +1,91 @@
 {
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-08-26",
   "papers": [
     {
-      "title": "Flux-induced Aharonov-Bohm Oscillation in the Tunneling Spectroscopy of Kitaev Spin Liquids",
+      "title": "Impact of Scale-dependent Primordial Non-Gaussianity on Scalar-induced Gravitational Waves",
       "authors": [
-        "Wen-Han Kao",
-        "Elio J. König"
+        "Alisha Marriott-Best",
+        "Devanshu Sharma",
+        "Anish Ghoshal",
+        "Gianmassimo Tasinato"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-24",
-      "abstract": "Identifying emergent flux excitations and signatures of their mutual statistics with itinerant Majorana fermions remains a central challenge in Kitaev spin liquids. We show that an isolated $π$ flux imprints an intrinsic Aharonov-Bohm-like interference pattern on the charge-neutral Majorana continuum. Spatially resolved scanning tunneling microscopy with inelastic electron tunneling spectroscopy (STM-IETS) probes this oscillation in the local dynamical spin response as a function of both bias vo",
+      "publishDate": "2026-08-25",
+      "abstract": "Scalar-induced gravitational waves (SIGWs) probe primordial curvature perturbations beyond cosmic microwave background scales, while primordial black holes (PBHs) probe the rare tail of the same statistics. We ask whether SIGW morphology can reveal scale-dependent primordial non-Gaussianity. We adopt the internal-leg separable kernel, $\\mathcal F_{\\rm NL}(\\mathbf{k};\\mathbf q,\\mathbf{k}-\\mathbf q)=\\bar f_{\\rm NL}f(q)f(\\lVert\\mathbf{k}-\\mathbf q\\rVert)$, and compute Gaussian, reducible, and conne",
       "keywords": [],
-      "arxivId": "2608.23561v1",
+      "arxivId": "2608.24883v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Two-loop renormalisation and Higgs phenomenology in the five-dimensional MSSM",
+      "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
       "authors": [
-        "Ammar Abdalgabar",
-        "Alan S. Cornell",
-        "Aldo Deandrea",
-        "Howeida M. Esmaeil",
-        "Mohammed Omer Khojali"
+        "Jiangning Zhang",
+        "Haojun Chen",
+        "Yong Liu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-24",
-      "abstract": "The five-dimensional Minimal Supersymmetric Standard Model (5D MSSM) provides an attractive framework in which power-law renormalisation group evolution naturally generates a sizeable trilinear stop coupling, allowing the observed Higgs boson mass to be reproduced without requiring too heavy a supersymmetric spectra. In this work we present a comprehensive two-loop analysis of the 5D MSSM, deriving the complete renormalisation group equations governing the gauge, Yukawa and soft supersymmetry-br",
+      "publishDate": "2026-08-25",
+      "abstract": "Smart glasses are evolving from capture and display accessories into first-person intelligence platforms that connect human perception, persistent context, and digital or physical action. Their on-body viewpoint aligns with the wearer's vision, audition, motion, and hand-object interaction, but must operate under tight energy, thermal, privacy, and feedback constraints. Despite rapid progress in augmented reality, egocentric vision, multimodal models, human-computer interaction, and embodied int",
       "keywords": [],
-      "arxivId": "2608.23555v1",
+      "arxivId": "2608.24877v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Strong Lensing Cosmology with Population-level Calibrated Neural Ratio Estimation",
+      "title": "Binary Hypothesis Testing: A Robust Framework Against the Look Elsewhere Effect",
       "authors": [
-        "Sreevani Jarugula",
-        "Brian D. Nord",
-        "Aleksandra Ćiprijanović",
-        "Shubhendu Trivedi"
+        "Han Zhang",
+        "Xue-feng Ding",
+        "Yu-Feng Li",
+        "Yi-fang Wang",
+        "Liang-jian Wen",
+        "Liang Zhan"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-24",
-      "abstract": "Strong gravitational lensing contains key information about cosmic acceleration. Modern and next-generation galaxy imaging surveys are expected to provide high-quality data on $\\mathcal{O}(10^5)$ galaxy-galaxy lensing systems. The plethora and complexity of the data are likely to present computational challenges for parameter inference methods for fitting high-dimensional likelihoods, which are often analytically intractable. Neural Ratio Estimation (NRE) efficiently computes individual likeliho",
+      "publishDate": "2026-08-25",
+      "abstract": "In particle physics, discovery claims conventionally require an observed significance exceeding $5σ$. However, the interpretation of a $5σ$ result depends critically on the testing procedure, namely whether the hypothesis is tested at a single pre-specified point in parameter space or by scanning over a range of possible signal locations. This distinction gives rise to the look-elsewhere effect, a concept that is widely used but often interpreted as a simple penalty for scanning. In this work, w",
       "keywords": [],
-      "arxivId": "2608.23534v1",
+      "arxivId": "2608.24872v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Quaternionic Hermitian Band Geometry in Four Dimensions: Realization on $S^4$ and Obstruction on $T^4$",
+      "title": "Latent Action as Intention Enables Efficient Future Imagination for World Action Models",
       "authors": [
-        "Dongju Hwang",
-        "Minjae Yu",
-        "Gil Young Cho"
+        "Xiang Li",
+        "Yupeng Zheng",
+        "Songen Gu",
+        "Huailiang Ma",
+        "Feng Yu",
+        "Xian Nie",
+        "Shanshuai Yuan",
+        "Yujie Zang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-24",
-      "abstract": "We establish a realization-obstruction dichotomy for quaternionic Hermitian band geometry in four-dimensional parameter spaces: the minimal-charge lowest Landau level on $S^{4}$ provides a global realization, whereas an everywhere nondegenerate saturated realization induced by a single occupied quaternionic band is obstructed on $T^{4}$. An antiunitary symmetry $\\mathcal{J}$ satisfying $\\mathcal{J}^{2}=-1$ makes the occupied doublet a quaternionic band. Within this setting, we formulate the quat",
+      "publishDate": "2026-08-25",
+      "abstract": "World action models (WAMs) improve robot control by modeling how observations evolve, but generating future observations at test time incurs substantial latency. Fast-WAM removes this process for efficiency; however, our matched implementations show lower generalization for Fast-WAM than for future-aware alternatives, especially with scarce robot demonstrations and in out-of-distribution scenarios. To bridge this gap, we introduce **LAWA**, a WAM architecture that uses compact latent actions as ",
       "keywords": [],
-      "arxivId": "2608.23556v1",
+      "arxivId": "2608.24882v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Adapter-Based Few-Shot Continual Learning for Malicious Packet Recognition",
+      "title": "Coherent Direct D-MIMO Localization",
       "authors": [
-        "Kyle Stein",
-        "Guillermo Francia",
-        "III Eman El-Sheikh",
-        "Andrew Arash Mahyari"
+        "Benjamin J. B. Deutschmann",
+        "Lukas D'Angelo",
+        "Erik Leitinger",
+        "Klaus Witrisal"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-24",
-      "abstract": "The continual evolution of malware variants necessitates detection systems that can adapt to new threats without retraining from scratch. However, continually updating models on new data often leads to catastrophic forgetting, where previously learned knowledge is overwritten. While continual learning has been increasingly explored for malware detection, the specific setting of Few-Shot Class-Incremental Learning (FSCIL), where new malware classes must be learned from only a small number of labe",
+      "publishDate": "2026-08-25",
+      "abstract": "Distributed multiple-input multiple-output (D-MIMO) is envisioned as a key deployment architecture for future wireless systems, offering improved coverage and robustness through spatial separation, and favorable geometry for localization and sensing. Its greatest potential for localization lies in joint coherent processing across distributed antenna panels. However, stringent frequency-synchronization and phase-calibration requirements, together with multimodal likelihood functions, hinder the e",
       "keywords": [],
-      "arxivId": "2608.23536v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Bound States in Exactly Solvable Polaritonic Models",
-      "authors": [
-        "Sam Johar",
-        "Ryogo Katahira",
-        "Joseph Kraisler"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-08-24",
-      "abstract": "We study a one-dimensional scalar model for an effective-mass quasiparticle field coupled to a continuum of two-level atoms with at most one excitation present. We prove a general theorem on the existence of bound states under sign-definite spatially localized perturbations of constant atomic density and analyze the bound states for several exactly solvable examples.",
-      "keywords": [],
-      "arxivId": "2608.23535v1",
+      "arxivId": "2608.24880v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
