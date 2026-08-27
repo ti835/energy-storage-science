@@ -1,88 +1,83 @@
 {
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-27",
   "papers": [
     {
-      "title": "Impact of Scale-dependent Primordial Non-Gaussianity on Scalar-induced Gravitational Waves",
+      "title": "Integrated Hardware Annealing based on Langevin Dynamics for Ising Machines",
       "authors": [
-        "Alisha Marriott-Best",
-        "Devanshu Sharma",
-        "Anish Ghoshal",
-        "Gianmassimo Tasinato"
+        "Yongchao Liu",
+        "Lianlong Sun",
+        "Michael Huang",
+        "Hui Wu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-25",
-      "abstract": "Scalar-induced gravitational waves (SIGWs) probe primordial curvature perturbations beyond cosmic microwave background scales, while primordial black holes (PBHs) probe the rare tail of the same statistics. We ask whether SIGW morphology can reveal scale-dependent primordial non-Gaussianity. We adopt the internal-leg separable kernel, $\\mathcal F_{\\rm NL}(\\mathbf{k};\\mathbf q,\\mathbf{k}-\\mathbf q)=\\bar f_{\\rm NL}f(q)f(\\lVert\\mathbf{k}-\\mathbf q\\rVert)$, and compute Gaussian, reducible, and conne",
+      "publishDate": "2026-08-26",
+      "abstract": "Ising machines are non-von Neumann machines designed to solve combinatorial optimization problems (COP) by searching for the ground state, or the lowest energy configuration, within the Ising model. However, Ising machines often face the challenges of getting trapped in local minima due to the complex energy landscapes. Hardware annealing algorithms help mitigate this issue by using a probabilistic approach to steer the system toward the ground state. In this paper, we present a hardware anneali",
       "keywords": [],
-      "arxivId": "2608.24883v1",
+      "arxivId": "2608.26100v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
+      "title": "Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders",
       "authors": [
-        "Jiangning Zhang",
-        "Haojun Chen",
-        "Yong Liu"
+        "Raphaël Bonnet-Guerrini",
+        "Johann Ioannou-Nikolaides",
+        "Inar Timiryasov",
+        "Vincenzo Piuri"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-25",
-      "abstract": "Smart glasses are evolving from capture and display accessories into first-person intelligence platforms that connect human perception, persistent context, and digital or physical action. Their on-body viewpoint aligns with the wearer's vision, audition, motion, and hand-object interaction, but must operate under tight energy, thermal, privacy, and feedback constraints. Despite rapid progress in augmented reality, egocentric vision, multimodal models, human-computer interaction, and embodied int",
+      "publishDate": "2026-08-26",
+      "abstract": "We present a first application of sparse-autoencoder-based mechanistic interpretability to particle physics. Studying a neutrino foundation model pretrained on IceCube data and fine-tuned for direction reconstruction, we identify a validated atlas of physical concepts in the model representation, using a strict validation protocol consisting of held-out tests, matched nuisance controls, and replication across independent dictionary trainings. Causal interventions show that the direction head bar",
       "keywords": [],
-      "arxivId": "2608.24877v1",
+      "arxivId": "2608.26090v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Binary Hypothesis Testing: A Robust Framework Against the Look Elsewhere Effect",
+      "title": "Massive Ghost Confinement, Dipole Equation and Multipole States in Quadratic Gravity",
       "authors": [
-        "Han Zhang",
-        "Xue-feng Ding",
-        "Yu-Feng Li",
-        "Yi-fang Wang",
-        "Liang-jian Wen",
-        "Liang Zhan"
+        "Ichiro Oda"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-25",
-      "abstract": "In particle physics, discovery claims conventionally require an observed significance exceeding $5σ$. However, the interpretation of a $5σ$ result depends critically on the testing procedure, namely whether the hypothesis is tested at a single pre-specified point in parameter space or by scanning over a range of possible signal locations. This distinction gives rise to the look-elsewhere effect, a concept that is widely used but often interpreted as a simple penalty for scanning. In this work, w",
+      "publishDate": "2026-08-26",
+      "abstract": "We investigate the problem of confinement of massive ghost, which violates the unitarity of the physical S-matrix, in quadratic gravity on the basis of a manifestly covariant and local canonical operator formalism. First, we reconsider the manifestly covariant quantization of quadratic gravity in the de Donder gauge (the harmonic gauge) from the viewpoint of dipole fields. Next, we also reconsider a possible mechanism of confinement of the massive ghost and derive an effective Lagrangian for asy",
       "keywords": [],
-      "arxivId": "2608.24872v1",
+      "arxivId": "2608.26085v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Latent Action as Intention Enables Efficient Future Imagination for World Action Models",
+      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
       "authors": [
-        "Xiang Li",
-        "Yupeng Zheng",
-        "Songen Gu",
-        "Huailiang Ma",
-        "Feng Yu",
-        "Xian Nie",
-        "Shanshuai Yuan",
-        "Yujie Zang"
+        "Junxiang Xu",
+        "Ruisi Wang",
+        "Fanyi Pu",
+        "Maijunxian Wang",
+        "Ran Ji",
+        "Tongxi Zhou",
+        "Chenyang Gu",
+        "Jing Zuo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-25",
-      "abstract": "World action models (WAMs) improve robot control by modeling how observations evolve, but generating future observations at test time incurs substantial latency. Fast-WAM removes this process for efficiency; however, our matched implementations show lower generalization for Fast-WAM than for future-aware alternatives, especially with scarce robot demonstrations and in out-of-distribution scenarios. To bridge this gap, we introduce **LAWA**, a WAM architecture that uses compact latent actions as ",
+      "publishDate": "2026-08-26",
+      "abstract": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language. Yet progress remains bottlenecked by the lack of scalable training tasks, reliable feedback, and controlled comparisons across generative substrates. In this work, we introduce VBVR-Pro, a closed-loop testbed that makes native visual reasoning thr",
       "keywords": [],
-      "arxivId": "2608.24882v1",
+      "arxivId": "2608.26105v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Coherent Direct D-MIMO Localization",
+      "title": "Multicomponent Magnetic Domain Walls in Rhombohedral Graphene",
       "authors": [
-        "Benjamin J. B. Deutschmann",
-        "Lukas D'Angelo",
-        "Erik Leitinger",
-        "Klaus Witrisal"
+        "Mainak Das",
+        "Nemin Wei",
+        "Chunli Huang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-25",
-      "abstract": "Distributed multiple-input multiple-output (D-MIMO) is envisioned as a key deployment architecture for future wireless systems, offering improved coverage and robustness through spatial separation, and favorable geometry for localization and sensing. Its greatest potential for localization lies in joint coherent processing across distributed antenna panels. However, stringent frequency-synchronization and phase-calibration requirements, together with multimodal likelihood functions, hinder the e",
+      "publishDate": "2026-08-26",
+      "abstract": "Spatial textures of magnetic order, such as domain walls and skyrmions, are fundamental objects in magnetism. In rhombohedral multilayer graphene, magnetic order involves spin and valley degrees of freedom, opening the possibility of qualitatively new spatial textures. Here, we explore this possibility through a microscopic study of a one-dimensional domain wall in the valley-imbalanced quarter-metal phase of rhombohedral graphene. We uncover two different classes of domain walls. One resembles ",
       "keywords": [],
-      "arxivId": "2608.24880v1",
+      "arxivId": "2608.26104v1",
       "doi": "",
       "relevance": "medium"
     }
