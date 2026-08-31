@@ -1,92 +1,108 @@
 {
-  "lastUpdated": "2026-08-30",
+  "lastUpdated": "2026-08-31",
   "papers": [
     {
-      "title": "Spectral Fingerprints of Gauge Theories on a Quantum Computer",
+      "title": "A Similarity Theorem and Its Breakdown in Atomic Black Hole Accretion",
       "authors": [
-        "Graham Van Goffrier",
-        "Debasish Banerjee",
-        "Bipasha Chakraborty",
-        "Emilie Huffman"
+        "Marcus DuPont"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-27",
-      "abstract": "Maximally mixed state spectral sampling is an unbiased quantum algorithm that allows for extraction of a finite-resolution spectral distribution from a Hamiltonian over potentially the entire allowed range of energies. We show how it may be focused on any desired area of the spectrum in order to learn about the full \\textit{fingerprint} of the model of interest: from its ground state phenomena such as quantum criticality, obtained from the lowest lying energies, to its thermalization behavior, o",
+      "publishDate": "2026-08-28",
+      "abstract": "Atomic gas in a point-mass potential possesses an exact similarity that survives time dependence, two-body atomic microphysics, and a specified class of radiation and feedback laws. At fixed ambient temperature and composition, $M_\\bullet\\mapstoλM_\\bullet$ and $n_\\infty\\mapstoλ^{-1}n_\\infty$ enlarge radii and times by $λ$ while preserving dimensionless profiles, optical depths, Eddington ratios, and variability. Here $M_\\bullet$ is the central mass, $n_\\infty$ the ambient number density, and $λ&",
       "keywords": [],
-      "arxivId": "2608.27457v1",
+      "arxivId": "2608.28587v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Metallogenic quantum criticality: Fermi surface nucleation at transitions between gapped phases",
+      "title": "Bounds for inertialess dynamo",
       "authors": [
-        "Zhengyan Darius Shi"
+        "Ali Arslan",
+        "Hezekiah Grayer"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-27",
-      "abstract": "Continuous quantum phase transitions in interacting many-body systems exhibit universal phenomena that are largely independent of microscopic details. An organizing principle distilled from canonical examples such as the magnetic transition in Ising models is that the low-energy physics of transitions between gapped phases is governed by scale-invariant quantum field theories with gapless degrees of freedom at isolated points in momentum space. In this paper, we show that this principle can fail",
-      "keywords": [
-        "liquid metal"
-      ],
-      "arxivId": "2608.27453v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Distinguishing Quantum Capacitance Signatures of a Topological Majorana Wire from a Normal Wire Segment",
-      "authors": [
-        "Binayyak Bhusan Roy",
-        "Jay Deep Sau",
-        "Sumanta Tewari"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-08-27",
-      "abstract": "Majorana zero modes (MZMs) are spatially separated, near-zero-energy excitations expected at the ends of a topological superconducting (TS) wire. A quantum-dot interferometer can be used to probe the quantum capacitance of the TS wire, and the location and magnitude of the capacitance resonances provide information about the MZMs, while their magnetic flux dependence probes coherent coupling to the two Majorana modes. It has been recently shown that, a gapless (i.e., $Δ=0$) wire segment can also",
+      "publishDate": "2026-08-28",
+      "abstract": "We derive necessary conditions for instantaneous dynamo action for rotating convection. A magnetohydrodynamic model is considered in two settings: the rapidly rotating plane layer where inertia and viscosity are absent, and at an arbitrary rotation rate where viscosity is finite. In contrast to kinematic dynamo bounds, the evolution of the magnetic field is coupled via an inertialess force balance. The buoyancy-driven part of the flow $\\mathbf{u}^{\\mathrm{A}}$ in the event of dynamo action must ",
       "keywords": [],
-      "arxivId": "2608.27452v1",
+      "arxivId": "2608.28584v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "The Atacama Cosmology Telescope: Constraints on the anisotropic screening and birefringence effects with DR6",
+      "title": "Renormalization-guided cascade upscaling for lattice field generation",
       "authors": [
-        "Darby M. Kramer",
-        "Alexander van Engelen",
-        "Frank J. Qu",
-        "Christopher Cain",
-        "Irene Abril-Cabezas",
-        "J. Richard Bond",
-        "Vera Gluscevic",
-        "Carlos Hervías-Caimapo"
+        "Anna Hasenfratz",
+        "Ethan T. Neil",
+        "Letizia Parato",
+        "Noah Schwartz"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-27",
-      "abstract": "While we have learned much from recent surveys of the mm-wave sky, many secondary anisotropies of the CMB remain under-explored. We consider two of these here: the anisotropic screening induced by Thomson scattering of CMB photons off free electrons, and cosmic birefringence, the rotation of CMB polarization due to parity-violating physics beyond the standard model. To measure these effects, we apply state-of-the-art estimators for statistical anisotropy to the ACT Data Release 6 CMB data and co",
-      "keywords": [
-        "screening"
-      ],
-      "arxivId": "2608.27458v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-      "authors": [
-        "Liyan Tang",
-        "Cyrus Rashtchian",
-        "Chun-Sung Ferng",
-        "Andrew Tomkins",
-        "Da-Cheng Juan",
-        "Tu Vu"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-08-27",
-      "abstract": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowl",
+      "publishDate": "2026-08-28",
+      "abstract": "We introduce a renormalization-group (RG) guided machine-learning algorithm for lattice field generation based on approximate inversion of an RG transformation. A ``perfect blocking'' construction supplies equilibrated long-distance modes, while a conditional normalizing flow reconstructs short-distance details and brief rethermalization removes residual errors. In 2D $φ^4$ theory at criticality, a flow trained at $L\\le32$ is reused recursively in cascades reaching $L=2048$ with correct long-dis",
       "keywords": [],
-      "arxivId": "2608.27454v1",
+      "arxivId": "2608.28581v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Layer-Controlled Intermolecular Coupling and Many-Body Effects in C$_{60}$ Films",
+      "authors": [
+        "Hai-Lan Luo",
+        "Weitang Li",
+        "Luca Moreschini",
+        "Jonathan Denlinger",
+        "Zhigang Shuai",
+        "Claudia Ojeda-Aristizabal",
+        "Alessandra Lanzara"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-28",
+      "abstract": "Crystalline C$_{60}$ is a molecular solid whose electronic properties emerge from the interplay of intermolecular hopping, electron correlations, and electron-vibration coupling. Unlike moir$\\rm\\acute{e}$ van der Waals heterostructures, where interaction strength is commonly tuned by twist angle, molecular materials offer a complementary route in which layer number, molecular orientation, and substrate registry provide experimentally accessible control parameters. Here we present a systematic th",
+      "keywords": [],
+      "arxivId": "2608.28583v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
+      "authors": [
+        "Nan Wang",
+        "Mohit Yadav",
+        "Jonathan Wulff",
+        "Aidan Rosenbaum",
+        "Kezhou Chen",
+        "Yuvan Sharma",
+        "Xu Dong",
+        "Yiwei Tao"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-28",
+      "abstract": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the requirement that a motor fit inside the joint it drives, so smaller and cheaper motors suffice, and one motor can drive several joints through a single cable, so fewer motors are needed. They are also harder to learn on than a direct-drive hand. The underactuated transmission that p",
+      "keywords": [],
+      "arxivId": "2608.28578v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Super-resolution Control of Two-dimensional Quantum Emitters",
+      "authors": [
+        "Bosai Lyu",
+        "Valeria Vento",
+        "Ludivine Fausten",
+        "Daniel Suarez-Forero",
+        "Klevis Domi",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Alberto Morpurgo"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-08-28",
+      "abstract": "Localized interlayer excitons in semiconducting transition-metal dichalcogenide heterobilayers are quantum emitters with a static electric dipole moment, making them excellent nanoscale charge sensors to probe correlated quantum phases in a proximal layer. These emitters are electrically tunable and inherit spin-valley selection rules, yet their deterministic spatial control remains challenging due to subwavelength confinement. Here, we present a platform that combines cryogenic optical spectros",
+      "keywords": [],
+      "arxivId": "2608.28574v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
