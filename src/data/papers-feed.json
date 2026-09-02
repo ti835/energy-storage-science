@@ -1,95 +1,82 @@
 {
-  "lastUpdated": "2026-09-01",
+  "lastUpdated": "2026-09-02",
   "papers": [
     {
-      "title": "Quantum Simulation of Markovian and Non-Markovian Open Quantum Dynamics in Heavy-Ion Collisions",
+      "title": "Observable- and state-selective prethermalization and bounds on prethermal lifetimes",
       "authors": [
-        "Doojin Kim",
-        "Balbeer Singh"
+        "C. L. Sriram",
+        "Soumya Kanti Pal",
+        "Lea F. Santos"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-31",
-      "abstract": "We present a quantum computing framework for simulating open-quantum-system approaches based on Markovian and non-Markovian dynamics, which is relevant to heavy-ion collisions. To simulate the non-Markovian evolution on quantum computers, we introduce an auxiliary two-level pseudomode that carries the memory forward and couples to both the subsystem and the residual Markovian bath. We explicitly show that tracing out the pseudomode reproduces the non-Markovian evolution with the exact memory ker",
+      "publishDate": "2026-09-01",
+      "abstract": "Prethermalization describes long-lived intermediate regimes that precede equilibrium and can dominate experimentally accessible dynamics. Here, we show that a separation of spectral energy scales, despite giving rise to a hierarchy of dynamical timescales, does not by itself guarantee the appearance of a prethermal plateau. Under the same Hamiltonian, some observables may exhibit prethermal behavior, while others relax directly toward equilibrium. We uncover the mechanism governing this selectiv",
       "keywords": [],
-      "arxivId": "2608.31173v1",
+      "arxivId": "2609.01606v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Superfluid memory effect",
+      "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
       "authors": [
-        "Kristan Jensen",
-        "Alfredo Pérez",
-        "Stefan Prohazka"
+        "Himil Vasava",
+        "Ming Jiang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-31",
-      "abstract": "We identify a memory effect produced by phonon scattering in a superfluid: a localized scattering event generates a far-field pressure pulse with vanishing time integral but a nonzero first temporal moment, corresponding to a permanent shift in a prepotential for the far-field velocity. The effect is controlled by the soft factor for phonon emission, including corrections from nonlinear dispersion. In superfluid $^4$He, scattering macroscopic phonon wave packets produces a signal whose estimated",
+      "publishDate": "2026-09-01",
+      "abstract": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanistically through an eight-attack perturbation taxonomy across the Readability and Adequacy dimensions of NLG quality, a generation pipeline that produces paired clean and corrupt summaries with controlled error intensity and explicit token-l",
       "keywords": [],
-      "arxivId": "2608.31172v1",
+      "arxivId": "2609.01604v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Finite-energy spacetimes with torus symmetry. Cauchy stability of Einstein-Euler and Einstein-Navier-Stokes areal flows",
+      "title": "Fermionic Dark Matter Absorption and the High-Energy Event in LUX-ZEPLIN",
       "authors": [
-        "Bruno Le Floch",
-        "Philippe G. LeFloch"
+        "Yuanchao Lou",
+        "hih-Ting Lu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-08-31",
-      "abstract": "We establish finite-energy Cauchy stability for vacuum and matter spacetimes with $T^2$ symmetry on $T^3$, under general constitutive equations satisfying hyperbolicity and mild asymptotic conditions at vacuum and large mass-energy density. First, using the area of the symmetry orbits as a time function, we introduce the JKL formulation of Einstein areal flows}, a first-order evolution-constraint system coupling a wave-map structure for the geometry to hyperbolic matter balance laws and weighted",
+      "publishDate": "2026-09-01",
+      "abstract": "The LUX-ZEPLIN (LZ) experiment has reported a single candidate event in the high-energy nuclear recoil window $248\\pm32.5\\ \\mathrm{keV}_{\\mathrm{nr}}$ with an exposure of $2.80\\ \\mathrm{ton}\\cdot\\mathrm{yr}$, while the low-energy spectrum remains consistent with background expectations. We demonstrate that this excess can be naturally explained by the neutral-current absorption of fermionic dark matter on xenon nuclei. For a dark matter mass $m_χ\\simeq 247\\ \\mathrm{MeV}$, the coherent absorption",
+      "keywords": [],
+      "arxivId": "2609.01592v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Depth-1 expanders on the unitary group and applications",
+      "authors": [
+        "Anurag Anshu",
+        "Shankar Balasubramanian",
+        "Jonas Haferkamp",
+        "Aram W. Harrow",
+        "Xinyu Tan"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-09-01",
+      "abstract": "We construct a constant-degree and constant-gap quantum expander on $n$ qubits where each unitary can be implemented by a depth-$1$ and 1D circuit of Pauli or CNOT gates. We provide two applications of this expander. First, we use it to construct a family of frustration-free 1D Hamiltonians whose ground states obey the entanglement-gap relation $S = Θ(Δ^{-1/2})$; this is believed to be optimal, but achieving it had been open. Second, we use it to provide a streaming protocol that tests for close",
+      "keywords": [],
+      "arxivId": "2609.01605v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Singular Weak-Field Thermodynamics of 2D Superconductors",
+      "authors": [
+        "Guopeng Xu",
+        "Chunli Huang"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-09-01",
+      "abstract": "In a bulk 3D type-II superconductor, the lower critical field at which an isolated vortex becomes thermodynamically favorable is a size-independent material property. We show that the situation is different in 2D superconductors: the larger the superconductor, the weaker the field needed to create its first vortex. The lower critical field in 2D is always size-dependent. For a disk of area $\\mathcal A$, the lower critical field $B_v(\\mathcal A)$ scales as $\\mathcal A^{-1}\\ln(\\mathcal A/\\mathcal ",
       "keywords": [
-        "energy density"
+        "screening"
       ],
-      "arxivId": "2608.31171v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Efficient search for excitable zero-modes in constrained systems",
-      "authors": [
-        "Jean-Yves Desaules"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-08-31",
-      "abstract": "Kinetically constrained systems, such as those representing Rydberg atom arrays in the blockade regime, have gathered considerable attention due to the presence of atypical eigenstates in their spectrum. The latter manifests itself through the presence of quantum many-body scars as well as unusually large zero-mode (ZM) subspaces which contain analytically tractable eigenstates with various entanglement scalings. In particular, some of the latter are excitable zero-modes (EZMs), meaning that the",
-      "keywords": [],
-      "arxivId": "2608.31165v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Bosonic codes from compact phase spaces",
-      "authors": [
-        "David Roberts",
-        "Aaron Slipper",
-        "Alireza Parhizkar",
-        "Victor V. Albert",
-        "Mohammad Hafezi"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-08-31",
-      "abstract": "We present the algebraic structure of bosonic quantum error-correcting codes on genus-two Riemann surfaces. We explicitly construct the code words as automorphic forms and analytically generate the full tower of code spaces at all weights. We prove a fundamental no-go theorem: for any genus greater than one, the stabilizer group is non-amenable, forcing a strictly positive spectral gap in the stabilizer Hamiltonian. Consequently, no normalizable quantum state can satisfy all stabilizer condition",
-      "keywords": [],
-      "arxivId": "2608.31156v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Coarse-grained models for loop quantum gravity and their renormalization",
-      "authors": [
-        "Mehdi Assanioussi",
-        "Martin Zeiß"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-08-31",
-      "abstract": "We introduce a family of effective theories and use them to define a specific type of coarse-grained models for canonical loop quantum gravity. Each effective theory is characterized by two parameters and it consists mainly of a Hilbert space of coarse states and an effective Hamiltonian operator. The construction of the coarse Hilbert spaces relies on a systematic coarse-graining procedure for spin network states. The effective Hamiltonians are then obtained from an analysis of the interplay be",
-      "keywords": [],
-      "arxivId": "2608.31152v1",
+      "arxivId": "2609.01602v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
