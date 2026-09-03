@@ -1,82 +1,96 @@
 {
-  "lastUpdated": "2026-09-02",
+  "lastUpdated": "2026-09-03",
   "papers": [
     {
-      "title": "Observable- and state-selective prethermalization and bounds on prethermal lifetimes",
+      "title": "Radiative and Dalitz decays of $Υ(1S)$ in the light of the ATOMKI X17 anomaly",
       "authors": [
-        "C. L. Sriram",
-        "Soumya Kanti Pal",
-        "Lea F. Santos"
+        "Chien-Thang Tran",
+        "Mikhail A. Ivanov"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-01",
-      "abstract": "Prethermalization describes long-lived intermediate regimes that precede equilibrium and can dominate experimentally accessible dynamics. Here, we show that a separation of spectral energy scales, despite giving rise to a hierarchy of dynamical timescales, does not by itself guarantee the appearance of a prethermal plateau. Under the same Hamiltonian, some observables may exhibit prethermal behavior, while others relax directly toward equilibrium. We uncover the mechanism governing this selectiv",
+      "publishDate": "2026-09-02",
+      "abstract": "We study the radiative decay $Υ(1S)\\to η_bγ$ and the Dalitz decay $Υ(1S)\\to η_b e^+ e^-$ within the framework of the Covariant Confined Quark Model. We provide theoretical predictions for the hadronic form factor, the radiative decay constant, and the decay branching fractions. Within the Standard Model we predict $Γ(Υ(1S)\\toη_b γ) = 9.3(9)\\, \\textrm{eV}$ and $Γ(Υ(1S)\\toη_b e^+ e^-) = 4.8(5)\\times 10^{-2}\\, \\textrm{eV}$. The contribution of the hypothetical ATOMKI $X17$ vector boson to the Dalit",
       "keywords": [],
-      "arxivId": "2609.01606v1",
+      "arxivId": "2609.02874v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+      "title": "Inelastic Dark Photon Dark Matter for the LUX-ZEPLIN High-Recoil Event and the Galactic Halo Gamma-Ray Excess",
       "authors": [
-        "Himil Vasava",
-        "Ming Jiang"
+        "Kimiko Yamashita"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-01",
-      "abstract": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanistically through an eight-attack perturbation taxonomy across the Readability and Adequacy dimensions of NLG quality, a generation pipeline that produces paired clean and corrupt summaries with controlled error intensity and explicit token-l",
+      "publishDate": "2026-09-02",
+      "abstract": "We show that a single dark-photon dark matter framework can simultaneously account for two recently reported anomalies: the halo-like Galactic gamma-ray excess identified by Totani in 15 years of Fermi-LAT data, and the $E_{\\rm nr}=248\\pm23\\,({\\rm stat})\\pm23\\,({\\rm sys})$ keV nuclear-recoil event of interest reported by the LUX-ZEPLIN Collaboration. The dark matter is a $U(1)_X$ dark photon $X$ with mass $m_X=420$ GeV, stabilized by a dark parity that forbids kinetic mixing with the Standard Mo",
       "keywords": [],
-      "arxivId": "2609.01604v1",
+      "arxivId": "2609.02868v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Fermionic Dark Matter Absorption and the High-Energy Event in LUX-ZEPLIN",
+      "title": "Magnetized accretion onto rapidly spinning binary black holes: mini-disk thermodynamics, magnetic transport, and dual jets",
       "authors": [
-        "Yuanchao Lou",
-        "hih-Ting Lu"
+        "Luciano Combi",
+        "Manuela Campanelli",
+        "Sean M. Ressler",
+        "Alexander J. Dittmann",
+        "Federico Cattorini"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-01",
-      "abstract": "The LUX-ZEPLIN (LZ) experiment has reported a single candidate event in the high-energy nuclear recoil window $248\\pm32.5\\ \\mathrm{keV}_{\\mathrm{nr}}$ with an exposure of $2.80\\ \\mathrm{ton}\\cdot\\mathrm{yr}$, while the low-energy spectrum remains consistent with background expectations. We demonstrate that this excess can be naturally explained by the neutral-current absorption of fermionic dark matter on xenon nuclei. For a dark matter mass $m_χ\\simeq 247\\ \\mathrm{MeV}$, the coherent absorption",
+      "publishDate": "2026-09-02",
+      "abstract": "Supermassive binary black holes embedded in gas-rich environments are promising multi-messenger sources for pulsar timing arrays and future space-borne gravitational-wave interferometers. Their electromagnetic emission is governed by nonlinear plasma dynamics around the binary and is expected to inherit variability associated with the orbital motion thereof. Because active galactic nuclei are intrinsically stochastic, identifying robust binary signatures requires predictive models that connect l",
       "keywords": [],
-      "arxivId": "2609.01592v1",
+      "arxivId": "2609.02867v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Depth-1 expanders on the unitary group and applications",
+      "title": "Discriminative World Models for Web Agents",
       "authors": [
-        "Anurag Anshu",
-        "Shankar Balasubramanian",
-        "Jonas Haferkamp",
-        "Aram W. Harrow",
-        "Xinyu Tan"
+        "Kelvin Li",
+        "Dhruv Pendharkar",
+        "Anish Pahilajani",
+        "Chuyi Shang",
+        "Leon Oks",
+        "Leonid Karlinsky",
+        "Rogerio Feris",
+        "Trevor Darrell"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-01",
-      "abstract": "We construct a constant-degree and constant-gap quantum expander on $n$ qubits where each unitary can be implemented by a depth-$1$ and 1D circuit of Pauli or CNOT gates. We provide two applications of this expander. First, we use it to construct a family of frustration-free 1D Hamiltonians whose ground states obey the entanglement-gap relation $S = Θ(Δ^{-1/2})$; this is believed to be optimal, but achieving it had been open. Second, we use it to provide a streaming protocol that tests for close",
+      "publishDate": "2026-09-02",
+      "abstract": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed representations like HTML or AXTree snapshots. However, this objective is misaligned with the downstream ranker, which relies on predicted states being discriminative across candidates to accurately s",
       "keywords": [],
-      "arxivId": "2609.01605v1",
+      "arxivId": "2609.02885v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Singular Weak-Field Thermodynamics of 2D Superconductors",
+      "title": "Graph Machine: Towards Better Pretraining via Edges",
       "authors": [
-        "Guopeng Xu",
-        "Chunli Huang"
+        "Lintai Hou"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-01",
-      "abstract": "In a bulk 3D type-II superconductor, the lower critical field at which an isolated vortex becomes thermodynamically favorable is a size-independent material property. We show that the situation is different in 2D superconductors: the larger the superconductor, the weaker the field needed to create its first vortex. The lower critical field in 2D is always size-dependent. For a disk of area $\\mathcal A$, the lower critical field $B_v(\\mathcal A)$ scales as $\\mathcal A^{-1}\\ln(\\mathcal A/\\mathcal ",
-      "keywords": [
-        "screening"
+      "publishDate": "2026-09-02",
+      "abstract": "We introduce the Graph Machine (GM), an architecture that maintains an $O(n)$-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static routing, GM preserves $O(n)$ complexity in its sparse layers without restricting the potentially accessible state size to $O(1)$. Instead, GM uses edges - pointer-like objects updated differentiably by a referral mechanism resembling pointer chasing. We replace 75% of the dense Transformer layers in Q",
+      "keywords": [],
+      "arxivId": "2609.02881v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
+      "authors": [
+        "Alessio Spurio Mancini"
       ],
-      "arxivId": "2609.01602v1",
+      "journal": "arXiv",
+      "publishDate": "2026-09-02",
+      "abstract": "Ordinary differential equations (ODEs) underlie models in science and engineering, and many applications need derivatives of their solutions with respect to parameters. Ensembles of independent trajectories suit graphics processing units (GPUs), but current GPU software forces a trade-off: the fastest ensemble solvers cannot be differentiated in reverse mode at the speed they solve, and the solvers built for differentiation solve more slowly. No single tool has yet offered a reverse-mode gradien",
+      "keywords": [],
+      "arxivId": "2609.02876v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
