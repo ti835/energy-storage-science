@@ -1,93 +1,103 @@
 {
-  "lastUpdated": "2026-09-03",
+  "lastUpdated": "2026-09-04",
   "papers": [
     {
-      "title": "Radiative and Dalitz decays of $Υ(1S)$ in the light of the ATOMKI X17 anomaly",
+      "title": "Baby-universe state dependence of the wormhole-induced gravi-axion mass gap",
       "authors": [
-        "Chien-Thang Tran",
-        "Mikhail A. Ivanov"
+        "Amin Rezaei Akbarieh"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-02",
-      "abstract": "We study the radiative decay $Υ(1S)\\to η_bγ$ and the Dalitz decay $Υ(1S)\\to η_b e^+ e^-$ within the framework of the Covariant Confined Quark Model. We provide theoretical predictions for the hadronic form factor, the radiative decay constant, and the decay branching fractions. Within the Standard Model we predict $Γ(Υ(1S)\\toη_b γ) = 9.3(9)\\, \\textrm{eV}$ and $Γ(Υ(1S)\\toη_b e^+ e^-) = 4.8(5)\\times 10^{-2}\\, \\textrm{eV}$. The contribution of the hypothetical ATOMKI $X17$ vector boson to the Dalit",
+      "publishDate": "2026-09-03",
+      "abstract": "Euclidean wormholes can break the axion shift symmetry, and when this symmetry is broken, a periodic potential is created for the axion, and the curvature of this potential at a minimum point can give the axion mass. In this work, we take seriously the assumption that the mere existence of a wormhole does not mean that the axion mass is uniquely determined, and that more information is needed to determine it. We first show that since for a Giddings--Strominger wormhole with symmetry \\(O(4)\\), th",
       "keywords": [],
-      "arxivId": "2609.02874v1",
+      "arxivId": "2609.04191v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Inelastic Dark Photon Dark Matter for the LUX-ZEPLIN High-Recoil Event and the Galactic Halo Gamma-Ray Excess",
+      "title": "Euclid preparation. The shape of halo profiles in $Λ$CDM and non-standard cosmologies",
       "authors": [
-        "Kimiko Yamashita"
+        "Euclid Collaboration",
+        "L. Pizzuti",
+        "G. Y. Ferron",
+        "A. Ragagnin",
+        "A. M. C. Le Brun",
+        "P. -S. Corasaniti",
+        "T. Gayoux",
+        "G. Rácz"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-02",
-      "abstract": "We show that a single dark-photon dark matter framework can simultaneously account for two recently reported anomalies: the halo-like Galactic gamma-ray excess identified by Totani in 15 years of Fermi-LAT data, and the $E_{\\rm nr}=248\\pm23\\,({\\rm stat})\\pm23\\,({\\rm sys})$ keV nuclear-recoil event of interest reported by the LUX-ZEPLIN Collaboration. The dark matter is a $U(1)_X$ dark photon $X$ with mass $m_X=420$ GeV, stabilized by a dark parity that forbids kinetic mixing with the Standard Mo",
-      "keywords": [],
-      "arxivId": "2609.02868v1",
+      "publishDate": "2026-09-03",
+      "abstract": "We study the shape of three-dimensional and projected dark-matter halo profiles extracted from cosmological $N$-body simulations in $Λ$CDM and non-standard cosmologies, using the \\texttt{DUSTGRAIN-PF} and \\texttt{DEMNUni} suites. The models considered include massive neutrinos, $f(\\mathcal{R})$ gravity, and dynamical dark energy. By comparing density, mass, velocity-dispersion, and excess-surface-density profiles up to $5\\,r_{500{\\rm c}}$, we quantify the differential imprint of non-standard phy",
+      "keywords": [
+        "screening"
+      ],
+      "arxivId": "2609.04192v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Magnetized accretion onto rapidly spinning binary black holes: mini-disk thermodynamics, magnetic transport, and dual jets",
+      "title": "Axion Portal Dark Matter and the LUX-ZEPLIN High-Recoil Event",
       "authors": [
-        "Luciano Combi",
-        "Manuela Campanelli",
-        "Sean M. Ressler",
-        "Alexander J. Dittmann",
-        "Federico Cattorini"
+        "James Unwin"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-02",
-      "abstract": "Supermassive binary black holes embedded in gas-rich environments are promising multi-messenger sources for pulsar timing arrays and future space-borne gravitational-wave interferometers. Their electromagnetic emission is governed by nonlinear plasma dynamics around the binary and is expected to inherit variability associated with the orbital motion thereof. Because active galactic nuclei are intrinsically stochastic, identifying robust binary signatures requires predictive models that connect l",
+      "publishDate": "2026-09-03",
+      "abstract": "LUX-ZEPLIN (LZ) has reported one event compatible with a $248\\,\\mathrm{keV}$ nuclear recoil. While initial attention has focused on inelastic dark matter, that interpretation depends sensitively on the uncertain high-speed tail of the Galactic halo. We develop instead an elastic realization of the pseudoscalar-pseudoscalar interaction $L_4=(\\barχiγ^5χ)(\\bar N iγ^5N)$, whose contact templates give one of the largest local significances identified by LZ. The minimal model presented involves primar",
       "keywords": [],
-      "arxivId": "2609.02867v1",
+      "arxivId": "2609.04186v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Discriminative World Models for Web Agents",
+      "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
       "authors": [
-        "Kelvin Li",
-        "Dhruv Pendharkar",
-        "Anish Pahilajani",
-        "Chuyi Shang",
-        "Leon Oks",
-        "Leonid Karlinsky",
-        "Rogerio Feris",
-        "Trevor Darrell"
+        "Shravan Venkatraman",
+        "Wenshuai Zhao",
+        "Mohammad Hassan Vali",
+        "Arno Solin"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-02",
-      "abstract": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed representations like HTML or AXTree snapshots. However, this objective is misaligned with the downstream ranker, which relies on predicted states being discriminative across candidates to accurately s",
+      "publishDate": "2026-09-03",
+      "abstract": "We introduce S$^3$T (Self-Supervised Self-Distillation over Time), which, to the best of our knowledge, is the first fully self-contained framework for continuous video state tracking. Our method treats temporal sampling density as privileged information, based on the hypothesis that a denser view of the same clip recovers the running state more accurately. This view serves as the teacher, while a sparse-view student with the same weights learns to match its next-token distribution. The model ge",
       "keywords": [],
-      "arxivId": "2609.02885v1",
+      "arxivId": "2609.04203v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Graph Machine: Towards Better Pretraining via Edges",
+      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
       "authors": [
-        "Lintai Hou"
+        "Chin-Yang Lin",
+        "Yang-Che Sun",
+        "Cheng Sun",
+        "Fu-En Yang",
+        "Min-Hung Chen",
+        "Yen-Yu Lin",
+        "Wei-Chen Chiu",
+        "Yu-Lun Liu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-02",
-      "abstract": "We introduce the Graph Machine (GM), an architecture that maintains an $O(n)$-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static routing, GM preserves $O(n)$ complexity in its sparse layers without restricting the potentially accessible state size to $O(1)$. Instead, GM uses edges - pointer-like objects updated differentiably by a referral mechanism resembling pointer chasing. We replace 75% of the dense Transformer layers in Q",
+      "publishDate": "2026-09-03",
+      "abstract": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per-frame depth remains stable throughout this failure. The backbone's local geometry remains intact; only the global pose head breaks down. Motivated by this decoupling, we introduce Scal3R. This approa",
       "keywords": [],
-      "arxivId": "2609.02881v1",
+      "arxivId": "2609.04201v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
+      "title": "Principia: Relational Physics Tests for Video Models",
       "authors": [
-        "Alessio Spurio Mancini"
+        "Varun Varma Thozhiyoor",
+        "Shivam Tripathi",
+        "Venkatesh Babu Radhakrishnan",
+        "Anand Bhattad"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-02",
-      "abstract": "Ordinary differential equations (ODEs) underlie models in science and engineering, and many applications need derivatives of their solutions with respect to parameters. Ensembles of independent trajectories suit graphics processing units (GPUs), but current GPU software forces a trade-off: the fastest ensemble solvers cannot be differentiated in reverse mode at the speed they solve, and the solvers built for differentiation solve more slowly. No single tool has yet offered a reverse-mode gradien",
+      "publishDate": "2026-09-03",
+      "abstract": "Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the same physical law, their motions must satisfy predictable relationships, and these relationships hold independent of calibration. We introduce Principia, a benchmark that evaluates Newtonian physics ",
       "keywords": [],
-      "arxivId": "2609.02876v1",
+      "arxivId": "2609.04200v1",
       "doi": "",
       "relevance": "medium"
     }
