@@ -1,103 +1,106 @@
 {
-  "lastUpdated": "2026-09-06",
+  "lastUpdated": "2026-09-07",
   "papers": [
     {
-      "title": "Baby-universe state dependence of the wormhole-induced gravi-axion mass gap",
+      "title": "Early against Late: A contrast on dark energy in the light of DESI DR2",
       "authors": [
-        "Amin Rezaei Akbarieh"
+        "Miguel A. Zapata",
+        "Karim Carrion",
+        "Gabriela Garcia-Arroyo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-03",
-      "abstract": "Euclidean wormholes can break the axion shift symmetry, and when this symmetry is broken, a periodic potential is created for the axion, and the curvature of this potential at a minimum point can give the axion mass. In this work, we take seriously the assumption that the mere existence of a wormhole does not mean that the axion mass is uniquely determined, and that more information is needed to determine it. We first show that since for a Giddings--Strominger wormhole with symmetry \\(O(4)\\), th",
+      "publishDate": "2026-09-04",
+      "abstract": "Recent findings from Dark Energy Spectroscopic Instrument (DESI) Baryon Acoustic Oscillation (BAO) measurements, combined with Type Ia supernovae and Cosmic Microwave Background (CMB) data, suggest potential parameter-level deviations from $Λ\\text{CDM}$. However, parameter exclusions omit prior-volume penalties, whereas Bayesian evidence uncovers a stark dichotomy between early- and late-time dynamics. To quantify this effect, we perform a Bayesian model comparison that explicitly accounts for t",
       "keywords": [],
-      "arxivId": "2609.04191v1",
+      "arxivId": "2609.05410v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Euclid preparation. The shape of halo profiles in $Λ$CDM and non-standard cosmologies",
+      "title": "Decompactification and the Flat-Space Limit of AdS$_5\\times$ S$^5$ Master Correlators",
       "authors": [
-        "Euclid Collaboration",
-        "L. Pizzuti",
-        "G. Y. Ferron",
-        "A. Ragagnin",
-        "A. M. C. Le Brun",
-        "P. -S. Corasaniti",
-        "T. Gayoux",
-        "G. Rácz"
+        "Burkhard Eden",
+        "Paul Heslop",
+        "Harshal Kulkarni",
+        "Arthur Lipstein",
+        "Romain Ruzziconi",
+        "Akshay Yelleshpur Srikant"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-03",
-      "abstract": "We study the shape of three-dimensional and projected dark-matter halo profiles extracted from cosmological $N$-body simulations in $Λ$CDM and non-standard cosmologies, using the \\texttt{DUSTGRAIN-PF} and \\texttt{DEMNUni} suites. The models considered include massive neutrinos, $f(\\mathcal{R})$ gravity, and dynamical dark energy. By comparing density, mass, velocity-dispersion, and excess-surface-density profiles up to $5\\,r_{500{\\rm c}}$, we quantify the differential imprint of non-standard phy",
+      "publishDate": "2026-09-04",
+      "abstract": "We study the flat-space limit of AdS$_5$/CFT$_4$ holographic correlators while accounting for the simultaneous decompactification of the internal S$^5$. We show that this limit is naturally formulated in terms of master propagators and correlators, which resum the infinite tower of Kaluza--Klein modes. For boundary correlators, the resulting expressions can be interpreted in terms of amplitudes with kinematics restricted to 5d. We then consider master correlators whose external insertions are ke",
+      "keywords": [],
+      "arxivId": "2609.05409v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Nonlinear evolution in Galileon EFTs: Regularization and screening",
+      "authors": [
+        "Farid Thaalba",
+        "Aaron Held",
+        "Ramiro Cayuso",
+        "Thomas P. Sotiriou"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-09-04",
+      "abstract": "In a scalar effective field theory (EFT) with Galileon symmetry, we distinguish the strong-field expansion from the derivative expansion and study spherically symmetric classical nonlinear dynamics. More concretely, we consider two models related via perturbative field redefinitions: one with second-order equations that can also exhibit screening, and one that includes a higher-derivative term that introduces a propagating ghost. The latter term is of the type that can ``regularise'' the equatio",
       "keywords": [
         "screening"
       ],
-      "arxivId": "2609.04192v1",
+      "arxivId": "2609.05407v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Axion Portal Dark Matter and the LUX-ZEPLIN High-Recoil Event",
+      "title": "The Erd\\H os-Sós conjecture in dense graphs",
       "authors": [
-        "James Unwin"
+        "Bruce Reed",
+        "Maya Stein"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-03",
-      "abstract": "LUX-ZEPLIN (LZ) has reported one event compatible with a $248\\,\\mathrm{keV}$ nuclear recoil. While initial attention has focused on inelastic dark matter, that interpretation depends sensitively on the uncertain high-speed tail of the Galactic halo. We develop instead an elastic realization of the pseudoscalar-pseudoscalar interaction $L_4=(\\barχiγ^5χ)(\\bar N iγ^5N)$, whose contact templates give one of the largest local significances identified by LZ. The minimal model presented involves primar",
+      "publishDate": "2026-09-04",
+      "abstract": "The Erd\\H os--Sós conjecture states that every $n$-vertex graph with more than $(k-2)n/2$ edges contains every $k$-vertex tree. We prove that for every $γ$ there is an $n_0$ such that for all $n\\ge n_0$ and $k \\ge γn$ the conjecture holds. As a corollary of our result, we obtain a solution of a 51-year-old problem of Erd\\H os and Graham on the multicolor Ramsey numbers of trees.",
       "keywords": [],
-      "arxivId": "2609.04186v1",
+      "arxivId": "2609.05417v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
+      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
       "authors": [
-        "Shravan Venkatraman",
-        "Wenshuai Zhao",
-        "Mohammad Hassan Vali",
-        "Arno Solin"
+        "Linzhan Mou",
+        "Jiahui Lei",
+        "Zhiyang Dou",
+        "Chenyue Cai",
+        "Chaoyue Song",
+        "Adam Finkelstein",
+        "Szymon Rusinkiewicz"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-03",
-      "abstract": "We introduce S$^3$T (Self-Supervised Self-Distillation over Time), which, to the best of our knowledge, is the first fully self-contained framework for continuous video state tracking. Our method treats temporal sampling density as privileged information, based on the hypothesis that a denser view of the same clip recovers the running state more accurately. This view serves as the teacher, while a sparse-view student with the same weights learns to match its next-token distribution. The model ge",
+      "publishDate": "2026-09-04",
+      "abstract": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and reference motions at inference. We present UniMate, a unified foundation model that synthesizes articulated motion for arbitrary skeletons from a rigged 3D asset and a text prompt, with no test-time optimization or per-",
       "keywords": [],
-      "arxivId": "2609.04203v1",
+      "arxivId": "2609.05415v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+      "title": "Tracing the Cosmic Origins: Machine Learning Reconstruction of the Primordial Density Field from EoR Observations",
       "authors": [
-        "Chin-Yang Lin",
-        "Yang-Che Sun",
-        "Cheng Sun",
-        "Fu-En Yang",
-        "Min-Hung Chen",
-        "Yen-Yu Lin",
-        "Wei-Chen Chiu",
-        "Yu-Lun Liu"
+        "Anchal Saxena",
+        "P. Daniel Meerburg",
+        "Guochao Sun",
+        "Tzu-Ching Chang",
+        "Lluís Mas-Ribas"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-03",
-      "abstract": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per-frame depth remains stable throughout this failure. The backbone's local geometry remains intact; only the global pose head breaks down. Motivated by this decoupling, we introduce Scal3R. This approa",
-      "keywords": [],
-      "arxivId": "2609.04201v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Principia: Relational Physics Tests for Video Models",
-      "authors": [
-        "Varun Varma Thozhiyoor",
-        "Shivam Tripathi",
-        "Venkatesh Babu Radhakrishnan",
-        "Anand Bhattad"
+      "publishDate": "2026-09-04",
+      "abstract": "Reconstructing the initial conditions of the Universe from late-time tracers would unlock cosmological information buried by non-linear structure formation and astrophysics. We reconstruct the initial density field at $z\\sim300$ from simulated 21-cm and CO(1-0) line-intensity maps at $z\\sim8$ generated with LIMFAST. Using a three-dimensional U-Net, we reconstruct the initial conditions and evaluate its impact on cosmological parameter constraints. The two tracers probe complementary environments",
+      "keywords": [
+        "machine learning"
       ],
-      "journal": "arXiv",
-      "publishDate": "2026-09-03",
-      "abstract": "Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the same physical law, their motions must satisfy predictable relationships, and these relationships hold independent of calibration. We introduce Principia, a benchmark that evaluates Newtonian physics ",
-      "keywords": [],
-      "arxivId": "2609.04200v1",
+      "arxivId": "2609.05412v1",
       "doi": "",
       "relevance": "medium"
     }
