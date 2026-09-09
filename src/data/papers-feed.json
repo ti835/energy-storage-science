@@ -1,106 +1,99 @@
 {
-  "lastUpdated": "2026-09-08",
+  "lastUpdated": "2026-09-09",
   "papers": [
     {
-      "title": "Early against Late: A contrast on dark energy in the light of DESI DR2",
+      "title": "Mixing-suppressed inelastic dark matter: a minimal model for the LZ 248 keV event",
       "authors": [
-        "Miguel A. Zapata",
-        "Karim Carrion",
-        "Gabriela Garcia-Arroyo"
+        "Seung J. Lee",
+        "Taewook Youn"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-04",
-      "abstract": "Recent findings from Dark Energy Spectroscopic Instrument (DESI) Baryon Acoustic Oscillation (BAO) measurements, combined with Type Ia supernovae and Cosmic Microwave Background (CMB) data, suggest potential parameter-level deviations from $Λ\\text{CDM}$. However, parameter exclusions omit prior-volume penalties, whereas Bayesian evidence uncovers a stark dichotomy between early- and late-time dynamics. To quantify this effect, we perform a Bayesian model comparison that explicitly accounts for t",
+      "publishDate": "2026-09-08",
+      "abstract": "We construct a minimal Majorana singlet-vector-like-doublet model for the single nuclear-recoil-like event reported by LZ near 248 keV. At the splitting inferred from the recoil energy, an electroweak-strength $Z$ transition predicts thousands of events; singlet-doublet mixing suppresses the rate without moving the recoil spectrum. Fixed-coupling interpretations instead require a larger splitting in the extreme halo tail, but solar gravitational acceleration removes this suppression, while the l",
       "keywords": [],
-      "arxivId": "2609.05410v1",
+      "arxivId": "2609.09138v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Decompactification and the Flat-Space Limit of AdS$_5\\times$ S$^5$ Master Correlators",
+      "title": "A Warped Extra Dimensional Candidate for the LZ 248 keV Event",
       "authors": [
-        "Burkhard Eden",
-        "Paul Heslop",
-        "Harshal Kulkarni",
-        "Arthur Lipstein",
-        "Romain Ruzziconi",
-        "Akshay Yelleshpur Srikant"
+        "Vincent S. H. Lee",
+        "Lisa Randall"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-04",
-      "abstract": "We study the flat-space limit of AdS$_5$/CFT$_4$ holographic correlators while accounting for the simultaneous decompactification of the internal S$^5$. We show that this limit is naturally formulated in terms of master propagators and correlators, which resum the infinite tower of Kaluza--Klein modes. For boundary correlators, the resulting expressions can be interpreted in terms of amplitudes with kinematics restricted to 5d. We then consider master correlators whose external insertions are ke",
+      "publishDate": "2026-09-08",
+      "abstract": "The recent result by the LUX-ZEPLIN (LZ) experiment of a single nuclear-recoil event at $248\\,\\mathrm{keV}$ suggests an interpretation in terms of inelastic scattering between dark matter (DM) and the xenon target. The widely considered thermal Higgsino DM with $m_χ\\sim$~TeV and mass splitting $δ\\sim 350$~keV is essentially excluded as it would be captured efficiently by the Sun, with a resulting neutrino flux from its annihilation in excess of the IceCube limit, and expected recoils above the L",
       "keywords": [],
-      "arxivId": "2609.05409v1",
+      "arxivId": "2609.09136v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Nonlinear evolution in Galileon EFTs: Regularization and screening",
+      "title": "Complex Scalar Dark Matter with a Vector-Like Quark and Lepton: Precision, Flavor, and HL-LHC",
       "authors": [
-        "Farid Thaalba",
-        "Aaron Held",
-        "Ramiro Cayuso",
-        "Thomas P. Sotiriou"
+        "Lipika Kolay",
+        "Rusa Mandal",
+        "Manimala Mitra",
+        "Dipankar Pradhan",
+        "Subham Saha"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-04",
-      "abstract": "In a scalar effective field theory (EFT) with Galileon symmetry, we distinguish the strong-field expansion from the derivative expansion and study spherically symmetric classical nonlinear dynamics. More concretely, we consider two models related via perturbative field redefinitions: one with second-order equations that can also exhibit screening, and one that includes a higher-derivative term that introduces a propagating ghost. The latter term is of the type that can ``regularise'' the equatio",
-      "keywords": [
-        "screening"
-      ],
-      "arxivId": "2609.05407v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "The Erd\\H os-Sós conjecture in dense graphs",
-      "authors": [
-        "Bruce Reed",
-        "Maya Stein"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-09-04",
-      "abstract": "The Erd\\H os--Sós conjecture states that every $n$-vertex graph with more than $(k-2)n/2$ edges contains every $k$-vertex tree. We prove that for every $γ$ there is an $n_0$ such that for all $n\\ge n_0$ and $k \\ge γn$ the conjecture holds. As a corollary of our result, we obtain a solution of a 51-year-old problem of Erd\\H os and Graham on the multicolor Ramsey numbers of trees.",
+      "publishDate": "2026-09-08",
+      "abstract": "We investigate a minimal extension of the SM consisting of a $\\mathbb{Z}_3$-stabilized complex scalar dark matter (CSDM) candidate, a down-type vector-like quark (VLQ), and a charged vector-like lepton (VLL). The additional vector-like fermions not only enable the CSDM to reproduce the observed relic abundance beyond the Higgs-resonance region through semi-annihilation and co-annihilation processes, but also induce correlated signatures across flavor, electroweak precision, dark matter, and coll",
       "keywords": [],
-      "arxivId": "2609.05417v1",
+      "arxivId": "2609.09120v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
       "authors": [
-        "Linzhan Mou",
-        "Jiahui Lei",
-        "Zhiyang Dou",
-        "Chenyue Cai",
-        "Chaoyue Song",
-        "Adam Finkelstein",
-        "Szymon Rusinkiewicz"
+        "Anqi Li",
+        "Yuxin Chen",
+        "Zhaobo Li",
+        "Zhuo Cao",
+        "Junli Ren",
+        "Masayoshi Tomizuka",
+        "Dhruv Shah"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-04",
-      "abstract": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and reference motions at inference. We present UniMate, a unified foundation model that synthesizes articulated motion for arbitrary skeletons from a rigged 3D asset and a text prompt, with no test-time optimization or per-",
+      "publishDate": "2026-09-08",
+      "abstract": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces. We introduce TANGO, the first whole-body vision-language navigation framework for language-conditi",
       "keywords": [],
-      "arxivId": "2609.05415v1",
+      "arxivId": "2609.09158v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Tracing the Cosmic Origins: Machine Learning Reconstruction of the Primordial Density Field from EoR Observations",
+      "title": "Learning Length-Extrapolatable Recurrent Models",
       "authors": [
-        "Anchal Saxena",
-        "P. Daniel Meerburg",
-        "Guochao Sun",
-        "Tzu-Ching Chang",
-        "Lluís Mas-Ribas"
+        "Hanwen Jiang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-04",
-      "abstract": "Reconstructing the initial conditions of the Universe from late-time tracers would unlock cosmological information buried by non-linear structure formation and astrophysics. We reconstruct the initial density field at $z\\sim300$ from simulated 21-cm and CO(1-0) line-intensity maps at $z\\sim8$ generated with LIMFAST. Using a three-dimensional U-Net, we reconstruct the initial conditions and evaluate its impact on cosmological parameter constraints. The two tracers probe complementary environments",
-      "keywords": [
-        "machine learning"
+      "publishDate": "2026-09-08",
+      "abstract": "Recurrent models provide a natural path to long-context modeling, yet models trained with backpropagation through time (BPTT) often fail beyond their training horizon. Classical analyses emphasize gradients that vanish or explode along temporal paths. However, dense per-token losses can still train a shared recurrent rule despite severe decay, showing that decay alone does not determine whether learning fails. We instead study state credit: the signal through which future losses reach earlier re",
+      "keywords": [],
+      "arxivId": "2609.09157v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "ReCite: Agentic Reasoning for Faithful Citation",
+      "authors": [
+        "Yuyang Huang",
+        "Bobo Li",
+        "Jiajia Song",
+        "Yuzhe Ding",
+        "Chong Teng",
+        "Fei Li",
+        "Donghong Ji"
       ],
-      "arxivId": "2609.05412v1",
+      "journal": "arXiv",
+      "publishDate": "2026-09-08",
+      "abstract": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is increasingly difficult, prompting reliance on automatic citation recommendation. While modern retrieval-augmented architectures have largely mitigated the fabrication of non-existent papers, current systems relying on semantic similarity struggle with misattribution, often citing authentic papers that f",
+      "keywords": [],
+      "arxivId": "2609.09156v1",
       "doi": "",
       "relevance": "medium"
     }
