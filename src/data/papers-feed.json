@@ -1,102 +1,89 @@
 {
-  "lastUpdated": "2026-09-09",
+  "lastUpdated": "2026-09-10",
   "papers": [
     {
-      "title": "Mixing-suppressed inelastic dark matter: a minimal model for the LZ 248 keV event",
+      "title": "Symplectic Hopf Insulator: Delicate Topology in Bosonic Bogoliubov-de Gennes Systems",
       "authors": [
-        "Seung J. Lee",
-        "Taewook Youn"
+        "Isaac Tesfaye",
+        "Giandomenico Palumbo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-08",
-      "abstract": "We construct a minimal Majorana singlet-vector-like-doublet model for the single nuclear-recoil-like event reported by LZ near 248 keV. At the splitting inferred from the recoil energy, an electroweak-strength $Z$ transition predicts thousands of events; singlet-doublet mixing suppresses the rate without moving the recoil spectrum. Fixed-coupling interpretations instead require a larger splitting in the extreme halo tail, but solar gravitational acceleration removes this suppression, while the l",
+      "publishDate": "2026-09-09",
+      "abstract": "Recent advances in topological phases have highlighted the role of symplectic (Krein-space) topology in the classification of bosonic Bogoliubov-de Gennes (BBdG) systems. In this work, we construct a BBdG realization of Hopf topology, which we dub the symplectic Hopf insulator, starting from a microscopic Bose-Hubbard generalization of the Moore-Ran-Wen model with weak on-site interactions treated within a Bogoliubov approximation. The resulting BBdG system admits a symplectic Hopf invariant, wh",
       "keywords": [],
-      "arxivId": "2609.09138v1",
+      "arxivId": "2609.10541v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A Warped Extra Dimensional Candidate for the LZ 248 keV Event",
+      "title": "For Whom Does Bell Hold?",
       "authors": [
-        "Vincent S. H. Lee",
-        "Lisa Randall"
+        "Daniel Green",
+        "Kshitij Gupta",
+        "Qiya Zhang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-08",
-      "abstract": "The recent result by the LUX-ZEPLIN (LZ) experiment of a single nuclear-recoil event at $248\\,\\mathrm{keV}$ suggests an interpretation in terms of inelastic scattering between dark matter (DM) and the xenon target. The widely considered thermal Higgsino DM with $m_χ\\sim$~TeV and mass splitting $δ\\sim 350$~keV is essentially excluded as it would be captured efficiently by the Sun, with a resulting neutrino flux from its annihilation in excess of the IceCube limit, and expected recoils above the L",
+      "publishDate": "2026-09-09",
+      "abstract": "Violations of Bell's inequalities offer a definitive signal of non-classical (quantum) behavior in local deterministic systems. Yet, in many physical settings where quantum mechanics is expected to play an important role, one cannot construct a Bell-type test using the available observables. Cosmology offers one concrete example, where cosmic structure may have originated from quantum vacuum fluctuations yet all observations are effectively classical. Nevertheless, recent work suggests that quan",
       "keywords": [],
-      "arxivId": "2609.09136v1",
+      "arxivId": "2609.10535v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Complex Scalar Dark Matter with a Vector-Like Quark and Lepton: Precision, Flavor, and HL-LHC",
+      "title": "Noether Symmetries Generate Deterministic Energy-Harvesting Protocols",
       "authors": [
-        "Lipika Kolay",
-        "Rusa Mandal",
-        "Manimala Mitra",
-        "Dipankar Pradhan",
-        "Subham Saha"
+        "Ali Akil",
+        "M. Hamed Mohammady",
+        "Zihan Wang",
+        "Oscar Dahlsten"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-08",
-      "abstract": "We investigate a minimal extension of the SM consisting of a $\\mathbb{Z}_3$-stabilized complex scalar dark matter (CSDM) candidate, a down-type vector-like quark (VLQ), and a charged vector-like lepton (VLL). The additional vector-like fermions not only enable the CSDM to reproduce the observed relic abundance beyond the Higgs-resonance region through semi-annihilation and co-annihilation processes, but also induce correlated signatures across flavor, electroweak precision, dark matter, and coll",
+      "publishDate": "2026-09-09",
+      "abstract": "We consider the general principles for when deterministic energy harvesting (DEH) is possible. DEH means absorbing energy from a fluctuating source without entropy being absorbed. We show that the symmetry structure of the source--harvester dynamics gives a general route beyond existing examples to identify DEH capable source states. Any continuous symmetry with a conserved Noether charge induces a source-side orbit of states that all implement the same deterministic harvester transition, provid",
       "keywords": [],
-      "arxivId": "2609.09120v1",
+      "arxivId": "2609.10533v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+      "title": "Programmable World Model",
       "authors": [
-        "Anqi Li",
-        "Yuxin Chen",
-        "Zhaobo Li",
-        "Zhuo Cao",
-        "Junli Ren",
-        "Masayoshi Tomizuka",
-        "Dhruv Shah"
+        "Zheng-Hui Huang",
+        "Guixu Lin",
+        "Jiacheng Lin",
+        "Yi-Chuan Huang",
+        "Ruihan Yu",
+        "Muyao Niu",
+        "Siqi Yang",
+        "Yu-Lun Liu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-08",
-      "abstract": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces. We introduce TANGO, the first whole-body vision-language navigation framework for language-conditi",
+      "publishDate": "2026-09-09",
+      "abstract": "Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interactions. We introduce Programmable World Model, a framework that decouples world-state evolution from visual observation generation. An agent translates natural-language instructions into executable programs that specify entity states and state-transition rules, enabling direct control",
       "keywords": [],
-      "arxivId": "2609.09158v1",
+      "arxivId": "2609.10540v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Learning Length-Extrapolatable Recurrent Models",
+      "title": "Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning",
       "authors": [
-        "Hanwen Jiang"
+        "Yiwei Fang",
+        "Yichen Liu",
+        "Ze Jin",
+        "Haoqiang Wang",
+        "Qixu Liu",
+        "Luyi Xing"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-08",
-      "abstract": "Recurrent models provide a natural path to long-context modeling, yet models trained with backpropagation through time (BPTT) often fail beyond their training horizon. Classical analyses emphasize gradients that vanish or explode along temporal paths. However, dense per-token losses can still train a shared recurrent rule despite severe decay, showing that decay alone does not determine whether learning fails. We instead study state credit: the signal through which future losses reach earlier re",
+      "publishDate": "2026-09-09",
+      "abstract": "Logic flaws pose significant challenges in the design and implementation of modern, semantically rich systems and applications, impacting security, privacy, and trust. These flaws are inherently tied to business-specific semantics and threat models, making their discovery and reasoning difficult and hard to scale. Real-world systems often exhibit diverse application features, complex protocol logic, and domain-specific threat models, necessitating substantial human effort and domain expertise fo",
       "keywords": [],
-      "arxivId": "2609.09157v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "ReCite: Agentic Reasoning for Faithful Citation",
-      "authors": [
-        "Yuyang Huang",
-        "Bobo Li",
-        "Jiajia Song",
-        "Yuzhe Ding",
-        "Chong Teng",
-        "Fei Li",
-        "Donghong Ji"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-09-08",
-      "abstract": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is increasingly difficult, prompting reliance on automatic citation recommendation. While modern retrieval-augmented architectures have largely mitigated the fabrication of non-existent papers, current systems relying on semantic similarity struggle with misattribution, often citing authentic papers that f",
-      "keywords": [],
-      "arxivId": "2609.09156v1",
+      "arxivId": "2609.10537v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
