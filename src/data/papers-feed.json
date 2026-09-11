@@ -1,89 +1,102 @@
 {
-  "lastUpdated": "2026-09-10",
+  "lastUpdated": "2026-09-11",
   "papers": [
     {
-      "title": "Symplectic Hopf Insulator: Delicate Topology in Bosonic Bogoliubov-de Gennes Systems",
+      "title": "Teleparallel torsion and white dwarf structure in \\(f(T)=T+ΞT^2\\) gravity",
       "authors": [
-        "Isaac Tesfaye",
-        "Giandomenico Palumbo"
+        "Edson Otoniel",
+        "Jonathan A. Reboucas",
+        "Iarley P. Lobo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-09",
-      "abstract": "Recent advances in topological phases have highlighted the role of symplectic (Krein-space) topology in the classification of bosonic Bogoliubov-de Gennes (BBdG) systems. In this work, we construct a BBdG realization of Hopf topology, which we dub the symplectic Hopf insulator, starting from a microscopic Bose-Hubbard generalization of the Moore-Ran-Wen model with weak on-site interactions treated within a Bogoliubov approximation. The resulting BBdG system admits a symplectic Hopf invariant, wh",
+      "publishDate": "2026-09-10",
+      "abstract": "We investigate how quadratic torsion modifies the equilibrium structure of white dwarfs in covariant $f(T)=T+ΞT^2$ gravity. Static spherical configurations are calculated with a fixed equation of state for cold carbon matter, including relativistic electron degeneracy and Coulomb lattice corrections. The stellar interior is matched to a vacuum exterior, and the mass is determined from the asymptotic geometry. At fixed central density, negative couplings produce more massive and more compact conf",
       "keywords": [],
-      "arxivId": "2609.10541v1",
+      "arxivId": "2609.11921v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "For Whom Does Bell Hold?",
+      "title": "Anomalous Dimensions, Matching, and Phenomenology of Dirac Fermionic Dark Matter Effective Interactions",
       "authors": [
-        "Daniel Green",
-        "Kshitij Gupta",
-        "Qiya Zhang"
+        "Subhajit Kala",
+        "Lipika Kolay",
+        "Soumitra Nandi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-09",
-      "abstract": "Violations of Bell's inequalities offer a definitive signal of non-classical (quantum) behavior in local deterministic systems. Yet, in many physical settings where quantum mechanics is expected to play an important role, one cannot construct a Bell-type test using the available observables. Cosmology offers one concrete example, where cosmic structure may have originated from quantum vacuum fluctuations yet all observations are effectively classical. Nevertheless, recent work suggests that quan",
+      "publishDate": "2026-09-10",
+      "abstract": "We explore a fermionic dark matter (DM) extension of the Standard Model Effective Field Theory (SMEFT) and establish a complete renormalisation-group framework for its phenomenological investigation. We derive the anomalous-dimension matrix of all relevant dimension-five and dimension-six operators involving Standard Model (SM) and DM fields, enabling the consistent evolution of the associated Wilson coefficients (WCs) across energy scales. By combining renormalisation-group running with matchin",
       "keywords": [],
-      "arxivId": "2609.10535v1",
+      "arxivId": "2609.11914v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Noether Symmetries Generate Deterministic Energy-Harvesting Protocols",
+      "title": "Theoretical Aspects of Direct Waves in Kerr Black Holes: Pole-Splitting Method for Ringdown Analysis",
       "authors": [
-        "Ali Akil",
-        "M. Hamed Mohammady",
-        "Zihan Wang",
-        "Oscar Dahlsten"
+        "Nao Nakamoto",
+        "Naritaka Oshita",
+        "Hiroki Takeda"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-09",
-      "abstract": "We consider the general principles for when deterministic energy harvesting (DEH) is possible. DEH means absorbing energy from a fluctuating source without entropy being absorbed. We show that the symmetry structure of the source--harvester dynamics gives a general route beyond existing examples to identify DEH capable source states. Any continuous symmetry with a conserved Noether charge induces a source-side orbit of states that all implement the same deterministic harvester transition, provid",
-      "keywords": [],
-      "arxivId": "2609.10533v1",
+      "publishDate": "2026-09-10",
+      "abstract": "We formulate the theoretical aspects of direct waves (DWs) in the case of extreme-mass merger. A DW is a source-driven waveform characterized by a complex frequency $ω_{\\rm G}$, which reflects the orbital motion of the particle in the vicinity of the black hole, including a part of the orbit inside the ergoregion: its real part is governed by frame dragging and its imaginary part by the redshift of the source. Using the Green's function technique, we derive the source-driven frequency $ω_{\\rm G}",
+      "keywords": [
+        "screening"
+      ],
+      "arxivId": "2609.11908v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Programmable World Model",
+      "title": "Hierarchy of Rényi Coherent Information in Stabilizer Codes",
       "authors": [
-        "Zheng-Hui Huang",
-        "Guixu Lin",
-        "Jiacheng Lin",
-        "Yi-Chuan Huang",
-        "Ruihan Yu",
-        "Muyao Niu",
-        "Siqi Yang",
-        "Yu-Lun Liu"
+        "Akash Vijay",
+        "Luis Colmenarez",
+        "Jong Yeon Lee"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-09",
-      "abstract": "Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interactions. We introduce Programmable World Model, a framework that decouples world-state evolution from visual observation generation. An agent translates natural-language instructions into executable programs that specify entity states and state-transition rules, enabling direct control",
+      "publishDate": "2026-09-10",
+      "abstract": "Rényi coherent information, a computable proxy for the von Neumann coherent information, is widely used to study mixed-state phases of matter and decodability transitions in noisy quantum error-correcting codes. However, being a difference of two Rényi entropies, it need not be monotonic in the Rényi index, and lacks the operational meaning of its von Neumann counterpart. Here we address both issues for stabilizer codes. First, for Pauli noise generated by independent Bernoulli events, we prove ",
       "keywords": [],
-      "arxivId": "2609.10540v1",
+      "arxivId": "2609.11930v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning",
+      "title": "Effective Ionic Valence and Local Magnetic Moment in Kagome Superconductors",
       "authors": [
-        "Yiwei Fang",
-        "Yichen Liu",
-        "Ze Jin",
-        "Haoqiang Wang",
-        "Qixu Liu",
-        "Luyi Xing"
+        "Ruoshi Jiang",
+        "Zi-Jian Lang",
+        "Yuzki Oey",
+        "Andrea Capa Salinas",
+        "Stephen D. Wilson",
+        "Yongwei Li",
+        "Ilya Shipulin",
+        "Yiwen Zhang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-09",
-      "abstract": "Logic flaws pose significant challenges in the design and implementation of modern, semantically rich systems and applications, impacting security, privacy, and trust. These flaws are inherently tied to business-specific semantics and threat models, making their discovery and reasoning difficult and hard to scale. Real-world systems often exhibit diverse application features, complex protocol logic, and domain-specific threat models, necessitating substantial human effort and domain expertise fo",
+      "publishDate": "2026-09-10",
+      "abstract": "In order to understand the unexpected similarity and the correlated behavior in kagome superconductor families AV$_3$Sb$_5$ (A = K, Rb, Cs) and ATi$_3$Bi$_5$ (A = Rb, Cs), we investigate the Hartree-scale local electronic structure of these systems. Our result indicates that V and Ti ions are both of 2+ valence such that the corresponding itinerant carrier densities are similar, and the difference in electron count is instead reflected in their quantum fluctuating ionic magnetic moments. However",
       "keywords": [],
-      "arxivId": "2609.10537v1",
+      "arxivId": "2609.11927v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Quantifying Symmetry Breaking",
+      "authors": [
+        "Koji Yamaguchi",
+        "Hiroyasu Tajima"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-09-10",
+      "abstract": "Quantifying properties of quantum states through the limits of their manipulation is a central goal of quantum resource theories. For symmetry breaking, the quantum geometric tensor governs asymptotic pure-state conversion, but a complete characterization for general mixed states has remained elusive.\n  Here we fully resolve this problem for finite-dimensional systems under compact Lie group symmetries in the i.i.d. asymptotic regime. Specifically, we establish a single-letter formula for the op",
+      "keywords": [],
+      "arxivId": "2609.11926v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
