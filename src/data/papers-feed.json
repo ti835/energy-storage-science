@@ -1,91 +1,86 @@
 {
-  "lastUpdated": "2026-09-16",
+  "lastUpdated": "2026-09-17",
   "papers": [
     {
-      "title": "Vanilla Scotogenic Model at the future Muon Collider",
+      "title": "Period-Inverted Blast-Radius Normalization for a Non-Ablating Hypersonic Reentry Source Using OSIRIS-REx Capsule Infrasound",
       "authors": [
-        "Niloy Mondal",
-        "Dipankar Pradhan",
-        "Abhik Sarkar",
-        "Biplob Bhattacherjee",
-        "Subhaditya Bhattacharya"
+        "Elizabeth A. Silber"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-15",
-      "abstract": "The vanilla scotogenic model (VSM) featuring three right-handed neutrinos and an inert scalar doublet, offers a unified explanation of neutrino masses, dark matter (DM), and the baryon asymmetry of the Universe through leptogenesis. The typical mass scale of such a scenario lies in the vicinity of $\\sim$ 10 TeV and above, whereas enhanced second-generation Yukawa couplings lower the leptogenesis scale to $\\sim 1$ \\TeV, allowing the model to be probed at the future muon colliders. Adhering to DM,",
+      "publishDate": "2026-09-16",
+      "abstract": "Cylindrical blast wave theory relates infrasound from hypersonic sources to energy deposition through a characteristic blast radius R_0, yet the normalization constant k in the scaling R_0 = k (E_0/p_0)^(1/2) differs by up to 40% across the formulations examined here. This uncertainty affects period-based source characterization for elevated atmospheric sources relevant to infrasound monitoring. Using infrasound from the OSIRIS-REx Sample Return Capsule reentry on 24 September 2023, observed per",
       "keywords": [],
-      "arxivId": "2609.17530v1",
+      "arxivId": "2609.19141v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Exact Black Branes in General Dimensions in Higher-Curvature Scalar-Tensor Gravity",
+      "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
       "authors": [
-        "Tianhao Wu"
+        "João Meneses dos Santos",
+        "Arlindo L. Oliveira"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-15",
-      "abstract": "We obtain two families of neutral planar black branes in a potential-free dilaton-coupled Lovelock--Horndeski theory. Heterotic compactification relates higher-dimensional curvature to scalar dynamics and motivates the interaction structure. At fixed scalar zero mode, the horizon radius and temperature vary while the complete stationary Wald entropy remains constant and positive. The exponential scalar factor at the horizon exactly compensates the area growth, giving this behavior a direct geome",
+      "publishDate": "2026-09-16",
+      "abstract": "Language agents remain brittle in interactive environments, where success requires long-horizon state tracking, valid action execution, and recovery from failed steps. We extend SwiftSage, a dual-process agent that combines a fast action proposer with a slower planner, using two modular cognitive extensions: an Adaptive Memory Module (AMM) for salience-gated episodic storage and trigger-driven retrieval, and a Self-Reflection Module (SRM) for bounded execution-time validation and corrective inte",
       "keywords": [],
-      "arxivId": "2609.17528v1",
+      "arxivId": "2609.19128v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Higher abelian gauge theory in BV formalism",
+      "title": "Divergence between long- and short-wavelength magnon damping in spinel ferrites",
       "authors": [
-        "Shuhan Jiang"
+        "Christopher T. Parzyck",
+        "Octave Duros",
+        "Hari Paudyal",
+        "Noah M. Edmiston",
+        "Katya Mikhailova",
+        "Lerato Takana",
+        "Daisy O'Mahoney",
+        "Sauviz P. Alaei"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-15",
-      "abstract": "A BV structure is constructed on the space of zero modes of a quadratic elliptic higher abelian gauge theory. The associated BV integral is shown to be independent of the choice of zero-mode Lagrangian under mild hypotheses. The construction yields explicit zero-mode partition functions for several $p$-form abelian gauge theories.",
+      "publishDate": "2026-09-16",
+      "abstract": "The realization of practical, high-speed magnonic devices requires engineering magnetic materials with low dissipation over wide frequency ranges. While optical and microwave probes are used to infer the damping of low energy/long wavelength modes, the degree to which these $q\\sim0$ properties translate into higher-energy, finite-momentum modes remains an important open question. Here, we utilize a combination of ferromagnetic resonance (FMR) and resonant inelastic x-ray scattering on spinel fer",
       "keywords": [],
-      "arxivId": "2609.17518v1",
+      "arxivId": "2609.19112v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Molecular Decomposition of the Area Compressibility Modulus of Lipid Membranes",
+      "title": "In-Context Robot Learning with VLM Agents",
       "authors": [
-        "Konstantin V. Pinigin"
+        "Dongzhou Cheng",
+        "Taoran Yi",
+        "Ye Fang",
+        "Xingwu Zhang",
+        "Fan Feng",
+        "Yixuan Li",
+        "Gengxiong Zhuang",
+        "Rongze Wang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-15",
-      "abstract": "The area compressibility modulus is a key descriptor of lipid membrane mechanics, but the molecular interactions that determine this elasticity are not evident from the total modulus alone. Here, molecular dynamics simulations of a POPC bilayer described by the coarse-grained Martini 3 force field were combined with virial stress analysis to decompose the area compressibility modulus into contributions from molecular groups and their interactions. Partial lateral tensions were evaluated as funct",
+      "publishDate": "2026-09-16",
+      "abstract": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such in-context learning (ICL), however, remains largely beyond the reach of existing robotic policies. The broad agentic capabilities of commercial vision-language models (VLMs), such as GPT-6 Astra, rai",
       "keywords": [],
-      "arxivId": "2609.17514v1",
+      "arxivId": "2609.19138v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Stellar Ages of M Dwarf Hosts of Temperate Sub-Neptunes",
+      "title": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
       "authors": [
-        "Lalitha Sairam",
-        "Nikku Madhusudhan"
+        "Pranaya Jajoo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-15",
-      "abstract": "Measuring M dwarf ages is a central challenge in stellar astrophysics. These stars evolve so slowly that isochrone fitting gives little constraint, requiring alternative methods based on rotation, activity, and kinematics. Reliable ages help constrain the formation and evolution of planetary systems around M dwarfs, including the temperate sub-Neptunes now being characterised with the James Webb Space Telescope (JWST). We present an age analysis of six nearby M dwarf planet hosts (TOI-732, TOI-7",
+      "publishDate": "2026-09-16",
+      "abstract": "Can a logged dataset visit every hidden state frequently and still be exponentially uninformative about a target policy's value? We show that it can when the logger depends on history. For every horizon $H \\ge 3$, we construct two POMDPs with at most two latent states per stage, three actions, and a common logger with three memory states. Action coverage, belief coverage, and two behavior-marginal outcome-revealing conditions all have constants independent of $H$. Nevertheless, evaluating a know",
       "keywords": [],
-      "arxivId": "2609.17505v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "A Case Study on Noise Resilient Operator Selection in Adaptive Variational Quantum Algorithms",
-      "authors": [
-        "Soorya Haravu",
-        "Mafalda Ramôa",
-        "Bharath Sambasivam"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-09-15",
-      "abstract": "Hardware noise has been shown to significantly impact the accuracy of ADAPT-VQE, a ground state preparation algorithm. While previous work has studied the impact of noise on its parameter optimization step, its impact on the critical operator selection step remains comparatively unexplored. In this work, we examine the impact of a variety of noise channels on this step, using a linear H$_3$ molecule as a test case. We show that, despite the selection criterion's natural resilience to some noise,",
-      "keywords": [],
-      "arxivId": "2609.17501v1",
+      "arxivId": "2609.19135v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
