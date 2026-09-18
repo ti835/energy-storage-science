@@ -1,86 +1,99 @@
 {
-  "lastUpdated": "2026-09-17",
+  "lastUpdated": "2026-09-18",
   "papers": [
     {
-      "title": "Period-Inverted Blast-Radius Normalization for a Non-Ablating Hypersonic Reentry Source Using OSIRIS-REx Capsule Infrasound",
+      "title": "Statistics, 't Hooft Anomaly, and the Else-Nayak Index: a careful comparison of concepts",
       "authors": [
-        "Elizabeth A. Silber"
+        "Hanyu Xue"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-16",
-      "abstract": "Cylindrical blast wave theory relates infrasound from hypersonic sources to energy deposition through a characteristic blast radius R_0, yet the normalization constant k in the scaling R_0 = k (E_0/p_0)^(1/2) differs by up to 40% across the formulations examined here. This uncertainty affects period-based source characterization for elevated atmospheric sources relevant to infrasound monitoring. Using infrasound from the OSIRIS-REx Sample Return Capsule reentry on 24 September 2023, observed per",
+      "publishDate": "2026-09-17",
+      "abstract": "Generalized symmetries and topological excitations, as well as symmetry anomalies and the statistics of topological excitations, are widely believed to be related. There are, however, pitfalls in how this relation is established. A lattice truncation of a symmetry transformation to a finite patch gives a symmetry patch operator that creates symmetry defects at its boundary. This geometric picture resembles a hopping operator creating topological excitations at the boundary of its support, but do",
       "keywords": [],
-      "arxivId": "2609.19141v1",
+      "arxivId": "2609.20813v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
+      "title": "M2-brane matrix models and Fermi gas on affine ABCD quivers",
       "authors": [
-        "João Meneses dos Santos",
-        "Arlindo L. Oliveira"
+        "Taro Kimura",
+        "Tomoki Nosaka"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-16",
-      "abstract": "Language agents remain brittle in interactive environments, where success requires long-horizon state tracking, valid action execution, and recovery from failed steps. We extend SwiftSage, a dual-process agent that combines a fast action proposer with a slower planner, using two modular cognitive extensions: an Adaptive Memory Module (AMM) for salience-gated episodic storage and trigger-driven retrieval, and a Self-Reflection Module (SRM) for bounded execution-time validation and corrective inte",
+      "publishDate": "2026-09-17",
+      "abstract": "We study a new class of M2-brane matrix models associated with affine BC and twisted affine AD quivers. These models exhibit the characteristic $N^{3/2}$ scaling of the free energy in the large $N$ limit. We establish a Fermi gas formalism and demonstrate that their grand canonical sum is given by a Fredholm Pfaffian, which is in parallel with the affine D quiver matrix models. The resulting Fermi gas density matrix shows a rational dependence on the canonical position/momentum operators in addi",
       "keywords": [],
-      "arxivId": "2609.19128v1",
+      "arxivId": "2609.20806v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Divergence between long- and short-wavelength magnon damping in spinel ferrites",
+      "title": "The axion mass in the post-inflationary scenario in a minimal scaling model",
       "authors": [
-        "Christopher T. Parzyck",
-        "Octave Duros",
-        "Hari Paudyal",
-        "Noah M. Edmiston",
-        "Katya Mikhailova",
-        "Lerato Takana",
-        "Daisy O'Mahoney",
-        "Sauviz P. Alaei"
+        "José Correia",
+        "Mark Hindmarsh",
+        "Joanes Lizarraga",
+        "Asier Lopez-Eiguren",
+        "Kari Rummukainen",
+        "Jon Urrestilla"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-16",
-      "abstract": "The realization of practical, high-speed magnonic devices requires engineering magnetic materials with low dissipation over wide frequency ranges. While optical and microwave probes are used to infer the damping of low energy/long wavelength modes, the degree to which these $q\\sim0$ properties translate into higher-energy, finite-momentum modes remains an important open question. Here, we utilize a combination of ferromagnetic resonance (FMR) and resonant inelastic x-ray scattering on spinel fer",
+      "publishDate": "2026-09-17",
+      "abstract": "We calculate the dark matter axion mass in the post-inflationary scenario in a minimal model with a set of classical field theory simulations on $12\\,288^3$ grids. In the model, the Peccei-Quinn U(1) symmetry is broken by a complex scalar field at a temperature $f_{\\rm a} \\sim 10^{11}$ GeV, creating a string network. The strings become the boundaries of domain walls at the QCD transition, which draw the strings together and annihilate them. The decay of the strings and domain walls leaves behind",
       "keywords": [],
-      "arxivId": "2609.19112v1",
+      "arxivId": "2609.20801v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "In-Context Robot Learning with VLM Agents",
+      "title": "Environment Alignment and Redundant Record Formation in Imperfect-CNOT Quantum Darwinism",
       "authors": [
-        "Dongzhou Cheng",
-        "Taoran Yi",
-        "Ye Fang",
-        "Xingwu Zhang",
-        "Fan Feng",
-        "Yixuan Li",
-        "Gengxiong Zhuang",
-        "Rongze Wang"
+        "Aleksander Lasek",
+        "Paweł Horodecki"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-16",
-      "abstract": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such in-context learning (ICL), however, remains largely beyond the reach of existing robotic policies. The broad agentic capabilities of commercial vision-language models (VLMs), such as GPT-6 Astra, rai",
+      "publishDate": "2026-09-17",
+      "abstract": "Quantum Darwinism explains objective information through redundant environmental records. Earlier work established that imperfect records can be amplified and that environment self-evolution can enhance or suppress their formation. We investigate how preparation, interaction angle, and field disorder combine in an imperfect-CNOT model with random Gaussian couplings and pure, noninteracting environment qubits. We find that, without fields, a single alignment parameter $Λ$ determines the preparati",
       "keywords": [],
-      "arxivId": "2609.19138v1",
+      "arxivId": "2609.20823v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
       "authors": [
-        "Pranaya Jajoo"
+        "Bingxin Xu",
+        "Yuzhang Shang",
+        "Zhen Dong",
+        "Emilio Ferrara"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-16",
-      "abstract": "Can a logged dataset visit every hidden state frequently and still be exponentially uninformative about a target policy's value? We show that it can when the logger depends on history. For every horizon $H \\ge 3$, we construct two POMDPs with at most two latent states per stage, three actions, and a common logger with three memory states. Action coverage, belief coverage, and two behavior-marginal outcome-revealing conditions all have constants independent of $H$. Nevertheless, evaluating a know",
+      "publishDate": "2026-09-17",
+      "abstract": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding agent under a safety constraint, where each task pairs a manipulation goal with an obstacle the robot must not touch. The agent pursues the goal but collides with the obstacle in most cases, treating ta",
       "keywords": [],
-      "arxivId": "2609.19135v1",
+      "arxivId": "2609.20822v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos",
+      "authors": [
+        "Peiyu Liu",
+        "Dingxi Zhang",
+        "Federico Tombari",
+        "Marc Pollefeys",
+        "Christina Tsalicoglou",
+        "Daniel Barath"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-09-17",
+      "abstract": "A splash lives for a fraction of a second: sheets tear into ligaments and droplets, appearance is view-dependent and nearly textureless, and little persists long enough to track. Reconstruction research has consequently focused on smoke, synthetic liquids, or gently deforming surfaces. To our knowledge, no synchronized multi-view dataset of splashing liquids exists. We therefore introduce a benchmark of 20 real scenes, from coherent streams to violent splashes, captured by seven synchronized, ca",
+      "keywords": [],
+      "arxivId": "2609.20818v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
