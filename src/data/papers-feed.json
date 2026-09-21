@@ -1,96 +1,101 @@
 {
-  "lastUpdated": "2026-09-20",
+  "lastUpdated": "2026-09-21",
   "papers": [
     {
-      "title": "Statistics, 't Hooft Anomaly, and the Else-Nayak Index: a careful comparison of concepts",
+      "title": "Multi-Boundary Spinning $AdS_5$ Black Holes, Strongly Coupled Plasma Balls and a dual locally de Sitter spacetime",
       "authors": [
-        "Hanyu Xue"
+        "Andrés Anabalón",
+        "Guillermo Buckle",
+        "Annelies Fullgraff",
+        "Marcelo Oyarzo"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-17",
-      "abstract": "Generalized symmetries and topological excitations, as well as symmetry anomalies and the statistics of topological excitations, are widely believed to be related. There are, however, pitfalls in how this relation is established. A lattice truncation of a symmetry transformation to a finite patch gives a symmetry patch operator that creates symmetry defects at its boundary. This geometric picture resembles a hopping operator creating topological excitations at the boundary of its support, but do",
+      "publishDate": "2026-09-18",
+      "abstract": "We construct a new family of exact spinning black hole solutions in five-dimensional General Relativity with a negative cosmological constant, which are dual to strongly coupled spinning plasma balls on four-dimensional Minkowski spacetime. In analogy with the recent discovery of such black solutions in four bulk dimensions, the boundary Lorentz factor acts as a new coordinate in the bulk, giving rise to a new UV region that, in our case, is locally a three-dimensional de Sitter spacetime times ",
       "keywords": [],
-      "arxivId": "2609.20813v1",
+      "arxivId": "2609.22084v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "M2-brane matrix models and Fermi gas on affine ABCD quivers",
+      "title": "Energy minimization for eight points on the sphere",
       "authors": [
-        "Taro Kimura",
-        "Tomoki Nosaka"
+        "Liudmyla Kryvonos",
+        "Lukas Liehr",
+        "Mitchell A. Taylor"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-17",
-      "abstract": "We study a new class of M2-brane matrix models associated with affine BC and twisted affine AD quivers. These models exhibit the characteristic $N^{3/2}$ scaling of the free energy in the large $N$ limit. We establish a Fermi gas formalism and demonstrate that their grand canonical sum is given by a Fredholm Pfaffian, which is in parallel with the affine D quiver matrix models. The resulting Fermi gas density matrix shows a rational dependence on the canonical position/momentum operators in addi",
+      "publishDate": "2026-09-18",
+      "abstract": "We study the energy minimization problem for eight points on the unit sphere. For the logarithmic and Coulomb energies, we show that the unique global minimizer up to congruence is a square antiprism with height characterized by a unique stationarity equation. The proof is computer-assisted and fully verified in Lean. After this, we consider generalizations of the result to other important energies. For the Riesz $s$-energies, we provide a Lean-verified, non-computer-assisted proof that the squa",
       "keywords": [],
-      "arxivId": "2609.20806v1",
+      "arxivId": "2609.22077v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "The axion mass in the post-inflationary scenario in a minimal scaling model",
+      "title": "The AGN Channel in 3D: Scattering Belts and the Importance of Eccentricity in the Black Hole Population",
       "authors": [
-        "José Correia",
-        "Mark Hindmarsh",
-        "Joanes Lizarraga",
-        "Asier Lopez-Eiguren",
-        "Kari Rummukainen",
-        "Jon Urrestilla"
+        "Connar Rowan",
+        "Martin E. Pessah"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-17",
-      "abstract": "We calculate the dark matter axion mass in the post-inflationary scenario in a minimal model with a set of classical field theory simulations on $12\\,288^3$ grids. In the model, the Peccei-Quinn U(1) symmetry is broken by a complex scalar field at a temperature $f_{\\rm a} \\sim 10^{11}$ GeV, creating a string network. The strings become the boundaries of domain walls at the QCD transition, which draw the strings together and annihilate them. The decay of the strings and domain walls leaves behind",
+      "publishDate": "2026-09-18",
+      "abstract": "Active galactic nuclei (AGN) are a promising origin for observed gravitational wave mergers. Current population synthesis models are limited to 1D N-body or Monte Carlo methods which rely on statistical approaches to resolving dynamical scatterings. We present three-dimensional hybrid $N$-body simulations of a population of black holes (BHs) surrounding an AGN using a new code in development, AGNBI, where close interactions are directly simulated for both single and binary objects. Our results s",
       "keywords": [],
-      "arxivId": "2609.20801v1",
+      "arxivId": "2609.22074v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Environment Alignment and Redundant Record Formation in Imperfect-CNOT Quantum Darwinism",
+      "title": "MintAct: A Unified Visual Agent for Digital Environments",
       "authors": [
-        "Aleksander Lasek",
-        "Paweł Horodecki"
+        "Mingfei Gao",
+        "Rui Tian",
+        "Haiming Gang",
+        "Bohan Zhai",
+        "Le Zhang",
+        "Yuanzheng Gong",
+        "Di Feng",
+        "Ege Özsoy"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-17",
-      "abstract": "Quantum Darwinism explains objective information through redundant environmental records. Earlier work established that imperfect records can be amplified and that environment self-evolution can enhance or suppress their formation. We investigate how preparation, interaction angle, and field disorder combine in an imperfect-CNOT model with random Gaussian couplings and pure, noninteracting environment qubits. We find that, without fields, a single alignment parameter $Λ$ determines the preparati",
+      "publishDate": "2026-09-18",
+      "abstract": "We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through careful design of our environments, data, and training recipes, MintAct models match the performance of per-domain specialists across all of these capabilities. To enable this, we develop a scalable environment and reinforcement learning (RL) infrastructure. On the environment side, we host hundreds",
       "keywords": [],
-      "arxivId": "2609.20823v1",
+      "arxivId": "2609.22083v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "title": "Rotating Neutron Star Migrations as a Standardized Test for 3+1 Numerical Relativity",
       "authors": [
-        "Bingxin Xu",
-        "Yuzhang Shang",
-        "Zhen Dong",
-        "Emilio Ferrara"
+        "Óscar H. Petit",
+        "José A. Font",
+        "Nikolaos Stergioulas"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-17",
-      "abstract": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding agent under a safety constraint, where each task pairs a manipulation goal with an obstacle the robot must not touch. The agent pursues the goal but collides with the obstacle in most cases, treating ta",
+      "publishDate": "2026-09-18",
+      "abstract": "When simulating dynamically unstable neutron stars, truncation errors can introduce perturbations that drive the stellar configuration either toward gravitational collapse into a black hole or toward migration to a dynamically stable, lower-density configuration. This mechanism has become a standard benchmark for validating general-relativistic hydrodynamics codes in the case of spherically symmetric neutron-star models. In this work, we extend the analysis to the more general case of uniformly ",
       "keywords": [],
-      "arxivId": "2609.20822v1",
+      "arxivId": "2609.22080v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos",
+      "title": "LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control",
       "authors": [
-        "Peiyu Liu",
-        "Dingxi Zhang",
-        "Federico Tombari",
-        "Marc Pollefeys",
-        "Christina Tsalicoglou",
-        "Daniel Barath"
+        "Jake Gonzales",
+        "Arturo Flores Alvarez",
+        "Yu-Ming Chen",
+        "Aaron D. Ames",
+        "Lillian J. Ratliff",
+        "Manikantan Nambi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-17",
-      "abstract": "A splash lives for a fraction of a second: sheets tear into ligaments and droplets, appearance is view-dependent and nearly textureless, and little persists long enough to track. Reconstruction research has consequently focused on smoke, synthetic liquids, or gently deforming surfaces. To our knowledge, no synchronized multi-view dataset of splashing liquids exists. We therefore introduce a benchmark of 20 real scenes, from coherent streams to violent splashes, captured by seven synchronized, ca",
+      "publishDate": "2026-09-18",
+      "abstract": "Safe whole-body control requires coordinating collision avoidance and balance under high-dimensional, nonlinear dynamics--making safety certificates difficult to design and reuse across behaviors. We present LIMBO, a framework for synthesizing a state-action control barrier function and distilling its safety structure into a task policy. LIMBO learns the safety certificate from black-box transitions and a state-based failure specification over residual actions around a frozen base controller, ma",
       "keywords": [],
-      "arxivId": "2609.20818v1",
+      "arxivId": "2609.22075v1",
       "doi": "",
       "relevance": "medium"
     }
