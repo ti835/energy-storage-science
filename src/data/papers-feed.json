@@ -1,85 +1,85 @@
 {
-  "lastUpdated": "2026-09-23",
+  "lastUpdated": "2026-09-24",
   "papers": [
     {
-      "title": "The First Blind Survey of Intervening NaI Absorbers: Incidence and Cosmic Evolution with DESI",
+      "title": "Fast-Neutron Scintillation with Multi-Quantum-Well 2D Perovskites",
       "authors": [
-        "Abhijeet Anand",
-        "Sowgat Muzahid"
+        "Shaun Tan",
+        "Zachary Benesh",
+        "Seong Eui Chang",
+        "Shelby Elder",
+        "Haidi Jakovic",
+        "Tae-Woo Lee",
+        "Moungi G. Bawendi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-22",
-      "abstract": "We present the first blind statistical survey of intervening NaI absorbers over the last $\\simeq3$~Gyr using quasar spectra from the Dark Energy Spectroscopic Instrument Data Release~1. We identify 3636 NaI D doublets at $0.01\\lesssim z_{\\rm abs}\\lesssim0.27$ along 214,035 quasar sightlines. We quantify the survey selection function through end-to-end injection--recovery tests and estimate the residual contamination from visual inspection. The completeness reaches 50% at a rest-equivalent width ",
+      "publishDate": "2026-09-23",
+      "abstract": "Fast-neutron scintillators must efficiently convert neutron energy into detectable light while enabling selectivity between neutrons and the γ-ray background. Here, we report a synthesis strategy for layered two-dimensional (2D) lead halide perovskite scintillators with independent control of the macroscopic detector geometry and microscopic phase composition. Our synthesis approach produces mm-thick, large-area scintillators with a deliberately engineered multi-quantum-well energy landscape, cr",
       "keywords": [],
-      "arxivId": "2609.26794v1",
+      "arxivId": "2609.28468v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Cascade mechanisms for Navier-Stokes blow-up",
+      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
       "authors": [
-        "Alexey Cheskidov",
-        "Mimi Dai",
-        "Stan Palasek"
+        "Zilin Fang",
+        "Zishuo Wang",
+        "Gim Hee Lee",
+        "David Hsu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-22",
-      "abstract": "In a recent preprint (arXiv:2511.09556), we exhibited an inverse energy cascade for the 3D Navier-Stokes equations which results in \"instantaneous\" Type I blow-up and failure of uniqueness in certain sharp regularity classes. Our purpose here is to elucidate this phenomenon further in the setting of the Obukhov dyadic model, and to compare it to the better-known phenomenon of finite-time blow-up. When intermittency is low ($α\\leq 2$), we recover our previous result from the Navier-Stokes setting",
+      "publishDate": "2026-09-23",
+      "abstract": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity and formation. This is a highly semantic task, yet an important capability for applications such as robotic guide dogs and autonomous mobility scooters. We formulate language-grounded robot group joining: given an observation and a natural-language description of a target group, t",
       "keywords": [],
-      "arxivId": "2609.26790v1",
+      "arxivId": "2609.28467v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Error Suppression in Distributed Quantum Computing with Heterogeneous-Distance Lattice Surgery",
+      "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
       "authors": [
-        "Daniel Dilley",
-        "Anastashia Jebraeilli",
-        "Rayat Roy",
-        "Shobhit Gupta",
-        "Alvin Gonzales",
-        "Zain Saleem"
+        "Harold Haodong Chen",
+        "Rongjin Guo",
+        "Disen Lan",
+        "Wen-Jie Shu",
+        "Hongfei Zhang",
+        "Hanzhe Hu",
+        "Shengtao Yao",
+        "Zixin Zhang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-22",
-      "abstract": "Distributed quantum computing requires fault-tolerant operations across inter-QPU links that can be substantially noisier than local gates. Uniformly increasing code distance provides additional protection but also enlarges data patches used for local storage and computation. Here, we introduce distributed heterogeneous-distance lattice surgery using an eight-data-patch ancilla-mediated (8-DAM) architecture, which will be useful for near-term quantum devices with less qubit overhead. In this arc",
+      "publishDate": "2026-09-23",
+      "abstract": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generated sequence expands, practical models must operate under strictly bounded context windows, storage, and computational limits. Consequently, critical historical information, e.g., entity identities, dy",
       "keywords": [],
-      "arxivId": "2609.26784v1",
+      "arxivId": "2609.28466v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "title": "Market Completeness and Optional Projections under Restricted Information",
       "authors": [
-        "Quan Nguyen-Tri",
-        "Mukul Ranjan",
-        "Zhiqiang Shen"
+        "Levin David Schwab"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-22",
-      "abstract": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching and scalable parallel decoding mechanisms. Existing acceleration methods typically study KV caching and parallel decoding in isolation, overlooking the I/O bottlenecks that arise when cache reuse and",
+      "publishDate": "2026-09-23",
+      "abstract": "In a finite discrete-time market, trading decisions may be predictable with respect to a filtration that does not adapt asset prices. The first fundamental theorem then characterizes absence of arbitrage by measures under which the optional projection of discounted prices is a martingale. We examine the corresponding completeness question. For a fixed projection, every claim measurable with respect to its terminal price history is attainable precisely when all equivalent martingale measures of t",
       "keywords": [],
-      "arxivId": "2609.26796v1",
+      "arxivId": "2609.28463v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "φ-RIE: From Photorealistic Reconstruction to Interactive Environments",
+      "title": "Purely-logarithmic-time- and constant-space-overhead fault-tolerant quantum computation",
       "authors": [
-        "Runyi Yang",
-        "Deheng Zhang",
-        "Xiaoye Wang",
-        "Kanzhi Wu",
-        "Lei Sun",
-        "Ajad Chhatkuli",
-        "Kunyu Peng",
-        "Luc Van Gool"
+        "Zhengyi Han",
+        "Zi-Wen Liu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-22",
-      "abstract": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make contact, and reveal previously occluded surroundings. This gap arises because object appearance may remain entangled with the background, while hidden object geometry and occluded background content may be unobserved. To address",
+      "publishDate": "2026-09-23",
+      "abstract": "We prove that constant-space-overhead fault-tolerant quantum computation can be achieved with provably strictly logarithmic time overhead, improving over the best known results with additional subpolylogarithmic factors. Our main construction uses polynomial-subrank transversal logical $\\CCZ$ gates on good quantum locally testable codes to implement addressable universal computation by transferring batches of logical qubits between dense storage and active logical subspaces while reusing the sam",
       "keywords": [],
-      "arxivId": "2609.26795v1",
+      "arxivId": "2609.28461v1",
       "doi": "",
       "relevance": "medium"
     }
