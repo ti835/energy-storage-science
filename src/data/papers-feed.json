@@ -1,88 +1,65 @@
 {
-  "lastUpdated": "2026-09-24",
+  "lastUpdated": "2026-09-25",
   "papers": [
     {
-      "title": "Fast-Neutron Scintillation with Multi-Quantum-Well 2D Perovskites",
+      "title": "Upper critical dimension for dirty Weyl semimetal-to-metal quantum phase transitions",
       "authors": [
-        "Shaun Tan",
-        "Zachary Benesh",
-        "Seong Eui Chang",
-        "Shelby Elder",
-        "Haidi Jakovic",
-        "Tae-Woo Lee",
-        "Moungi G. Bawendi"
+        "Yongtai Li",
+        "Bitan Roy"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-23",
-      "abstract": "Fast-neutron scintillators must efficiently convert neutron energy into detectable light while enabling selectivity between neutrons and the γ-ray background. Here, we report a synthesis strategy for layered two-dimensional (2D) lead halide perovskite scintillators with independent control of the macroscopic detector geometry and microscopic phase composition. Our synthesis approach produces mm-thick, large-area scintillators with a deliberately engineered multi-quantum-well energy landscape, cr",
+      "publishDate": "2026-09-24",
+      "abstract": "Weyl or Dirac fermions with the iconic linear energy-momentum relation and average density of states (ADOS) $ρ(E) \\sim |E|^{d-1}$ at energy $E$ in $d$ spatial dimensions, constitute a unique setup to study the disorder-driven semimetal-to-metal quantum phase transition (QPT) between ballistic (realized for weak disorder) and diffusive (stabilized at stronger disorder) quasiparticles. Such a QPT takes place only for $d&gt;2$ and falls beyond the realm of the Anderson metal-to-insulator transition",
       "keywords": [],
-      "arxivId": "2609.28468v1",
+      "arxivId": "2609.30265v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
+      "title": "The geometric origin of the thermal eccentricity law",
       "authors": [
-        "Zilin Fang",
-        "Zishuo Wang",
-        "Gim Hee Lee",
-        "David Hsu"
+        "Václav Pavlík"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-23",
-      "abstract": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity and formation. This is a highly semantic task, yet an important capability for applications such as robotic guide dogs and autonomous mobility scooters. We formulate language-grounded robot group joining: given an observation and a natural-language description of a target group, t",
+      "publishDate": "2026-09-24",
+      "abstract": "The distribution $f(e)=2e$ is commonly referred to as the `thermal eccentricity distribution' of Keplerian binaries. However, the result does not require thermal equilibrium, and its usual derivations obscure why the distribution is linear in eccentricity. We seek a simple geometrical interpretation of this result and its relation to more general eccentricity distributions. We consider bound Kepler orbits in a Euclidean space of dimension $D\\geq2$, with a phase-space distribution depending only ",
       "keywords": [],
-      "arxivId": "2609.28467v1",
+      "arxivId": "2609.30259v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+      "title": "A Narrow Neutrino Window for the LZ Event",
       "authors": [
-        "Harold Haodong Chen",
-        "Rongjin Guo",
-        "Disen Lan",
-        "Wen-Jie Shu",
-        "Hongfei Zhang",
-        "Hanzhe Hu",
-        "Shengtao Yao",
-        "Zixin Zhang"
+        "Vedran Brdar",
+        "Dibya S. Chattopadhyay"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-23",
-      "abstract": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generated sequence expands, practical models must operate under strictly bounded context windows, storage, and computational limits. Consequently, critical historical information, e.g., entity identities, dy",
+      "publishDate": "2026-09-24",
+      "abstract": "The LUX-ZEPLIN (LZ) experiment has reported an event consistent with a $248$ keV nuclear recoil. Explaining the absence of lower-energy recoil events typically calls for some form of upscattering that kinematically forbids such events. In this work, we present a framework in which the LZ observation has a neutrino origin, with atmospheric neutrinos providing the dominant flux in the required energy range. A scenario in which atmospheric neutrinos upscatter to a heavier neutral state would also p",
       "keywords": [],
-      "arxivId": "2609.28466v1",
+      "arxivId": "2609.30255v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Market Completeness and Optional Projections under Restricted Information",
+      "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
       "authors": [
-        "Levin David Schwab"
+        "Jiabin Qiu",
+        "Zixuan Chen",
+        "Hongye Cao",
+        "Jieqi Shi",
+        "Jing Huo",
+        "Yang Gao"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-23",
-      "abstract": "In a finite discrete-time market, trading decisions may be predictable with respect to a filtration that does not adapt asset prices. The first fundamental theorem then characterizes absence of arbitrage by measures under which the optional projection of discounted prices is a martingale. We examine the corresponding completeness question. For a fixed projection, every claim measurable with respect to its terminal price history is attainable precisely when all equivalent martingale measures of t",
+      "publishDate": "2026-09-24",
+      "abstract": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction error yet poorly distinguish candidate actions. We introduce AD-WM, an action-discriminative joint-embedding world model for counterfactual MPC. AD-WM combines residual latent dynamics with predictor-level action-recovery regularization, using inverse dynamics and a normalized re",
       "keywords": [],
-      "arxivId": "2609.28463v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Purely-logarithmic-time- and constant-space-overhead fault-tolerant quantum computation",
-      "authors": [
-        "Zhengyi Han",
-        "Zi-Wen Liu"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-09-23",
-      "abstract": "We prove that constant-space-overhead fault-tolerant quantum computation can be achieved with provably strictly logarithmic time overhead, improving over the best known results with additional subpolylogarithmic factors. Our main construction uses polynomial-subrank transversal logical $\\CCZ$ gates on good quantum locally testable codes to implement addressable universal computation by transferring batches of logical qubits between dense storage and active logical subspaces while reusing the sam",
-      "keywords": [],
-      "arxivId": "2609.28461v1",
+      "arxivId": "2609.30264v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 4
 }
