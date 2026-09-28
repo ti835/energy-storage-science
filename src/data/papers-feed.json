@@ -1,65 +1,79 @@
 {
-  "lastUpdated": "2026-09-27",
+  "lastUpdated": "2026-09-28",
   "papers": [
     {
-      "title": "Upper critical dimension for dirty Weyl semimetal-to-metal quantum phase transitions",
+      "title": "Quantum Representation Selects Neutral Skyrmion Molecules",
       "authors": [
-        "Yongtai Li",
-        "Bitan Roy"
+        "Vishnu Jejjala"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-24",
-      "abstract": "Weyl or Dirac fermions with the iconic linear energy-momentum relation and average density of states (ADOS) $ρ(E) \\sim |E|^{d-1}$ at energy $E$ in $d$ spatial dimensions, constitute a unique setup to study the disorder-driven semimetal-to-metal quantum phase transition (QPT) between ballistic (realized for weak disorder) and diffusive (stabilized at stronger disorder) quasiparticles. Such a QPT takes place only for $d&gt;2$ and falls beyond the realm of the Anderson metal-to-insulator transition",
+      "publishDate": "2026-09-25",
+      "abstract": "Skyrmions experience a sideways gyroscopic force when they move. Bound molecules can cancel this force; we call them gyroscopically neutral. We show that the quantum states available on each site of a magnet select the composition needed for cancellation. In two models of $SU(3)$ magnetism, this composition changes from a pair to a trimer. Both models assign exactly the same energy to every configuration of their common classical order parameter, isolating the effect of the local quantum states.",
       "keywords": [],
-      "arxivId": "2609.30265v1",
+      "arxivId": "2609.31618v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "The geometric origin of the thermal eccentricity law",
+      "title": "A Multidimensional General-Relativistic Boltzmann Solver for Neutrino Transport: Implementation, Discretization and Optimization",
       "authors": [
-        "Václav Pavlík"
+        "Arthur Offermans",
+        "Harry Ho-Yin Ng",
+        "Patrick Chi-Kit Cheong",
+        "Anthony Mezzacappa",
+        "Tjonnie Guang Feng Li"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-24",
-      "abstract": "The distribution $f(e)=2e$ is commonly referred to as the `thermal eccentricity distribution' of Keplerian binaries. However, the result does not require thermal equilibrium, and its usual derivations obscure why the distribution is linear in eccentricity. We seek a simple geometrical interpretation of this result and its relation to more general eccentricity distributions. We consider bound Kepler orbits in a Euclidean space of dimension $D\\geq2$, with a phase-space distribution depending only ",
+      "publishDate": "2026-09-25",
+      "abstract": "We present the implementation of a multidimensional general-relativistic Boltzmann solver for neutrino transport using the finite volume method. We extend the general-relativistic magnetohydrodynamics solver \\texttt{Gmunu} to discretize the full $6$D phase space. We discretize the momentum space in spherical coordinates in the comoving frame, and the position space in the lab frame in Cartesian, cylindrical or spherical coordinates. As in the M1 scheme, we expand the interaction kernels up to fi",
       "keywords": [],
-      "arxivId": "2609.30259v1",
+      "arxivId": "2609.31611v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A Narrow Neutrino Window for the LZ Event",
+      "title": "A unified sensitivity kernel for coherent wave tomography in radar, seismic, ultrasound, and optical imaging",
       "authors": [
-        "Vedran Brdar",
-        "Dibya S. Chattopadhyay"
+        "Alexey Yamilov"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-24",
-      "abstract": "The LUX-ZEPLIN (LZ) experiment has reported an event consistent with a $248$ keV nuclear recoil. Explaining the absence of lower-energy recoil events typically calls for some form of upscattering that kinematically forbids such events. In this work, we present a framework in which the LZ observation has a neutrino origin, with atmospheric neutrinos providing the dominant flux in the required energy range. A scenario in which atmospheric neutrinos upscatter to a heavier neutral state would also p",
+      "publishDate": "2026-09-25",
+      "abstract": "Imaging an inhomogeneous medium with waves rests on the sensitivity of a boundary measurement to a change inside. Radar, seismology, medical ultrasound, and diffuse optics cast this sensitivity as a kernel of area-specific form. Here we show that all of them are built from two classes. The classes stem from the complex material parameter of the underlying wave equation, its real part determining the wave speed and its imaginary part the loss. Every kernel is the product of a forward and an adjoi",
       "keywords": [],
-      "arxivId": "2609.30255v1",
+      "arxivId": "2609.31583v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
+      "title": "A Unified Spin-Fermion Framework for Magnetic Diversity in Chromium Monopnictides",
       "authors": [
-        "Jiabin Qiu",
-        "Zixuan Chen",
-        "Hongye Cao",
-        "Jieqi Shi",
-        "Jing Huo",
-        "Yang Gao"
+        "Ruoshi Jiang",
+        "Bartomeu Monserrat"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-24",
-      "abstract": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction error yet poorly distinguish candidate actions. We introduce AD-WM, an action-discriminative joint-embedding world model for counterfactual MPC. AD-WM combines residual latent dynamics with predictor-level action-recovery regularization, using inverse dynamics and a normalized re",
+      "publishDate": "2026-09-25",
+      "abstract": "Isoelectronic compounds are generally expected to exhibit related electronic, structural, and magnetic behavior. Chromium monopnictides CrX (X= Sb, As, P), however, display a striking evolution from high-temperature altermagnetism in NiAs-type CrSb, through double-helical antiferromagnetism in MnP-type CrAs, to the absence of resolved long-range magnetic order in MnP-type CrP. Here, combining first-principles calculations in the non-collinear Curie-paramagnetic state, structural analysis, magnet",
       "keywords": [],
-      "arxivId": "2609.30264v1",
+      "arxivId": "2609.31616v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "User Model Extraction via Belief Self-Distillation",
+      "authors": [
+        "Ali Holmov",
+        "Yiran Huang",
+        "Kirill Bykov",
+        "Zeynep Akata"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-09-25",
+      "abstract": "Large language models (LLMs) implicitly infer attributes of their users and adapt their behavior accordingly, yet these beliefs remain difficult to inspect and causally manipulate. We introduce Belief Self-Distillation (BSD), a unified read-write framework that bridges linear and causal probing by learning a compact user representation that can be both decoded and written back into the model. The frozen LLM acts as its own teacher, distilling beliefs from natural conversations without external a",
+      "keywords": [],
+      "arxivId": "2609.31603v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 4
+  "totalCount": 5
 }
