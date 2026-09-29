@@ -1,79 +1,105 @@
 {
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-09-29",
   "papers": [
     {
-      "title": "Quantum Representation Selects Neutral Skyrmion Molecules",
+      "title": "Gauge Backreaction in Standard Model Warm Inflation",
       "authors": [
-        "Vishnu Jejjala"
+        "Rafid H. Dejrah",
+        "Anish Ghoshal"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-25",
-      "abstract": "Skyrmions experience a sideways gyroscopic force when they move. Bound molecules can cancel this force; we call them gyroscopically neutral. We show that the quantum states available on each site of a magnet select the composition needed for cancellation. In two models of $SU(3)$ magnetism, this composition changes from a pair to a trimer. Both models assign exactly the same energy to every configuration of their common classical order parameter, isolating the effect of the local quantum states.",
-      "keywords": [],
-      "arxivId": "2609.31618v1",
+      "publishDate": "2026-09-28",
+      "abstract": "Standard-Model warm inflation (SMWI) makes QCD the microscopic origin of inflationary dissipation, so the real-time response of the gauge plasma enters the cosmological prediction. We show that a slowly relaxing gauge-helicity response cannot, in general, be absorbed into an effective friction coefficient and must instead remain dynamical. We therefore evolve the quark axial densities and a matched hard-helicity mode, with QCD sphalerons and an effective $2\\leftrightarrow3$ channel generating bo",
+      "keywords": [
+        "screening"
+      ],
+      "arxivId": "2609.35756v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A Multidimensional General-Relativistic Boltzmann Solver for Neutrino Transport: Implementation, Discretization and Optimization",
+      "title": "Covariant Contrastive Learning for Uncertainty-Aware Anomaly Detection",
       "authors": [
-        "Arthur Offermans",
-        "Harry Ho-Yin Ng",
-        "Patrick Chi-Kit Cheong",
-        "Anthony Mezzacappa",
-        "Tjonnie Guang Feng Li"
+        "Shelley Tong",
+        "Philip Harris",
+        "Gaia Grosso"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-25",
-      "abstract": "We present the implementation of a multidimensional general-relativistic Boltzmann solver for neutrino transport using the finite volume method. We extend the general-relativistic magnetohydrodynamics solver \\texttt{Gmunu} to discretize the full $6$D phase space. We discretize the momentum space in spherical coordinates in the comoving frame, and the position space in the lab frame in Cartesian, cylindrical or spherical coordinates. As in the M1 scheme, we expand the interaction kernels up to fi",
-      "keywords": [],
-      "arxivId": "2609.31611v1",
+      "publishDate": "2026-09-28",
+      "abstract": "Machine-learning-based anomaly detection (AD) offers a promising, model-agnostic alternative to traditional LHC analyses, allowing to search for many signals at once. Recent advances in representation learning motivate the use of neural embeddings to map high-dimensional physics observables into low-dimensional latent spaces better suited to statistical inference. However, the propagation of systematic uncertainty in embedded spaces remains poorly understood, severely limiting the application of",
+      "keywords": [
+        "machine learning"
+      ],
+      "arxivId": "2609.35755v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A unified sensitivity kernel for coherent wave tomography in radar, seismic, ultrasound, and optical imaging",
+      "title": "GAIA meets LZ: a high velocity tail-tale sign for dark matter",
       "authors": [
-        "Alexey Yamilov"
+        "Anirban Das",
+        "Subhabrata Majumdar",
+        "Manibrata Sen",
+        "Amogh Srivastav"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-25",
-      "abstract": "Imaging an inhomogeneous medium with waves rests on the sensitivity of a boundary measurement to a change inside. Radar, seismology, medical ultrasound, and diffuse optics cast this sensitivity as a kernel of area-specific form. Here we show that all of them are built from two classes. The classes stem from the complex material parameter of the underlying wave equation, its real part determining the wave speed and its imaginary part the loss. Every kernel is the product of a forward and an adjoi",
+      "publishDate": "2026-09-28",
+      "abstract": "The interpretation of high-energy nuclear recoils in direct-detection experiments can depend sensitively on the high-velocity tail of the galactic dark matter (DM) distribution. The LUX-ZEPLIN (LZ) experiment has recently reported an event, LZ230616, with nuclear recoil energy 248 $\\pm$ 23 (stat) $\\pm$ 23 (sys) keV, while the Gaia mission has provided an unprecedented view of the kinematics and mass distribution of the Milky Way. We bring these two probes together to investigate the inelastic DM",
       "keywords": [],
-      "arxivId": "2609.31583v1",
+      "arxivId": "2609.35737v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A Unified Spin-Fermion Framework for Magnetic Diversity in Chromium Monopnictides",
+      "title": "Unifying Distributional Training for One-Step Visual Generation",
       "authors": [
-        "Ruoshi Jiang",
-        "Bartomeu Monserrat"
+        "Chi Zhang",
+        "Haoyang Shi",
+        "Yueyi Liu",
+        "Ruichuan An",
+        "Junkang Zhou",
+        "Chang Li",
+        "Xiuyuan Lu",
+        "Yichi Zhang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-25",
-      "abstract": "Isoelectronic compounds are generally expected to exhibit related electronic, structural, and magnetic behavior. Chromium monopnictides CrX (X= Sb, As, P), however, display a striking evolution from high-temperature altermagnetism in NiAs-type CrSb, through double-helical antiferromagnetism in MnP-type CrAs, to the absence of resolved long-range magnetic order in MnP-type CrP. Here, combining first-principles calculations in the non-collinear Curie-paramagnetic state, structural analysis, magnet",
+      "publishDate": "2026-09-28",
+      "abstract": "\\emph{Distributional training} provides collective supervision for one-step visual generation by matching real and generated features in frozen representation spaces. We introduce \\emph{a unified theoretical framework} that separates distribution modeling from matching discrepancy and connects global objectives to pointwise feature updates through Wasserstein gradient flow. Under this framework, FD-Loss and Gaussian-kernel Drifting are recovered through Gaussian optimal transport and kernel-dens",
       "keywords": [],
-      "arxivId": "2609.31616v1",
+      "arxivId": "2609.35763v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "User Model Extraction via Belief Self-Distillation",
+      "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
       "authors": [
-        "Ali Holmov",
-        "Yiran Huang",
-        "Kirill Bykov",
-        "Zeynep Akata"
+        "Zhennan Wan",
+        "Jianfei Chen"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-25",
-      "abstract": "Large language models (LLMs) implicitly infer attributes of their users and adapt their behavior accordingly, yet these beliefs remain difficult to inspect and causally manipulate. We introduce Belief Self-Distillation (BSD), a unified read-write framework that bridges linear and causal probing by learning a compact user representation that can be both decoded and written back into the model. The frozen LLM acts as its own teacher, distilling beliefs from natural conversations without external a",
+      "publishDate": "2026-09-28",
+      "abstract": "LLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Existing story-generation methods typically focus on stories of up to about ten thousand words, leaving their ability to scale to full-length novels underexplored. In this work, we introduce Narrative State Tracking Agent (NstAgent), a training-free agentic framework that allows LLMs to track a struct",
       "keywords": [],
-      "arxivId": "2609.31603v1",
+      "arxivId": "2609.35759v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Statistical Learning of Contractive Dynamical Representations for Composite Adaptive Control",
+      "authors": [
+        "Min Kim",
+        "José Leonardo Brenes",
+        "Fred Hadaegh",
+        "Soon-Jo Chung"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-09-28",
+      "abstract": "We present a representation-learning framework for composite adaptive tracking control under dynamically coupled disturbances. The framework connects classical disturbance-accommodating control (DAC) to recent last-layer adaptive disturbance-rejection methods. Specifically, we introduce a statistically principled hard expectation-maximization (hard-EM) procedure, with a Kalman smoother in the hard E-step, to identify dynamical representations of disturbance whose latent evolution is uniformly co",
+      "keywords": [],
+      "arxivId": "2609.35758v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
