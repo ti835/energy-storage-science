@@ -1,98 +1,90 @@
 {
-  "lastUpdated": "2026-10-01",
+  "lastUpdated": "2026-10-02",
   "papers": [
     {
-      "title": "Resonances control when multiterminal Josephson currents reduce to two-terminal couplings",
+      "title": "Leading gravitational dressing of operators and states in de Sitter space",
       "authors": [
-        "A. Barış Özgüler"
+        "Steven B. Giddings",
+        "Zi-Yue Wang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-30",
-      "abstract": "Multiterminal Josephson junctions, in which one weak link couples three or more superconductors, are studied as hosts of topological Andreev bands, multi-pair supercurrents and tunable circuit elements. Their currents are modeled both as pairwise networks of two-terminal couplings and through genuinely multiterminal processes such as quartets. We ask how accurate the pairwise description is and what controls its error. In a microscopic scattering model of planar junctions, we compare exact curre",
+      "publishDate": "2026-10-01",
+      "abstract": "We describe construction of gravitationally dressed observables in de Sitter (dS) space, to leading non-trivial order in Newton's constant. We show that for an underlying field theory observable to be \"gravitationally dressable,\" it must be dS invariant. If it satisfies this condition, its gravitational dressing can be constructed in terms of certain Green functions, by solving the condition that the dressed observable commute with the constraints. We provide a construction of the Green function",
       "keywords": [],
-      "arxivId": "2609.40346v1",
+      "arxivId": "2610.02209v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Local Relaxation Hierarchies for Quantum Ground State Energies: Convergence Guarantees and Message Passing Algorithms",
+      "title": "Cost-augmented Schrödinger bridges on graphs are exactly solvable: a Feynman-Kac tilt replaces learned control",
       "authors": [
-        "Sheng-Ku Lin",
-        "Ricardo Rivera Cardoso",
-        "Roberto Bondesan"
+        "Akshay Balsubramani"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-30",
-      "abstract": "Convex relaxation hierarchies provide lower bounds to the ground state energy of quantum many-body systems that can be computed in polynomial time on a classical computer, at any fixed hierarchy level. However, scaling these methods to large systems and accurate approximations remains challenging due to the computational cost of traditional solvers and the scarcity of efficiency guarantees. In this work, we develop local relaxation hierarchies and efficient, highly parallelisable message passing",
+      "publishDate": "2026-10-01",
+      "abstract": "The generalized Schrödinger bridge on a graph moves mass between two distributions while charging a cost for the states visited. It has been approached by learning the rates of a controlled continuous-time Markov chain, with a temporal-difference penalty that restores the cost. A state cost folds into the reference process as a Feynman-Kac tilt. The cost-augmented bridge is then a plain bridge against the tilted reference, and the penalty is unnecessary. The bridge is computed exactly by alterna",
       "keywords": [],
-      "arxivId": "2609.40336v1",
+      "arxivId": "2610.02195v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Four-loop beta function in N=2 supersymmetric Yang-Mills theory, dimensional reduction, and treatment of $γ_5$",
+      "title": "Hyperbolic lattices with mass disorder: Phases and phase transitions",
       "authors": [
-        "M. A. Bezuglov",
-        "B. A. Kniehl",
-        "V. N. Velizhanin"
+        "Sheersh Sen",
+        "Christopher A. Leong",
+        "Bitan Roy"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-30",
-      "abstract": "Adopting the dimensional-reduction scheme, we diagrammatically compute, at four loops, the beta function of N=2 supersymmetric Yang-Mills theory, which is well known to vanish beyond one loop. This provides a formidable testbed for both the treatment of the problematic $γ_5$ Dirac matrix in D dimensions and the implementation of the dimensional-reduction scheme. In the use of the reading-point method of $γ_5$, being preferable for convenience, specific details of implementation start to matter a",
-      "keywords": [],
-      "arxivId": "2609.40326v1",
+      "publishDate": "2026-10-01",
+      "abstract": "Nearest-neighbor (NN) tight-binding models (TBMs) on plaquette-centered $\\{ 10,3\\}$ (Schläfli symbol), $\\{ 8,3\\}$, and $\\{ 8,4\\}$ hyperbolic lattices on a Poincaré disk with open boundary conditions display a vanishing, a finite, and a diverging density of states (DOS) near zero energy (band center), respectively, yielding a Dirac liquid, a Fermi liquid, and a flat band. Emergent bipartite nature of these lattices within the framework of NN-TBMs, allows us to scrutinize the impact of mass disord",
+      "keywords": [
+        "BMS"
+      ],
+      "arxivId": "2610.02192v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Quantum hypothesis testing of non-mixed-unitarity: A multifaceted hierarchy of quantum channel discrimination",
+      "title": "ROWBench: Do Video Models Render What the Program Specifies?",
       "authors": [
-        "Pratik Ghosal",
-        "Pritam Halder",
-        "Ayan Patra",
-        "Aditi Sen"
+        "Zheng-Hui Huang",
+        "Guixu Lin",
+        "Yu-Ju Tsai",
+        "Jian-Kai Zhu",
+        "Fengbo Lan",
+        "Yu-Lun Liu",
+        "Yung-Yu Chuang",
+        "Kaipeng Zhang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-30",
-      "abstract": "Given multiple uses of an unknown quantum channel, we determine whether it is a specified non-mixed-unitary channel or belongs to the set of mixed-unitary channels. Formulating this as a composite channel hypothesis testing problem, we characterize the Stein exponents achievable by parallel strategies under progressively weaker restrictions on probe states and auxiliary memory. In particular, we consider block-i.i.d. probes, which allow arbitrary correlations within blocks of fixed size while re",
+      "publishDate": "2026-10-01",
+      "abstract": "Programmable world models separate executable dynamics from visual generation, offering a promising foundation for next-generation game engines. However, their visual adherence to explicit rules and interactions remains insufficiently evaluated. Existing benchmarks assess visual quality, controllability, and instruction or physical adherence, but rarely test fidelity to fine-grained, program-specified world events. We introduce PROWBench, comprising 170 programmatically constructed episodes and ",
       "keywords": [],
-      "arxivId": "2609.40355v1",
+      "arxivId": "2610.02205v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "ISS and integral ISS coincide for linear systems with bounded inputs",
+      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
       "authors": [
-        "Sahiba Arora",
-        "Philip Preußler",
-        "Felix Schwenninger"
+        "Yen-Jen Wang",
+        "Haozhe Jiang",
+        "Shuying Deng",
+        "Haoru Xue",
+        "Weirui Ye",
+        "Rocky Duan",
+        "Nika Haghtalab",
+        "S. Shankar Sastry"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-09-30",
-      "abstract": "We show that input-to-state stability (ISS) and integral input-to-state stability (integral ISS) with respect to the space of essentially bounded functions are equivalent properties for linear systems. The proof combines recent results on Orlicz-admissibility and a duality result due to the authors. As a direct consequence, we show that, given an $L^\\infty$-admissible control operator, the mild solutions of the linear system are continuous, resolving a question by G.\\ Weiss.",
+      "publishDate": "2026-10-01",
+      "abstract": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems without updating model weights. RPG identifies manipulation capabilities in an offline dataset and constructs related practice tasks in simulation. During practice, RPG uses execution feedback, privileged s",
       "keywords": [],
-      "arxivId": "2609.40348v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Image Classifiers are Efficient Self-Supervised Video Representation Learners",
-      "authors": [
-        "Owais Iqbal",
-        "Sudipta Sarkar",
-        "Shyam Marjit",
-        "Omprakash Chakraborty",
-        "Anirban Chakraborty",
-        "Abir Das"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-09-30",
-      "abstract": "We introduce VideoMSN, a Masked Siamese Network framework for efficient self-supervised spatio-temporal representation learning in videos. Instead of relying on heavy 3D architectures or reconstruction-based autoencoders for learning with unlabeled data, we repurpose standard image Vision Transformers by representing videos as super images which are grids composed of frames sampled from videos. From each super image, we construct two views: one with spatial patch masking and the other with tempo",
-      "keywords": [],
-      "arxivId": "2609.40347v1",
+      "arxivId": "2610.02204v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
