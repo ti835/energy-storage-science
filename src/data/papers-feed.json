@@ -1,86 +1,95 @@
 {
-  "lastUpdated": "2026-10-06",
+  "lastUpdated": "2026-10-07",
   "papers": [
     {
-      "title": "Boundary-accessible work in a collision-charged topological quantum battery",
-      "authors": [
-        "Osman Orçun Keskin",
-        "Özgür E. Müstecaplıoğlu"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-10-05",
-      "abstract": "Quantum batteries store energy in nonequilibrium quantum states. The ergotropy sets the work extractable by an arbitrary global unitary, but a device usually exchanges energy through a single local port. It remains unclear how much stored work such a port can deliver, and whether topological edge modes help. We study a dimerized spin chain of Su-Schrieffer-Heeger (SSH) type. Excited two-level ancillas charge it at one end by repeated collisions, and an initially empty two-level load discharges i",
-      "keywords": [],
-      "arxivId": "2610.06849v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Energy-constrained two-way capacities of the pure-loss bosonic channel",
+      "title": "Energy-constrained two-way capacity bounds for noisy Gaussian channels",
       "authors": [
         "Stefano Pirandola"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-05",
-      "abstract": "We determine the two-way quantum, entanglement-distribution, private, and secret-key capacities of the pure-loss bosonic channel under an unconditional mean transmitted-photon-number constraint. For transmissivity $η$ and mean photon number $N$, all four capacities coincide and are given by $g(N)-g((1-η)N)$, where $g$ is the entropy of a thermal mode. This resolves the longstanding finite-energy capacity problem by establishing the optimality of the reverse-coherent-information rate introduced i",
+      "publishDate": "2026-10-06",
+      "abstract": "A gap between achievable rates and converse bounds persists for energy-constrained bosonic communication in the presence of excess noise. We derive a unified adaptive weak-converse bound for thermal attenuation, noisy amplification, and additive Gaussian noise under an unconditional mean transmitted-photon-number constraint. The bound applies to arbitrary adaptive protocols with quantum memories and constrains the two-way quantum, entanglement-distribution, private, and secret-key capacities. It",
       "keywords": [],
-      "arxivId": "2610.06832v1",
+      "arxivId": "2610.08786v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Paradee: Distilling Kokoro-82M into an 8M-Parameter Single-Voice Text-to-Speech Model",
+      "title": "Normalised Hamiltonian Elliptic Systems: a Gagliardo-Nirenberg inequality for bilinear mass",
       "authors": [
-        "Sahil Mahendrakar"
+        "Daniele Cassani",
+        "Giulio Romani"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-05",
-      "abstract": "We distill Kokoro-82M, a widely used open text-to-speech model with 54 voices, into Paradee, an 8.07M-parameter model that speaks one of them. Paradee keeps Kokoro's architecture with much narrower layers, and each of its two halves is trained separately against the frozen teacher. It has 10x fewer parameters and needs 15x less compute. We first synthesize a corpus with the teacher and keep its durations, pitch, energy and phoneme features. We then train a small text side to predict these values",
+      "publishDate": "2026-10-06",
+      "abstract": "We study Hamiltonian elliptic systems with prescribed bilinear mass $\\int_{\\mathbb{R}^N}uv=a&gt;0$. We establish a Gagliardo--Nirenberg inequality in the crossed gradient pairing and bilinear mass, on scaling-invariant component-bounded classes. It identifies the critical curve $1/p+1/q=N/(N+2)$ and the restricted energy trichotomy. For power nonlinearities, we establish uniqueness up to common translations and nondegeneracy of positive profiles throughout the Sobolev-subcritical hyperbola. Exac",
       "keywords": [],
-      "arxivId": "2610.06817v1",
+      "arxivId": "2610.08774v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Base Models Can Reason By Taking a Cue From Training Data",
+      "title": "Small Distortions, Big Polarization: Tetragonal BaTiO3 Nanoparticles for High-Performance Piezoelectric Nanogenerators",
       "authors": [
-        "Sophie L. Wang",
-        "Amil Dravid",
-        "Rulin Shao",
-        "Kevin Farhat",
-        "Sewon Min",
-        "Alexei A. Efros"
+        "Shivshankar Jokare",
+        "Vikash Kushwaha",
+        "Mandar Shirolkar",
+        "Shruti Kharadkar",
+        "R. Boomishankar",
+        "Smita Chaturvedi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-05",
-      "abstract": "In this paper, we study how training data creates associations between the tokens at the start of a base model's response and the reasoning behavior that follows. First, we demonstrate that fixing particular starting token cues makes a base model's performance competitive with that of its reinforcement learning (RL)-trained counterparts on math and coding. For instance, the cue \".\\n\\nOkay\" raises Olmo-3-7B's MATH-500 pass@1 accuracy from 42% to 78%, while \"Alright,\" raises Qwen3-14B's from 72% t",
-      "keywords": [],
-      "arxivId": "2610.06851v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "TranScope: What the Software Hides About LLM Training Data, the Hardware Reveals at Scale, and Accelerators Magnify",
-      "authors": [
-        "Joshua Kalyanapu",
-        "Darsh Asher",
-        "Kaushal Mhapsekar",
-        "Bita Aslrousta",
-        "Rushiraj Chaitanyakumar Sheth",
-        "Maharshi Mukeshkumar Oza",
-        "Achyuta Kannan",
-        "Samira Mirbagher Ajorpaz"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-10-05",
-      "abstract": "Membership is the root privacy primitive in machine learning: to date, no hardware-based out-of-distribution detection on black-box models has been demonstrated against constant-time, static neural networks with masked confidence. This paper performs the first cycle-level examination of how large language models and vision transformers interact with various modern microarchitecture components, including integrated accelerators, as LLMs scale in size and answers the question of whether the data t",
+      "publishDate": "2026-10-06",
+      "abstract": "Lead-free ferroelectric BaTiO3 (BTO) nanoparticles with stabilized tetragonal distortion were synthesized via a ligand-assisted sol-gel method to serve as the active piezoelectric phase in high-performance hybrid piezoelectric nanogenerators (PENGs) operating with triboelectric synergy. XRD, Raman spectroscopy, and Pair Distribution Function (PDF) analysis confirmed pseudo-cubic tetragonal BTO nanoparticle, annealed at 900°C (BTO-900, ~54nm) and well-defined tetragonal BTO annealed at 1200°C (BT",
       "keywords": [
-        "machine learning"
+        "interface"
       ],
-      "arxivId": "2610.06848v1",
+      "arxivId": "2610.08762v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Chiral Central Charge from Real-Space Twist Operator Correlator",
+      "authors": [
+        "Yunlong Zang"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-06",
+      "abstract": "Recent years have witnessed substantial progress in the entanglement-based characterization of quantum phases of matter, with growing interest in real-space formulas due to their theoretical and experimental relevance. For two-dimensional gapped quantum systems, we propose a universal real-space formula for the chiral central charge based on the twist-operator correlator $Z_{g,h}=\\langleψ^{(N)}\\rvert\\mathcal{T}_A(g)\\mathcal{T}_B(h)\\mathcal{T}_C(g)\\mathcal{T}_C(h)\\lvertψ^{(N)}\\rangle$, where $\\lv",
+      "keywords": [],
+      "arxivId": "2610.08788v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Algebraic Tensor Network Renormalization and Holographic duality",
+      "authors": [
+        "Chenqi Meng",
+        "Tian Lan",
+        "Zhengcheng Gu"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-06",
+      "abstract": "Emergent generalized symmetries and the holographic principle play very important roles in understanding quantum phase transitions. In recent years, tensor-network renormalization with generalized symmetry and the corresponding fixed-point tensor formulation have been proposed as a discrete spacetime framework for reformulating conformal field theory. Nevertheless, a complete holographic formulation within this framework is still lacking, and the current formulation does not directly accommodate",
+      "keywords": [],
+      "arxivId": "2610.08787v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Quantum twisting microscopy as a momentum-resolved probe of quantum geometry and sublattice symmetries",
+      "authors": [
+        "Lucas V. Pupim",
+        "Mathias S. Scheurer"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-06",
+      "abstract": "In two-dimensional (2D) flat-band systems, as engineered, for instance, by stacking and twisting van der Waals materials, the momentum dependence of the Bloch states is a key factor in determining the interaction-induced emergence of different phases. Hence, methods of probing this form of ''quantum geometry'' are crucial to understanding these systems. Yet, extracting the momentum dependence of the underlying quantum geometric tensor from measurements is challenging in 2D. Here, we propose empl",
+      "keywords": [],
+      "arxivId": "2610.08783v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
