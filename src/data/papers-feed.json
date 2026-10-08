@@ -1,92 +1,105 @@
 {
-  "lastUpdated": "2026-10-07",
+  "lastUpdated": "2026-10-08",
   "papers": [
     {
-      "title": "Energy-constrained two-way capacity bounds for noisy Gaussian channels",
+      "title": "Null string holography in AdS from local BRST descent",
       "authors": [
-        "Stefano Pirandola"
+        "Sarthak Duary",
+        "Sourav Maji"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-06",
-      "abstract": "A gap between achievable rates and converse bounds persists for energy-constrained bosonic communication in the presence of excess noise. We derive a unified adaptive weak-converse bound for thermal attenuation, noisy amplification, and additive Gaussian noise under an unconditional mean transmitted-photon-number constraint. The bound applies to arbitrary adaptive protocols with quantum memories and constrains the two-way quantum, entanglement-distribution, private, and secret-key capacities. It",
+      "publishDate": "2026-10-07",
+      "abstract": "We show that the radial sector of a Carroll-Weyl gauged null string in Poincaré $\\mathrm{AdS}_D$ is locally trivial in BRST cohomology. In a quotient-adapted BFV basis, the radial coordinate, its conjugate momentum, and the associated ghosts form a contractible quartet. An explicit contracting homotopy extends this reduction to the full algebra of local spatial jets, leaving precisely the $(D-1)$-dimensional ILST BRST complex. The same quartet carries zero net Virasoro central charge, so that th",
       "keywords": [],
-      "arxivId": "2610.08786v1",
+      "arxivId": "2610.10540v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Normalised Hamiltonian Elliptic Systems: a Gagliardo-Nirenberg inequality for bilinear mass",
+      "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
       "authors": [
-        "Daniele Cassani",
-        "Giulio Romani"
+        "Hongru Cai",
+        "Ran Wei",
+        "Wenjie Wang",
+        "Chengfa Wu",
+        "Ning Song",
+        "Yongqi Li",
+        "Wenjie Li"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-06",
-      "abstract": "We study Hamiltonian elliptic systems with prescribed bilinear mass $\\int_{\\mathbb{R}^N}uv=a&gt;0$. We establish a Gagliardo--Nirenberg inequality in the crossed gradient pairing and bilinear mass, on scaling-invariant component-bounded classes. It identifies the critical curve $1/p+1/q=N/(N+2)$ and the restricted energy trichotomy. For power nonlinearities, we establish uniqueness up to common translations and nondegeneracy of positive profiles throughout the Sobolev-subcritical hyperbola. Exac",
-      "keywords": [],
-      "arxivId": "2610.08774v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Small Distortions, Big Polarization: Tetragonal BaTiO3 Nanoparticles for High-Performance Piezoelectric Nanogenerators",
-      "authors": [
-        "Shivshankar Jokare",
-        "Vikash Kushwaha",
-        "Mandar Shirolkar",
-        "Shruti Kharadkar",
-        "R. Boomishankar",
-        "Smita Chaturvedi"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-10-06",
-      "abstract": "Lead-free ferroelectric BaTiO3 (BTO) nanoparticles with stabilized tetragonal distortion were synthesized via a ligand-assisted sol-gel method to serve as the active piezoelectric phase in high-performance hybrid piezoelectric nanogenerators (PENGs) operating with triboelectric synergy. XRD, Raman spectroscopy, and Pair Distribution Function (PDF) analysis confirmed pseudo-cubic tetragonal BTO nanoparticle, annealed at 900°C (BTO-900, ~54nm) and well-defined tetragonal BTO annealed at 1200°C (BT",
+      "publishDate": "2026-10-07",
+      "abstract": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, this architecture has demonstrated the potential to decouple factual knowledge storage from general-purpose computation, offering a promising route to updating factual knowledge while keeping the Transformer backbone fixed. Realizing this potential is challenging because differen",
       "keywords": [
         "interface"
       ],
-      "arxivId": "2610.08762v1",
+      "arxivId": "2610.10533v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Chiral Central Charge from Real-Space Twist Operator Correlator",
+      "title": "Charge-regular formulation and radiative amplitudes of Kerr-Newman perturbations",
       "authors": [
-        "Yunlong Zang"
+        "Hayato Motohashi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-06",
-      "abstract": "Recent years have witnessed substantial progress in the entanglement-based characterization of quantum phases of matter, with growing interest in real-space formulas due to their theoretical and experimental relevance. For two-dimensional gapped quantum systems, we propose a universal real-space formula for the chiral central charge based on the twist-operator correlator $Z_{g,h}=\\langleψ^{(N)}\\rvert\\mathcal{T}_A(g)\\mathcal{T}_B(h)\\mathcal{T}_C(g)\\mathcal{T}_C(h)\\lvertψ^{(N)}\\rangle$, where $\\lv",
+      "publishDate": "2026-10-07",
+      "abstract": "We establish a charge-regular formulation of separated Kerr--Newman perturbations and an explicit map from master solutions to physical radiative fields. We derive regular angular and radial first-order systems and their second-order reductions, with finite-charge deformations of the spin $\\pm1$ and $\\pm2$ Teukolsky equations. The field and boundary normalizations recover the standard Kerr conventions while accounting for the nonuniform zero-charge limit at infinity. For physical Einstein--Maxwe",
       "keywords": [],
-      "arxivId": "2610.08788v1",
+      "arxivId": "2610.10529v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Algebraic Tensor Network Renormalization and Holographic duality",
+      "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
       "authors": [
-        "Chenqi Meng",
-        "Tian Lan",
-        "Zhengcheng Gu"
+        "Jaeyeong Kim",
+        "Jinhyuk Jang",
+        "Jongmin Lee",
+        "Kyehong Park",
+        "Seungryong Kim"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-06",
-      "abstract": "Emergent generalized symmetries and the holographic principle play very important roles in understanding quantum phase transitions. In recent years, tensor-network renormalization with generalized symmetry and the corresponding fixed-point tensor formulation have been proposed as a discrete spacetime framework for reformulating conformal field theory. Nevertheless, a complete holographic formulation within this framework is still lacking, and the current formulation does not directly accommodate",
+      "publishDate": "2026-10-07",
+      "abstract": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained spatial compatibility between neighboring objects that interact with one another. To address this, we explicitly condition the generation of each object on the geometry of surrounding objects and the",
       "keywords": [],
-      "arxivId": "2610.08787v1",
+      "arxivId": "2610.10539v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Quantum twisting microscopy as a momentum-resolved probe of quantum geometry and sublattice symmetries",
+      "title": "Widespread steep X-ray spectra of luminous $z\\simeq5.85-7.5$ quasars and their implications for future X-ray surveys",
       "authors": [
-        "Lucas V. Pupim",
-        "Mathias S. Scheurer"
+        "A. Tortosa",
+        "L. Zappacosta",
+        "E. Piconcelli",
+        "I. Saccheo",
+        "G. Lanzuisi",
+        "E. Bertola",
+        "F. Vito",
+        "M. Bischetti"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-06",
-      "abstract": "In two-dimensional (2D) flat-band systems, as engineered, for instance, by stacking and twisting van der Waals materials, the momentum dependence of the Bloch states is a key factor in determining the interaction-induced emergence of different phases. Hence, methods of probing this form of ''quantum geometry'' are crucial to understanding these systems. Yet, extracting the momentum dependence of the underlying quantum geometric tensor from measurements is challenging in 2D. Here, we propose empl",
+      "publishDate": "2026-10-07",
+      "abstract": "Luminous quasars (QSOs) at the Epoch of Reionization (EoR, $z\\gtrsim6$) host billion-solar-mass black holes assembled within the first Gyr of cosmic time. Their X-ray emission probes the innermost accreting regions and constrains the physical state of the corona during early supermassive black hole (SMBH) growth. Previous results from the HYPerluminous quasars at the Epoch of ReionizatION (HYPERION) sample of $z \\gtrsim 6$ QSOs, powered by the most rapidly accreted SMBHs, suggested a link betwee",
       "keywords": [],
-      "arxivId": "2610.08783v1",
+      "arxivId": "2610.10522v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Trend formation with sparse global sampling",
+      "authors": [
+        "Sarath Sankar",
+        "Abhijit Sinha",
+        "Shankar Ghosh",
+        "Vikram Tripathi",
+        "Amitava Bhattacharya"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-07",
+      "abstract": "Achieving global coordination without a central controller or dense global communication is a defining challenge for both biological collectives and engineered swarms. We introduce and analyze a minimal model in which self-propelled agents in a bounded domain periodically reorient their motions toward the centroid of a small, randomly chosen subset of their peers, with no direct sensing of any individual neighbor's position or heading. We show that this sparse, non-local sampling rule reliably d",
+      "keywords": [],
+      "arxivId": "2610.10521v1",
       "doi": "",
       "relevance": "medium"
     }
