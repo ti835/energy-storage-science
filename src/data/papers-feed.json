@@ -1,105 +1,107 @@
 {
-  "lastUpdated": "2026-10-08",
+  "lastUpdated": "2026-10-09",
   "papers": [
     {
-      "title": "Null string holography in AdS from local BRST descent",
+      "title": "Disk Structure May Determine AGN Variability and Explain the Accretion Disk Size Problem: No Broad Line Region Required",
       "authors": [
-        "Sarthak Duary",
-        "Sourav Maji"
+        "Amy Secunda",
+        "Yan-Fei Jiang",
+        "Jenny E. Greene"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-07",
-      "abstract": "We show that the radial sector of a Carroll-Weyl gauged null string in Poincaré $\\mathrm{AdS}_D$ is locally trivial in BRST cohomology. In a quotient-adapted BFV basis, the radial coordinate, its conjugate momentum, and the associated ghosts form a contractible quartet. An explicit contracting homotopy extends this reduction to the full algebra of local spatial jets, leaving precisely the $(D-1)$-dimensional ILST BRST complex. The same quartet carries zero net Virasoro central charge, so that th",
+      "publishDate": "2026-10-08",
+      "abstract": "Variability is a crucial probe of active galactic nuclei (AGN) disks, but the impact of the structure and internal physics of the disk on this variability is poorly understood. We perform 3D multi-frequency radiation magnetohydrodynamic simulations of the $1300-5940~\\rmÅ$ emitting region of an AGN disk. This turbulent disk simulation happens to stochastically have different disk thickness above and below the midplane. Light curves emitted from the thin top of the disk are broadly consistent with",
       "keywords": [],
-      "arxivId": "2610.10540v1",
+      "arxivId": "2610.12462v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
+      "title": "Discovery of Hidden Extragalactic Pulsars in the Parkes Archival Data",
       "authors": [
-        "Hongru Cai",
-        "Ran Wei",
-        "Wenjie Wang",
-        "Chengfa Wu",
-        "Ning Song",
-        "Yongqi Li",
-        "Wenjie Li"
+        "Rahul Sengar",
+        "Laila Vleeschower",
+        "Matthew Bailes",
+        "Fronefield Crawford",
+        "Duncan R. Lorimer",
+        "Joshua P. Ridley"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-07",
-      "abstract": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, this architecture has demonstrated the potential to decouple factual knowledge storage from general-purpose computation, offering a promising route to updating factual knowledge while keeping the Transformer backbone fixed. Realizing this potential is challenging because differen",
-      "keywords": [
-        "interface"
-      ],
-      "arxivId": "2610.10533v1",
+      "publishDate": "2026-10-08",
+      "abstract": "Just over 1% of the known radio pulsar population resides in the Large and Small Magellanic Clouds (MCs), the satellite galaxies that are 50-62 kpc distant from the Milky Way. These pulsars are important for constraining the peak of the pulsar luminosity function, and may give insights into neutron star populations formed from stars of different metallicities than the Milky Way. Using search techniques that have proven highly effective at discovering a large number of pulsars in archival data by",
+      "keywords": [],
+      "arxivId": "2610.12450v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Charge-regular formulation and radiative amplitudes of Kerr-Newman perturbations",
+      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
       "authors": [
-        "Hayato Motohashi"
+        "Adrian Bulat",
+        "Yassine Ouali",
+        "Georgios Tzimiropoulos"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-07",
-      "abstract": "We establish a charge-regular formulation of separated Kerr--Newman perturbations and an explicit map from master solutions to physical radiative fields. We derive regular angular and radial first-order systems and their second-order reductions, with finite-charge deformations of the spin $\\pm1$ and $\\pm2$ Teukolsky equations. The field and boundary normalizations recover the standard Kerr conventions while accounting for the nonuniform zero-charge limit at infinity. For physical Einstein--Maxwe",
+      "publishDate": "2026-10-08",
+      "abstract": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as a convex combination of a small shared expert bank. A continuous normalized-depth coordinate programs this mixture, defining a resampleable trajectory through FFN parameter space. We evaluate this des",
       "keywords": [],
-      "arxivId": "2610.10529v1",
+      "arxivId": "2610.12448v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
+      "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
       "authors": [
-        "Jaeyeong Kim",
-        "Jinhyuk Jang",
-        "Jongmin Lee",
-        "Kyehong Park",
-        "Seungryong Kim"
+        "Jusuk Lee",
+        "Sungha Kim",
+        "Yeonsoo Park",
+        "Jonguk Cheon",
+        "Yoonkyo Jung",
+        "Yongjun You",
+        "H. Jin Kim",
+        "Jia-Bin Huang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-07",
-      "abstract": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained spatial compatibility between neighboring objects that interact with one another. To address this, we explicitly condition the generation of each object on the geometry of surrounding objects and the",
+      "publishDate": "2026-10-08",
+      "abstract": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not shown in the video. Alternatively, discovering a policy via reinforcement learning (RL) allows for broad generalization, but without prior guidance, it struggles with high-dimensional exploration in co",
       "keywords": [],
-      "arxivId": "2610.10539v1",
+      "arxivId": "2610.12470v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Widespread steep X-ray spectra of luminous $z\\simeq5.85-7.5$ quasars and their implications for future X-ray surveys",
+      "title": "Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation",
       "authors": [
-        "A. Tortosa",
-        "L. Zappacosta",
-        "E. Piconcelli",
-        "I. Saccheo",
-        "G. Lanzuisi",
-        "E. Bertola",
-        "F. Vito",
-        "M. Bischetti"
+        "Ritesh Thawkar",
+        "Shubham Patle",
+        "Shravan Venkatraman",
+        "Rao Muhammad Anwer"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-07",
-      "abstract": "Luminous quasars (QSOs) at the Epoch of Reionization (EoR, $z\\gtrsim6$) host billion-solar-mass black holes assembled within the first Gyr of cosmic time. Their X-ray emission probes the innermost accreting regions and constrains the physical state of the corona during early supermassive black hole (SMBH) growth. Previous results from the HYPerluminous quasars at the Epoch of ReionizatION (HYPERION) sample of $z \\gtrsim 6$ QSOs, powered by the most rapidly accreted SMBHs, suggested a link betwee",
+      "publishDate": "2026-10-08",
+      "abstract": "Instruction-guided image editors have become highly capable, yet improving them further still depends on human-edited training pairs or external reward models. Such supervision is costly to obtain and can reward plausible failures: a realistic output may leave the requested change undone or alter content that should be preserved. In this work, we strive to improve a pretrained image editor using only its own generations, without human-edited targets or an external training-time reward model. To ",
       "keywords": [],
-      "arxivId": "2610.10522v1",
+      "arxivId": "2610.12469v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Trend formation with sparse global sampling",
+      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
       "authors": [
-        "Sarath Sankar",
-        "Abhijit Sinha",
-        "Shankar Ghosh",
-        "Vikram Tripathi",
-        "Amitava Bhattacharya"
+        "Junyan Li",
+        "Ruizhi Li",
+        "Yu Liu",
+        "Xiangshuo Liu",
+        "Mingchao Sun",
+        "Hongyu Pan",
+        "Mu Xu",
+        "Lue Fan"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-07",
-      "abstract": "Achieving global coordination without a central controller or dense global communication is a defining challenge for both biological collectives and engineered swarms. We introduce and analyze a minimal model in which self-propelled agents in a bounded domain periodically reorient their motions toward the centroid of a small, randomly chosen subset of their peers, with no direct sensing of any individual neighbor's position or heading. We show that this sparse, non-local sampling rule reliably d",
+      "publishDate": "2026-10-08",
+      "abstract": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To improve action following across embodiments, we render action trajectories into image-space conditions and introduce offline geometric calibr",
       "keywords": [],
-      "arxivId": "2610.10521v1",
+      "arxivId": "2610.12468v1",
       "doi": "",
       "relevance": "medium"
     }
