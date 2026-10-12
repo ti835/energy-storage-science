@@ -1,107 +1,98 @@
 {
-  "lastUpdated": "2026-10-11",
+  "lastUpdated": "2026-10-12",
   "papers": [
     {
-      "title": "Disk Structure May Determine AGN Variability and Explain the Accretion Disk Size Problem: No Broad Line Region Required",
+      "title": "A universal sector of $\\mathcal{N}=1$ class $\\mathcal{S}$ spectra",
       "authors": [
-        "Amy Secunda",
-        "Yan-Fei Jiang",
-        "Jenny E. Greene"
+        "Ritabrata Bhattacharya",
+        "Abhay Katyal",
+        "Oscar Varela"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-08",
-      "abstract": "Variability is a crucial probe of active galactic nuclei (AGN) disks, but the impact of the structure and internal physics of the disk on this variability is poorly understood. We perform 3D multi-frequency radiation magnetohydrodynamic simulations of the $1300-5940~\\rmÅ$ emitting region of an AGN disk. This turbulent disk simulation happens to stochastically have different disk thickness above and below the midplane. Light curves emitted from the thin top of the disk are broadly consistent with",
+      "publishDate": "2026-10-09",
+      "abstract": "We determine a universal sector of the spectrum of light operators in four-dimensional $\\mathcal{N}=1$ class $\\mathcal{S}$ superconformal field theories arising from M5-branes wrapped on a compact hyperbolic Riemann surface $Σ_2$. We work at large $N$, analysing Kaluza--Klein fluctuations about the dual Bah--Beem--Bobev--Wecht anti-de Sitter backgrounds for general values of the twist parameter $z$. To obtain these spectra, we specialise recently derived mass operators to modes that are constant",
       "keywords": [],
-      "arxivId": "2610.12462v1",
+      "arxivId": "2610.13938v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Discovery of Hidden Extragalactic Pulsars in the Parkes Archival Data",
+      "title": "The LZ inelastic splitting as a probe of anomaly mediation",
       "authors": [
-        "Rahul Sengar",
-        "Laila Vleeschower",
-        "Matthew Bailes",
-        "Fronefield Crawford",
-        "Duncan R. Lorimer",
-        "Joshua P. Ridley"
+        "Seung J. Lee",
+        "Taewook Youn"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-08",
-      "abstract": "Just over 1% of the known radio pulsar population resides in the Large and Small Magellanic Clouds (MCs), the satellite galaxies that are 50-62 kpc distant from the Milky Way. These pulsars are important for constraining the peak of the pulsar luminosity function, and may give insights into neutron star populations formed from stars of different metallicities than the Milky Way. Using search techniques that have proven highly effective at discovering a large number of pulsars in archival data by",
+      "publishDate": "2026-10-09",
+      "abstract": "The LZ 248 keV recoil candidate admits an interpretation in terms of pseudo-Dirac dark matter with a mixing-suppressed inelastic $Z$ interaction. In the MSSM, the Higgsino limit conflicts with the adopted solar-neutrino bound, while a gaugino realization requires an unprotected mass degeneracy. We realize such spectra in the MRSSM, where an $R$-symmetric Dirac bino produces the required $Z$ transition and wino coannihilation supplies the observed relic abundance. We impose the Higgs and gauge co",
       "keywords": [],
-      "arxivId": "2610.12450v1",
+      "arxivId": "2610.13930v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
+      "title": "Adiabatic evolution of hadronic neutron stars",
       "authors": [
-        "Adrian Bulat",
-        "Yassine Ouali",
-        "Georgios Tzimiropoulos"
+        "Domenico Logoteta",
+        "Francesco Zeno Constanzo",
+        "Ignazio Bombaci",
+        "Sebastiano Bernuzzi",
+        "Albino Perego",
+        "David Radice"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-08",
-      "abstract": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as a convex combination of a small shared expert bank. A continuous normalized-depth coordinate programs this mixture, defining a resampleable trajectory through FFN parameter space. We evaluate this des",
+      "publishDate": "2026-10-09",
+      "abstract": "In this paper we compute several structural properties of static and rotating neutron stars, considering both rigid and differential rotation. To this end, we use a finite-temperature beta-stable equation of state (EOS) extending the zero-temperature hadronic EOS derived by Fortin et al. (2017). We account for the formation of hyperons and the presence of a neutrino-trapped component. Our goal is to provide insights into the long-term evolution of a protoneutron star (PNS) formed after a core-co",
       "keywords": [],
-      "arxivId": "2610.12448v1",
+      "arxivId": "2610.13926v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+      "title": "InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators",
       "authors": [
-        "Jusuk Lee",
-        "Sungha Kim",
-        "Yeonsoo Park",
-        "Jonguk Cheon",
-        "Yoonkyo Jung",
-        "Yongjun You",
-        "H. Jin Kim",
-        "Jia-Bin Huang"
+        "Xuanlang Dai",
+        "Jiazi Bu",
+        "Yujie Zhou",
+        "Yuhong Liu",
+        "Beichen Zhang",
+        "Penghui Yang",
+        "Ziyu Liu",
+        "Yuhang Zang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-08",
-      "abstract": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not shown in the video. Alternatively, discovering a policy via reinforcement learning (RL) allows for broad generalization, but without prior guidance, it struggles with high-dimensional exploration in co",
-      "keywords": [],
-      "arxivId": "2610.12470v1",
+      "publishDate": "2026-10-09",
+      "abstract": "Diffusion/flow models have emerged as the de facto paradigms for image generation, giving rise to a diverse family of modern generators with increasingly heterogeneous architectures and representations. Despite their remarkable generation capabilities, the cross-model alignment of latent representations and the consistency of their underlying denoising dynamics remain underexplored. In this work, we uncover an intriguing cross-model compatibility: independently trained generators exhibit similar",
+      "keywords": [
+        "interface"
+      ],
+      "arxivId": "2610.13944v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation",
+      "title": "Sandpile avalanches in two dimensions are finite",
       "authors": [
-        "Ritesh Thawkar",
-        "Shubham Patle",
-        "Shravan Venkatraman",
-        "Rao Muhammad Anwer"
+        "Ahmed Bou-Rabee"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-08",
-      "abstract": "Instruction-guided image editors have become highly capable, yet improving them further still depends on human-edited training pairs or external reward models. Such supervision is costly to obtain and can reward plausible failures: a realistic output may leave the requested change undone or alter content that should be preserved. In this work, we strive to improve a pretrained image editor using only its own generations, without human-edited targets or an external training-time reward model. To ",
+      "publishDate": "2026-10-09",
+      "abstract": "In the abelian sandpile model on $\\mathbb{Z}^d$, a site with at least $2d$ grains topples by sending one grain to each neighbor. In a box $[-L,L]^d$ whose boundary absorbs grains, adding grains at random sites and toppling defines a Markov chain, and Athreya and Járai (2004) constructed the stationary state on $\\mathbb{Z}^d$ as the limit of its stationary distributions as $L\\to\\infty$. By a formula of Dhar (1990), when a grain is added at the origin of a sandpile in the stationary state, the exp",
       "keywords": [],
-      "arxivId": "2610.12469v1",
+      "arxivId": "2610.13940v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+      "title": "A Warped Born Rule Turns an Observer into a Maxwell's Demon",
       "authors": [
-        "Junyan Li",
-        "Ruizhi Li",
-        "Yu Liu",
-        "Xiangshuo Liu",
-        "Mingchao Sun",
-        "Hongyu Pan",
-        "Mu Xu",
-        "Lue Fan"
+        "Olumakinde Ogunnaike"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-08",
-      "abstract": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To improve action following across embodiments, we render action trajectories into image-space conditions and introduce offline geometric calibr",
+      "publishDate": "2026-10-09",
+      "abstract": "Quantum mechanics seems to be an incredibly delicate theory. Slight alterations to nearly any part of its structure can lead to huge qualitative differences and wildly unphysical predictions. Here, we explore the many-body consequences of replacing the Born rule $p(m)\\propto\\|P_m|ψ\\rangle|^2$ by a warped rule $p_b(m)\\propto\\|P_m|ψ\\rangle\\|^{2b}$. Specifically, in systems with conserved particle number, evolution punctuated by repeated local particle observations acquires a probabilistic bias ove",
       "keywords": [],
-      "arxivId": "2610.12468v1",
+      "arxivId": "2610.13936v1",
       "doi": "",
       "relevance": "medium"
     }
