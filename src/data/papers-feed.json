@@ -1,5 +1,76 @@
 {
-  "lastUpdated": "2026-10-14",
-  "papers": [],
-  "totalCount": 0
+  "lastUpdated": "2026-10-15",
+  "papers": [
+    {
+      "title": "A global analysis of ${\\bar B}\\to DP$ and ${\\bar B} \\to {\\bar D} P$ decays",
+      "authors": [
+        "Bhubanjyoti Bhattacharya",
+        "Rida Boumris",
+        "David London"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-14",
+      "abstract": "Recently, a fit to the 15 measured branching ratios of ${\\bar B} \\to D P$ decays ($B = \\{B^+, B^0, B_s^0\\}$, $D = \\{D^0, D^+, D_s^+\\}$, $P \\in \\{π, K\\}$) was performed under the assumption of flavor SU(3) symmetry [SU(3)$_F$]. A terrible fit was found: there was a $&gt; 5σ$ disagreement with the SU(3)$_F$ limit of the Standard Model [SM$_{\\rm{SU(3)}_F}$]. It was also found that this discrepancy can be removed by adding $\\sim 20\\%$ SU(3)$_F$-breaking effects. Now, the ${\\bar B} \\to D^0 P$ amplitu",
+      "keywords": [],
+      "arxivId": "2610.20611v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Nodal nematic superconductivity in moiré graphene",
+      "authors": [
+        "Shuwen Sun",
+        "Grgur Palle",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Rafael M. Fernandes",
+        "Pablo Jarillo-Herrero",
+        "Jeong Min Park"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-14",
+      "abstract": "Unconventional superconductivity can emerge in various forms in strongly correlated systems. Historically, the most extensively studied examples include nodal and triplet pairing, which were experimentally detected in cuprates and superfluid helium-3, respectively. Beyond these canonical cases, there are also nematic superconductors, in which the rotational symmetry of the lattice is broken in the superconducting state. While there are several examples of nematic superconductors whose pairing em",
+      "keywords": [],
+      "arxivId": "2610.20605v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Heavy-Heavy-Light-Light correlators from holography on the worldsheet",
+      "authors": [
+        "Matías Colaneri",
+        "Diego H. Correa",
+        "Víctor I. Giraldo-Rivera",
+        "Nicolás A. Ivanovich"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-14",
+      "abstract": "We study correlation functions of light local operators and defect changing operators on the conformal line set by the 1/2 BPS Wilson line of $\\mathcal N=4$ super Yang-Mills. We consider the defect changing operators associated with geometrical and internal cusp angles, which at strong coupling have a large scaling dimension and back-react on the dual $AdS_2$ world-sheet. We set up a holographic computation of correlation functions, in which the light operators are described by fluctuations arou",
+      "keywords": [],
+      "arxivId": "2610.20602v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "VITAL: From Visual Motion to Precise Action",
+      "authors": [
+        "Ao Liang",
+        "Youquan Liu",
+        "Mingxiao Li",
+        "Wei Chow",
+        "Lingdong Kong",
+        "Yue Liao",
+        "Dongyue Lu",
+        "Yu Yang"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-14",
+      "abstract": "World-action models aim to turn visual anticipation into driving decisions, yet typically train action experts on trajectory representations defined independently of visual dynamics. This motivates deriving action targets directly from visual motion. We first examine a simpler setting in which trajectories are reconstructed from recorded future images. Even without the need for future prediction, reconstruction captures the dominant maneuver but leaves centimeter-scale errors. We therefore intro",
+      "keywords": [],
+      "arxivId": "2610.20604v1",
+      "doi": "",
+      "relevance": "medium"
+    }
+  ],
+  "totalCount": 4
 }
