@@ -1,76 +1,102 @@
 {
-  "lastUpdated": "2026-10-15",
+  "lastUpdated": "2026-10-16",
   "papers": [
     {
-      "title": "A global analysis of ${\\bar B}\\to DP$ and ${\\bar B} \\to {\\bar D} P$ decays",
+      "title": "Integral and higher-genus quantum McKay correspondence in type D",
       "authors": [
-        "Bhubanjyoti Bhattacharya",
-        "Rida Boumris",
-        "David London"
+        "Andrea Brini",
+        "Jingxiang Ma"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-14",
-      "abstract": "Recently, a fit to the 15 measured branching ratios of ${\\bar B} \\to D P$ decays ($B = \\{B^+, B^0, B_s^0\\}$, $D = \\{D^0, D^+, D_s^+\\}$, $P \\in \\{π, K\\}$) was performed under the assumption of flavor SU(3) symmetry [SU(3)$_F$]. A terrible fit was found: there was a $&gt; 5σ$ disagreement with the SU(3)$_F$ limit of the Standard Model [SM$_{\\rm{SU(3)}_F}$]. It was also found that this discrepancy can be removed by adding $\\sim 20\\%$ SU(3)$_F$-breaking effects. Now, the ${\\bar B} \\to D^0 P$ amplitu",
+      "publishDate": "2026-10-15",
+      "abstract": "We establish Iritani's integral form of the $\\mathbb{C}^\\times$-equivariant Crepant Transformation Conjecture (CTC) for the minimal resolution of the surface singularity $\\mathbb{C}^2/\\mathbb{BD}_{4n}$, where $\\mathbb{BD}_{4n}$ is the binary dihedral group of order $4n$. We then use Givental's quantisation formalism to prove the all-genus full-descendent CTC in that case. As an application, we deduce the Bryan-Cadman-Young degree-zero form of the orbifold Gromov-Witten/Donaldson-Thomas correspon",
       "keywords": [],
-      "arxivId": "2610.20611v1",
+      "arxivId": "2610.22359v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Nodal nematic superconductivity in moiré graphene",
+      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
       "authors": [
-        "Shuwen Sun",
-        "Grgur Palle",
-        "Kenji Watanabe",
-        "Takashi Taniguchi",
-        "Rafael M. Fernandes",
-        "Pablo Jarillo-Herrero",
-        "Jeong Min Park"
+        "Jiachen Yao",
+        "Xiyuan Zhang",
+        "Annan Yu",
+        "Boran Han",
+        "Abdul Fatir Ansari",
+        "Shuai Zhang",
+        "Michael Bohlke-Schneider",
+        "Bernie Wang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-14",
-      "abstract": "Unconventional superconductivity can emerge in various forms in strongly correlated systems. Historically, the most extensively studied examples include nodal and triplet pairing, which were experimentally detected in cuprates and superfluid helium-3, respectively. Beyond these canonical cases, there are also nematic superconductors, in which the rotational symmetry of the lattice is broken in the superconducting state. While there are several examples of nematic superconductors whose pairing em",
+      "publishDate": "2026-10-15",
+      "abstract": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulative demand, peak load, and event timing, yet point and marginal scores do not reveal it. To model this dependence, we introduce PathFM, a trajectory-based forecasting model that uses flow matching to g",
       "keywords": [],
-      "arxivId": "2610.20605v1",
+      "arxivId": "2610.22358v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Heavy-Heavy-Light-Light correlators from holography on the worldsheet",
+      "title": "Non-Coulomb $Q$-Cohomology and Quantum Lifting",
       "authors": [
-        "Matías Colaneri",
-        "Diego H. Correa",
-        "Víctor I. Giraldo-Rivera",
-        "Nicolás A. Ivanovich"
+        "Tanay Kibe",
+        "Sam van Leuven",
+        "Kayleigh Mathieson"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-14",
-      "abstract": "We study correlation functions of light local operators and defect changing operators on the conformal line set by the 1/2 BPS Wilson line of $\\mathcal N=4$ super Yang-Mills. We consider the defect changing operators associated with geometrical and internal cusp angles, which at strong coupling have a large scaling dimension and back-react on the dual $AdS_2$ world-sheet. We set up a holographic computation of correlation functions, in which the light operators are described by fluctuations arou",
+      "publishDate": "2026-10-15",
+      "abstract": "We study quantum lifting of classical BPS cohomology classes in four-dimensional $\\mathcal N=4$ super-Yang-Mills theory. Certain powers of the gaugino bilinear $\\mathcal S=\\text{Tr}(λ_+λ_-)$ in orthogonal theories provide non-Coulomb monotones: multi-graviton classes that vanish upon Cartan restriction. For $SO(7)$, we identify $\\mathcal S^4$ as a superconformal descendant of a known lifted monotone class, explaining the latter's non-Coulomb character, and explicitly construct a fortuitous lifti",
       "keywords": [],
-      "arxivId": "2610.20602v1",
+      "arxivId": "2610.22332v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "VITAL: From Visual Motion to Precise Action",
+      "title": "Gen4P: Video Generators are 4D Perceivers",
       "authors": [
-        "Ao Liang",
-        "Youquan Liu",
-        "Mingxiao Li",
-        "Wei Chow",
-        "Lingdong Kong",
-        "Yue Liao",
-        "Dongyue Lu",
-        "Yu Yang"
+        "Yitong Xia",
+        "Zeren Jiang",
+        "Chuanxia Zheng"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-14",
-      "abstract": "World-action models aim to turn visual anticipation into driving decisions, yet typically train action experts on trajectory representations defined independently of visual dynamics. This motivates deriving action targets directly from visual motion. We first examine a simpler setting in which trajectories are reconstructed from recorded future images. Even without the need for future prediction, reconstruction captures the dominant maneuver but leaves centimeter-scale errors. We therefore intro",
+      "publishDate": "2026-10-15",
+      "abstract": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising. Building on on-demand querying, Gen4P processes clean video latents in a single encoder pass and predicts the requested 4D attributes through a lightweight cross-attention decoder. The on-demand query formulation enables flexible spatial sampling, and our proposed continuous-ti",
       "keywords": [],
-      "arxivId": "2610.20604v1",
+      "arxivId": "2610.22371v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Discovering state-of-the-art quantum circuits with large language models",
+      "authors": [
+        "Andi Gu",
+        "Alek H. Kemeny",
+        "Susanne F. Yelin",
+        "Mikhail D. Lukin"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-15",
+      "abstract": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents unique challenges, including a reversibility constraint absent from ordinary classical computation. Here ",
+      "keywords": [],
+      "arxivId": "2610.22367v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "$^6$He structure from semiclassical 3D models based on $\\textit{ab initio}$ spatial correlations",
+      "authors": [
+        "Mengyao Huang",
+        "Tobias Frederico",
+        "Peng Yin",
+        "James P. Vary"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-15",
+      "abstract": "We construct semiclassical 3D models based on $\\textit{ab initio}$ no-core shell model calculated two-body spatial correlations, which represent the preferred spatial configuration of nucleons for the ground state of $^6$He. We demonstrate that the presence of the two valence neutrons distorts and flattens the $α$ core in $^6$He, marking a clear departure from the tetrahedral configuration of free $^4$He, and that the two valence neutrons and the center of mass of the $α$ cluster ($α$-CM) are ro",
+      "keywords": [],
+      "arxivId": "2610.22365v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 4
+  "totalCount": 6
 }
