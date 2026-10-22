@@ -1,5 +1,109 @@
 {
-  "lastUpdated": "2026-10-21",
-  "papers": [],
-  "totalCount": 0
+  "lastUpdated": "2026-10-22",
+  "papers": [
+    {
+      "title": "A signature of the timelike singularity in holography",
+      "authors": [
+        "Joydeep Chakravarty",
+        "Yoav Zigdon"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-21",
+      "abstract": "In the context of the AdS/CFT correspondence, we provide a simple observable, the imaginary part of the retarded Green's function, which captures the timelike singularity of a charged black brane. Solving wave equations of bulk fields with different spins outside the black brane, we calculate exponentially small contributions to retarded Green's functions in the dual CFT at large real frequency. These contributions admit an interpretation in terms of paths in an analytically continued classical ",
+      "keywords": [],
+      "arxivId": "2610.30134v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Scaling H2 Factorization to Billion-Unknown Three-Dimensional Problems",
+      "authors": [
+        "Tianyu Liang",
+        "Chao Chen",
+        "James Demmel",
+        "Yang Liu"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-21",
+      "abstract": "Strong recursive skeletonization provides approximate direct solvers for dense matrices from integral equations and kernel methods, but distributed implementations face substantial communication costs and limited parallelism, especially in three dimensions. We present a distributed-memory $\\mathcal{H}^2$ factorization solver for symmetric matrices that combines spatial box coloring, delayed Schur complement updates, streamed sketching-based interpolative decomposition, and BLAS-3 and shared-memo",
+      "keywords": [],
+      "arxivId": "2610.30131v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Random Euclidean CFT$_2$ from Triangulated dS$_3$ Gravity",
+      "authors": [
+        "Ji-seong Chae"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-21",
+      "abstract": "We propose a random Euclidean CFT description of three-dimensional de Sitter gravity, with fixed central charge and primary spectrum but fluctuating operator product coefficients. Our construction starts from compact regions assembled from generalized hyperbolic tetrahedra. We analytically continue the gravitational amplitudes computed from these triangulations to de Sitter parameters and use them to infer OPE correlations. We recover matching normalized amplitudes from a complex Liouville cosmo",
+      "keywords": [],
+      "arxivId": "2610.30126v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Agentic World Action Models",
+      "authors": [
+        "Zhuoyang Liu",
+        "Dantong Niu",
+        "Botong Zhang",
+        "Boning Shao",
+        "Jing Wang",
+        "Ruijie Zheng",
+        "Yuvan Sharma",
+        "Runyu Lu"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-21",
+      "abstract": "Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often lacks predictive grounding in physical dynamics. We introduce AW-0, an agentic world action model framework that integrates code-based planning with joint video and action prediction. We jointly model code, future video, and robot actions as three co",
+      "keywords": [],
+      "arxivId": "2610.30136v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "ALPS: Visual State Encoders for World Models",
+      "authors": [
+        "Yanqing Liu",
+        "Letian Zhang",
+        "Chengzhi Liu",
+        "Zijun Wang",
+        "Jieru Mei",
+        "Hongliang Fei",
+        "Yuyin Zhou",
+        "Cihang Xie"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-21",
+      "abstract": "World models turn visual representations into predictions and actions. We argue that their visual foundation should combine physical-state information, native language alignment, and pixel reconstruction, so that a single representation can support prediction, instruction, and inspection. However, existing encoders typically specialize in only one or two of these capabilities; we therefore introduce ALPS, a pretrained visual state encoder that unifies all three in a single set of patch tokens. U",
+      "keywords": [],
+      "arxivId": "2610.30120v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "The End of Consensus Research?",
+      "authors": [
+        "Clément Burgelin",
+        "Rachid Guerraoui",
+        "Zicong Hong",
+        "Yinan Hu",
+        "Anne-Marie Kermarrec",
+        "Rafael Pires",
+        "Rasmus Moorits Veski",
+        "Martijn de Vos"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-21",
+      "abstract": "Consensus is a fundamental problem in distributed computing and at the core of state machine replication (SMR). Despite decades of active human research, discovering practical low-latency solutions to the problem is still open, as it requires combining protocol knowledge, correctness reasoning, implementation, and experimental evaluation. We report on how AI helped us discover A-greement, a new consensus protocol for geo-replicated state machines that significantly outperforms state-of-the-art s",
+      "keywords": [],
+      "arxivId": "2610.30114v1",
+      "doi": "",
+      "relevance": "medium"
+    }
+  ],
+  "totalCount": 6
 }
