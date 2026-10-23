@@ -1,109 +1,74 @@
 {
-  "lastUpdated": "2026-10-22",
+  "lastUpdated": "2026-10-23",
   "papers": [
     {
-      "title": "A signature of the timelike singularity in holography",
+      "title": "Ricci flow of Integrable Sigma Models, Hitchin Systems and Quantum Seiberg-Witten theory",
       "authors": [
-        "Joydeep Chakravarty",
-        "Yoav Zigdon"
+        "G. Bonelli",
+        "S. Lacroix",
+        "T. Pedroni",
+        "A. Tanzini"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-21",
-      "abstract": "In the context of the AdS/CFT correspondence, we provide a simple observable, the imaginary part of the retarded Green's function, which captures the timelike singularity of a charged black brane. Solving wave equations of bulk fields with different spins outside the black brane, we calculate exponentially small contributions to retarded Green's functions in the dual CFT at large real frequency. These contributions admit an interpretation in terms of paths in an analytically continued classical ",
+      "publishDate": "2026-10-22",
+      "abstract": "We construct a family of integrable 2d sigma models through 4d Chern-Simons theory and show that their classical point-particle reduction corresponds to a Hitchin system. The integrable Hitchin quantisation then provides a natural candidate Hamiltonian for the one-loop reduced dynamics of the sigma models, which coincides with the Perelman operator in all cases examined. This allows us to study the corresponding spectral problems using 4d $\\mathcal{N}=2$ gauge theory and 2d conformal field theor",
       "keywords": [],
-      "arxivId": "2610.30134v1",
+      "arxivId": "2610.31672v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Scaling H2 Factorization to Billion-Unknown Three-Dimensional Problems",
+      "title": "Boosted Dark Matter Directionality in Large Liquid Scintillator Detectors",
       "authors": [
-        "Tianyu Liang",
-        "Chao Chen",
-        "James Demmel",
-        "Yang Liu"
+        "Samuel S. H. Tse",
+        "Qishan Liu",
+        "Kenny C. Y. Ng",
+        "Koun Choi",
+        "Yu-Feng Li"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-21",
-      "abstract": "Strong recursive skeletonization provides approximate direct solvers for dense matrices from integral equations and kernel methods, but distributed implementations face substantial communication costs and limited parallelism, especially in three dimensions. We present a distributed-memory $\\mathcal{H}^2$ factorization solver for symmetric matrices that combines spatial box coloring, delayed Schur complement updates, streamed sketching-based interpolative decomposition, and BLAS-3 and shared-memo",
+      "publishDate": "2026-10-22",
+      "abstract": "Light dark matter can be boosted by cosmic-ray-dark matter interactions, which opens the possibility of direct-detection searches with large neutrino detectors. We consider the signal produced by boosted dark matter undergoing quasi-elastic scattering off carbon and knocking out a neutron in a large liquid scintillator detector. A distinctive delayed gamma ray from neutron capture can be reconstructed after $\\sim 210$ $μ$s, which is paired up with the prompt signal during neutron propagation. We",
       "keywords": [],
-      "arxivId": "2610.30131v1",
+      "arxivId": "2610.31666v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Random Euclidean CFT$_2$ from Triangulated dS$_3$ Gravity",
+      "title": "Half-Completeness from Standard Gravitational Dispersion Relations",
       "authors": [
-        "Ji-seong Chae"
+        "Lukas W. Lindwasser",
+        "Laurentiu Rodina",
+        "Justinas Rumbutis"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-21",
-      "abstract": "We propose a random Euclidean CFT description of three-dimensional de Sitter gravity, with fixed central charge and primary spectrum but fluctuating operator product coefficients. Our construction starts from compact regions assembled from generalized hyperbolic tetrahedra. We analytically continue the gravitational amplitudes computed from these triangulations to de Sitter parameters and use them to infer OPE correlations. We recover matching normalized amplitudes from a complex Liouville cosmo",
+      "publishDate": "2026-10-22",
+      "abstract": "The completeness hypothesis states that quantum gravity realizes every representation allowed by its gauge group. Previous S-matrix arguments used the graviton pole to constrain exchanged representations, including a proof of completeness by imposing an additional high-energy bound on crossing-odd amplitudes. We investigate what follows without this assumption, using standard twice-subtracted dispersion relations, positivity, and crossing symmetry. For external massless SU(2) isospin $J$, we pro",
       "keywords": [],
-      "arxivId": "2610.30126v1",
+      "arxivId": "2610.31665v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Agentic World Action Models",
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
       "authors": [
-        "Zhuoyang Liu",
-        "Dantong Niu",
-        "Botong Zhang",
-        "Boning Shao",
-        "Jing Wang",
-        "Ruijie Zheng",
-        "Yuvan Sharma",
-        "Runyu Lu"
+        "Shengqiong Wu",
+        "Meng Luo",
+        "Bobo Li",
+        "Ziwei Liu",
+        "Shuicheng Yan",
+        "Ming-Hsuan Yang",
+        "Philip Torr",
+        "Hao Fei"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-21",
-      "abstract": "Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often lacks predictive grounding in physical dynamics. We introduce AW-0, an agentic world action model framework that integrates code-based planning with joint video and action prediction. We jointly model code, future video, and robot actions as three co",
+      "publishDate": "2026-10-22",
+      "abstract": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world, w",
       "keywords": [],
-      "arxivId": "2610.30136v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "ALPS: Visual State Encoders for World Models",
-      "authors": [
-        "Yanqing Liu",
-        "Letian Zhang",
-        "Chengzhi Liu",
-        "Zijun Wang",
-        "Jieru Mei",
-        "Hongliang Fei",
-        "Yuyin Zhou",
-        "Cihang Xie"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-10-21",
-      "abstract": "World models turn visual representations into predictions and actions. We argue that their visual foundation should combine physical-state information, native language alignment, and pixel reconstruction, so that a single representation can support prediction, instruction, and inspection. However, existing encoders typically specialize in only one or two of these capabilities; we therefore introduce ALPS, a pretrained visual state encoder that unifies all three in a single set of patch tokens. U",
-      "keywords": [],
-      "arxivId": "2610.30120v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "The End of Consensus Research?",
-      "authors": [
-        "Clément Burgelin",
-        "Rachid Guerraoui",
-        "Zicong Hong",
-        "Yinan Hu",
-        "Anne-Marie Kermarrec",
-        "Rafael Pires",
-        "Rasmus Moorits Veski",
-        "Martijn de Vos"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-10-21",
-      "abstract": "Consensus is a fundamental problem in distributed computing and at the core of state machine replication (SMR). Despite decades of active human research, discovering practical low-latency solutions to the problem is still open, as it requires combining protocol knowledge, correctness reasoning, implementation, and experimental evaluation. We report on how AI helped us discover A-greement, a new consensus protocol for geo-replicated state machines that significantly outperforms state-of-the-art s",
-      "keywords": [],
-      "arxivId": "2610.30114v1",
+      "arxivId": "2610.31668v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 4
 }
