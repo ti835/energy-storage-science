@@ -1,74 +1,93 @@
 {
-  "lastUpdated": "2026-10-25",
+  "lastUpdated": "2026-10-26",
   "papers": [
     {
-      "title": "Ricci flow of Integrable Sigma Models, Hitchin Systems and Quantum Seiberg-Witten theory",
+      "title": "SEMAC: Spherical Energy Matching Ambisonics Codec for Efficient Higher-Order Ambisonics Compression",
       "authors": [
-        "G. Bonelli",
-        "S. Lacroix",
-        "T. Pedroni",
-        "A. Tanzini"
+        "Christoph Hold",
+        "Jan Buethe",
+        "Jean-Marc Valin",
+        "Jan Skoglund",
+        "Toni Hirvonen",
+        "Nils Peters"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-22",
-      "abstract": "We construct a family of integrable 2d sigma models through 4d Chern-Simons theory and show that their classical point-particle reduction corresponds to a Hitchin system. The integrable Hitchin quantisation then provides a natural candidate Hamiltonian for the one-loop reduced dynamics of the sigma models, which coincides with the Perelman operator in all cases examined. This allows us to study the corresponding spectral problems using 4d $\\mathcal{N}=2$ gauge theory and 2d conformal field theor",
+      "publishDate": "2026-10-23",
+      "abstract": "Higher-order Ambisonics (HOA) is an attractive format for immersive spatial audio, but its high channel count and directional properties present significant audio coding challenges. The widely deployed Opus audio codec supports HOA through Channel Mapping Families 2 and 3 (RFC 8486), which code and transmit every Ambisonics channel, so the bitrate grows quadratically with the spherical harmonic order. We introduce SEMAC, which instead represents an Ambisonics signal by a quantized full-order dir",
       "keywords": [],
-      "arxivId": "2610.31672v1",
+      "arxivId": "2610.32981v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Boosted Dark Matter Directionality in Large Liquid Scintillator Detectors",
+      "title": "Distributed Quantum-Centric Supercomputing with Multi-Layered Generative Learning for Intermolecular Interactions",
       "authors": [
-        "Samuel S. H. Tse",
-        "Qishan Liu",
-        "Kenny C. Y. Ng",
-        "Koun Choi",
-        "Yu-Feng Li"
+        "Chayan Patra",
+        "Prayas Ghosh",
+        "Adwait Patkhedkar",
+        "Rahul Maitra"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-22",
-      "abstract": "Light dark matter can be boosted by cosmic-ray-dark matter interactions, which opens the possibility of direct-detection searches with large neutrino detectors. We consider the signal produced by boosted dark matter undergoing quasi-elastic scattering off carbon and knocking out a neutron in a large liquid scintillator detector. A distinctive delayed gamma ray from neutron capture can be reconstructed after $\\sim 210$ $μ$s, which is paired up with the prompt signal during neutron propagation. We",
-      "keywords": [],
-      "arxivId": "2610.31666v1",
+      "publishDate": "2026-10-23",
+      "abstract": "Quantum-centric supercomputing (QCSC) approaches, such as sample-based quantum diagonalization (SQD), combine quantum processors with high-performance computers (HPC), offering a promising route toward solving challenging electronic structure problems. However, implementation of QCSC approaches to large active space calculations is constrained by the associated number of qubits, deep quantum circuits, sampling cost, and large-scale Hamiltonian diagonalization. To overcome these limitations, we i",
+      "keywords": [
+        "machine learning"
+      ],
+      "arxivId": "2610.32968v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Half-Completeness from Standard Gravitational Dispersion Relations",
+      "title": "All-multiplicity $\\textrm{AdS}_4$ correlators in the self-dual sector",
       "authors": [
-        "Lukas W. Lindwasser",
-        "Laurentiu Rodina",
-        "Justinas Rumbutis"
+        "Humberto Gomez",
+        "Renann Lipinski Jusinskas",
+        "Arthur Lipstein",
+        "Cristhiam Lopez-Arcos"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-22",
-      "abstract": "The completeness hypothesis states that quantum gravity realizes every representation allowed by its gauge group. Previous S-matrix arguments used the graviton pole to constrain exchanged representations, including a proof of completeness by imposing an additional high-energy bound on crossing-odd amplitudes. We investigate what follows without this assumption, using standard twice-subtracted dispersion relations, positivity, and crossing symmetry. For external massless SU(2) isospin $J$, we pro",
+      "publishDate": "2026-10-23",
+      "abstract": "It was recently shown that tree-level gluon correlators of any multiplicity in $\\textrm{AdS}_4$ admit an expansion in terms of flat-space scattering amplitudes, where lower-point amplitudes in the expansion depend on merged external data. We derive here analogous formulae for correlators of scalar theories which encode the self-dual sectors of Yang-Mills theory and gravity in this background. In the latter case, the amplitudes are differential operators which can be obtained from the former usin",
       "keywords": [],
-      "arxivId": "2610.31665v1",
+      "arxivId": "2610.32957v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "title": "Maximal Orbital Entanglement from Non-Interacting Fermions",
       "authors": [
-        "Shengqiong Wu",
-        "Meng Luo",
-        "Bobo Li",
-        "Ziwei Liu",
-        "Shuicheng Yan",
-        "Ming-Hsuan Yang",
-        "Philip Torr",
-        "Hao Fei"
+        "Damiano Aliverti-Piuri",
+        "Julia Liebert",
+        "Christian Schilling"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-22",
-      "abstract": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world, w",
+      "publishDate": "2026-10-23",
+      "abstract": "Orbital rotations are used in quantum many-body physics and chemistry to reduce the complexity of quantum states by compressing their correlation into a small set of relevant orbitals. In striking contrast, quantum information processing strives for the opposite: orbitals that maximize entanglement as a resource. Motivated by this, we prove that Slater determinants of $N$ fermions on a lattice of $d_A + d_B = d$ sites, although free of particle correlation, can carry up to $\\min\\{d_A, d_B, N, d-",
       "keywords": [],
-      "arxivId": "2610.31668v1",
+      "arxivId": "2610.32974v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+      "authors": [
+        "Amber Xie",
+        "Jiawei Fu",
+        "Xiaofeng Guo",
+        "Carmelo Sferrazza",
+        "Guanya Shi",
+        "Haozhi Qi"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-23",
+      "abstract": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their motions must be estimated and retargeted to the robot, and they do not directly provide robot actions. In this paper, we introduce DexPort, a portable data-collection interface for",
+      "keywords": [
+        "interface"
+      ],
+      "arxivId": "2610.32969v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 4
+  "totalCount": 5
 }
