@@ -1,93 +1,98 @@
 {
-  "lastUpdated": "2026-10-26",
+  "lastUpdated": "2026-10-27",
   "papers": [
     {
-      "title": "SEMAC: Spherical Energy Matching Ambisonics Codec for Efficient Higher-Order Ambisonics Compression",
+      "title": "Direct measurement of the ${}^{23}\\mathrm{Mg}(p, γ){}^{24}\\mathrm{Al}$ reaction using the DRAGON recoil separator and a hybrid array of $γ$-ray detectors",
       "authors": [
-        "Christoph Hold",
-        "Jan Buethe",
-        "Jean-Marc Valin",
-        "Jan Skoglund",
-        "Toni Hirvonen",
-        "Nils Peters"
+        "A. C. Edwin",
+        "G. Christian",
+        "A. Lennarz",
+        "I. Casandjian",
+        "S. M. Collins",
+        "E. Desmarais",
+        "U. Greife",
+        "D. A. Hutcheon"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-23",
-      "abstract": "Higher-order Ambisonics (HOA) is an attractive format for immersive spatial audio, but its high channel count and directional properties present significant audio coding challenges. The widely deployed Opus audio codec supports HOA through Channel Mapping Families 2 and 3 (RFC 8486), which code and transmit every Ambisonics channel, so the bitrate grows quadratically with the spherical harmonic order. We introduce SEMAC, which instead represents an Ambisonics signal by a quantized full-order dir",
+      "publishDate": "2026-10-26",
+      "abstract": "Background: The $^{23}$Mg$(p,γ)^{24}$Al reaction plays a key role in nova nucleosynthesis, serving as a bridge between the Ne-Na and Mg-Al cycles and impacting synthesis of a wide variety of nuclides. It is crucial that the rate of this reaction be well constrained by experimental data, in particular the properties of the key resonance at $E_{\\mathrm{cm}}\\approx480$ keV, which dominates the rate at nova temperatures.\n  Purpose: Our study aims to improve experimental constraints on the energy and",
       "keywords": [],
-      "arxivId": "2610.32981v1",
+      "arxivId": "2610.35860v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Distributed Quantum-Centric Supercomputing with Multi-Layered Generative Learning for Intermolecular Interactions",
+      "title": "Interaction of Strong X-mode Waves with Magnetized Pair Plasmas",
       "authors": [
-        "Chayan Patra",
-        "Prayas Ghosh",
-        "Adwait Patkhedkar",
-        "Rahul Maitra"
+        "Navin Sridhar"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-23",
-      "abstract": "Quantum-centric supercomputing (QCSC) approaches, such as sample-based quantum diagonalization (SQD), combine quantum processors with high-performance computers (HPC), offering a promising route toward solving challenging electronic structure problems. However, implementation of QCSC approaches to large active space calculations is constrained by the associated number of qubits, deep quantum circuits, sampling cost, and large-scale Hamiltonian diagonalization. To overcome these limitations, we i",
-      "keywords": [
-        "machine learning"
-      ],
-      "arxivId": "2610.32968v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "All-multiplicity $\\textrm{AdS}_4$ correlators in the self-dual sector",
-      "authors": [
-        "Humberto Gomez",
-        "Renann Lipinski Jusinskas",
-        "Arthur Lipstein",
-        "Cristhiam Lopez-Arcos"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-10-23",
-      "abstract": "It was recently shown that tree-level gluon correlators of any multiplicity in $\\textrm{AdS}_4$ admit an expansion in terms of flat-space scattering amplitudes, where lower-point amplitudes in the expansion depend on merged external data. We derive here analogous formulae for correlators of scalar theories which encode the self-dual sectors of Yang-Mills theory and gravity in this background. In the latter case, the amplitudes are differential operators which can be obtained from the former usin",
+      "publishDate": "2026-10-26",
+      "abstract": "The interaction of strong ($a_0&gt;1$), superluminal X-mode electromagnetic waves with magnetized pair plasma falls into two regimes set by $\\varepsilon_{\\rm B}\\equiv a_0ω_{\\rm B}/ω_0$, the ratio of the wave strength parameter to its frequency, in units of cyclotron frequency. For $\\varepsilon_{\\rm B}&lt;1$ the wave propagates until induced scattering disrupts it. Using analytical theory and kinetic simulations, we show that the background magnetic field introduces a restoring frequency $Ω_{\\rm ",
       "keywords": [],
-      "arxivId": "2610.32957v1",
+      "arxivId": "2610.35849v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Maximal Orbital Entanglement from Non-Interacting Fermions",
+      "title": "Nonabelian Higgs fields from minimal submanifolds",
       "authors": [
-        "Damiano Aliverti-Piuri",
-        "Julia Liebert",
-        "Christian Schilling"
+        "Marco Badran"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-23",
-      "abstract": "Orbital rotations are used in quantum many-body physics and chemistry to reduce the complexity of quantum states by compressing their correlation into a small set of relevant orbitals. In striking contrast, quantum information processing strives for the opposite: orbitals that maximize entanglement as a resource. Motivated by this, we prove that Slater determinants of $N$ fermions on a lattice of $d_A + d_B = d$ sites, although free of particle correlation, can carry up to $\\min\\{d_A, d_B, N, d-",
+      "publishDate": "2026-10-26",
+      "abstract": "We construct $\\mathrm{SU}(2)$ Yang-Mills-Higgs fields on a broad class of noncompact Riemannian manifolds, concentrating in the large-mass limit along prescribed nondegenerate minimal submanifolds of codimension three. The solutions have uniformly bounded rescaled energy. On closed manifolds with $b_1(M)=0$, adding a suitably scaled Higgs potential gives an analogous concentration result. Our construction completes one direction of the correspondence proposed by Parise, Pigati and Stern, realisi",
       "keywords": [],
-      "arxivId": "2610.32974v1",
+      "arxivId": "2610.35837v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+      "title": "Quantum dynamics on the sparse Erdős-Rényi graph",
       "authors": [
-        "Amber Xie",
-        "Jiawei Fu",
-        "Xiaofeng Guo",
-        "Carmelo Sferrazza",
-        "Guanya Shi",
-        "Haozhi Qi"
+        "Johannes Alt",
+        "Raphael Ducatez",
+        "Antti Knowles"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-23",
-      "abstract": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their motions must be estimated and retargeted to the robot, and they do not directly provide robot actions. In this paper, we introduce DexPort, a portable data-collection interface for",
-      "keywords": [
-        "interface"
+      "publishDate": "2026-10-26",
+      "abstract": "We analyse the large-time asymptotics of the Schrödinger time evolution of a free quantum particle on the Erdős-Rényi graph $\\mathbb{G}(N,d/N)$, where the quantum Hamiltonian is given by the adjacency matrix of $\\mathbb{G}$. Starting from a state localized at a vertex, the wave function is approximately radial, and we characterize precisely its asymptotic form. Our results in particular cover vertices whose degree is close to $2d$, hence probing the emergence of bound states from a dynamical per",
+      "keywords": [],
+      "arxivId": "2610.35867v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Do vision models know that three is three?",
+      "authors": [
+        "Ankit Sonthalia",
+        "Arnas Uselis",
+        "Seong Joon Oh"
       ],
-      "arxivId": "2610.32969v1",
+      "journal": "arXiv",
+      "publishDate": "2026-10-26",
+      "abstract": "Do vision models encode the transition $2{\\to}3$ the same way whether it appears in handwritten digits or in hand gestures, and do they \"understand\" that clean${\\to}$dirty is the same transformation regardless of whether it is applied to a kitchen or a carpet? The linear representation hypothesis (LRH) answers this for language models: concept changes correspond to directions in (language) embedding space. In vision, the same concept can manifest in visually unrelated \"regimes\" that rarely co-oc",
+      "keywords": [],
+      "arxivId": "2610.35857v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Collinear and Coplanar Altermagnetism in a Penrose Quasicrystal",
+      "authors": [
+        "Bai-He Yao",
+        "Zhi-Yan Shao",
+        "Ye Cao",
+        "Fan Yang"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-26",
+      "abstract": "We generalize the previous group-theory based classification of collinear magnetism in the quasicrystal (QC) to general magnetic states. Taking the Penrose lattice as an example, we find that all magnetic states belonging to 2D irreducible representations (IRRPs) of the $D_5$ point group, including collinear states and coplanar ones, correspond to altermagnetism (AM). Unlike conventional collinear AM wherein zero magnetism is protected by, e.g. rotation or mirror reflection, which globally flip ",
+      "keywords": [],
+      "arxivId": "2610.35855v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
