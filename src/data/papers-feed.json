@@ -1,95 +1,103 @@
 {
-  "lastUpdated": "2026-10-27",
+  "lastUpdated": "2026-10-28",
   "papers": [
     {
-      "title": "Direct measurement of the ${}^{23}\\mathrm{Mg}(p, γ){}^{24}\\mathrm{Al}$ reaction using the DRAGON recoil separator and a hybrid array of $γ$-ray detectors",
+      "title": "The 't Hooft model on (A)dS$_2$",
       "authors": [
-        "A. C. Edwin",
-        "G. Christian",
-        "A. Lennarz",
-        "I. Casandjian",
-        "S. M. Collins",
-        "E. Desmarais",
-        "U. Greife",
-        "D. A. Hutcheon"
+        "Panos Betzios"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-26",
-      "abstract": "Background: The $^{23}$Mg$(p,γ)^{24}$Al reaction plays a key role in nova nucleosynthesis, serving as a bridge between the Ne-Na and Mg-Al cycles and impacting synthesis of a wide variety of nuclides. It is crucial that the rate of this reaction be well constrained by experimental data, in particular the properties of the key resonance at $E_{\\mathrm{cm}}\\approx480$ keV, which dominates the rate at nova temperatures.\n  Purpose: Our study aims to improve experimental constraints on the energy and",
+      "publishDate": "2026-10-27",
+      "abstract": "We solve large-$N$ two-dimensional QCD with fundamental quarks---the 't Hooft model---on rigid AdS$_2$ and dS$_2$. Their isometries preserve the null gauge $A_-=0$ and in affine coordinates the curvature enters the light-front Hamiltonian only through the special-conformal generator of the null line. The $SL(2,\\mathbb{R)}$ Casimir then results in an exact meson equation: 't Hooft's equation plus a Legendre operator whose sign is determined by the curvature. On AdS$_2$ it is related to equations ",
       "keywords": [],
-      "arxivId": "2610.35860v1",
+      "arxivId": "2610.37667v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Interaction of Strong X-mode Waves with Magnetized Pair Plasmas",
+      "title": "Improving cosmological distance measurements at high redshift using Lyman-Alpha forest BAO reconstruction",
       "authors": [
-        "Navin Sridhar"
+        "Boryana Hadzhiyska",
+        "Roger de Belsunce"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-26",
-      "abstract": "The interaction of strong ($a_0&gt;1$), superluminal X-mode electromagnetic waves with magnetized pair plasma falls into two regimes set by $\\varepsilon_{\\rm B}\\equiv a_0ω_{\\rm B}/ω_0$, the ratio of the wave strength parameter to its frequency, in units of cyclotron frequency. For $\\varepsilon_{\\rm B}&lt;1$ the wave propagates until induced scattering disrupts it. Using analytical theory and kinetic simulations, we show that the background magnetic field introduces a restoring frequency $Ω_{\\rm ",
+      "publishDate": "2026-10-27",
+      "abstract": "The Dark Energy Spectroscopic Instrument (DESI) measures baryon acoustic oscillations (BAO) in the Lyman-$α$ (Lyman-alpha) forest and provides a robust probe of the expansion history in the matter-dominated era. Yet, non-linear structure formation broadens and shifts the BAO peak. To undo these effects, we extend standard Zel'dovich reconstruction, routinely applied to galaxy surveys, to the Lyman-alpha forest. We validate our methodology on large-volume idealized Lyman-alpha forest mocks painte",
       "keywords": [],
-      "arxivId": "2610.35849v1",
+      "arxivId": "2610.37664v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Nonabelian Higgs fields from minimal submanifolds",
+      "title": "Nonuniqueness of Solutions to 2D Incompressible Euler Equations with Unbounded Vorticity",
       "authors": [
-        "Marco Badran"
+        "Hyungjun Choi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-26",
-      "abstract": "We construct $\\mathrm{SU}(2)$ Yang-Mills-Higgs fields on a broad class of noncompact Riemannian manifolds, concentrating in the large-mass limit along prescribed nondegenerate minimal submanifolds of codimension three. The solutions have uniformly bounded rescaled energy. On closed manifolds with $b_1(M)=0$, adding a suitably scaled Higgs potential gives an analogous concentration result. Our construction completes one direction of the correspondence proposed by Parise, Pigati and Stern, realisi",
+      "publishDate": "2026-10-27",
+      "abstract": "We construct two distinct solutions of the two-dimensional incompressible Euler equation with the same initial vorticity in $\\bigcap_{1\\le p&lt;\\infty}L^p(\\mathbb R^2)$. The vorticities are compactly supported in space and have mean zero, so the corresponding velocities have finite energy. The nonuniqueness mechanism is a cascade of transitions in quadrupole dynamics across infinitely many scales.",
       "keywords": [],
-      "arxivId": "2610.35837v1",
+      "arxivId": "2610.37653v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Quantum dynamics on the sparse Erdős-Rényi graph",
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
       "authors": [
-        "Johannes Alt",
-        "Raphael Ducatez",
-        "Antti Knowles"
+        "Chaehyun Kim",
+        "Chi-Pin Huang",
+        "Jisoo Kim",
+        "Min-Hung Chen",
+        "Yu-Chiang Frank Wang",
+        "Seungryong Kim",
+        "Fu-En Yang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-26",
-      "abstract": "We analyse the large-time asymptotics of the Schrödinger time evolution of a free quantum particle on the Erdős-Rényi graph $\\mathbb{G}(N,d/N)$, where the quantum Hamiltonian is given by the adjacency matrix of $\\mathbb{G}$. Starting from a state localized at a vertex, the wave function is approximately radial, and we characterize precisely its asymptotic form. Our results in particular cover vertices whose degree is close to $2d$, hence probing the emergence of bound states from a dynamical per",
+      "publishDate": "2026-10-27",
+      "abstract": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a VLA learning framework that grounds action reasoning in world dynamics and strength",
       "keywords": [],
-      "arxivId": "2610.35867v1",
+      "arxivId": "2610.37666v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Do vision models know that three is three?",
+      "title": "Exact Analytical Treatment of Collectively Pumped Dicke Superradiance",
       "authors": [
-        "Ankit Sonthalia",
-        "Arnas Uselis",
-        "Seong Joon Oh"
+        "Avishi Poddar",
+        "Nico Baßler",
+        "Julian Lyne",
+        "Susanne F. Yelin",
+        "Helmut Ritsch",
+        "Claudiu Genes",
+        "Raphael Holzinger"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-26",
-      "abstract": "Do vision models encode the transition $2{\\to}3$ the same way whether it appears in handwritten digits or in hand gestures, and do they \"understand\" that clean${\\to}$dirty is the same transformation regardless of whether it is applied to a kitchen or a carpet? The linear representation hypothesis (LRH) answers this for language models: concept changes correspond to directions in (language) embedding space. In vision, the same concept can manifest in visually unrelated \"regimes\" that rarely co-oc",
+      "publishDate": "2026-10-27",
+      "abstract": "We study the dynamics of an ensemble of $N$ two-level emitters undergoing collective decay at rate $Γ$ and collective incoherent pumping at rate $R$, confined to the fully symmetric Dicke ladder. Although the population dynamics are confined to a finite set of rate equations, their quantum-trajectory representation involves infinitely many pump-decay histories. We derive an exact finite continued fraction for the Laplace-transformed Dicke-state populations by resumming the infinitely many quantu",
       "keywords": [],
-      "arxivId": "2610.35857v1",
+      "arxivId": "2610.37665v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Collinear and Coplanar Altermagnetism in a Penrose Quasicrystal",
+      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
       "authors": [
-        "Bai-He Yao",
-        "Zhi-Yan Shao",
-        "Ye Cao",
-        "Fan Yang"
+        "Jialv Zou",
+        "Xiaotong Li",
+        "Zhengrong Yue",
+        "Xu Huang",
+        "Yaxin Luo",
+        "Wenhao Yan",
+        "Haodong Li",
+        "Wenyu Liu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-26",
-      "abstract": "We generalize the previous group-theory based classification of collinear magnetism in the quasicrystal (QC) to general magnetic states. Taking the Penrose lattice as an example, we find that all magnetic states belonging to 2D irreducible representations (IRRPs) of the $D_5$ point group, including collinear states and coplanar ones, correspond to altermagnetism (AM). Unlike conventional collinear AM wherein zero magnetism is protected by, e.g. rotation or mirror reflection, which globally flip ",
-      "keywords": [],
-      "arxivId": "2610.35855v1",
+      "publishDate": "2026-10-27",
+      "abstract": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using multimodal understanding as a proxy for semantic fidelity, we revisit this assum",
+      "keywords": [
+        "interface"
+      ],
+      "arxivId": "2610.37662v1",
       "doi": "",
       "relevance": "medium"
     }
