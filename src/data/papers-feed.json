@@ -1,106 +1,52 @@
 {
-  "lastUpdated": "2026-10-29",
+  "lastUpdated": "2026-10-30",
   "papers": [
     {
-      "title": "The 't Hooft model on (A)dS$_2$",
+      "title": "Variational wavefunctions for ideal anyon gas: superfluid and skyrmion Hall crystal",
       "authors": [
-        "Panos Betzios"
+        "Ya-Hui Zhang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-27",
-      "abstract": "We solve large-$N$ two-dimensional QCD with fundamental quarks---the 't Hooft model---on rigid AdS$_2$ and dS$_2$. Their isometries preserve the null gauge $A_-=0$ and in affine coordinates the curvature enters the light-front Hamiltonian only through the special-conformal generator of the null line. The $SL(2,\\mathbb{R)}$ Casimir then results in an exact meson equation: 't Hooft's equation plus a Legendre operator whose sign is determined by the curvature. On AdS$_2$ it is related to equations ",
+      "publishDate": "2026-10-29",
+      "abstract": "The ground state of an ideal gas of anyons with statistical angle $θ\\in(0,π)$ is a long-standing open problem, with renewed interest from the recent observations of fractional Chern insulators. In this work we construct variational wavefunctions that build in the exact anyon statistics and combine theory-guided composite-boson, composite-fermion and parton wavefunctions with neural-network correlations on the sphere. For spinless and SU(2) semions we confirm the paired anyon superfluid, well bel",
       "keywords": [],
-      "arxivId": "2610.37667v1",
+      "arxivId": "2610.40657v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Improving cosmological distance measurements at high redshift using Lyman-Alpha forest BAO reconstruction",
+      "title": "Reconstructing hidden observables via quantum snapshot thermometry",
       "authors": [
-        "Boryana Hadzhiyska",
-        "Roger de Belsunce"
+        "Jie Ren",
+        "Andrew Hallam",
+        "Luheng Zhao",
+        "Huanqian Loh",
+        "Zlatko Papić"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-27",
-      "abstract": "The Dark Energy Spectroscopic Instrument (DESI) measures baryon acoustic oscillations (BAO) in the Lyman-$α$ (Lyman-alpha) forest and provides a robust probe of the expansion history in the matter-dominated era. Yet, non-linear structure formation broadens and shifts the BAO peak. To undo these effects, we extend standard Zel'dovich reconstruction, routinely applied to galaxy surveys, to the Lyman-alpha forest. We validate our methodology on large-volume idealized Lyman-alpha forest mocks painte",
+      "publishDate": "2026-10-29",
+      "abstract": "Projective snapshots are a standard readout tool for quantum simulators, but they directly probe only observables that are diagonal in the measurement basis. We show how local equilibration and an independently calibrated equilibrium equation of state can reveal otherwise hidden conserved-density profiles. We demonstrate numerically that such ``quantum snapshot thermometry'' can recover energy fronts and a diffusion constant, distinguish spin transport from energy spreading, and reveal conserved",
       "keywords": [],
-      "arxivId": "2610.37664v1",
+      "arxivId": "2610.40652v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Nonuniqueness of Solutions to 2D Incompressible Euler Equations with Unbounded Vorticity",
+      "title": "When Does Storage Complement Solar? Investment and Cost Recovery under Advanced Net Metering",
       "authors": [
-        "Hyungjun Choi"
+        "Nathan Engelman Lado",
+        "Ahmed Alahmed",
+        "Audun Botterud",
+        "Saurabh Amin"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-27",
-      "abstract": "We construct two distinct solutions of the two-dimensional incompressible Euler equation with the same initial vorticity in $\\bigcap_{1\\le p&lt;\\infty}L^p(\\mathbb R^2)$. The vorticities are compactly supported in space and have mean zero, so the corresponding velocities have finite energy. The nonuniqueness mechanism is a cascade of transitions in quadrupole dynamics across infinitely many scales.",
+      "publishDate": "2026-10-29",
+      "abstract": "We examine the joint PV and storage operational and investment decisions of a prosumer under net energy metering (NEM) and peak/off-peak tariffs. Legacy NEM compensates net exports at the retail rate over a netting period, typically under time-invariant pricing. To better reflect system costs, tariff features are being reconsidered, with many U.S. states adopting time-varying prices and export compensation below the retail price. We formulate the prosumer decision problem as a cost minimization ",
       "keywords": [],
-      "arxivId": "2610.37653v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-      "authors": [
-        "Chaehyun Kim",
-        "Chi-Pin Huang",
-        "Jisoo Kim",
-        "Min-Hung Chen",
-        "Yu-Chiang Frank Wang",
-        "Seungryong Kim",
-        "Fu-En Yang"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-10-27",
-      "abstract": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a VLA learning framework that grounds action reasoning in world dynamics and strength",
-      "keywords": [],
-      "arxivId": "2610.37666v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Exact Analytical Treatment of Collectively Pumped Dicke Superradiance",
-      "authors": [
-        "Avishi Poddar",
-        "Nico Baßler",
-        "Julian Lyne",
-        "Susanne F. Yelin",
-        "Helmut Ritsch",
-        "Claudiu Genes",
-        "Raphael Holzinger"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-10-27",
-      "abstract": "We study the dynamics of an ensemble of $N$ two-level emitters undergoing collective decay at rate $Γ$ and collective incoherent pumping at rate $R$, confined to the fully symmetric Dicke ladder. Although the population dynamics are confined to a finite set of rate equations, their quantum-trajectory representation involves infinitely many pump-decay histories. We derive an exact finite continued fraction for the Laplace-transformed Dicke-state populations by resumming the infinitely many quantu",
-      "keywords": [],
-      "arxivId": "2610.37665v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
-      "authors": [
-        "Jialv Zou",
-        "Xiaotong Li",
-        "Zhengrong Yue",
-        "Xu Huang",
-        "Yaxin Luo",
-        "Wenhao Yan",
-        "Haodong Li",
-        "Wenyu Liu"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-10-27",
-      "abstract": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using multimodal understanding as a proxy for semantic fidelity, we revisit this assum",
-      "keywords": [
-        "interface"
-      ],
-      "arxivId": "2610.37662v1",
+      "arxivId": "2610.40650v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 3
 }
