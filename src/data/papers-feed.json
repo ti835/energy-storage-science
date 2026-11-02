@@ -1,52 +1,96 @@
 {
-  "lastUpdated": "2026-11-01",
+  "lastUpdated": "2026-11-02",
   "papers": [
     {
-      "title": "Variational wavefunctions for ideal anyon gas: superfluid and skyrmion Hall crystal",
+      "title": "A first look at strange-quark polarization in top-quark decays with CMS Open Data",
       "authors": [
-        "Ya-Hui Zhang"
+        "Yevgeny Kats"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-29",
-      "abstract": "The ground state of an ideal gas of anyons with statistical angle $θ\\in(0,π)$ is a long-standing open problem, with renewed interest from the recent observations of fractional Chern insulators. In this work we construct variational wavefunctions that build in the exact anyon statistics and combine theory-guided composite-boson, composite-fermion and parton wavefunctions with neural-network correlations on the sphere. For spinless and SU(2) semions we confirm the paired anyon superfluid, well bel",
+      "publishDate": "2026-10-30",
+      "abstract": "We present a first realization of strange-quark polarimetry in top-quark decays. The longitudinal polarization of $Λ$ baryons is measured in the strange jets of hadronic $W\\to c\\bar s$ decays in semileptonic top-quark pair events, using 16.39 fb$^{-1}$ of the public CMS data of pp collisions at $\\sqrt{s}=13$ TeV. The $W$ decay produces the strange quark fully polarized, so that the $Λ$ polarization measures the transfer of the quark polarization in fragmentation. With the limited statistics avai",
       "keywords": [],
-      "arxivId": "2610.40657v1",
+      "arxivId": "2610.42143v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Reconstructing hidden observables via quantum snapshot thermometry",
+      "title": "Baker--Akhiezer sections from Higgs bundles and Landau levels in hyperbolic band theory",
       "authors": [
-        "Jie Ren",
-        "Andrew Hallam",
-        "Luheng Zhao",
-        "Huanqian Loh",
-        "Zlatko Papić"
+        "Duong Dinh",
+        "Steven Rayan"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-29",
-      "abstract": "Projective snapshots are a standard readout tool for quantum simulators, but they directly probe only observables that are diagonal in the measurement basis. We show how local equilibration and an independently calibrated equilibrium equation of state can reveal otherwise hidden conserved-density profiles. We demonstrate numerically that such ``quantum snapshot thermometry'' can recover energy fronts and a diffusion constant, distinguish spin transport from energy spreading, and reveal conserved",
+      "publishDate": "2026-10-30",
+      "abstract": "As observed by Kienzle and the second author, rank-two $\\mathcal{O}(3)$-twisted Higgs bundles on the projective line encode all hyperbolic crystals of genus two: the spectral curves are the unit cells, and the Hitchin fibers are the abelian Brillouin zones. In a uniform magnetic field of two flux quanta, the lowest Landau level is one-dimensional at every nonzero momentum, and, as found by Iengo and Li, its dimension jumps to two at the zero momentum. We identify the states of the lowest Landau ",
       "keywords": [],
-      "arxivId": "2610.40652v1",
+      "arxivId": "2610.42134v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "When Does Storage Complement Solar? Investment and Cost Recovery under Advanced Net Metering",
+      "title": "Nova V1674 Her as a fast magnetic rotator",
       "authors": [
-        "Nathan Engelman Lado",
-        "Ahmed Alahmed",
-        "Audun Botterud",
-        "Saurabh Amin"
+        "G. J. M. Luna",
+        "M. Orio",
+        "A. Dobrotka",
+        "J. Magdolen"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-29",
-      "abstract": "We examine the joint PV and storage operational and investment decisions of a prosumer under net energy metering (NEM) and peak/off-peak tariffs. Legacy NEM compensates net exports at the retail rate over a netting period, typically under time-invariant pricing. To better reflect system costs, tariff features are being reconsidered, with many U.S. states adopting time-varying prices and export compensation below the retail price. We formulate the prosumer decision problem as a cost minimization ",
+      "publishDate": "2026-10-30",
+      "abstract": "We report on the results of our XMM-Newton and NuSTAR campaign targeting V1674 Her in October 2023. These observations were timed to investigate the post-nova quiescent state 28 months after the 2021 outburst, although the optical luminosity was still slowly declining. The X-ray spectra are well-modeled by a multi-temperature thermal plasma. While in the best fit temperature we find that the highest plasma temperature is indicative of a massive white dwarf ($M_{\\text{WD}} \\approx 1.35 M_\\odot$),",
       "keywords": [],
-      "arxivId": "2610.40650v1",
+      "arxivId": "2610.42132v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Secret-shared teleportation of a two-qudit gate with a deferred recipient",
+      "authors": [
+        "Tanay Roy"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-30",
+      "abstract": "An unknown quantum operation, like an unknown quantum state, cannot be perfectly copied or stored for later use. A specific gate can be embedded in an entangled resource and teleported, but its destination is fixed when the resource is created. Here we show that the capability to apply a two-qudit entangling gate can instead be secret-shared among many parties: the shares are distributed in advance, and a later key release lets exactly one of them, chosen after distribution, exercise it. A provi",
+      "keywords": [],
+      "arxivId": "2610.42150v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+      "authors": [
+        "Byungwoo Jeon",
+        "Yoonwoo Jeong",
+        "Hyunseok Lee",
+        "Minsu Cho",
+        "Jinwoo Shin"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-30",
+      "abstract": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a fundamental modality mismatch: reasoning is performed in a discrete token space,",
+      "keywords": [],
+      "arxivId": "2610.42149v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+      "authors": [
+        "Bobo Li",
+        "Jiajia Song",
+        "Hao Fei",
+        "Wynne Hsu",
+        "Mong Li Lee"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-10-30",
+      "abstract": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, we propose Flide, an efficient and exact inference engine that decouples the logical tree structure ",
+      "keywords": [],
+      "arxivId": "2610.42148v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 3
+  "totalCount": 6
 }
