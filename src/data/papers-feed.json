@@ -1,93 +1,108 @@
 {
-  "lastUpdated": "2026-11-02",
+  "lastUpdated": "2026-11-03",
   "papers": [
     {
-      "title": "A first look at strange-quark polarization in top-quark decays with CMS Open Data",
+      "title": "A hyperbolic nonlinear Schrödinger system in multiple spatial dimensions: structure, convergence, and numerical discretization",
       "authors": [
-        "Yevgeny Kats"
+        "Carlos Muñoz-Moncayo",
+        "Abhijit Biswas",
+        "David I. Ketcheson",
+        "Manvendra Rajvanshi"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-30",
-      "abstract": "We present a first realization of strange-quark polarimetry in top-quark decays. The longitudinal polarization of $Λ$ baryons is measured in the strange jets of hadronic $W\\to c\\bar s$ decays in semileptonic top-quark pair events, using 16.39 fb$^{-1}$ of the public CMS data of pp collisions at $\\sqrt{s}=13$ TeV. The $W$ decay produces the strange quark fully polarized, so that the $Λ$ polarization measures the transfer of the quark polarization in fragmentation. With the limited statistics avai",
+      "publishDate": "2026-11-02",
+      "abstract": "We propose and study a first-order hyperbolic approximation of the nonlinear Schrödinger (NLS) equation in $N$ spatial dimensions. This is an extension of the recently-proposed 1D hyperbolic NLS model. We study the structure and properties of the hyperbolic approximation and their relation to those of the original system. We show that the N-dimensional hyperbolic system exactly conserves analogs of the mass, energy, and momentum, and that it possesses stationary solutions that are closely relate",
       "keywords": [],
-      "arxivId": "2610.42143v1",
+      "arxivId": "2611.03642v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Baker--Akhiezer sections from Higgs bundles and Landau levels in hyperbolic band theory",
+      "title": "Mercury (Hg): a relativistic $N$-body simulation for Horndeski gravity",
       "authors": [
-        "Duong Dinh",
-        "Steven Rayan"
+        "Ahmad Nouri-Zonoz",
+        "Farbod Hassani",
+        "Julian Adamek",
+        "Emilio Bellini",
+        "Martin Kunz"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-30",
-      "abstract": "As observed by Kienzle and the second author, rank-two $\\mathcal{O}(3)$-twisted Higgs bundles on the projective line encode all hyperbolic crystals of genus two: the spectral curves are the unit cells, and the Hitchin fibers are the abelian Brillouin zones. In a uniform magnetic field of two flux quanta, the lowest Landau level is one-dimensional at every nonzero momentum, and, as found by Iengo and Li, its dimension jumps to two at the zero momentum. We identify the states of the lowest Landau ",
-      "keywords": [],
-      "arxivId": "2610.42134v1",
+      "publishDate": "2026-11-02",
+      "abstract": "We present Mercury, a relativistic $N$-body code for cosmological simulations in the $α$-basis formulation of Horndeski gravity. Mercury extends a particle-mesh scheme by incorporating the dynamics of the additional scalar degree of freedom and the corresponding modified Einstein equations, expressed in terms of the time-dependent functions $α_{\\rm K}, α_{\\rm B}, α_{\\rm M}, α_{\\rm T}$ and the effective Planck mass $M_*^2$. This generalises our previous implementation of Horndeski subclass models",
+      "keywords": [
+        "energy density",
+        "screening",
+        "interface"
+      ],
+      "arxivId": "2611.03637v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Nova V1674 Her as a fast magnetic rotator",
+      "title": "Ultrafast X-ray-induced dephasing of valence electrons",
       "authors": [
-        "G. J. M. Luna",
-        "M. Orio",
-        "A. Dobrotka",
-        "J. Magdolen"
+        "J. Vonka",
+        "B. Pedrini",
+        "J. Ravnik",
+        "A. Steppke",
+        "E. Prat",
+        "S. Reiche",
+        "D. G. Mazzone",
+        "P. Anand"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-30",
-      "abstract": "We report on the results of our XMM-Newton and NuSTAR campaign targeting V1674 Her in October 2023. These observations were timed to investigate the post-nova quiescent state 28 months after the 2021 outburst, although the optical luminosity was still slowly declining. The X-ray spectra are well-modeled by a multi-temperature thermal plasma. While in the best fit temperature we find that the highest plasma temperature is indicative of a massive white dwarf ($M_{\\text{WD}} \\approx 1.35 M_\\odot$),",
+      "publishDate": "2026-11-02",
+      "abstract": "Diffract-before-destroy schemes for atomic-scale electron mapping assume that ultrashort X-ray pulses outrun radiation damage. Although atomic cores move over tens of femtoseconds, outer electrons respond much faster, compromising their locations. We test this limit in elemental silicon using broadband, energy-chirped X-ray pulses to encode time with few-femtosecond resolution. Comparing valence-sensitive structurally forbidden reflections with simultaneously measured core-dominated Bragg peaks ",
       "keywords": [],
-      "arxivId": "2610.42132v1",
+      "arxivId": "2611.03635v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Secret-shared teleportation of a two-qudit gate with a deferred recipient",
+      "title": "Get Permanent Results Faster by Counting Stars",
       "authors": [
-        "Tanay Roy"
+        "Radu Curticapean"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-30",
-      "abstract": "An unknown quantum operation, like an unknown quantum state, cannot be perfectly copied or stored for later use. A specific gate can be embedded in an entangled resource and teleported, but its destination is fixed when the resource is created. Here we show that the capability to apply a two-qudit entangling gate can instead be secret-shared among many parties: the shares are distributed in advance, and a later key release lets exactly one of them, chosen after distribution, exercise it. A provi",
+      "publishDate": "2026-11-02",
+      "abstract": "We show that $n \\times n$ permanents can be computed with $O^*{(2-\\varepsilon)^n}$ arithmetic operations over every commutative ring, for $\\varepsilon = 10^{-40}$. This solves a problem stated in Knuth's The Art of Computer Programming. Our algorithm implements the classical Binet--Minc identity with dynamic programming and careful bookkeeping. It also gives algebraic branching programs of size $O^*{(2-\\varepsilon)^n}$.",
       "keywords": [],
-      "arxivId": "2610.42150v1",
+      "arxivId": "2611.03636v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+      "title": "Active-subspace learning reveals dominant parameter directions in nuclear observables",
       "authors": [
-        "Byungwoo Jeon",
-        "Yoonwoo Jeong",
-        "Hyunseok Lee",
-        "Minsu Cho",
-        "Jinwoo Shin"
+        "Tom Plies",
+        "Margarida Companys Franzke",
+        "Achim Schwenk"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-30",
-      "abstract": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a fundamental modality mismatch: reasoning is performed in a discrete token space,",
+      "publishDate": "2026-11-02",
+      "abstract": "Nuclear observables computed using ab initio methods can depend on many low-energy constants (LECs) of the underlying chiral effective field theory interactions, while being sensitive to only a few LEC combinations. We use active-subspace learning to identify these dominant parameter directions directly from many-body calculations. For ground-state energies and charge radii of oxygen isotopes, we find that more than 99% of the gradient-based variation is concentrated along a single direction for",
       "keywords": [],
-      "arxivId": "2610.42149v1",
+      "arxivId": "2611.03628v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+      "title": "Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data",
       "authors": [
-        "Bobo Li",
-        "Jiajia Song",
-        "Hao Fei",
-        "Wynne Hsu",
-        "Mong Li Lee"
+        "Rafal Karp",
+        "Gene Liu",
+        "Shih-Hsin Li",
+        "Eric Courtemanche",
+        "Shengze Wang",
+        "Josef Spjut",
+        "David Pankratz",
+        "Mischa Kolbe"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-10-30",
-      "abstract": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, we propose Flide, an efficient and exact inference engine that decouples the logical tree structure ",
+      "publishDate": "2026-11-02",
+      "abstract": "We present Isekai3D Synthetic Data Generation (SDG), a platform for simulating and capturing synthetic 3D gameplay for research in vision and world models, neural graphics, gameplay agents, and other applications. The platform combines reusable environment and character assets with Unreal Engine plugins in a two-stage workflow. First, world simulation generates gameplay while recording the world state, character movements, actions, and camera tracks needed for replay. Second, the recorded simula",
       "keywords": [],
-      "arxivId": "2610.42148v1",
+      "arxivId": "2611.03626v1",
       "doi": "",
       "relevance": "medium"
     }
