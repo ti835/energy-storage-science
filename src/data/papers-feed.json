@@ -1,104 +1,89 @@
 {
-  "lastUpdated": "2026-11-05",
+  "lastUpdated": "2026-11-06",
   "papers": [
     {
-      "title": "ReveaLLAGN 3: Revealing the Infrared Spectral Energy Distributions of Low Luminosity AGN",
+      "title": "Hypersurface covariance in relativistic local equilibrium",
       "authors": [
-        "David Ohlson",
-        "Anil C. Seth",
-        "Kameron Goold",
-        "Nischal Acharya",
-        "Torsten Böker",
-        "Antoine Dumont",
-        "Ruby Duncan",
-        "Michael Eracleous"
+        "You-yu Li",
+        "Shuai Y. F. Liu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-04",
-      "abstract": "The spectral energy distributions of active galactic nuclei (AGN) provide valuable information on the emission mechanisms taking place in their inner regions. Here we use the James Webb Space Telescope to study the near and mid-infrared spectral energy distributions of seven nearby low-luminosity active galaxy nuclei from 1.7 to 24 $μm$. We cleanly separate the AGN spectrum by performing spatial fits of the two-dimensional images across all wavelengths. We then compare these clean unresolved spe",
+      "publishDate": "2026-11-05",
+      "abstract": "Defining equilibrium typically requires specifying a three-dimensional spacelike hypersurface. While global equilibrium is hypersurface covariant, calculations involving local equilibrium can exhibit hypersurface dependence. In this work, we use polarization in heavy-ion collisions within the Zubarev response approach as an example to show that the hypersurface dependence arising from the local-equilibrium part of the density operator is canceled by an overlooked nondissipative contribution from",
       "keywords": [],
-      "arxivId": "2611.06916v1",
+      "arxivId": "2611.08482v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Conformal field theory from automorphic forms on a quantum group",
+      "title": "Defect Anomalies at a Distance",
       "authors": [
-        "Dalimil Mazac"
+        "Oleksandr Diatlyk",
+        "Zimo Sun",
+        "Yifan Wang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-04",
-      "abstract": "We reformulate two-dimensional conformal field theory (2d CFT) in the language of noncommutative geometry. To this end, we introduce automorphic forms for the von Neumann algebraic quantum group $\\mathrm{SL}^+_b(2,\\mathbb{R})$. A quantum measure space is a von Neumann algebra equipped with a weight. We study such spaces carrying a weight-preserving action of $\\mathrm{SL}^+_b(2,\\mathbb{R})$. We argue that every unitary bosonic 2d CFT with central charge $c=1+6(b+b^{-1})^2&gt;1$ is equivalent to a",
+      "publishDate": "2026-11-05",
+      "abstract": "Surface defects carry Weyl and gravitational anomalies that generalize the central charges of two-dimensional conformal field theories (CFTs) and characterize the anomalous response of gapless surface modes to background geometry. These anomalies usually appear as contact terms on the defect. We explain how they are encoded at a distance, in scheme-independent integrated bulk stress-tensor correlators. We derive sum rules for them in terms of defect operator data, establish a lower bound on the ",
       "keywords": [],
-      "arxivId": "2611.06907v1",
+      "arxivId": "2611.08476v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Gravitational-Wave Constraints on $R^2$ Gravity",
+      "title": "The three-dimensional Galilean black hole",
       "authors": [
-        "Pawan Kumar Gupta",
-        "Laura Sagunski"
+        "Luis Avilés",
+        "Oscar Fuentealba",
+        "Diego Hidalgo",
+        "Pablo Rodríguez"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-04",
-      "abstract": "Gravitational waves from compact binary coalescences provide a unique opportunity to test general relativity in the strong-field regime. Quadratic $f(R)=R+aR^2$ gravity is among the simplest higher-curvature extensions of general relativity and introduces a massive scalar degree of freedom whose finite interaction range can modify compact-binary dynamics and gravitational-wave emission. We map this theory onto the effective-field-theory waveform for generic massive scalar-tensor gravity, obtaini",
+      "publishDate": "2026-11-05",
+      "abstract": "We report a novel solution of three-dimensional Galilean Anti-de Sitter gravity. The theory can be formulated as a topological gauge theory invariant under the doubly extended Newton-Hooke group in three dimensions. The solution possesses four conserved charges: energy, angular momentum, spin and rest mass. Interestingly, the magnitude of the spin turns out to bounded from above by the rest mass. The solution exhibits the thermal properties that define a black hole configuration in terms of its ",
       "keywords": [],
-      "arxivId": "2611.06902v1",
+      "arxivId": "2611.08471v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
       "authors": [
-        "Weichen Fan",
-        "Haiwen Diao",
-        "Penghao Wu",
-        "Siyuan Hu",
-        "Ziqi Huang",
-        "Tianqi Liu",
-        "Mingze Sun",
-        "Ziyi Wang"
+        "Qile Jiang",
+        "George Em Karniadakis"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-04",
-      "abstract": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation? We introduce NEO-VLA, a str",
+      "publishDate": "2026-11-05",
+      "abstract": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework in which hundreds of low-cost agents per round work in swarms, reason in latent space without decod",
       "keywords": [],
-      "arxivId": "2611.06918v1",
+      "arxivId": "2611.08483v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+      "title": "Correlations and fluctuations of flow with event shape engineering in Pb-Pb and Xe-Xe collisions at the LHC",
       "authors": [
-        "Fei Lin",
-        "Tengchao Zhang",
-        "Ziyang Gong",
-        "Xiaotong Yu",
-        "Bohan Zhang",
-        "Yifan Zhou",
-        "Qihao Yang",
-        "Ji Dai"
+        "ALICE Collaboration"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-04",
-      "abstract": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-o",
+      "publishDate": "2026-11-05",
+      "abstract": "Measurements of anisotropic flow provide some of the strongest constraints on the collective expansion and transport properties of the quark-gluon plasma produced in ultra-relativistic heavy-ion collisions. In this paper, correlations and fluctuations of the anisotropic flow coefficients $v_{2}$, $v_{3}$, and $v_{4}$ are measured in Pb-Pb and Xe-Xe collisions at $\\sqrt{s_{\\rm{NN}}} = 5.02$ and $5.44$ TeV, respectively, with the ALICE detector. The Event Shape Engineering technique, based on the ",
       "keywords": [],
-      "arxivId": "2611.06911v1",
+      "arxivId": "2611.08473v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Arithmetic Depth, Minimal Gate Alphabets, and Exact Program-State Resources for Single-Qubit Dyadic Programs",
+      "title": "Joint Bayesian Inference for Extraction of Charmonium Long Distance Matrix Elements Using PYTHIA",
       "authors": [
-        "Tony Newton",
-        "Dan-Adrian German"
+        "Yubo Liu",
+        "Rongrong Ma"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-04",
-      "abstract": "Resource analyses for quantum programs commonly provide safe upper bounds on qubits, gates, or non-Clifford operations. We study a single-qubit dyadic fragment in which the deepest exact resource layer can instead be inferred exactly. Starting from the normalized-midpoint misty-state syntax, we define dyadic program states and the real cyclotomic tower $K_D=\\mathbb Q(2\\cos(π/2^D))$. For the projective single-qubit Clifford-cyclotomic tower $\\widehat G_D\\subseteq SO(3)$, we prove the relative int",
+      "publishDate": "2026-11-05",
+      "abstract": "We present a joint Bayesian extraction of the nonrelativistic QCD long-distance matrix elements (LDMEs) for $J/ψ$, $ψ(2S)$, and $χ_c$ production, using short-distance coefficients and feed-down structure implemented in PYTHIA 8.317. Rather than fitting each charmonium state separately, we construct channel-resolved responses that link parent production to daughter feed-down and infer all LDMEs simultaneously from 286 prompt charmonium measurements in $pp$ collisions at $\\sqrt{s}=5.02$-13 TeV at ",
       "keywords": [],
-      "arxivId": "2611.06909v1",
+      "arxivId": "2611.08463v1",
       "doi": "",
       "relevance": "medium"
     }
