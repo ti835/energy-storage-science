@@ -1,100 +1,83 @@
 {
-  "lastUpdated": "2026-11-10",
+  "lastUpdated": "2026-11-11",
   "papers": [
     {
-      "title": "Dephasing-Induced Melting of Crystalline Spectral Form Factors",
+      "title": "Solving the SU(2) BFSS model",
       "authors": [
-        "Preethi Gopalakrishnan",
-        "Adolfo del Campo"
+        "Kabir Bajaj",
+        "Henry W. Lin"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-09",
-      "abstract": "Long-range spectral order can be probed using spectral form factors, where it manifests itself as sharp Bragg peaks at integer multiples of the Heisenberg time in nearly crystalline spectra. We examine how energy dephasing in open systems affects this spectral order and how to control it. We find that Bragg peaks fade algebraically with revival order and dephasing strength, $K_{\\rm Bragg}(p)\\propto(γp)^{-1/2}$, within an extensive intermediate regime, and persist up to the lifetime of nearest-ne",
+      "publishDate": "2026-11-10",
+      "abstract": "We numerically solve the ground state wavefunction of SU(2) BFSS matrix quantum mechanics. We compare ground correlators against islands obtained using the matrix bootstrap and find agreement up to five significant figures. The power law tail of this wavefunction determines the three-point amplitude, which agrees with the computation of Herderschee and Maldacena. Beyond the ground state, we extract the non-perturbative four-point scattering amplitude using Lüscher's method. In the appropriate re",
       "keywords": [],
-      "arxivId": "2611.12888v1",
+      "arxivId": "2611.14512v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A regularization-independent Information Criterion for correlated data",
+      "title": "Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion",
       "authors": [
-        "Davide Laudicina"
+        "Alexandre Garcia-Duran",
+        "Alejandro Rodriguez-Garcia",
+        "Manuel Molano-Mazón",
+        "Alexandre Hyafil",
+        "Srikanth Ramaswamy",
+        "Janne K. Lappalainen"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-09",
-      "abstract": "We generalize the Akaike Information Criterion (AIC) to allow model and data subset selection when regularized fits are performed on correlated data. While the standard generalization to regularized fits is inherently dependent on the type of regularization applied to the data covariance matrix, our definition, the RIAIC, is, on average, regularization-independent. The regularization-independence is achieved by defining the new Information Criterion as an estimator of the model-dependent contrib",
+      "publishDate": "2026-11-10",
+      "abstract": "Biological visual systems compute reliably under tight metabolic and wiring constraints, whereas artificial vision systems consume far more energy and can be sensitive to adversarial perturbations. Whether networks with brain-like wiring are more robust at lower computational cost is unclear. We address this by benchmarking a task-optimized, continuous-time recurrent neural network of the fly visual system constrained by its synaptic connectome (FlyNet) against artificial neural networks. We com",
       "keywords": [],
-      "arxivId": "2611.12877v1",
+      "arxivId": "2611.14498v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Quantitative global regularity for Navier--Stokes equations with odd viscosity on the cubic three-torus",
+      "title": "Excess charge in the Engel-Dreizler model of atoms and molecules",
       "authors": [
-        "Jinzheng Li",
-        "Yuqi Li",
-        "Hao-Yu Sun"
+        "Rafael Benguria",
+        "Heinz Siedentop"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-09",
-      "abstract": "We study the three-dimensional incompressible Navier--Stokes equation on the cubic torus with a constant odd-viscosity operator given by the vertical derivative of the curl. Arbitrary real, mean-zero, divergence-free initial data and an independent steady force, both in the second-order Sobolev space, admit a unique global strong solution when the magnitude of one fixed odd-viscosity coefficient is at least a norm-uniform sufficient threshold. In the unforced case the solution is smooth at posit",
+      "publishDate": "2026-11-10",
+      "abstract": "We prove an explicit excess-charge bound for the exchange-free Engel--Dreizler functional of atoms and molecules. If $αλ\\le1/1233$ and $α^3Z_k^2\\le1/137$ for each nucleus, every finite-mass electronic minimizer whose total energy, including nuclear repulsion, is nonpositive satisfies $N-\\sum_kZ_k&lt;(5913/1000)λ^{3/2}K$. For the gradient coefficient $λ=1/9$, this gives $N-\\sum_kZ_k&lt;0.219K$. The energy hypothesis holds automatically for atoms and for local minima of the Born--Oppenheimer energ",
       "keywords": [],
-      "arxivId": "2611.12862v1",
+      "arxivId": "2611.14497v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+      "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
       "authors": [
-        "Haozhi Yuan",
-        "Handong Li",
-        "Yifan Zhang",
-        "Qianshan Wei"
+        "Sheethal Bhat",
+        "Bogdan Georgescu",
+        "Awais Mansoor",
+        "Florin C. Ghesu",
+        "Sasa Grbic",
+        "Andreas Maier"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-09",
-      "abstract": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that treats the observation state, rather than only the output distribution, as an object of alignment. Fi",
+      "publishDate": "2026-11-10",
+      "abstract": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and the heterogeneity of existing datasets limit the development of robust foundation models. In this work, we introduce a novel approach to building a multi-domain foundation model for le sion detection by",
       "keywords": [],
-      "arxivId": "2611.12886v1",
+      "arxivId": "2611.14518v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular Dynamics",
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
       "authors": [
-        "Majdi Hassan",
-        "Marta Skreta",
-        "Dominique Beaini",
-        "Kirill Neklyudov"
+        "Adi Mashiach"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-09",
-      "abstract": "Stochastic differential equations (SDEs) describe stochastic processes across a wide range of scientific domains, including physics, biology, and finance. Although individual numerical integration steps are inexpensive, observing meaningful events or transitions can require millions of sequential steps, resulting in substantial wall-clock simulation time and poor hardware utilization. Deep learning offers an alternative by amortizing many integration steps into a single neural network forward pa",
+      "publishDate": "2026-11-10",
+      "abstract": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon exhibits three zero-shot emergent capabilities at hierarchical levels of resolution: functional (mechanism of action), residue (binding site l",
       "keywords": [],
-      "arxivId": "2611.12880v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Tetragonal-to-orthorhombic distortion in CeRh$_{2}$As$_{2}$",
-      "authors": [
-        "P. Khanenko",
-        "M. Pfeiffer",
-        "K. Semeniuk",
-        "E. Hassinger",
-        "P. Thalmeier",
-        "J. Wosnitza",
-        "A. M. León",
-        "G. Zwicknagl"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-11-09",
-      "abstract": "CeRh$_{2}$As$_{2}$ is best known for its two superconducting phases, which are observed when a magnetic field is applied along the $c$ axis of its tetragonal unit cell. The emergence of superconductivity, with $T_{c} \\approx 0.31$K, is preceded by an ordered state (phase I), with an ordering temperature $T_{0} \\approx 0.46$K. The precise nature of the order parameter in phase I is still unknown, although evidence of dipolar ordering was found. To investigate a possible symmetry breaking at $T_{\\",
-      "keywords": [],
-      "arxivId": "2611.12873v1",
+      "arxivId": "2611.14504v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
