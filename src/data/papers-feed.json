@@ -1,83 +1,76 @@
 {
-  "lastUpdated": "2026-11-12",
+  "lastUpdated": "2026-11-13",
   "papers": [
     {
-      "title": "Solving the SU(2) BFSS model",
+      "title": "Long-lived light-driven bimagnons at finite momentum in NiO",
       "authors": [
-        "Kabir Bajaj",
-        "Henry W. Lin"
+        "Xian P. Yang",
+        "Christopher T. Parzyck",
+        "Martin Cross",
+        "Ella Blake",
+        "Octave Duros",
+        "Yinchuan Lv",
+        "Hari Paudyal",
+        "Che-Min Lin"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-10",
-      "abstract": "We numerically solve the ground state wavefunction of SU(2) BFSS matrix quantum mechanics. We compare ground correlators against islands obtained using the matrix bootstrap and find agreement up to five significant figures. The power law tail of this wavefunction determines the three-point amplitude, which agrees with the computation of Herderschee and Maldacena. Beyond the ground state, we extract the non-perturbative four-point scattering amplitude using Lüscher's method. In the appropriate re",
+      "publishDate": "2026-11-12",
+      "abstract": "Light can manipulate magnetic order and its excitations on ultrafast timescales, including through resonantly driven phonons. In antiferromagnets, light can also create correlated magnon pairs, or bimagnons. Unlike single magnons, whose damping has been measured and modeled in detail, little is known about the lifetime, interactions and decay of such correlated pairs: prior two-magnon measurements show broad linewidths or coherences that dephase within 200 fs. Here we pump the phonon-assisted tw",
       "keywords": [],
-      "arxivId": "2611.14512v1",
+      "arxivId": "2611.17335v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion",
+      "title": "Discrete Time Crystals from Anti-Unitary Floquet Driving and Dynamical Freezing",
       "authors": [
-        "Alexandre Garcia-Duran",
-        "Alejandro Rodriguez-Garcia",
-        "Manuel Molano-Mazón",
-        "Alexandre Hyafil",
-        "Srikanth Ramaswamy",
-        "Janne K. Lappalainen"
+        "Anirban Das",
+        "Asmi Haldar",
+        "Arnab Das"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-10",
-      "abstract": "Biological visual systems compute reliably under tight metabolic and wiring constraints, whereas artificial vision systems consume far more energy and can be sensitive to adversarial perturbations. Whether networks with brain-like wiring are more robust at lower computational cost is unclear. We address this by benchmarking a task-optimized, continuous-time recurrent neural network of the fly visual system constrained by its synaptic connectome (FlyNet) against artificial neural networks. We com",
+      "publishDate": "2026-11-12",
+      "abstract": "We show anti-unitary periodic drive paves a direct path for stabilizing a Discrete Time-Crystal by Dynamical Freezing (DF). The magnetization appears as an emergent conserved operator, and an exact pairing of two-cycle quasi-energies pins the subharmonic response. DF keeps the effective Hamiltonian $\\textit{quasi-local}$; infinite-chain simulations show no detectable decay for a generic state with any finite magnetization. We outline an experimental realization of the anti-unitary drive.",
       "keywords": [],
-      "arxivId": "2611.14498v1",
+      "arxivId": "2611.17333v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Excess charge in the Engel-Dreizler model of atoms and molecules",
+      "title": "A Dark-Sector Mass Flip-Flop Mechanism for the ANITA-IV Events",
       "authors": [
-        "Rafael Benguria",
-        "Heinz Siedentop"
+        "Dibya S. Chattopadhyay",
+        "Carlos A. Argüelles",
+        "Vedran Brdar"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-10",
-      "abstract": "We prove an explicit excess-charge bound for the exchange-free Engel--Dreizler functional of atoms and molecules. If $αλ\\le1/1233$ and $α^3Z_k^2\\le1/137$ for each nucleus, every finite-mass electronic minimizer whose total energy, including nuclear repulsion, is nonpositive satisfies $N-\\sum_kZ_k&lt;(5913/1000)λ^{3/2}K$. For the gradient coefficient $λ=1/9$, this gives $N-\\sum_kZ_k&lt;0.219K$. The energy hypothesis holds automatically for atoms and for local minima of the Born--Oppenheimer energ",
+      "publishDate": "2026-11-12",
+      "abstract": "ANITA-IV has observed four upward-going air-shower candidates just below the horizon, consistent with ultra-high-energy $ν_τ$, yet IceCube, despite its much larger exposure, has detected no neutrino events at such energies. We propose a dark-sector mass flip-flop mechanism that reconciles these observations. We consider an all-sky, monoenergetic flux of ultra-high-energy $N_1$, that is lighter than its partner $N_2$ and stable in vacuum. In our scenario, an ultralight scalar mediating interactio",
       "keywords": [],
-      "arxivId": "2611.14497v1",
+      "arxivId": "2611.17328v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
       "authors": [
-        "Sheethal Bhat",
-        "Bogdan Georgescu",
-        "Awais Mansoor",
-        "Florin C. Ghesu",
-        "Sasa Grbic",
-        "Andreas Maier"
+        "Chin-Yang Lin",
+        "Ryo Hachiuma",
+        "Jaesung Choe",
+        "Min-Hung Chen",
+        "Yu-Chiang Frank Wang",
+        "Yen-Yu Lin",
+        "Wei-Chen Chiu",
+        "Yu-Lun Liu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-10",
-      "abstract": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and the heterogeneity of existing datasets limit the development of robust foundation models. In this work, we introduce a novel approach to building a multi-domain foundation model for le sion detection by",
+      "publishDate": "2026-11-12",
+      "abstract": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP, enabling fast and high-fidelity novel-view decoding. The first key is to repurpose the ",
       "keywords": [],
-      "arxivId": "2611.14518v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
-      "authors": [
-        "Adi Mashiach"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-11-10",
-      "abstract": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon exhibits three zero-shot emergent capabilities at hierarchical levels of resolution: functional (mechanism of action), residue (binding site l",
-      "keywords": [],
-      "arxivId": "2611.14504v1",
+      "arxivId": "2611.17331v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 4
 }
