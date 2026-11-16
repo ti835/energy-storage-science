@@ -1,76 +1,93 @@
 {
-  "lastUpdated": "2026-11-15",
+  "lastUpdated": "2026-11-16",
   "papers": [
     {
-      "title": "Long-lived light-driven bimagnons at finite momentum in NiO",
+      "title": "Reconstruction of Dynamical Dark Energy and Gravity from latest cosmological data",
       "authors": [
-        "Xian P. Yang",
-        "Christopher T. Parzyck",
-        "Martin Cross",
-        "Ella Blake",
-        "Octave Duros",
-        "Yinchuan Lv",
-        "Hari Paudyal",
-        "Che-Min Lin"
+        "Maria Luisa Gallavotti",
+        "Alessandra Silvestri"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-12",
-      "abstract": "Light can manipulate magnetic order and its excitations on ultrafast timescales, including through resonantly driven phonons. In antiferromagnets, light can also create correlated magnon pairs, or bimagnons. Unlike single magnons, whose damping has been measured and modeled in detail, little is known about the lifetime, interactions and decay of such correlated pairs: prior two-magnon measurements show broad linewidths or coherences that dephase within 200 fs. Here we pump the phonon-assisted tw",
-      "keywords": [],
-      "arxivId": "2611.17335v1",
+      "publishDate": "2026-11-13",
+      "abstract": "Recent cosmological observations have renewed interest in non-standard late-time evolution. We investigate whether departures from the standard expansion history are accompanied by modifications of gravitational dynamics through a joint, non-parametric reconstruction of the effective dark energy density, $Ω_{\\rm X}(a)$, and the gravitational response functions $μ(a)$ and $Σ(a)$. Combining CMB, DESI DR2 BAO, Pantheon+, and large scale structure observations, including DES Year 3 $6\\times2$pt data",
+      "keywords": [
+        "energy density"
+      ],
+      "arxivId": "2611.18558v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Discrete Time Crystals from Anti-Unitary Floquet Driving and Dynamical Freezing",
+      "title": "Does Dark Energy Evolve $\\textit{and}$ Cluster?",
       "authors": [
-        "Anirban Das",
-        "Asmi Haldar",
-        "Arnab Das"
+        "Maria Luisa Gallavotti",
+        "Alessandra Silvestri"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-12",
-      "abstract": "We show anti-unitary periodic drive paves a direct path for stabilizing a Discrete Time-Crystal by Dynamical Freezing (DF). The magnetization appears as an emergent conserved operator, and an exact pairing of two-cycle quasi-energies pins the subharmonic response. DF keeps the effective Hamiltonian $\\textit{quasi-local}$; infinite-chain simulations show no detectable decay for a generic state with any finite magnetization. We outline an experimental realization of the anti-unitary drive.",
-      "keywords": [],
-      "arxivId": "2611.17333v1",
+      "publishDate": "2026-11-13",
+      "abstract": "Recent cosmological observations have renewed interest in dynamical dark energy, and naturally raise the question of whether departures from the standard expansion history are accompanied by modifications of gravitational dynamics. We address this question through a joint, non-parametric reconstruction of the effective dark-energy contribution to the expansion and the gravitational responses governing clustering and lensing, complemented by a combined covariance-mode analysis, without imposing m",
+      "keywords": [
+        "energy density"
+      ],
+      "arxivId": "2611.18557v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "A Dark-Sector Mass Flip-Flop Mechanism for the ANITA-IV Events",
+      "title": "From pure spinor modules to superspace superfields",
       "authors": [
-        "Dibya S. Chattopadhyay",
-        "Carlos A. Argüelles",
-        "Vedran Brdar"
+        "Ondrej Hulik",
+        "Raphael Senghaas"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-12",
-      "abstract": "ANITA-IV has observed four upward-going air-shower candidates just below the horizon, consistent with ultra-high-energy $ν_τ$, yet IceCube, despite its much larger exposure, has detected no neutrino events at such energies. We propose a dark-sector mass flip-flop mechanism that reconciles these observations. We consider an all-sky, monoenergetic flux of ultra-high-energy $N_1$, that is lighter than its partner $N_2$ and stable in vacuum. In our scenario, an ultralight scalar mediating interactio",
+      "publishDate": "2026-11-13",
+      "abstract": "We relate the pure spinor formalism to the superspace description of constrained superfields and gauge multiplets, mainly for abelian two-dimensional N=(2,2) supersymmetry, with three- and four-dimensional N=1 examples for comparison. For each multiplet we give an explicit module over the supertranslation Chevalley-Eilenberg algebra and match its reconstruction with the known superfields. First-order constraints come from modules supported on linear subspaces of the nilpotence variety, and highe",
       "keywords": [],
-      "arxivId": "2611.17328v1",
+      "arxivId": "2611.18556v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+      "title": "Sharp nonuniqueness for the Vlasov--Navier--Stokes system",
       "authors": [
-        "Chin-Yang Lin",
-        "Ryo Hachiuma",
-        "Jaesung Choe",
-        "Min-Hung Chen",
-        "Yu-Chiang Frank Wang",
-        "Yen-Yu Lin",
-        "Wei-Chen Chiu",
-        "Yu-Lun Liu"
+        "Xingyu Li"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-12",
-      "abstract": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP, enabling fast and high-fidelity novel-view decoding. The first key is to repurpose the ",
+      "publishDate": "2026-11-13",
+      "abstract": "We consider the Vlasov--Navier--Stokes system on $\\mathbb T^d\\times\\mathbb R^d$, $d\\ge2$. For smooth data and every $p&lt;2$, $q&lt;\\infty$, we construct infinitely many weak solutions with velocity in $L^p_tL^\\infty\\cap L^1_tW^{1,q}$ and bounded, renormalized distribution function; infinitely many of them violate the energy inequality. For smooth velocity data, weak solutions with velocity in $L^2_tL^\\infty$ are unique, so the result is sharp at the endpoint of the Ladyzhenskaya--Prodi--Serrin ",
       "keywords": [],
-      "arxivId": "2611.17331v1",
+      "arxivId": "2611.18554v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Real-time simulation of scattering in $φ^4$ theory: localized excitation, scalable wave packet preparation, and peak-generating artifacts",
+      "authors": [
+        "Boyu Gao",
+        "Natalie Klco"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-11-13",
+      "abstract": "Probing real-time dynamics is essential for understanding non-perturbative scattering and interactions in quantum field theory. A common challenge in real-time simulation is preparing accurate asymptotic incoming states. Through efficiently solvable eigenvalue problems, we jointly optimize a superposition of single particle momentum eigenstates and a single site interpolating operator to maximize preparation fidelity from the interacting vacuum. This leads to a localized excitation in the intera",
+      "keywords": [],
+      "arxivId": "2611.18552v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Geometric Quantization of the Giant Graviton Master Moduli Space",
+      "authors": [
+        "Kasia Budzik",
+        "Davide Gaiotto"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-11-13",
+      "abstract": "We describe a remarkable reorganization of the space of gauge invariant operators of free or twisted $U(N)$ gauge theories as combinations of single-trace and determinant operators modulo certain \"open loop equations\". The reorganization has a transparent holographic interpretation, describing how states at finite $N$ can be reproduced by imposing certain $N$-independent gauge constraints on the combination of the closed strings Fock space and a geometric quantization of the moduli space of Gian",
+      "keywords": [],
+      "arxivId": "2611.18539v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 4
+  "totalCount": 6
 }
