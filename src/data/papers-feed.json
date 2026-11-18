@@ -1,65 +1,80 @@
 {
-  "lastUpdated": "2026-11-17",
+  "lastUpdated": "2026-11-18",
   "papers": [
     {
-      "title": "Hyperkagome antiferromagnetism in the iron garnet Almandine Fe$_3$Al$_2$Si$_3$O$_{12}$",
+      "title": "CFTs with Large Virasoro Primary Gaps",
       "authors": [
-        "Minnong Zhang",
-        "Harald O. Jeschke",
-        "Daniel Guterding"
+        "Ziming Ji",
+        "Jiahua Tian"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-16",
-      "abstract": "Antiferromagnets on the hyperkagome lattice provide a three-dimensional route to strong magnetic frustration, but experimentally accessible realizations with well-established microscopic Hamiltonians remain scarce. Garnets are a broad family of materials in which magnetic ions can form two interpenetrating hyperkagome lattices, giving rise to spin glass, spin-liquid and hidden-order physics. Here we identify the iron aluminosilicate garnet almandine, Fe$_3$Al$_2$Si$_3$O$_{12}$, as a spin-$2$ hyp",
+      "publishDate": "2026-11-17",
+      "abstract": "We construct the first explicit examples of compact unitary bosonic full conformal field theories (CFTs) in two dimensions with a unique vacuum and an all-spin Virasoro-primary gap greater than two. Our constructions use asymmetric orbifolds of lattice CFTs built from even unimodular lattices of sufficiently large minimum norm, ensuring that no charged state lies below the desired gap. The gauged symmetries combine a common orthogonal action on the left- and right-moving currents with independen",
       "keywords": [],
-      "arxivId": "2611.21610v1",
+      "arxivId": "2611.23231v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Double quantum dots as dynamical impurities in one-dimensional transport",
+      "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
       "authors": [
-        "Yang-Zhi Chou"
+        "Xingyang Yu"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-16",
-      "abstract": "We study single-electron scattering in a tight-binding chain capacitively coupled to double quantum dots, which act as dynamical two-level-system impurities with electrically tunable level splittings. For a single impurity, we solve the scattering problem exactly and show Feshbach-like perfect elastic reflection, whose resonant condition distinguishes the initial two-level state. For several impurities in a strongly reflecting chain, transmission peaks at an intermediate mean level splitting. At",
+      "publishDate": "2026-11-17",
+      "abstract": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes and exact worldsheet constructions. Its open-book benchmark inventory contains 1,073 items, including 499 with automatic finite-answer checking. For retrieval-augmented generation",
       "keywords": [],
-      "arxivId": "2611.21609v1",
+      "arxivId": "2611.23225v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "The Shape of the Strongly Coupled MQM Ground State",
+      "title": "Complete Cosmological Collider Signatures from Right-handed Neutrino Loops",
       "authors": [
-        "Alexander Frenkel"
+        "Linghao Song",
+        "Jingtao You",
+        "Ming Cheng",
+        "Hong-Jian He",
+        "Xingang Chen"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-16",
-      "abstract": "We study a surprisingly efficient family of variational ansatze for the ground state of bosonic matrix quantum mechanics at large $N$. These are ansatze whose norm-squared probability distributions are themselves matrix integrals with single-trace actions, and so have their own independent `t Hooft expansions. They are efficient in the sense that optimizing over a small number of parameters produces many digits of accuracy for the energy, single-trace moments, and connected correlators. For infi",
+      "publishDate": "2026-11-17",
+      "abstract": "We study the complete cosmological collider (CC) signatures from right-handed neutrino loops with chemical-potential enhancement. These CC signals are induced by the inflaton-right-handed-neutrino interaction and can be extracted in the collinear squeezed configuration, which allows the right-handed-neutrino triangle loop to be factorized into the hard and soft parts. We precisely compute the soft part of the fermion loop for the first time by using the complete mode functions and the full loop ",
       "keywords": [],
-      "arxivId": "2611.21606v1",
+      "arxivId": "2611.23220v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Latent Lattice Language Models",
+      "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
       "authors": [
-        "Shivam Duggal",
-        "Zongze Wu",
-        "William T. Freeman",
-        "Antonio Torralba",
-        "Richard Zhang",
-        "Eli Shechtman"
+        "Rui Ning",
+        "Om Chabra",
+        "Hari Balakrishnan"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-16",
-      "abstract": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains. We introduce the Lattice of Latents, a set of per-layer horizontal latent streams that run recurrently along time, alongside the vertical residual stream that flows through depth. Like hyper-connections, ",
+      "publishDate": "2026-11-17",
+      "abstract": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), are attractive for this setting, but maintaining a sliding window is expensive. The reason is that recurrent layers combine all past frames into a shared state, so expiring old frame",
       "keywords": [],
-      "arxivId": "2611.21608v1",
+      "arxivId": "2611.23228v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Expressivity of two-dimensional Gaussian fermion tensor network states",
+      "authors": [
+        "Pok Man Tam",
+        "William Musk",
+        "Zhehao Dai"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-11-17",
+      "abstract": "Tensor network states (TNS) provide a family of efficiently compressed approximations to physically relevant many-body quantum states. An important quantity that characterizes the computational resources required by a TNS is its bond dimension. While in one dimension an area law for the Renyi-0 entropy guarantees an exact matrix product state representation with a bond dimension independent of the system size, an analogous statement does not hold for general states in two dimensions (2D). This l",
+      "keywords": [],
+      "arxivId": "2611.23227v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 4
+  "totalCount": 5
 }
