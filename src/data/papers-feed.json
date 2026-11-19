@@ -1,77 +1,85 @@
 {
-  "lastUpdated": "2026-11-18",
+  "lastUpdated": "2026-11-19",
   "papers": [
     {
-      "title": "CFTs with Large Virasoro Primary Gaps",
+      "title": "Zero-Temperature Energetics of a First-Order Surface Phase Transition from Diffraction",
       "authors": [
-        "Ziming Ji",
-        "Jiahua Tian"
+        "Mohammad Tajik",
+        "Christian Brand",
+        "Stefan Wippermann",
+        "Wolf Gero Schmidt",
+        "Michael Horn-von Hoegen"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-17",
-      "abstract": "We construct the first explicit examples of compact unitary bosonic full conformal field theories (CFTs) in two dimensions with a unique vacuum and an all-spin Virasoro-primary gap greater than two. Our constructions use asymmetric orbifolds of lattice CFTs built from even unimodular lattices of sufficiently large minimum norm, ensuring that no charged state lies below the desired gap. The gauged symmetries combine a common orthogonal action on the left- and right-moving currents with independen",
+      "publishDate": "2026-11-18",
+      "abstract": "First-order phase transitions are governed by the balance between zero-temperature energy, thermal vibrational energy, and entropy, yet these contributions are rarely accessible experimentally. Here, we establish a diffraction-based route to determine them for the prototypical Si(111)-In atomic-wire system. From the temperature-dependent Debye-Waller attenuation of reflection high-energy electron diffraction (RHEED) intensities we extract distinct Debye temperatures for the low-temperature $(8{\\",
       "keywords": [],
-      "arxivId": "2611.23231v1",
+      "arxivId": "2611.24919v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
+      "title": "Hardness of \"Infinite Energy\" Puzzles",
       "authors": [
-        "Xingyang Yu"
+        "Utkarsh Tiwari",
+        "Utkarsh Thanvi",
+        "Armaan Sethi",
+        "Aalok Thakkar",
+        "Neeldhara Misra"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-17",
-      "abstract": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes and exact worldsheet constructions. Its open-book benchmark inventory contains 1,073 items, including 499 with automatic finite-answer checking. For retrieval-augmented generation",
+      "publishDate": "2026-11-18",
+      "abstract": "Infinite Energy (by Light Potato, 2025) is a single-player puzzle in which one wires a network of sockets so that, after every power source is unplugged, energy keeps circulating and leaves every board energized. We study several variants of the game and the complexity of deciding whether an instance can be won. The variants can be played at https://infinite-energy-peer-review.netlify.app, which also has worked examples of the reduction techniques.\n  The colorless game, with connectability given",
       "keywords": [],
-      "arxivId": "2611.23225v1",
+      "arxivId": "2611.24918v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Complete Cosmological Collider Signatures from Right-handed Neutrino Loops",
+      "title": "Locally infrared finite two-loop amplitudes for multi Higgs production in association with one jet",
       "authors": [
-        "Linghao Song",
-        "Jingtao You",
-        "Ming Cheng",
-        "Hong-Jian He",
-        "Xingang Chen"
+        "Aniruddha Venkata"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-17",
-      "abstract": "We study the complete cosmological collider (CC) signatures from right-handed neutrino loops with chemical-potential enhancement. These CC signals are induced by the inflaton-right-handed-neutrino interaction and can be extracted in the collinear squeezed configuration, which allows the right-handed-neutrino triangle loop to be factorized into the hard and soft parts. We precisely compute the soft part of the fermion loop for the first time by using the complete mode functions and the full loop ",
+      "publishDate": "2026-11-18",
+      "abstract": "We study the two-loop amplitudes for multi-Higgs production through a massive top-quark loop in association with one jet. We consider the quark-antiquark channel with a final-state gluon, $q\\bar q\\to g+nH$ although our construction applies to crossed channel as well. We utilize (non-local in momentum space) Ward identities to factorize longitudinal and gauge degrees of freedom through exact identities between Feynman graphs without reference to an infrared region. In the genuine two loop topolog",
       "keywords": [],
-      "arxivId": "2611.23220v1",
+      "arxivId": "2611.24916v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
+      "title": "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models",
       "authors": [
-        "Rui Ning",
-        "Om Chabra",
-        "Hari Balakrishnan"
+        "Yupeng Zheng",
+        "Chaoyue Li",
+        "Linbo Wang",
+        "Xiang Li",
+        "Yuhang Zheng",
+        "Xiaotong Su",
+        "Songen Gu",
+        "Yichen Zhang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-17",
-      "abstract": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), are attractive for this setting, but maintaining a sliding window is expensive. The reason is that recurrent layers combine all past frames into a shared state, so expiring old frame",
+      "publishDate": "2026-11-18",
+      "abstract": "World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, which learns representations of scene structure for world-action modeling. Specifically, Phoenix Encoder enriches DINOv3's general visual semantics through dual-teacher distillation of geometric and spatiotemporal semantic knowledge. Next, CS-VAE causall",
       "keywords": [],
-      "arxivId": "2611.23228v1",
+      "arxivId": "2611.24938v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Expressivity of two-dimensional Gaussian fermion tensor network states",
+      "title": "Exact Parent Hamiltonians for Partially Magnetized Chiral Spin Liquids",
       "authors": [
-        "Pok Man Tam",
-        "William Musk",
-        "Zhehao Dai"
+        "Xin Shen",
+        "Guangyue Ji",
+        "Jie Wang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-17",
-      "abstract": "Tensor network states (TNS) provide a family of efficiently compressed approximations to physically relevant many-body quantum states. An important quantity that characterizes the computational resources required by a TNS is its bond dimension. While in one dimension an area law for the Renyi-0 entropy guarantees an exact matrix product state representation with a bond dimension independent of the system size, an analogous statement does not hold for general states in two dimensions (2D). This l",
+      "publishDate": "2026-11-18",
+      "abstract": "Chiral spin liquids (CSLs) are paradigmatic fractionalized phases, yet simple exact parent Hamiltonians for them remain scarce. In this work, we construct exact spin parent Hamiltonians for partially magnetized CSLs realizing various bosonic topological orders. Our construction relies on an exact Hubbard-type parent Hamiltonian for bosonic lattice fractional quantum Hall (FQH) states, valid at arbitrary repulsive interaction strengths. Taking the on-site repulsion to infinity and applying local ",
       "keywords": [],
-      "arxivId": "2611.23227v1",
+      "arxivId": "2611.24935v1",
       "doi": "",
       "relevance": "medium"
     }
