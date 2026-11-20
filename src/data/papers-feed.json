@@ -1,88 +1,103 @@
 {
-  "lastUpdated": "2026-11-19",
+  "lastUpdated": "2026-11-20",
   "papers": [
     {
-      "title": "Zero-Temperature Energetics of a First-Order Surface Phase Transition from Diffraction",
+      "title": "Entropy Products and the Extremal Limit That Never Comes",
       "authors": [
-        "Mohammad Tajik",
-        "Christian Brand",
-        "Stefan Wippermann",
-        "Wolf Gero Schmidt",
-        "Michael Horn-von Hoegen"
+        "Kevin Goldstein",
+        "Vishnu Jejjala",
+        "Suresh Nampuri"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-18",
-      "abstract": "First-order phase transitions are governed by the balance between zero-temperature energy, thermal vibrational energy, and entropy, yet these contributions are rarely accessible experimentally. Here, we establish a diffraction-based route to determine them for the prototypical Si(111)-In atomic-wire system. From the temperature-dependent Debye-Waller attenuation of reflection high-energy electron diffraction (RHEED) intensities we extract distinct Debye temperatures for the low-temperature $(8{\\",
+      "publishDate": "2026-11-19",
+      "abstract": "Two regular black hole horizons need not have an entropy product fixed by the charges and couplings. In Einstein--Maxwell--scalar theory, we construct asymptotically flat branches with products above or below the squared extremal entropy. Regularity selects their horizon scalar values, and different branches can share the charges, couplings, and asymptotic scalar. Each product stays constant as mass and asymptotic scalar vary. The horizon areas stay apart and no extremal limit is reached: the te",
       "keywords": [],
-      "arxivId": "2611.24919v1",
+      "arxivId": "2611.26628v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Hardness of \"Infinite Energy\" Puzzles",
+      "title": "Little Red Dots from Primordial Vacuum Bubbles",
       "authors": [
-        "Utkarsh Tiwari",
-        "Utkarsh Thanvi",
-        "Armaan Sethi",
-        "Aalok Thakkar",
-        "Neeldhara Misra"
+        "Miguel Barroso Varela",
+        "Katherine Freese",
+        "Matthew Kleban",
+        "Cameron Norton",
+        "Evangelos I. Sfakianakis"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-18",
-      "abstract": "Infinite Energy (by Light Potato, 2025) is a single-player puzzle in which one wires a network of sockets so that, after every power source is unplugged, energy keeps circulating and leaves every board energized. We study several variants of the game and the complexity of deciding whether an instance can be won. The variants can be played at https://infinite-energy-peer-review.netlify.app, which also has worked examples of the reduction techniques.\n  The colorless game, with connectability given",
+      "publishDate": "2026-11-19",
+      "abstract": "Quantum tunneling transverse to the inflaton trajectory can produce $10^6$--$10^8M_\\odot$ primordial black holes at the abundance of JWST's little red dots, without the enhanced curvature perturbations excluded by limits on CMB spectral distortions. Rare vacuum bubbles nucleate during a brief interval of inflation and later form black holes, with adjustable mass and abundance and a narrow mass spectrum of percent-level width. The leading constraint, from accretion, is satisfied for a population ",
       "keywords": [],
-      "arxivId": "2611.24918v1",
+      "arxivId": "2611.26620v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Locally infrared finite two-loop amplitudes for multi Higgs production in association with one jet",
+      "title": "Field theory and the biquadratic spin-1 chain",
       "authors": [
-        "Aniruddha Venkata"
+        "Luisa Eck",
+        "Paul Fendley"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-18",
-      "abstract": "We study the two-loop amplitudes for multi-Higgs production through a massive top-quark loop in association with one jet. We consider the quark-antiquark channel with a final-state gluon, $q\\bar q\\to g+nH$ although our construction applies to crossed channel as well. We utilize (non-local in momentum space) Ward identities to factorize longitudinal and gauge degrees of freedom through exact identities between Feynman graphs without reference to an infrared region. In the genuine two loop topolog",
+      "publishDate": "2026-11-19",
+      "abstract": "The antiferromagnetic biquadratic spin-1 chain is gapped, $SU(3)$ symmetric, and integrable. Standard arguments suggest that its low-energy physics is described by the $\\mathbb{CP}^2$ nonlinear sigma model at $θ=π$. Using the Bethe ansatz, we show that its low-energy excitations can be interpreted as deconfined domain walls, just as in the sigma model. However, the lattice model is integrable, whereas the field theory is generally believed not to be. We propose a solution to this mystery by find",
       "keywords": [],
-      "arxivId": "2611.24916v1",
+      "arxivId": "2611.26610v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models",
+      "title": "Posterior Matching Distillation",
       "authors": [
-        "Yupeng Zheng",
-        "Chaoyue Li",
-        "Linbo Wang",
-        "Xiang Li",
-        "Yuhang Zheng",
-        "Xiaotong Su",
-        "Songen Gu",
-        "Yichen Zhang"
+        "Hidir Yesiltepe",
+        "Julius Berner",
+        "Arash Vahdat",
+        "Pinar Yanardag"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-18",
-      "abstract": "World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, which learns representations of scene structure for world-action modeling. Specifically, Phoenix Encoder enriches DINOv3's general visual semantics through dual-teacher distillation of geometric and spatiotemporal semantic knowledge. Next, CS-VAE causall",
+      "publishDate": "2026-11-19",
+      "abstract": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We introduce Posterior Matching Distillation (PMD), a new member of the distributio",
       "keywords": [],
-      "arxivId": "2611.24938v1",
+      "arxivId": "2611.26629v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Exact Parent Hamiltonians for Partially Magnetized Chiral Spin Liquids",
+      "title": "High-temperature Gibbs states are uniformly Markovian and trivial",
       "authors": [
-        "Xin Shen",
-        "Guangyue Ji",
-        "Jie Wang"
+        "Andrew D. Kim",
+        "Tai Hsuan Yang",
+        "Jong Yeon Lee"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-18",
-      "abstract": "Chiral spin liquids (CSLs) are paradigmatic fractionalized phases, yet simple exact parent Hamiltonians for them remain scarce. In this work, we construct exact spin parent Hamiltonians for partially magnetized CSLs realizing various bosonic topological orders. Our construction relies on an exact Hubbard-type parent Hamiltonian for bosonic lattice fractional quantum Hall (FQH) states, valid at arbitrary repulsive interaction strengths. Taking the on-site repulsion to infinity and applying local ",
+      "publishDate": "2026-11-19",
+      "abstract": "We prove that, above a constant temperature threshold, Gibbs states of local noncommuting qudit Hamiltonians exhibit exponential decay of mutual information and conditional mutual information (CMI). Specifically, we prove exponential decay of the CMI for arbitrary spatial tripartitions $A \\sqcup B \\sqcup C$ which need not comprise the entire system, thereby establishing a \\textit{uniform Markov property} for high-temperature Gibbs states. A central obstruction to proving such bounds is that conv",
       "keywords": [],
-      "arxivId": "2611.24935v1",
+      "arxivId": "2611.26626v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+      "authors": [
+        "Jinbin Luo",
+        "Xiaozhe Yao",
+        "Shang Yang",
+        "Zhijian Liu",
+        "Song Han",
+        "Qinghao Hu"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-11-19",
+      "abstract": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing their residency across GPU and host memory. The Transparent Cache Pool redistributes physical pages among cache components behind fixed virtual address",
+      "keywords": [
+        "interface"
+      ],
+      "arxivId": "2611.26619v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 5
+  "totalCount": 6
 }
