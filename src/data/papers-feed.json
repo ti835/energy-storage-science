@@ -1,103 +1,83 @@
 {
-  "lastUpdated": "2026-11-22",
+  "lastUpdated": "2026-11-23",
   "papers": [
     {
-      "title": "Entropy Products and the Extremal Limit That Never Comes",
+      "title": "Ohmic warm inflation",
       "authors": [
-        "Kevin Goldstein",
-        "Vishnu Jejjala",
-        "Suresh Nampuri"
+        "Anish Ghoshal",
+        "Alessandro Strumia"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-19",
-      "abstract": "Two regular black hole horizons need not have an entropy product fixed by the charges and couplings. In Einstein--Maxwell--scalar theory, we construct asymptotically flat branches with products above or below the squared extremal entropy. Regularity selects their horizon scalar values, and different branches can share the charges, couplings, and asymptotic scalar. Each product stays constant as mass and asymptotic scalar vary. The horizon areas stay apart and no extremal limit is reached: the te",
+      "publishDate": "2026-11-20",
+      "abstract": "We show that Warm Little Inflation is anomalous, lacks a suitable inflaton potential, and cannot sustain the thermal bath, as the quasi-static approximation over-estimated the dissipated power. To address these issues, we propose a new friction mechanism and new anomaly-free models based on one fermion charged under a U(1) gauge group in one extra dimension. The four-dimensional lattice version is a ring of $N$ U(1) groups with one fermion at each site, reducing to an anomaly-free version of the",
       "keywords": [],
-      "arxivId": "2611.26628v1",
+      "arxivId": "2611.27986v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Little Red Dots from Primordial Vacuum Bubbles",
+      "title": "Is Neutrino Disappearance Sensitive to T-Violation for Asymmetric Matter Profiles ?",
       "authors": [
-        "Miguel Barroso Varela",
-        "Katherine Freese",
-        "Matthew Kleban",
-        "Cameron Norton",
-        "Evangelos I. Sfakianakis"
+        "Gabriela Barenboim",
+        "Stephen J. Parke",
+        "Alberto Sánchez Vargas"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-19",
-      "abstract": "Quantum tunneling transverse to the inflaton trajectory can produce $10^6$--$10^8M_\\odot$ primordial black holes at the abundance of JWST's little red dots, without the enhanced curvature perturbations excluded by limits on CMB spectral distortions. Rare vacuum bubbles nucleate during a brief interval of inflation and later form black holes, with adjustable mass and abundance and a narrow mass spectrum of percent-level width. The leading constraint, from accretion, is satisfied for a population ",
+      "publishDate": "2026-11-20",
+      "abstract": "It is commonly stated in the literature that T violation is zero in neutrino disappearance channels. We show this claim is not general: it holds only for symmetric matter profiles or when the T/CP-violating phase ($δ$) is 0 or $π$, that is, when the Jarlskog invariant is zero. The $ν_μ$ and $ν_τ$, but not the $ν_e$, survival probabilities carry a $\\sinδ$-dependent term that is non-zero in asymmetric matter and constitutes a genuine T asymmetry. The confusion arises from an improper T test that s",
       "keywords": [],
-      "arxivId": "2611.26620v1",
+      "arxivId": "2611.27985v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Field theory and the biquadratic spin-1 chain",
+      "title": "On the non-uniqueness of solutions of the axi-symmetric swirl-free Navier-Stokes equations, II",
       "authors": [
-        "Luisa Eck",
-        "Paul Fendley"
+        "Matthieu Cadiot",
+        "Alexandru Ionescu",
+        "Hao Jia",
+        "Stan Palasek"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-19",
-      "abstract": "The antiferromagnetic biquadratic spin-1 chain is gapped, $SU(3)$ symmetric, and integrable. Standard arguments suggest that its low-energy physics is described by the $\\mathbb{CP}^2$ nonlinear sigma model at $θ=π$. Using the Bethe ansatz, we show that its low-energy excitations can be interpreted as deconfined domain walls, just as in the sigma model. However, the lattice model is integrable, whereas the field theory is generally believed not to be. We propose a solution to this mystery by find",
+      "publishDate": "2026-11-20",
+      "abstract": "We prove optimal non-uniqueness of Leray solutions of the unforced incompressible Navier-Stokes equations in 3D within the class of axially symmetric swirl-free flows. More precisely, we construct two solutions $u_1,u_2$ that have the same initial data $u_1(0)=u_2(0)$, are smooth for every positive time, satisfy the energy identity, and satisfy \\[ u_1,u_2\\in C_tH_x^α\\cap L_t^2H_x^{α+1}\\,\\,\\text{ for every }\\,\\,0\\leqα&lt;1/2,\\qquad u_1,u_2\\in L_t^\\infty L_x^{3,\\infty}\\cap L_t^{2,\\infty}L_x^\\infty",
       "keywords": [],
-      "arxivId": "2611.26610v1",
+      "arxivId": "2611.27984v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Posterior Matching Distillation",
+      "title": "Quantum Many-Body Scars from Operator Size",
       "authors": [
-        "Hidir Yesiltepe",
-        "Julius Berner",
-        "Arash Vahdat",
-        "Pinar Yanardag"
+        "Debarghya Chakraborty",
+        "Dario Rosa"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-19",
-      "abstract": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We introduce Posterior Matching Distillation (PMD), a new member of the distributio",
+      "publishDate": "2026-11-20",
+      "abstract": "We present a general construction of approximate many-body scar states in two copies of a system using a bilocal size interaction that couples one site to its partner on the other copy. For an uncoupled two-sided Hamiltonian whose terms have fixed size in an operator basis, we identify polynomially many Krylov basis states that it annihilates and that, in the thermodynamic limit, become concentrated on a single size sector. The size operator splits them into a tower of equally spaced levels that",
       "keywords": [],
-      "arxivId": "2611.26629v1",
+      "arxivId": "2611.27982v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "High-temperature Gibbs states are uniformly Markovian and trivial",
+      "title": "Observation of rotonic density enhancement at the boundary of a uniform dipolar superfluid",
       "authors": [
-        "Andrew D. Kim",
-        "Tai Hsuan Yang",
-        "Jong Yeon Lee"
+        "Jasmine Kalia",
+        "Kiryang Kwon",
+        "William J. Solorio Hernandez",
+        "Rubaiya R. Emran",
+        "Aryan Prasad",
+        "Richard J. Fletcher"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-19",
-      "abstract": "We prove that, above a constant temperature threshold, Gibbs states of local noncommuting qudit Hamiltonians exhibit exponential decay of mutual information and conditional mutual information (CMI). Specifically, we prove exponential decay of the CMI for arbitrary spatial tripartitions $A \\sqcup B \\sqcup C$ which need not comprise the entire system, thereby establishing a \\textit{uniform Markov property} for high-temperature Gibbs states. A central obstruction to proving such bounds is that conv",
+      "publishDate": "2026-11-20",
+      "abstract": "The collective excitations of a quantum liquid lie at the heart of its emergent behaviour. In many systems, the variation of excitation energy ${\\varepsilon}$ with wavevector $k$ exhibits a softening at a characteristic lengthscale, which plays a key role in thermodynamics and transport. These excitations, termed rotons, often reflect an underlying tendency of the liquid to crystallize into a competing symmetry-broken state, such as the solid state of helium or the Wigner crystal of electrons in",
       "keywords": [],
-      "arxivId": "2611.26626v1",
-      "doi": "",
-      "relevance": "medium"
-    },
-    {
-      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
-      "authors": [
-        "Jinbin Luo",
-        "Xiaozhe Yao",
-        "Shang Yang",
-        "Zhijian Liu",
-        "Song Han",
-        "Qinghao Hu"
-      ],
-      "journal": "arXiv",
-      "publishDate": "2026-11-19",
-      "abstract": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing their residency across GPU and host memory. The Transparent Cache Pool redistributes physical pages among cache components behind fixed virtual address",
-      "keywords": [
-        "interface"
-      ],
-      "arxivId": "2611.26619v1",
+      "arxivId": "2611.27976v1",
       "doi": "",
       "relevance": "medium"
     }
   ],
-  "totalCount": 6
+  "totalCount": 5
 }
