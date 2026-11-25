@@ -1,5 +1,104 @@
 {
-  "lastUpdated": "2026-11-24",
-  "papers": [],
-  "totalCount": 0
+  "lastUpdated": "2026-11-25",
+  "papers": [
+    {
+      "title": "Antiferromagnetic phase of MnTe2: spin-order-induced renormalization of phonon Raman spectrum",
+      "authors": [
+        "Taras Palasyuk",
+        "Ashutosh S. Wadge",
+        "Eduard E. Zubov",
+        "Igor Antoniazzi",
+        "Gayatri",
+        "Andrzej Wiśniewski",
+        "Wojciech Szuszkiewicz",
+        "Daniel Jastrzebski"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-11-24",
+      "abstract": "Recently, two modes of spin wave excitations (magnons) were detected in Raman scattering spectra of MnTe2. It is an unconventional magnet that features a pyrite-type crystal structure hosting a non-collinear, non-coplanar antiferromagnetic (AFM) spin order below the Néel temperature. In this brief communication, the focus is primarily on the effect of spin ordering on lattice dynamics (phonons) that has been established through temperature (5 - 300 K), linear polarization angle (0 deg - 360 deg)",
+      "keywords": [],
+      "arxivId": "2611.33156v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "The double copy and perturbative teleparallel gravity",
+      "authors": [
+        "Georg Stettinger"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-11-24",
+      "abstract": "In this paper we analyze the double copy between gluon and graviton amplitudes within the context of teleparallel gravity. We first set up an effective Lagrangian based on minimal assumptions which reproduces the on-shell amplitudes stemming from the double-copy procedure. By straightforwardly computing the three- and four-point amplitude, this double-copy Lagrangian can be constrained up to a few real parameters when expanding to quartic order. For a specific choice of parameters, we find an ex",
+      "keywords": [],
+      "arxivId": "2611.33146v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "$QQ\\bar Q\\bar Q$ Quark System and Gauge/String Duality II: String Breaking",
+      "authors": [
+        "Oleg Andreev"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-11-24",
+      "abstract": "This is the second of two companion papers in which we continue developing the construction of the fully heavy tetraquark system using the gauge/string duality. Here, we extend this construction to model $SU(3)$ gauge theory with two light flavors of equal mass. As an application, we analyze the two lowest Born-Oppenheimer potentials, both analytically and numerically, for rectangular and collinear geometries. Our analysis reveals several critical scales associated with string reconnection and b",
+      "keywords": [],
+      "arxivId": "2611.33140v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
+      "authors": [
+        "Xingjian Ran",
+        "Xiaoye Mo",
+        "Sihao Liu",
+        "Li Luo",
+        "Taiqiang Wu",
+        "Ji Zhao",
+        "Wenqi Shao",
+        "Hongyang Li"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-11-24",
+      "abstract": "Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes from completion of these task requirements. We introduce ROAM-Bench to evaluate these abilities under robot motion and collision constraints. Independent checks use simulation state and episode records to assess outcomes and task requirements, with stronger checks of geometry, coverage, or placement",
+      "keywords": [],
+      "arxivId": "2611.33143v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Prospects and limitations of adaptive variational quantum algorithms for lattice field theories: a case study in 2+1 dimensions",
+      "authors": [
+        "Nico Dichter",
+        "Andrea Bulgarelli",
+        "Lena Funcke",
+        "Stefan Kühn"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-11-24",
+      "abstract": "The variational quantum algorithm ADAPT-VQE has previously been used to prepare the vacuum of lattice gauge theories in $1+1D$. In this paper, we study whether it extends to higher dimensions. We identify two general limitations of ADAPT-VQE. First, if the qubit Hamiltonian and the initial state are real, i.e., invariant under qubit-level time-reversal, all real-valued pool operators have vanishing gradients and are never selected. Second, the algorithm can converge to excited eigenstates. We il",
+      "keywords": [],
+      "arxivId": "2611.33138v1",
+      "doi": "",
+      "relevance": "medium"
+    },
+    {
+      "title": "Physicl Scenes: An Artist-created 3D Dataset for Learning Perception and Action",
+      "authors": [
+        "Yueh-Cheng Liu",
+        "Snehal Jauhri",
+        "Matthias Nießner",
+        "Angela Dai"
+      ],
+      "journal": "arXiv",
+      "publishDate": "2026-11-24",
+      "abstract": "We present Physicl Scenes, a high-quality artist-created and curated dataset of 6,499 3D scenes spanning household rooms, public interiors, and outdoor spaces. The dataset combines detailed geometry, physically based materials, and carefully composed environments with object- and part-level semantic annotations, providing rich, joint supervision for visual and embodied learning. We demonstrate its value as training data across inverse rendering, 3D reconstruction, scene understanding, and mobile",
+      "keywords": [],
+      "arxivId": "2611.33137v1",
+      "doi": "",
+      "relevance": "medium"
+    }
+  ],
+  "totalCount": 6
 }
