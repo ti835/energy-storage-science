@@ -1,101 +1,98 @@
 {
-  "lastUpdated": "2026-11-25",
+  "lastUpdated": "2026-11-26",
   "papers": [
     {
-      "title": "Antiferromagnetic phase of MnTe2: spin-order-induced renormalization of phonon Raman spectrum",
+      "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
       "authors": [
-        "Taras Palasyuk",
-        "Ashutosh S. Wadge",
-        "Eduard E. Zubov",
-        "Igor Antoniazzi",
-        "Gayatri",
-        "Andrzej Wiśniewski",
-        "Wojciech Szuszkiewicz",
-        "Daniel Jastrzebski"
+        "Yalin E. Sagduyu",
+        "Tugba Erpek"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-24",
-      "abstract": "Recently, two modes of spin wave excitations (magnons) were detected in Raman scattering spectra of MnTe2. It is an unconventional magnet that features a pyrite-type crystal structure hosting a non-collinear, non-coplanar antiferromagnetic (AFM) spin order below the Néel temperature. In this brief communication, the focus is primarily on the effect of spin ordering on lattice dynamics (phonons) that has been established through temperature (5 - 300 K), linear polarization angle (0 deg - 360 deg)",
+      "publishDate": "2026-11-25",
+      "abstract": "End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quantifies the sensitivity to training-test mismatch in channel models. Models trained only on an AWGN channel achieve low bit error rates (BERs) under matched conditions but degrade severely on Rayleigh fading with practical f",
       "keywords": [],
-      "arxivId": "2611.33156v1",
+      "arxivId": "2611.34942v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "The double copy and perturbative teleparallel gravity",
+      "title": "KEBBABS: Kilometric Enhanced Balloon-Baseline for Axion Birefringence Search",
       "authors": [
-        "Georg Stettinger"
+        "Tommaso Feri",
+        "Silvia Gasparotto"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-24",
-      "abstract": "In this paper we analyze the double copy between gluon and graviton amplitudes within the context of teleparallel gravity. We first set up an effective Lagrangian based on minimal assumptions which reproduces the on-shell amplitudes stemming from the double-copy procedure. By straightforwardly computing the three- and four-point amplitude, this double-copy Lagrangian can be constrained up to a few real parameters when expanding to quartic order. For a specific choice of parameters, we find an ex",
+      "publishDate": "2026-11-25",
+      "abstract": "We propose a broadband search for ultralight axion dark matter through the rotation of laser polarization induced by the axion--photon coupling. Two stratospheric balloons flying at altitudes of 30--40 km form a free-space optical link. One balloon sends a linearly polarized beam to the other, which reflects it back to a polarimeter on the first balloon. The long physical baseline provides an alternative to the repeated reflections used in resonant optical cavities. We target axion masses in the",
       "keywords": [],
-      "arxivId": "2611.33146v1",
+      "arxivId": "2611.34927v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "$QQ\\bar Q\\bar Q$ Quark System and Gauge/String Duality II: String Breaking",
+      "title": "Magnons in solids with correlated atomic and nanoscale disorder",
       "authors": [
-        "Oleg Andreev"
+        "Alex Moorhouse",
+        "Joseph Barker",
+        "Michele Simoncelli"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-24",
-      "abstract": "This is the second of two companion papers in which we continue developing the construction of the fully heavy tetraquark system using the gauge/string duality. Here, we extend this construction to model $SU(3)$ gauge theory with two light flavors of equal mass. As an application, we analyze the two lowest Born-Oppenheimer potentials, both analytically and numerically, for rectangular and collinear geometries. Our analysis reveals several critical scales associated with string reconnection and b",
+      "publishDate": "2026-11-25",
+      "abstract": "Atomic defects and disorder affect both the microscopic magnon excitations and the macroscopic physical properties of real-world magnetic materials. The rationalization of this relation has hitherto remained elusive, because of the intertwined challenges of simulating with quantum accuracy atomic- and nanoscale inhomogeneities and correlations, and their effect on the magnon spectral function determining observables such as spin stiffness. Here, we introduce a theoretical and computational frame",
       "keywords": [],
-      "arxivId": "2611.33140v1",
+      "arxivId": "2611.34926v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
+      "title": "Improving and Expanding Video Editing Capabilities Without Videos",
       "authors": [
-        "Xingjian Ran",
-        "Xiaoye Mo",
-        "Sihao Liu",
-        "Li Luo",
-        "Taiqiang Wu",
-        "Ji Zhao",
-        "Wenqi Shao",
-        "Hongyang Li"
+        "Ji Xie",
+        "Yanhao Jia",
+        "Xiangpeng Yang",
+        "Martin Q. Ma",
+        "Sihan Xu",
+        "Erik Cambria",
+        "Louis-Philippe Morency"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-24",
-      "abstract": "Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes from completion of these task requirements. We introduce ROAM-Bench to evaluate these abilities under robot motion and collision constraints. Independent checks use simulation state and episode records to assess outcomes and task requirements, with stronger checks of geometry, coverage, or placement",
+      "publishDate": "2026-11-25",
+      "abstract": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to new editing tasks using an image editor. It enables efficient post-training with no architectural chan",
       "keywords": [],
-      "arxivId": "2611.33143v1",
+      "arxivId": "2611.34941v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Prospects and limitations of adaptive variational quantum algorithms for lattice field theories: a case study in 2+1 dimensions",
+      "title": "LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading of 3D Intrinsic Proxies",
       "authors": [
-        "Nico Dichter",
-        "Andrea Bulgarelli",
-        "Lena Funcke",
-        "Stefan Kühn"
+        "Yipengjing Sun",
+        "Chenyang Wang",
+        "Boyao Zhou",
+        "Jiapeng Zhu",
+        "Ka Leong Cheng",
+        "Shengping Zhang"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-24",
-      "abstract": "The variational quantum algorithm ADAPT-VQE has previously been used to prepare the vacuum of lattice gauge theories in $1+1D$. In this paper, we study whether it extends to higher dimensions. We identify two general limitations of ADAPT-VQE. First, if the qubit Hamiltonian and the initial state are real, i.e., invariant under qubit-level time-reversal, all real-valued pool operators have vanishing gradients and are never selected. Second, the algorithm can converge to excited eigenstates. We il",
+      "publishDate": "2026-11-25",
+      "abstract": "We present LuxAvatar, a feed-forward framework for real-time head avatar animation and relighting from a single portrait. To achieve both 3D controllability and complex facial light transport, we factorize avatar synthesis into an animatable 3D intrinsic Gaussian proxy and a causal autoregressive neural shader. This proxy disentangles canonical geometry and reflectance attributes, rapidly rasterizing deformed Gaussians into view- and motion-consistent PBR buffers. Conditioned on these buffers, o",
       "keywords": [],
-      "arxivId": "2611.33138v1",
+      "arxivId": "2611.34940v1",
       "doi": "",
       "relevance": "medium"
     },
     {
-      "title": "Physicl Scenes: An Artist-created 3D Dataset for Learning Perception and Action",
+      "title": "A Mesh for Every Moment",
       "authors": [
-        "Yueh-Cheng Liu",
-        "Snehal Jauhri",
-        "Matthias Nießner",
-        "Angela Dai"
+        "Roy Or-El",
+        "Jeong Joon Park",
+        "Ira Kemelmacher-Shlizerman"
       ],
       "journal": "arXiv",
-      "publishDate": "2026-11-24",
-      "abstract": "We present Physicl Scenes, a high-quality artist-created and curated dataset of 6,499 3D scenes spanning household rooms, public interiors, and outdoor spaces. The dataset combines detailed geometry, physically based materials, and carefully composed environments with object- and part-level semantic annotations, providing rich, joint supervision for visual and embodied learning. We demonstrate its value as training data across inverse rendering, 3D reconstruction, scene understanding, and mobile",
+      "publishDate": "2026-11-25",
+      "abstract": "We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame. Existing dynamic Gaussian splatting methods either model appearance alone or target isolated objects segmented by foreground masks, and all of them recover meshes by TSDF fusion or Poisson reconstruction, whose fixed grids limit the detail they can capture. At the core of MEMO is a per-Gaussian motion model i",
       "keywords": [],
-      "arxivId": "2611.33137v1",
+      "arxivId": "2611.34939v1",
       "doi": "",
       "relevance": "medium"
     }
